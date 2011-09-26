@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pizza Rules!</title>
+	<atom:link href="http://pizzarules.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://pizzarules.com</link>
+	<description>Pizza Rules! is a weblog dedicated to pizza by Nick Sherman, a designer, skateboarder, and musician originally from Boston, now residing in Brooklyn.</description>
+	<lastBuildDate>Thu, 19 May 2011 08:59:10 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>Pizza Slice Flying V guitar</title>
+		<link>http://pizzarules.com/502</link>
+		<comments>http://pizzarules.com/502#comments</comments>
+		<pubDate>Wed, 18 May 2011 19:02:12 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[Flying V]]></category>
+		<category><![CDATA[guitars]]></category>
+		<category><![CDATA[heavy metal]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=502</guid>
+		<description><![CDATA[Just had this idea for a Flying V pizza guitar after a conversation with Frank Chimero and had to make it a reality in Photoshop. Since a 3 minute Google search didn&#8217;t turn up anything similar in existence, I&#8217;m going ...]]></description>
+			<content:encoded><![CDATA[<p><img src="http://pizzarules.com/uploads/2011/05/Pizza-flying-V-500x260.jpg" alt="" title="Pizza flying V guitar" width="500" height="260" class="alignnone size-large wp-image-503" /></p>
+<p>Just had this idea for a Flying V pizza guitar after a <a href="http://twitter.com/#!/fchimero/status/70920606136287233">conversation with Frank Chimero</a> and had to make it a reality in Photoshop. Since a 3 minute Google search didn&#8217;t turn up anything similar in existence, I&#8217;m going to claim this concept as my own.</p>
+<p>Guitar makers: let&#8217;s make the Nick Sherman Pro Model Pizza Slice Flying V a reality, please.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/502/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Best Pizza Review Ever</title>
+		<link>http://pizzarules.com/494</link>
+		<comments>http://pizzarules.com/494#comments</comments>
+		<pubDate>Fri, 08 Apr 2011 13:12:59 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Ellio's]]></category>
+		<category><![CDATA[videos]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=494</guid>
+		<description><![CDATA[&#8220;It&#8217;s a little on the chewy side. But, I mean, I did microwave it.&#8221; &#8220;So yeah, I recommend getting the … cheese things. They&#8217;re the Elia&#8217;s … Ellie … Eelia&#8217;s or whatever. So yeah, pretty good.&#8221; Thanks to Meghan M. ...]]></description>
+			<content:encoded><![CDATA[<p><iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/dXqnlxhy7ys?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>&#8220;It&#8217;s a little on the chewy side. But, I mean, I did microwave it.&#8221;</p>
+<p>&#8220;So yeah, I recommend getting the … cheese things. They&#8217;re the Elia&#8217;s … Ellie … Eelia&#8217;s or whatever. So yeah, pretty good.&#8221;</p>
+<p>Thanks to Meghan M. for the link.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/494/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Melvins covering Gimme Pizza</title>
+		<link>http://pizzarules.com/490</link>
+		<comments>http://pizzarules.com/490#comments</comments>
+		<pubDate>Fri, 01 Apr 2011 05:07:26 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[heavy metal]]></category>
+		<category><![CDATA[Melvins]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[Olsen Twins]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=490</guid>
+		<description><![CDATA[In other heavy metal pizza news, the Melvins did a live cover version of the classic Olsen Twins Gimme Pizza song: I hope a studio version shows up on the next album. Thanks to Adam at Slice for pointing it ...]]></description>
+			<content:encoded><![CDATA[<p>In other heavy metal pizza news, the Melvins did a live cover version of the classic <a href="http://pizzarules.com/398">Olsen Twins <cite>Gimme Pizza</cite> song</a>:</p>
+<p><iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/n76oIScvA2k" frameborder="0" allowfullscreen></iframe></p>
+<p>I hope a studio version shows up on the next album. Thanks to Adam at <a href="http://slice.seriouseats.com/archives/2011/03/listen-to-the-melvins-cover-the-olsen-twins-gimme-pizza.html"><cite>Slice</cite></a> for pointing it out.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/490/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Pizza sign headbanger</title>
+		<link>http://pizzarules.com/486</link>
+		<comments>http://pizzarules.com/486#comments</comments>
+		<pubDate>Fri, 01 Apr 2011 04:44:02 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[heavy metal]]></category>
+		<category><![CDATA[humor]]></category>
+		<category><![CDATA[Little Caesars]]></category>
+		<category><![CDATA[videos]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=486</guid>
+		<description><![CDATA[Everything about this guy rules: I love that the color has been worn off the parts of the sign where his air guitar riffage happens.]]></description>
+			<content:encoded><![CDATA[<p>Everything about this guy rules:</p>
+<p><iframe title="YouTube video player" width="500" height="405" src="http://www.youtube.com/embed/LSLRHvrOe6U" frameborder="0" allowfullscreen></iframe></p>
+<p>I love that the color has been worn off the parts of the sign where his air guitar riffage happens.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/486/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>First month in a year of personal pizza stats</title>
+		<link>http://pizzarules.com/471</link>
+		<comments>http://pizzarules.com/471#comments</comments>
+		<pubDate>Tue, 01 Feb 2011 21:56:58 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Personal pizza stats]]></category>
+		<category><![CDATA[Daytum]]></category>
+		<category><![CDATA[Feltron]]></category>
+		<category><![CDATA[Nicholas Felton]]></category>
+		<category><![CDATA[statistics]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=471</guid>
+		<description><![CDATA[Having completed some kind of Pizza Month challenge in the month of April for the past few years, I&#8217;ve always considered how I would approach the concept of a Pizza Year. Now, with the help of some new technology, I&#8217;m ...]]></description>
+			<content:encoded><![CDATA[<div id="attachment_472" class="wp-caption alignnone" style="width: 432px"><a href="http://daytum.com/nicksherman"><img class="size-full wp-image-472 " title="Daytum: pizza stats" src="http://pizzarules.com/uploads/2011/02/Daytum.gif" alt="" width="422" height="894" /></a><p class="wp-caption-text">In the past month, I&#39;ve eaten 93 slices of pizza – an average of 3 slices per day.</p></div>
+<p>Having completed some kind of <a href="http://pizzarules.com/category/pizza-month">Pizza Month challenge</a> in the month of April for the past few years, I&#8217;ve always considered how I would approach the concept of a Pizza <em>Year</em>. Now, with the help of some new technology, I&#8217;m starting a project which might qualify for such a title.</p>
+<p>At the end of last year, my friend Nicholas Felton released an <a href="http://daytum.com/about/iphone_app">iPhone app</a> for his personal data collection website, <a href="http://daytum.com/">Daytum</a>. When I found out about it, I decided it was a good excuse to start collecting my personal pizza stats. I don&#8217;t think I&#8217;ll get as crazy as Nicholas does with his <a href="http://feltron.com/ar09_06.html">Feltron personal annual reports</a>, but after the first month I&#8217;ve decided to stick with it, hopefully until at least the end of 2011.</p>
+<p>In order to ensure I actually keep up with my data collection, I wanted to keep the process as simple as possible. Daytum is good in this sense, since it imposes a relatively stripped down approach to everything. As such, <strong>my pizza consumption will be measured in units of slices</strong>. While the most accurate approach would probably be based on weight, I&#8217;m not about to carry a scale around with me at all times just in case I happen to get a slice. Obviously slice sizes can vary quite a bit depending on where they come from, but I&#8217;ve found that in the end it generally evens out; for every skimpy slice I eat, there&#8217;s usually an extra-large one from somewhere else to balance things out.</p>
+<p>I&#8217;ve only run in to one situation so far where measuring by the slice wasn&#8217;t relevant: at Flatbread Company, where they cut their pizzas in square slices. If the pieces had been thick sicilian squares, I probably would have just counted each one as a slice, but since their pizza is relatively thin, it didn&#8217;t seem quite right. So, instead of counting each square as a slice, I made an approximation of how many slices I would have eaten if the pie had been cut in normal triangular slices. Obviously it&#8217;s not a perfect system, but it gets the general idea across about how much pizza I eat, and how often.</p>
+<p>In addition to the number of slices, I&#8217;ll also be keeping track of where each slice comes from. This is one of the most interesting parts of the project to me. I considered keeping track of other things like toppings or who I&#8217;m with when I eat, but in the end opted to keep it simple. I have added some parenthetical notes about some of the pizza sources (like which location it was if it&#8217;s part of a multi-location franchise, or if it was a delivery order), but I haven&#8217;t settled on a system for that yet.</p>
+<p><strong>So far this year, I&#8217;ve eaten 93 slices</strong>, which averages out to 3 slices per day. <a href="http://daytum.com/nicksherman">The breakdown</a> as is seems fairly typical for me, with a concentration on pizzerias that are near my apartment. I don&#8217;t know if I&#8217;ll keep this kind of volume up for the entire year, but if you want to keep an eye on my progress, you can see the live stats on <a href="http://daytum.com/nicksherman">my Daytum page</a>. Otherwise, I&#8217;ll be posting occasional updates on the project here and on the new <a href="http://pizzarules.com/405">@Pizza_Rules</a> Twitter account. Hopefully I&#8217;ll do a detailed run-down at the end of the year too. If you have any suggestions or questions, feel free to leave them in the comments.</p>
+<p>In closing, I&#8217;d like to thank Nicholas Felton for developing the Daytum service, since I probably wouldn&#8217;t be taking on this project without it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/471/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fat Boys + Pizza</title>
+		<link>http://pizzarules.com/431</link>
+		<comments>http://pizzarules.com/431#comments</comments>
+		<pubDate>Fri, 28 Jan 2011 17:04:34 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[Fat Boys]]></category>
+		<category><![CDATA[La Marionetta Pizzeria]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[rap]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=431</guid>
+		<description><![CDATA[The Fat Boys were a hip hop trio that had a good run in the &#8217;80s putting out records in a similar vein as Run DMC, Biz Markie, Beastie Boys, etc. Like many such rappers of the time, the Fat ...]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-large wp-image-432" title="Fat Boys love pizza" src="http://pizzarules.com/uploads/2011/01/Fat_Boys-pizza-500x571.jpg" alt="" width="500" height="571" /></p>
+<p>The <a href="http://en.wikipedia.org/wiki/The_Fat_Boys">Fat Boys</a> were a hip hop trio that had a good run in the &#8217;80s putting out records in a similar vein as Run DMC, Biz Markie, Beastie Boys, etc. Like many such rappers of the time, the Fat Boys&#8217; image was based less on street toughs, with more of a focus fun stuff … like eating pizza.</p>
+<p>Their <cite>Jail House Rap</cite>, from the 1984 self-titled album is one of my all-time favorite pizza-related songs, and the music video only solidifies that fact.</p>
+<div id="attachment_438" class="wp-caption alignnone" style="width: 510px"><img class="size-full wp-image-438 " title="Fat Boys - Jail House Rap - La Marionetta Pizzeria" src="http://pizzarules.com/uploads/2011/01/Fat_Boys-Jail_House_Rap-La_Marionetta.jpg" alt="" width="500" height="360" /><p class="wp-caption-text">Still from the Fat Boys&#39; <cite>Jail House Rap</cite> music video</p></div>
+<p>Among many pizza references, part of the video was filmed at the now-extinct <strong>La Marionetta Pizzeria</strong>, which was at <a href="http://maps.google.com/maps?q=105+Greenwich+Ave&amp;layer=c&amp;sll=40.737900,-74.001919&amp;cbp=13,246.54,,0,-3.52&amp;cbll=40.737856,-74.001873&amp;gl=us&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=105+Greenwich+Ave,+New+York,+10011&amp;ll=40.737925,-74.001911&amp;spn=0.005422,0.011362&amp;z=17&amp;panoid=GVHezWSNBHjsG0jy9S-ldA">105 Greenwich Ave in Manhattan</a> (at the corner of 12th St).</p>
+<div id="attachment_449" class="wp-caption alignnone" style="width: 510px"><a href="http://www.flickr.com/photos/49081287@N00/961325514/"><img class="size-full wp-image-449" title="La Marionetta Pizzeria circa 1986" src="http://pizzarules.com/uploads/2011/01/La_Marionetta-1986.jpg" alt="" width="500" height="333" /></a><p class="wp-caption-text">La Marionetta Pizzeria circa 1986. Photo by <a href=http://www.flickr.com/photos/49081287@N00/961325514/>westvillagebob</a> on Flickr</p></div>
+<p>The pizzeria closed years ago, which is a shame. They had a great storefront with a hand-crafted neon sign and everything. All the accounts I&#8217;ve been able to dig up online cite it as a tasty slice shop – a fact I don&#8217;t doubt, knowing that the Fat Boys chose it for their video.</p>
+<p><img class="alignnone size-full wp-image-439" title="Fat Boys - Jail House Rap" src="http://pizzarules.com/uploads/2011/01/Fat_Boys-Jail_House_Rap-pizza_galore.jpg" alt="" width="500" height="360" /></p>
+<div id="attachment_440" class="wp-caption alignnone" style="width: 510px"><img class="size-full wp-image-440" title="Fat Boys - Jail House Rap" src="http://pizzarules.com/uploads/2011/01/Fat_Boys-Jail_House_Rap-passed_out.jpg" alt="" width="500" height="360" /><p class="wp-caption-text">Stills from the Fat Boys&#39; <cite>Jail House Rap</cite> music video</p></div>
+<p><a href="http://pizzarules.com/uploads/2011/01/Fat_Boys-Jail_House_Rap-pizza.jpg"><img class="alignright size-medium wp-image-433" title="Fat Boys - Jail House Rap single pizza cover" src="http://pizzarules.com/uploads/2011/01/Fat_Boys-Jail_House_Rap-pizza-240x240.jpg" alt="" width="240" height="240" /></a></p>
+<p>If you&#8217;re not familiar with the Fat Boys, the cover of the <cite>Jail House Rap</cite> single alone should give you an idea of how awesome and in to pizza they were. But, really, the point of this post is to introduce you to the greatness of the video. Seriously – if you only watch one video today, make it this one (it even starts with the last few seconds of an Iron Maiden song!).</p>
+<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="500" height="400" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/y-QoDSq28Kw?fs=1&amp;hl=en_US&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="500" height="400" src="http://www.youtube.com/v/y-QoDSq28Kw?fs=1&amp;hl=en_US&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<blockquote><p>… It was twelve o&#8217;clock, midnight<br />
+And I wanted a snack<br />
+So I headed downstairs<br />
+Thought the fridge was packed<br />
+But when I opened the door<br />
+What did I see?<br />
+The back of the fridge<br />
+Staring right at me<br />
+I thought to myself<br />
+I could almost die<br />
+Then an immage appeared:<br />
+<strong>A pizza pie!</strong></p>
+<p>So I put on Adidas<br />
+Headed out the door<br />
+As I pictured myself<br />
+Eating more and more<br />
+But the store was closed<br />
+I busted into a rage<br />
+So I went to the crib<br />
+And got the twelve-gauge<br />
+Ran back to the shop<br />
+Busted down the door<br />
+And all I saw<br />
+<strong>Was pizza galore</strong></p>
+<p>So I stuffed my face<br />
+I couldn&#8217;t even walk<br />
+I couldn&#8217;t laugh, smile, shake<br />
+Giggle, wiggle, or talk<br />
+So I fell asleep<br />
+With my face in my plate<br />
+And the next thing you know<br />
+I was headed upstate …</p></blockquote>
+<p>Other Fat Boys videos of interest: <a href="http://www.youtube.com/watch?v=BDPk6OQkpeI"><cite>All You Can Eat</cite></a>, where they go to the  Sbarro in Times Square for a $3.99 pig-out (reminds me of my high school AYCE pizza night parties at Papa Gino&#8217;s); <a href="http://www.youtube.com/watch?v=74MTIBbn4uI"><cite>Fat Boys</cite></a>, where they head to the beach before smashing some pizza into their faces (literally); and the non-pizza-yet-still-educational <a href="http://www.youtube.com/watch?v=uKQtcirM26M"><cite>Fat Boys Burger Pattern</cite></a>, where they teach some mathematical concepts by ordering burgers.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/431/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Saturday, January 29th, is Vegan Pizza Day</title>
+		<link>http://pizzarules.com/418</link>
+		<comments>http://pizzarules.com/418#comments</comments>
+		<pubDate>Fri, 28 Jan 2011 09:00:40 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza events]]></category>
+		<category><![CDATA[marinara]]></category>
+		<category><![CDATA[Paulie Gee's]]></category>
+		<category><![CDATA[Peace o' Pie]]></category>
+		<category><![CDATA[vegan]]></category>
+		<category><![CDATA[Vegan Pizza Day]]></category>
+		<category><![CDATA[vegetarian]]></category>
+		<category><![CDATA[Vinnie's Pizzeria]]></category>
+		<category><![CDATA[Viva Herbal Pizzeria]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=418</guid>
+		<description><![CDATA[The Dell&#8217;ortolano pie at Acqua Santa In celebration of dairy- and meat-free pizza, tomorrow has been dubbed Vegan Pizza Day. While I could probably never be vegan myself, I am vegetarian and have many vegan friends, so am happy to ...]]></description>
+			<content:encoded><![CDATA[<div class="wp-caption"><a href="http://www.flickr.com/photos/nicksherman/4551640690/" title="Acqua Santa by Nick Sherman, on Flickr"><img src="http://farm5.static.flickr.com/4041/4551640690_d498d9748a.jpg" width="500" height="375" alt="Acqua Santa" /></a></p>
+<p class="wp-caption-text">The Dell&#8217;ortolano pie at <a href="http://www.acquasanta.com/menus.html">Acqua Santa</a></p>
+</div>
+<p>In celebration of dairy- and meat-free pizza, tomorrow has been dubbed <a href="http://veganpizzaday.com/">Vegan Pizza Day</a>. While I could probably never be vegan myself, I am vegetarian and have many vegan friends, so am happy to support an event like this. The official VPD site is pretty cool, with <a href="http://veganpizzaday.com/pizzerias/">listings</a> of places that have vegan pizza, run downs on <a href="http://veganpizzaday.com/resources/vegan_frozen_pizzas/">vegan-safe frozen pizzas</a>, and other such resources.</p>
+<p>I don&#8217;t agree with the claims on the site that vegan pizza is &#8220;the most awesomest food ever&#8221;, however I <em>have</em> had some delicious vegan pizza in my day. Many pizzerias offer simple cheeseless pies under the name &#8220;Marinara&#8221;, with just sauce and a few other minimal condiments or toppings, like garlic, sea salt, or olive oil. If they&#8217;re not vegan-safe as is, they can usually be made so easily. These pies are often neglected because they look boring as hell on paper (i.e. on the menu), but if done right with good ingredients these pies can rival their cheese-laden counterparts.</p>
+<p>There&#8217;s also the topic of vegan faux cheese. I have yet to have any fake cheese which really does the job for me, but if used with a bunch of other toppings, it can add something to vegan pizza that might otherwise be missing.</p>
+<p>As far as NYC goes, there is no shortage of options for vegan pizza. Most places can make vegan pizza to order. Others, like <a href="http://www.pauliegee.com/vegan_menu.php">Paulie Gee&#8217;s</a>, <a href="http://www.vinniesbrooklyn.com/index.php?option=com_content&#038;view=article&#038;id=51&#038;Itemid=59">Vinnie&#8217;s</a>, and <a href="http://www.menupages.com/restaurants/viva-herbal-pizzeria/menu">Viva Herbal</a>, offer entire vegan menus. Heck, Scott&#8217;s Pizza Tours has even offered <a href="http://blog.scottspizzatours.com/post/2060217622/vegan-pizza-tour">vegan pizza walking tours</a> before.</p>
+<p>New York isn&#8217;t the only place for vegan pizza though. Boston, for example, has a strictly vegan pizzeria called <a href="http://peaceopie.com/">Peace o&#8217; Pie</a>. Many more options can be found on the <a href="http://veganpizzaday.com/pizzerias/">Vegan Pizza Day listing</a>.</p>
+<p>So, regardless of where you are, grab your vegan friends tomorrow and chomp some non-animal-byproduct slices.</p>
+<div class="wp-caption"><a href="http://www.flickr.com/photos/nicksherman/2611994145/" title="Vinnie's Pizzeria by Nick Sherman, on Flickr"><img src="http://farm4.static.flickr.com/3163/2611994145_045810a4b6.jpg" width="500" height="375" alt="Vinnie's Pizzeria" /></a></p>
+<p class="wp-caption-text">The vegan black bean taco slice from <a href="http://www.vinniesbrooklyn.com/index.php?option=com_content&#038;view=article&#038;id=51&#038;Itemid=59">Vinnie&#8217;s</a>, with black beans, pico de gallo, ground &#8220;beef&#8221;, &#8220;mozzarella&#8221;, &#8220;cheddar&#8221;, and Frank&#8217;s Hot Sauce.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/418/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@Pizza_Rules on Twitter</title>
+		<link>http://pizzarules.com/405</link>
+		<comments>http://pizzarules.com/405#comments</comments>
+		<pubDate>Fri, 28 Jan 2011 06:32:31 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[Twitter]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=405</guid>
+		<description><![CDATA[After maintaining a personal Twitter feed for a while now, I&#8217;ve decided to finally move my pizza-related activity to a dedicated account: @Pizza_Rules. (I would have preferred @PizzaRules, with no underscore, but it was already registered by someone who doesn&#8217;t ...]]></description>
+			<content:encoded><![CDATA[<p><a href="http://twitter.com/#!/Pizza_Rules"><img class="alignnone size-full wp-image-407" title="@Pizza_Rules on Twitter" src="http://pizzarules.com/uploads/2011/01/twitter-pizza.png" alt="" width="500" height="252" /></a></p>
+<p>After maintaining a personal Twitter feed for a while now, I&#8217;ve decided to finally move my pizza-related activity to a dedicated account: <a href="http://twitter.com/#!/Pizza_Rules">@Pizza_Rules</a>. (I would have preferred @PizzaRules, with no underscore, but it was already registered by someone who doesn&#8217;t even use it.)</p>
+<p>There were several reasons why I finally decided it would be worth maintaining a separate pizza-specific account. First of all, I wanted to display my pizza-related tweets in the sidebar of this site, and having a separate account was the easiest way to do that. Secondly, most of the activity on my personal account (<a href="http://twitter.com/#!/NickSherman">@NickSherman</a>) is related to typography / fonts, so I always felt bad for my pizza friends who had to endure all the type nerd content if they wanted to follow me on Twitter. Similarly, I found myself sometimes refraining from sharing pizza-related info, to spare my type nerd followers from an overload. Finally, I started a new pizza-related project this month (more on that later) and I figured it might be helpful to have a pizza-only account to supplement it.</p>
+<p>My plan now is to keep my pizza-related tweets on the <a href="http://twitter.com/#!/Pizza_Rules">@Pizza_Rules</a> account and cross-post to my personal account when it&#8217;s appropriate.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/405/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Gimme Pizza Slow</title>
+		<link>http://pizzarules.com/398</link>
+		<comments>http://pizzarules.com/398#comments</comments>
+		<pubDate>Sun, 23 Jan 2011 04:53:45 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[1990s]]></category>
+		<category><![CDATA[chopped and screwed]]></category>
+		<category><![CDATA[humor]]></category>
+		<category><![CDATA[Olsen Twins]]></category>
+		<category><![CDATA[toppings]]></category>
+		<category><![CDATA[videos]]></category>
+		<category><![CDATA[weird]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=398</guid>
+		<description><![CDATA[Whipped cream pour like waterfalls.]]></description>
+			<content:encoded><![CDATA[<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="500" height="400" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/wusGIl3v044?fs=1&amp;hl=en_US&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="500" height="400" src="http://www.youtube.com/v/wusGIl3v044?fs=1&amp;hl=en_US&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p>Whipped cream pour like waterfalls.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/398/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sizzle Pie&#8217;s heavy metal pizza names</title>
+		<link>http://pizzarules.com/389</link>
+		<comments>http://pizzarules.com/389#comments</comments>
+		<pubDate>Wed, 05 Jan 2011 02:40:02 +0000</pubDate>
+		<dc:creator>Nick Sherman</dc:creator>
+				<category><![CDATA[Pizza business]]></category>
+		<category><![CDATA[Pizza-related stuff]]></category>
+		<category><![CDATA[hardcore]]></category>
+		<category><![CDATA[heavy metal]]></category>
+		<category><![CDATA[Hoeks Death Metal Pizza]]></category>
+		<category><![CDATA[humor]]></category>
+		<category><![CDATA[Orgeon]]></category>
+		<category><![CDATA[pizza names]]></category>
+		<category><![CDATA[Pizzallica]]></category>
+		<category><![CDATA[Portland]]></category>
+		<category><![CDATA[punk rock]]></category>
+		<category><![CDATA[Sizzle Pie]]></category>
+
+		<guid isPermaLink="false">http://pizzarules.com/?p=389</guid>
+		<description><![CDATA[The newly opened Sizzle Pie pizzeria in Portland has what I&#8217;m going to say is my all-time favorite list of pizza names. If you&#8217;re not in to heavy metal or hardcore punk rock, most of the names will make no ...]]></description>
+			<content:encoded><![CDATA[<p>The newly opened <a href="http://sizzlepie.com/">Sizzle Pie</a> pizzeria in Portland has what I&#8217;m going to say is my all-time favorite list of pizza names. If you&#8217;re not in to heavy metal or hardcore punk rock, most of the names will make no sense to you. But for the people who understand the <a href="http://en.wikipedia.org/wiki/Earth_Crisis">joke</a> behind the meat-stuffed &#8220;Girth Crisis&#8221; pizza, this menu is comedic gold. Some of my other favorites include the &#8220;Napalm Breath&#8221; (<a href="http://en.wikipedia.org/wiki/Napalm_Death">ref</a>) and the &#8220;Rudimentary Penne&#8221; (<a href="http://en.wikipedia.org/wiki/Rudimentary_Peni">ref</a>).</p>
+<p>I can&#8217;t believe this is an actual menu and not just a joke on some hardcore message board. The next time I&#8217;m in Portland, this will be my first stop, for sure.</p>
+<p><a href="http://pizzarules.com/uploads/2011/01/sizzlepie-menu.jpg"><img class="alignnone size-large wp-image-390" title="Sizzle Pie menu" src="http://pizzarules.com/uploads/2011/01/sizzlepie-menu-500x1216.jpg" alt="" width="500" height="1216" /></a></p>
+<p>It reminds me of a comment thread of Metallica-themed pizza names I had with some friends on Facebook back in August after posting a link to the <a href="http://www.pizzallica.com/">Pizzallica</a> pizzeria in Detroit:</p>
+<p><a href="http://pizzarules.com/uploads/2011/01/Screen-shot-2011-01-04-at-9.28.25-PM.png"><img class="alignnone size-full wp-image-391" title="Pizzallica comment thread" src="http://pizzarules.com/uploads/2011/01/Screen-shot-2011-01-04-at-9.28.25-PM.png" alt="" width="468" height="680" /></a></p>
+<p>Add <a href="http://www.hoekspizza.com/">Hoeks Death Metal Pizza</a> to the list, and that makes Sizzle Pie the 3rd heavy metal themed pizzeria I know of. Are there any more?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://pizzarules.com/389/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

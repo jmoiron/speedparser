@@ -1,0 +1,230 @@
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+<channel rdf:about="http://booklog.jp/users/yosy/rss">
+  <title>KOHの本棚</title> 
+  <link>http://booklog.jp/users/kohok1213</link> 
+  <description>what I&#039;m made from＊</description> 
+  <items>
+    <rdf:Seq>
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B00005L9EZ"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B0002E4GDG"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B00005HWK4"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4101339112"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4101339198"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B00005OVXG"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B00005U0MI"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B000069UD7"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B000CFWPM4"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/B000FBFSCE"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4901926128"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4087821293"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4088650794"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4870250543"/> 
+            <rdf:li resource="http://booklog.jp/users/kohok1213/archives/4091248810"/> 
+          </rdf:Seq> 
+  </items> 
+</channel> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B00005L9EZ"> 
+  <title>サイバー・トランス</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B00005L9EZ</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B00005L9EZ"><img src="http://ecx.images-amazon.com/images/I/41YHPMGBDRL._SL160_.jpg" /></a>
+<p>名曲がいっぱい。
+
+熊本からヴェルファーレを夢見てた日々。</p>]]>
+  </description> 
+  <dc:date>2010-06-12T00:26:23+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B0002E4GDG"> 
+  <title>フューチャー・オブ・ハードダンス 002(CCCD)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B0002E4GDG</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B0002E4GDG"><img src="http://ecx.images-amazon.com/images/I/4155D485SKL._SL160_.jpg" /></a>
+<p>Ligayaをあんな単音リミックスすることに驚いた。
+日本人だと知ってもっと驚いた。
+気付いたらこの人ばっかり聴いていた。</p>]]>
+  </description> 
+  <dc:date>2010-06-11T23:46:18+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B00005HWK4"> 
+  <title>A BEST</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B00005HWK4</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B00005HWK4"><img src="http://ecx.images-amazon.com/images/I/51V9JJYJXTL._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-11T23:58:12+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4101339112"> 
+  <title>きらきらひかる (新潮文庫)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4101339112</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4101339112"><img src="http://ecx.images-amazon.com/images/I/4140oHG5glL._SL160_.jpg" /></a>
+<p>不器用でまっすぐで、心痛くて、だけどうつくしくて。
+言葉が好き。</p>]]>
+  </description> 
+  <dc:date>2010-06-11T23:33:38+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4101339198"> 
+  <title>神様のボート (新潮文庫)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4101339198</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4101339198"><img src="http://ecx.images-amazon.com/images/I/513PWT56WGL._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-11T23:37:43+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B00005OVXG"> 
+  <title>ファイナルファンタジーVIII</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B00005OVXG</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B00005OVXG"><img src="http://ecx.images-amazon.com/images/I/419Y9Z8YXTL._SL160_.jpg" /></a>
+<p>FFで一番好き。
+ときどきやりたくなる。
+
+等身大のスコールがそこにいて、
+思わず微笑んでしまう。</p>]]>
+  </description> 
+  <dc:date>2010-06-12T00:29:22+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B00005U0MI"> 
+  <title>ゼノギアス PS one Books</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B00005U0MI</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B00005U0MI"><img src="http://ecx.images-amazon.com/images/I/51TB8Y21FEL._SL160_.jpg" /></a>
+<p>何度もプレイした。
+張り巡らされた伏線の数々と濃厚なストーリー。
+唯一無二の世界観。
+
+人とは何か？</p>]]>
+  </description> 
+  <dc:date>2010-06-12T00:29:49+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B000069UD7"> 
+  <title>タクティクスオウガ</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B000069UD7</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B000069UD7"><img src="http://ecx.images-amazon.com/images/I/31%2BdgQqgTKL._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-12T00:24:59+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B000CFWPM4"> 
+  <title>魔法少女リリカルなのはA’s Vol.1 [DVD]</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B000CFWPM4</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B000CFWPM4"><img src="http://ecx.images-amazon.com/images/I/51179E0F4ZL._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-11T23:53:24+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/B000FBFSCE"> 
+  <title>ひぐらしのなく頃に 第1巻 通常版 [DVD]</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/B000FBFSCE</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/B000FBFSCE"><img src="http://ecx.images-amazon.com/images/I/51CPaizWlfL._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-12T00:35:59+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4901926128"> 
+  <title>ARIA (1) (BLADE COMICS)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4901926128</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4901926128"><img src="http://ecx.images-amazon.com/images/I/51MGHJP02XL._SL160_.jpg" /></a>
+<p>のんびりとした空気感が素敵な作品。
+懐かしく温かい瞬間に癒される。</p>]]>
+  </description> 
+  <dc:date>2011-09-20T21:58:34+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4087821293"> 
+  <title>天使なんかじゃない 完全版 1 (愛蔵版コミックス)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4087821293</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4087821293"><img src="http://ecx.images-amazon.com/images/I/41HN1RV2T7L._SL160_.jpg" /></a>
+<p>名シーンばかり。
+
+晃に憧れる。</p>]]>
+  </description> 
+  <dc:date>2010-06-11T23:39:14+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4088650794"> 
+  <title>ハチミツとクローバー 1 (クイーンズコミックス―ヤングユー)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4088650794</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4088650794"><img src="http://ecx.images-amazon.com/images/I/5189YBH07NL._SL160_.jpg" /></a>
+<p>せつない。
+ひたすらせつない。笑
+
+そして読むと無性に何かを作りたくなる。
+そんな素敵な作品。</p>]]>
+  </description> 
+  <dc:date>2010-06-20T22:06:19+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4870250543"> 
+  <title>魔法陣グルグル (1) (ガンガンコミックス)</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4870250543</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4870250543"><img src="http://ecx.images-amazon.com/images/I/51B0D03AQ5L._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-11T23:56:43+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+<item rdf:about="http://booklog.jp/users/kohok1213/archives/4091248810"> 
+  <title>ARMS (1) 少年サンデーコミックススペシャル</title> 
+  <link>http://booklog.jp/users/kohok1213/archives/4091248810</link> 
+  <description>
+<![CDATA[
+<a href="http://booklog.jp/asin/4091248810"><img src="http://ecx.images-amazon.com/images/I/513E479RZ9L._SL160_.jpg" /></a>
+]]>
+  </description> 
+  <dc:date>2010-06-11T23:55:54+09:00</dc:date> 
+  <dc:subject></dc:subject> 
+  <dc:creator>KOH</dc:creator> 
+</item> 
+</rdf:RDF>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+  xml:base="http://www.denofubiquity.com/wp-atom.php"
+   >
+	<title type="text">Den Of Ubiquity</title>
+	<subtitle type="text">Buzzword-enriched Software Development Content</subtitle>
+
+	<updated>2011-09-26T10:29:11Z</updated>
+
+	<link rel="alternate" type="text/html" href="http://www.denofubiquity.com" />
+	<id>http://www.denofubiquity.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="http://www.denofubiquity.com/feed/atom/" />
+
+	<generator uri="http://wordpress.org/" version="3.2.1">WordPress</generator>
+		<entry>
+		<author>
+			<name>ijonas</name>
+						<uri>http://ijonas.com</uri>
+					</author>
+		<title type="html"><![CDATA[Le Tweet? Oui, c&#8217;est moi!]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/media-technology/le-tweet-oui-cest-moi/" />
+		<id>http://www.denofubiquity.com/?p=429</id>
+		<updated>2011-09-26T10:29:11Z</updated>
+		<published>2011-09-26T10:29:11Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Media &amp; Technology" /><category scheme="http://www.denofubiquity.com" term="infographic" /><category scheme="http://www.denofubiquity.com" term="social media" /><category scheme="http://www.denofubiquity.com" term="twitter" /><category scheme="http://www.denofubiquity.com" term="visualization" />		<summary type="html"><![CDATA[A rather cool personalised infographic of my Twitter behaviour, produced by visual.ly]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/media-technology/le-tweet-oui-cest-moi/"><![CDATA[<p>A rather cool personalised infographic of my Twitter behaviour, produced by <a href="http://visual.ly" title="Visual.ly">visual.ly</a><br />
+<a href='http://visual.ly/'><img src='http://bit.ly/pW1Xtv' border='0'/></a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/media-technology/le-tweet-oui-cest-moi/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/media-technology/le-tweet-oui-cest-moi/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>ijonas</name>
+						<uri>http://ijonas.com</uri>
+					</author>
+		<title type="html"><![CDATA[Enjoying Facebook without fear of being monitored.]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/media-technology/enjoying-facebook-without-fear-of-being-monitored/" />
+		<id>http://www.denofubiquity.com/?p=424</id>
+		<updated>2011-09-26T09:08:08Z</updated>
+		<published>2011-09-26T09:08:08Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Media &amp; Technology" /><category scheme="http://www.denofubiquity.com" term="cookies" /><category scheme="http://www.denofubiquity.com" term="facebook" /><category scheme="http://www.denofubiquity.com" term="frictionless sharing" /><category scheme="http://www.denofubiquity.com" term="privacy" /><category scheme="http://www.denofubiquity.com" term="social media" />		<summary type="html"><![CDATA[Facebook tracks your web browsing activity outside of Facebook even when you're not logged into Facebook. 
+
+Logging out of Facebook is not enough.]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/media-technology/enjoying-facebook-without-fear-of-being-monitored/"><![CDATA[<p>Facebook tracks your web browsing activity outside of Facebook even when you&#8217;re not logged into Facebook. </p>
+<p>Logging out of Facebook is not enough (see below).</p>
+<p>Notice all the &#8220;Like&#8221; buttons dotted around the web on news sites, and sites you really shouldn&#8217;t be on but are etc. well they all report to Facebook that USER=1234 i.e. <strong>you</strong> &#8211; are visiting that site.</p>
+<p>So do you leave Facebook for good? I&#8217;ve thought about it. But here&#8217;s a better option for now &#8211; <a href="http://webgraph.com/resources/facebookblocker/" title="Facebook Blocker">Facebook Blocker</a>.<br />
+It plugs into your browser, and allows you to enjoy Facebook <em>whilst being on Facebook</em> but stops other websites from reporting to Facebook that you have visited them.</p>
+<p>Be warned these privacy issues are going to get a lot worse on Sept. 30th when Facebook enables <strong>frictionless sharing</strong>. <a href="http://www.theatlantic.com/technology/archive/2011/09/the-problem-with-facebooks-new-frictionless-sharing/245578/" title="The problem with Frictionless Sharing">Read this</a> &#8211; the last line nails it!</p>
+<p>Read <a href="http://scripting.com/stories/2011/09/24/facebookIsScaringMe.html" title="Facebook is scaring Dave Winer">Dave Winer&#8217;s post</a> and <a href="http://nikcub-static.appspot.com/logging-out-of-facebook-is-not-enough" title="Logging out of Facebook is not enough.">Nik Cubrilovic&#8217;s post</a> for background.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/media-technology/enjoying-facebook-without-fear-of-being-monitored/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/media-technology/enjoying-facebook-without-fear-of-being-monitored/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>admin</name>
+					</author>
+		<title type="html"><![CDATA[Installing Redis 2.2.4 on Ubuntu 10.10 &amp; 11.04 and running with an &#8216;init&#8217; script.]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/nosql/412/" />
+		<id>http://www.denofubiquity.com/?p=412</id>
+		<updated>2011-05-20T14:21:06Z</updated>
+		<published>2011-04-13T12:42:36Z</published>
+		<category scheme="http://www.denofubiquity.com" term="NoSQL" /><category scheme="http://www.denofubiquity.com" term="Software Development" /><category scheme="http://www.denofubiquity.com" term="2.2.4" /><category scheme="http://www.denofubiquity.com" term="development" /><category scheme="http://www.denofubiquity.com" term="HOWTO" /><category scheme="http://www.denofubiquity.com" term="maverick meerkat" /><category scheme="http://www.denofubiquity.com" term="nosql" /><category scheme="http://www.denofubiquity.com" term="redis" /><category scheme="http://www.denofubiquity.com" term="Technology" /><category scheme="http://www.denofubiquity.com" term="ubuntu 10.10" /><category scheme="http://www.denofubiquity.com" term="ubuntu 11.04" />		<summary type="html"><![CDATA[Following on from <a href="http://www.denofubiquity.com/nosql/398/">previous post on installing MongoDB 1.8.1</a>, here are similar steps to getting Redis 2.2.4 running on Ubuntu 10.10 using an init script. The setup is intended to be used on developer desktop/laptop rather than production infrastructure.
+]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/nosql/412/"><![CDATA[<p>Following on from <a href="http://www.denofubiquity.com/nosql/398/">previous post on installing MongoDB 1.8.1</a>, here are similar steps to getting Redis 2.2.4 running on Ubuntu 10.10 using an init script. The setup is intended to be used on developer desktop/laptop rather than production infrastructure.</p>
+<p>As ever, first download and unzip Redis from <a href="http://redis.io/download">here</a>.</p>
+<pre language="bash">
+cd /tmp
+wget http://redis.googlecode.com/files/redis-2.2.4.tar.gz
+tar -zxf redis-2.2.4.tar.gz
+cd redis-2.2.4
+make
+sudo make install
+</pre>
+<p>Your Redis binaries should now be located in /usr/local/bin. </p>
+<p>To get an init script and Redis config working cleanly with this setup, download my init and config files from <a href="https://github.com/ijonas/dotfiles/">my Github ‘dotfiles’ repo</a>. My init script is pretty standard. However my redis.conf sets Redis up with 1Gb of virtual memory and 20Gb of swap space &#8211; intended for general development purposes.</p>
+<pre language="bash">
+wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/redis-server
+wget https://github.com/ijonas/dotfiles/raw/master/etc/redis.conf
+sudo mv redis-server /etc/init.d/redis-server
+sudo chmod +x /etc/init.d/redis-server
+sudo mv redis.conf /etc/redis.conf
+</pre>
+<p>Before you can fire up the Redis server for the first time, you&#8217;ll need add a redis user and prep a data and logging folder.</p>
+<pre language="bash">
+sudo useradd redis
+sudo mkdir -p /var/lib/redis
+sudo mkdir -p /var/log/redis
+sudo chown redis.redis /var/lib/redis
+sudo chown redis.redis /var/log/redis
+</pre>
+<p>Also, you need to activate your Redis services init script by adding it to your system&#8217;s run-level configuration. That way the service will startup during the boot sequence and stop nicely during the OS&#8217; shutdown procedure.</p>
+<pre>
+sudo update-rc.d redis-server defaults
+</pre>
+<p>You&#8217;re now ready to launch Redis server with</p>
+<pre language="bash">
+sudo /etc/init.d/redis-server start
+</pre>
+<p>Good luck!</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/nosql/412/#comments" thr:count="9"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/nosql/412/feed/atom/" thr:count="9"/>
+		<thr:total>9</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>admin</name>
+					</author>
+		<title type="html"><![CDATA[Installing MongoDB 1.8.1 on Ubuntu 10.10 &amp; 11.04 and running with an &#8216;init&#8217; script.]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/nosql/398/" />
+		<id>http://www.denofubiquity.com/?p=398</id>
+		<updated>2011-05-20T14:28:27Z</updated>
+		<published>2011-04-13T11:37:17Z</published>
+		<category scheme="http://www.denofubiquity.com" term="NoSQL" /><category scheme="http://www.denofubiquity.com" term="Software Development" /><category scheme="http://www.denofubiquity.com" term="1.8" /><category scheme="http://www.denofubiquity.com" term="10Gen" /><category scheme="http://www.denofubiquity.com" term="database" /><category scheme="http://www.denofubiquity.com" term="development" /><category scheme="http://www.denofubiquity.com" term="init script" /><category scheme="http://www.denofubiquity.com" term="init.d" /><category scheme="http://www.denofubiquity.com" term="journal" /><category scheme="http://www.denofubiquity.com" term="journaling" /><category scheme="http://www.denofubiquity.com" term="maverick meerkat" /><category scheme="http://www.denofubiquity.com" term="mongodb" /><category scheme="http://www.denofubiquity.com" term="Technology" /><category scheme="http://www.denofubiquity.com" term="ubuntu 10.10" /><category scheme="http://www.denofubiquity.com" term="ubuntu 11.04" />		<summary type="html"><![CDATA[Installing MongoDB 1.8.1, in my case as a developer database, is easy. This blog post just itemises all the steps so that you can pretty blindly follow allong. I'll probably use these steps myself as I seem to be doing this regurlarly ;-)
+]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/nosql/398/"><![CDATA[<p>Installing MongoDB 1.8.1, in my case as a developer database, is easy. This blog post just itemises all the steps so that you can pretty much blindly follow along. I&#8217;ll probably use these steps myself as I seem to be doing this regurlarly <img src='http://www.denofubiquity.com/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+<p>Download the 64bit Linux binaries from <a title="MongoDB binaries download page" href="http://www.mongodb.org/downloads">here</a> and unzip the contents to /usr/local.</p>
+<pre language="bash">cd /tmp
+wget http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-1.8.1.tgz
+sudo tar -zxf /tmp/mongodb-linux-x86_64-1.8.1.tgz -C /usr/local</pre>
+<p>Setup some symbolic links.</p>
+<pre language="bash">sudo ln -s /usr/local/mongodb-linux-x86_64-1.8.1 /usr/local/mongodb
+sudo ln -s /usr/local/mongodb/bin/bsondump /usr/local/bin/bsondump
+sudo ln -s /usr/local/mongodb/bin/mongo /usr/local/bin/mongo
+sudo ln -s /usr/local/mongodb/bin/mongod /usr/local/bin/mongod
+sudo ln -s /usr/local/mongodb/bin/mongodump /usr/local/bin/mongodump
+sudo ln -s /usr/local/mongodb/bin/mongoexport /usr/local/bin/mongoexport
+sudo ln -s /usr/local/mongodb/bin/mongofiles /usr/local/bin/mongofiles
+sudo ln -s /usr/local/mongodb/bin/mongoimport /usr/local/bin/mongoimport
+sudo ln -s /usr/local/mongodb/bin/mongorestore /usr/local/bin/mongorestore
+sudo ln -s /usr/local/mongodb/bin/mongos /usr/local/bin/mongos
+sudo ln -s /usr/local/mongodb/bin/mongosniff /usr/local/bin/mongosniff
+sudo ln -s /usr/local/mongodb/bin/mongostat /usr/local/bin/mongostat</pre>
+<p>The first &#8220;ln -s&#8221; above sets up a handy symbolic link between the versioned mongodb folder and its unversioned counterpart. When 10Gen release updates, say version 1.8.2, all you need to do is download, unzip, and link the &#8217;1.8.2 mongodb folder&#8217; to the unversioned folder and &#8216;hey presto&#8217; everything should just work.</p>
+<p>To get an init script working cleanly with this setup, download mine from <a title="Ijonas' dotfiles repo" href="https://github.com/ijonas/dotfiles">my Github &#8216;dotfiles&#8217; repo</a>. Please note &#8211; my init script enables journaling and the REST interface (on line 51).</p>
+<pre language="bash">wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/mongod
+sudo mv mongod /etc/init.d/mongod
+sudo chmod +x /etc/init.d/mongod
+</pre>
+<p>You&#8217;ll need to add a mongodb user and prep some folders</p>
+<pre language="bash">sudo useradd mongodb
+sudo mkdir -p /var/lib/mongodb
+sudo mkdir -p /var/log/mongodb
+sudo chown mongodb.mongodb /var/lib/mongodb
+sudo chown mongodb.mongodb /var/log/mongodb</pre>
+<p>Also, you need to activate your MongoDB service&#8217;s init script by adding it to your system&#8217;s run-level configuration. That way the service will startup during the boot sequence and stop nicely during the OS&#8217; shutdown procedure.</p>
+<pre>
+sudo update-rc.d mongod defaults
+</pre>
+<p>Lastly to launch MongoDB</p>
+<pre language="bash">/etc/init.d/mongod start</pre>
+<p>Good luck!</p>
+<p><strong>UPDATE:</strong> Since April 6 Ubuntu now has prefabbed packages containing MongoDB 1.8.1, maintained by 10Gen. See the instruction below.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/nosql/398/#comments" thr:count="9"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/nosql/398/feed/atom/" thr:count="9"/>
+		<thr:total>9</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>ijonas</name>
+						<uri>http://ijonas.com</uri>
+					</author>
+		<title type="html"><![CDATA[Multi-system Development Environment]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/software-development/multi-system-development-environment/" />
+		<id>http://www.denofubiquity.com/?p=344</id>
+		<updated>2010-10-25T22:39:48Z</updated>
+		<published>2010-10-25T22:39:48Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Software Development" /><category scheme="http://www.denofubiquity.com" term="development" /><category scheme="http://www.denofubiquity.com" term="git" /><category scheme="http://www.denofubiquity.com" term="github" /><category scheme="http://www.denofubiquity.com" term="gvim" /><category scheme="http://www.denofubiquity.com" term="linux" /><category scheme="http://www.denofubiquity.com" term="macvim" /><category scheme="http://www.denofubiquity.com" term="osx" /><category scheme="http://www.denofubiquity.com" term="servers" /><category scheme="http://www.denofubiquity.com" term="software" /><category scheme="http://www.denofubiquity.com" term="vim" />		<summary type="html"><![CDATA[I develop on numerous systems every day, specifically a MacBook Pro running Snow Leopard, a Dell laptop running a Ubuntu VM and a shedload of cloud-based Ubuntu servers. I want to be able to develop across all those systems using the same setup. Now for years I&#8217;ve been a TextMate junkie. Its an amazing editor, [...]]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/software-development/multi-system-development-environment/"><![CDATA[<p>I develop on numerous systems every day, specifically a MacBook Pro running Snow Leopard, a Dell laptop running a Ubuntu VM and a shedload of cloud-based Ubuntu servers. I want to be able to develop across all those systems using the same setup.</p>
+<p>Now for years I&#8217;ve been a TextMate junkie. Its an amazing editor, &#8217;nuff said, but it only runs on one of the systems I work on daily and I&#8217;m done with Java-based IDEs. I know that there&#8217;s enough people out there getting similar productivity out of a highly-customised Vim-based setup.  So today I decided to switch to Vim.</p>
+<p>I want the same keystroke-commands, shortcuts, aliases, and environment wherever I might wander. I want to log on to a new machine and configure my environment on the new machine by typing one or two commands at the shell prompt.</p>
+<p>Here&#8217;s how its done.</p>
+<h3>Github Magic</h3>
+<p>The configuration settings are tracked and shared via a public repo on Github. Here&#8217;s my <a href="http://github.com/ijonas/dotfiles">ijonas/dotfiles</a> repo. So whenever I get access to a new system I simply type the following:</p>
+<pre>git clone http://github.com/ijonas/dotfiles.git</pre>
+<p>which will create a dotfiles folder in the home directory.</p>
+<p>The dotfiles folder contains copies of all the important &#8216;shell&#8217; rc-files that setup paths, aliases, and environment variables:</p>
+<p>The dotfiles folder contains</p>
+<ul>
+<li><strong>bashrc</strong> &#8211; which is pretty skinny and only loads the contents of the three files in the bash/ subfolder.</li>
+<li><strong>gemrc</strong> &#8211; contains  some defaults for the Ruby gem package manager.</li>
+<li><strong>gvimrc</strong> &#8211; contains graphical vim defaults, currently empty.</li>
+<li><strong>rvmrc</strong> &#8211; defaults for the Ruby VM manager.</li>
+<li><strong>ssh/config</strong> &#8211; host config for ssh, shortening those pesky ec2 hostnames etc.</li>
+<li><strong>vim</strong> &#8211; the plugins folder for Vim.</li>
+<li><strong>vimrc</strong> &#8211; default properties used by Vim, GVim, and MacVim alike.</li>
+</ul>
+<p>So the trick now</p>
+<p><img class="size-full wp-image-348 alignleft" title="Dotfiles" src="http://www.denofubiquity.com/wp-content/uploads/2010/10/dotfiles.jpg" alt="Dotfiles" width="210" height="306" /></p>
+<p>is to have the system recognise these files and use their contents. Here&#8217;s how from your $HOME folder:</p>
+<pre>ln -s $HOME/dotfiles/bashrc $HOME/.bashrc</pre>
+<pre>ln -s $HOME/dotfiles/gemrc $HOME/.gemrc</pre>
+<pre>ln -s $HOME/dotfiles/gvimrc $HOME/.gvimrc</pre>
+<pre>ln -s $HOME/dotfiles/rvmrc $HOME/.rvmrc</pre>
+<pre>ln -s $HOME/dotfiles/vimrc $HOME/.vimrc</pre>
+<pre>ln -s $HOME/dotfiles/vim $HOME/.vim</pre>
+<pre>ln -s $HOME/dotfiles/ssh/config $HOME/.ssh/config</pre>
+<p>So you see, simple&#8230; fetch a repo from Github, and create a whole bunch of symbolic links. So when you make changes on any of your systems you can push those changes to Github and pull them down to others. One caveat, you need to make the repo public, otherwise you&#8217;re going to have to copy your SSH keys all over the place.</p>
+<h3>Next stop: Vim !</h3>
+<p>Vanilla Vim is hard work. You need to customise it for your own nefarious needs. Install GVim on Linux and MacVim on SnowLeopard. I use Homebrew package manager on the Mac, and so should you. Installing MacVim is easy</p>
+<pre>brew install macvim</pre>
+<p>After installing MacVim, you&#8217;ll find it hard to find. Typing &#8220;macvim&#8221; on the shell prompt results in &#8220;command not found&#8221; messages. The best solution I found was to setup a bash function. Its a one-line found in my dotfiles/bash/aliases file and looks like this:</p>
+<pre>function mvim { /usr/local/Cellar/macvim/HEAD/MacVim.app/Contents/MacOS/Vim -g $*; }</pre>
+<p>This results in a &#8220;mvim&#8221; alias being available on the shell prompt, i.e. you can type &#8216;mvim README&#8217; to edit a file in MacVim.<br />
+We&#8217;re almost done&#8230; Before you start customising Vim, you need to prepare your Vim environment in a similar Git-based fashion. In particular you need to install the pathogen plugin for Vim. You&#8217;re best best is to watch the <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">&#8220;synchronizing plugins&#8221; vimcast</a> and follow its guidelines.</p>
+<p>Now go cherry pick from the other excellent screencasts available on Drew Neil&#8217;s excellent Vimcasts.org site.<br />
+Also: If I&#8217;ve missed anything out, please post a comment and I&#8217;ll expand on anything that needs expanding.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/software-development/multi-system-development-environment/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/software-development/multi-system-development-environment/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>ijonas</name>
+						<uri>http://ijonas.com</uri>
+					</author>
+		<title type="html"><![CDATA[When is an Antelope a Document?]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/media-technology/when-is-an-antelope-a-document/" />
+		<id>http://www.denofubiquity.com/?p=339</id>
+		<updated>2010-09-02T12:49:27Z</updated>
+		<published>2010-09-02T12:49:18Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Media &amp; Technology" /><category scheme="http://www.denofubiquity.com" term="cms" /><category scheme="http://www.denofubiquity.com" term="content management" /><category scheme="http://www.denofubiquity.com" term="document" /><category scheme="http://www.denofubiquity.com" term="metadata" />		<summary type="html"><![CDATA[In short: when its in a zoo… Bare with me. A document is a record of something that has been observed. Such a record can be anything – a utility bill, an employment contract, a sculpture in a museum, or a painting on a wall. All are examples of documents describing something else. The utility [...]]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/media-technology/when-is-an-antelope-a-document/"><![CDATA[<div style="margin-top: 1em; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; font-family: Arial; font-size: small; font-weight: normal; color: #7f7f7f; text-align: inherit; padding: 0px;">In short: when its in a zoo… Bare with me. <img class="alignright size-medium wp-image-340" title="Common Eland in Zoo" src="http://www.denofubiquity.com/wp-content/uploads/2010/09/6727-300x225.jpg" alt="Common Eland in Zoo" width="300" height="225" /></p>
+<p>A document is a record of something that has been observed. Such a record can be anything – a utility bill, an employment contract, a sculpture in a museum, or a painting on a wall. All are examples of documents describing something else. The utility bill records and describes your usage of gas and electricity. The employment contract records and describes the details of the handshake you gave at that final job interview. The sculpture or painting documents – there’s that word – a historical event. All these examples of documents are records of something observed by something or someone else.</p>
+<p><a style="text-decoration: none; color: #31b8e1;" title="Wikipedia page on Paul Otlet" href="http://en.wikipedia.org/wiki/Paul_Otlet" target="_blank">Paul Otlet (1868-1944)</a>, the father of information science, is known for his observation that documents could be three dimensional. As examples of such “documents” Otlet cites natural objects, artifacts, objects bearing traces of human activity (such as archaeological finds), explanatory models, educational games, and works of art.</p>
+<p><a style="text-decoration: none; color: #31b8e1;" title="Wikipedia page on Suzanne Briet" href="http://en.wikipedia.org/wiki/Suzanne_Briet" target="_blank">Suzanne Briet (1894-1989)</a>, also known as “Madame Documentation”, states her case through the enumeration of six objects:</p>
+<ul style="margin-top: 1em; margin-right: 1em; margin-bottom: 1em; margin-left: 2em; padding: 0px;">
+<li style="list-style-type: disc; list-style-position: outside; list-style-image: initial; padding: 0px; margin: 0px;"> Is the star in the sky a document? No.</li>
+<li style="list-style-type: disc; list-style-position: outside; list-style-image: initial; padding: 0px; margin: 0px;"> Is the photo of the star in the sky a document? Yes.</li>
+<li style="list-style-type: disc; list-style-position: outside; list-style-image: initial; padding: 0px; margin: 0px;"> Is the stone in the river a document? No.</li>
+<li style="list-style-type: disc; list-style-position: outside; list-style-image: initial; padding: 0px; margin: 0px;"> Is the stone in the museum a document? Yes.</li>
+<li style="list-style-type: disc; list-style-position: outside; list-style-image: initial; padding: 0px; margin: 0px;"> Is the antelope in the wild a document? No.</li>
+<li style="list-style-type: disc; list-style-position: outside; list-style-image: initial; padding: 0px; margin: 0px;"> Is the antelope in the zoo a document? Yes.</li>
+</ul>
+<p>Suzanne Briet rules: an antelope running wild on the plains of Africa should not be considered a document. But if it were to be captured, taken to a zoo and made an object of study, it has been made into a document, it has been made evidence. So there is a process involved in making “the something” into a document – we call it documentation.</p>
+<p>As humans, we’ve invented all kinds of devices to aid in the process of documentation: library cards, folders, URLs, bibliographies, tags, taxonomies, reference documents. They form part of the discipline that is documentation and the basis for content management.</p>
+<p>With the advent of content management systems we seem to have lost some of the high-level abstract concepts that were clearly laid out in the early parts of the 20th century. As an industry sector, involved in content management, we’ve become too focussed on the implementation details of content management systems and the limitations that these systems face.</p>
+<p><strong>Context</strong></p>
+<p>“What is metadata? What is a document?” These questions typically go hand-in-hand and are often naively answered by: “the document is a file or a <a style="text-decoration: none; color: #31b8e1;" href="http://en.wikipedia.org/wiki/Binary_large_object">blob</a> that is stored in database but is difficult too manipulate, so the metadata, table rows and columns, are used to facilitate manipulation and describe the document”.</p>
+<p>Metadata provides context with which to consume the document. You’ll have seen this in a zoo. You walk up to the antelope enclosure and there’s plaque containing the name, Latin name and a map of the world with a particular part of Africa highlighted describing the antelope and its origin – metadata. The zoo is giving you context with which to understand the antelope document.</p>
+<p>The same holds true for documents in a content management system. Documents are stored in a particular context described by their metadata. The folder, the author, draft/publish status, tags, taxonomy are all pieces of metadata to aid the consumer in consuming the document.</p>
+<p>That consumer may be the content management system itself as it responds to the query “give me all documents in the /marketing folder” on behalf of a web visitor. The consumer can also be a records management system archiving documents “in a published state and that are older than 24 months”.</p>
+<p>Documents never exist without metadata, without context. For example, the print-out of sales figures that I’ve thrown in the wastebasket is a fully-fledged document of our company’s sales figures telling the person that picks it out the wastebasket to treat (read “consume”) the document as a discarded document.</p>
+<p>I’ve seen this catch people out on a few content migration projects when they try and de-duplicate content repositories. They classify documents as duplicates based on their contents alone, without ever taking context into account. De-duplication is tricky business because in doing so you are destroying metadata that is right-or-wrongfully been created to help consume documents.</p>
+<p>The accurate consumption or manipulation of documents is intrinsically tied to the accuracy and completeness of their metadata. Is the print-out of sales data in the wastebasket to be trusted? Is the sales data accurate? How should the reader consume the document? Look at the metadata! Its in the wastebasket. This opens up the possibility: did I mean to throw the print-out in the wastebasket? Is the metadata accurate? The reader can only make that decision with more metadata. The reader could phone or email me and ask: did you intend to discard that print-out? Thereby creating more metadata and a better context with which to consume the document.</p>
+<p>Content management systems merely store metadata, human beings create metadata – often by hand, sometimes using automated tools. The process of generating metadata or maintaining its accuracy is a human process. Computers don’t care about accuracy or completeness.</p>
+<p><a style="text-decoration: none; color: #31b8e1;" title="CMS Watch article by Adriaan Bloem" href="http://www.cmswatch.com/Trends/1748-So-what-is-metadata,-anyway?" target="_blank">Adriaan Bloem, analyst at CMSWatch,</a> touches on this by labeling enterprise search as a “brute force” approach. Adriaan also points out that metadata or context is neccessary to communicate. He’s right – otherwise how do we make sense of a document ?</p>
+<p>What if metadata contains a document, i.e. when one document describes another? Doesn’t this form of reasoning collapse in on itself?</p>
+<p>What if you took a photograph of the antelope and attached it to the information plaque outside the enclosure? So when the antelope is having an off-day and its hiding in the undergrowth, passers-by can still learn about it by reading the plaque. Now you’ve got one document (the photograph) describing another (the antelope), haven’t you? Aren’t both documents? Wrong.</p>
+<p>We can describe documents with other documents. Suzanne Briet would argue that the antelope in the zoo is the primary document and any scholarly articles written about it are secondary documents. They provide context around the primary document. There’s is a document and there is context with which to interpret that document – metadata. Nothing else. Document… Metadata… Document… Metadata.</p>
+<p>In an English language sentence “things” can be both subjects as well objects, yet can’t be both at the same time. In one situation the photograph is a document, described by metadata from a digital camera (exposure, shutterspeed), in the other situation it is metadata describing the antelope.</p>
+<p>Confused? What is metadata ? In any given situation, ask yourself what the document is and by exclusion all that isn’t is metadata.</p>
+<p>So what does this means for content management systems ? Are they all broken? Do we need metadata management processes as well as content management processes? Do we need a separate metadata lifecycle to run alongside a <a style="text-decoration: none; color: #31b8e1;" href="http://www.dopedata.com/2009/07/23/panel-on-the-content-life-cycle-at-razorfish/">content lifecycle</a> ?</p>
+<p>The answer to those questions is unfortunately – yes. Yes, we do need separate metadata management processes. Yes, we do need a separate metadata lifecycle. Unless… we stop building content management systems in the naive fashion of blobs for documents and table rows and columns for metadata. We need to start building these systems so that there is <a style="text-decoration: none; color: #31b8e1;" href="http://blogs.fluidinfo.com/fluidDB/2009/09/05/metadata-vs-data-a-wholly-artificial-distinction/">no technical distinction between the content store and the metadata store</a>. Having separate stores for content and metadata causes us to duplicate our efforts, causing us to define duplicate processes to support the lifecycle of both document and metadata.</p>
+<p>Ironic, since a promise of content management is the removal of duplication.</p></div>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/media-technology/when-is-an-antelope-a-document/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/media-technology/when-is-an-antelope-a-document/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>ijonas</name>
+						<uri>http://ijonas.com</uri>
+					</author>
+		<title type="html"><![CDATA[Barbler: Integrating JRuby Warbler into Apache Builder]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/ruby/barbler/" />
+		<id>http://www.denofubiquity.com/?p=319</id>
+		<updated>2009-09-25T22:07:29Z</updated>
+		<published>2009-09-25T21:54:14Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Ruby" /><category scheme="http://www.denofubiquity.com" term="Software Development" /><category scheme="http://www.denofubiquity.com" term="apache" /><category scheme="http://www.denofubiquity.com" term="buildr" /><category scheme="http://www.denofubiquity.com" term="foss" /><category scheme="http://www.denofubiquity.com" term="Java" /><category scheme="http://www.denofubiquity.com" term="jruby" /><category scheme="http://www.denofubiquity.com" term="oss" /><category scheme="http://www.denofubiquity.com" term="rails" /><category scheme="http://www.denofubiquity.com" term="spring" /><category scheme="http://www.denofubiquity.com" term="war" /><category scheme="http://www.denofubiquity.com" term="warbler" />		<summary type="html"><![CDATA[After having used Apache Builder for a week and extracted our Warbler-code into a bonafide extension, I&#8217;m sharing it with the community under the fetching name Barbler. Barbler integrates itself between the build and packaging stages of the Apache Builder lifecycle and makes calls into Warbler to automate WAR-file creation. Now Warbler does a really [...]]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/ruby/barbler/"><![CDATA[<p>After having used Apache Builder for a week and extracted our Warbler-code into a bonafide extension, I&#8217;m sharing it with the community under the fetching name <strong>Barbler</strong>.</p>
+<p>Barbler integrates itself between the build and packaging stages of the Apache Builder lifecycle and makes calls into Warbler to automate WAR-file creation. Now Warbler does a really good job for packaging standalone Rails apps. Unfortunately I needed something more integrated into our application build process, that pulls in our Spring Framework-based Java code, Scala code, and Rails application and produces a single WAR-file containing all dependent libraries, Rails code, XML deployment descriptors and Java class files. Apache Builder does everything other than the Rails-packaging. Barbler steps to provide that missing step.</p>
+<p>Create a barbler.rb file in your project folder, which also contains your buildfile and copy the following contents into it:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;"><span style="color:#008000; font-style:italic;"># Barbler </span>
+<span style="color:#008000; font-style:italic;"># is an Apache Builder extension to integrate the JRuby Warbler gem.</span>
+<span style="color:#008000; font-style:italic;"># For tips on how to use Barbler checkout http://www.denofubiquity.com/ruby/barbler/</span>
+<span style="color:#008000; font-style:italic;"># </span>
+<span style="color:#008000; font-style:italic;"># This code is licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.txt)</span>
+<span style="color:#008000; font-style:italic;"># Please distribute Barbler code with this code intact.</span>
+<span style="color:#008000; font-style:italic;"># (c) Ijonas Kisselbach 2009</span>
+&nbsp;
+<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'warbler'</span>
+&nbsp;
+<span style="color:#9966CC; font-weight:bold;">module</span> Barbler
+  <span style="color:#9966CC; font-weight:bold;">include</span> Extension
+&nbsp;
+  first_time <span style="color:#9966CC; font-weight:bold;">do</span>
+    <span style="color:#008000; font-style:italic;"># Define task not specific to any projet.</span>
+    desc <span style="color:#996600;">'Warbles Rails sourcecode tree into a staging folder'</span>
+    Project.<span style="color:#9900CC;">local_task</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">'warble'</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> <span style="color:#996600;">'build'</span><span style="color:#006600; font-weight:bold;">&#41;</span> <span style="color:#006600; font-weight:bold;">&#123;</span> <span style="color:#006600; font-weight:bold;">|</span>name<span style="color:#006600; font-weight:bold;">|</span> <span style="color:#996600;">&quot;Warbling #{name}&quot;</span> <span style="color:#006600; font-weight:bold;">&#125;</span>   
+  <span style="color:#9966CC; font-weight:bold;">end</span>
+&nbsp;
+  before_define <span style="color:#9966CC; font-weight:bold;">do</span> <span style="color:#006600; font-weight:bold;">|</span>project<span style="color:#006600; font-weight:bold;">|</span>    
+    project.<span style="color:#9900CC;">task</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">'warble'</span><span style="color:#006600; font-weight:bold;">=&gt;</span>project.<span style="color:#9900CC;">task</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">'build'</span><span style="color:#006600; font-weight:bold;">&#41;</span><span style="color:#006600; font-weight:bold;">&#41;</span>
+    project.<span style="color:#9900CC;">group</span> <span style="color:#006600; font-weight:bold;">||</span>= project.<span style="color:#9900CC;">parent</span> <span style="color:#006600; font-weight:bold;">&amp;&amp;</span> project.<span style="color:#9900CC;">parent</span>.<span style="color:#9900CC;">group</span> <span style="color:#006600; font-weight:bold;">||</span> project.<span style="color:#9900CC;">name</span>
+    project.<span style="color:#9900CC;">version</span> <span style="color:#006600; font-weight:bold;">||</span>= project.<span style="color:#9900CC;">parent</span> <span style="color:#006600; font-weight:bold;">&amp;&amp;</span> project.<span style="color:#9900CC;">parent</span>.<span style="color:#9900CC;">version</span>    
+  <span style="color:#9966CC; font-weight:bold;">end</span>
+&nbsp;
+  <span style="color:#008000; font-style:italic;"># To use this method in your project:</span>
+  <span style="color:#008000; font-style:italic;">#   warble(:rails =&gt; path_to(:rails), :tasks =&gt; [:app, :public])</span>
+  <span style="color:#9966CC; font-weight:bold;">def</span> warble<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#006600; font-weight:bold;">*</span>args<span style="color:#006600; font-weight:bold;">&#41;</span>
+    options = args.<span style="color:#9900CC;">pop</span>
+    rails_path = options<span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#ff3333; font-weight:bold;">:rails</span><span style="color:#006600; font-weight:bold;">&#93;</span>
+    warble_tasks = options<span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#ff3333; font-weight:bold;">:tasks</span><span style="color:#006600; font-weight:bold;">&#93;</span>
+&nbsp;
+    <span style="color:#008000; font-style:italic;"># Define the warble task for this particular project.</span>
+    <span style="color:#6666ff; font-weight:bold;">Rake::Task</span>.<span style="color:#9900CC;">define_task</span> <span style="color:#996600;">'warble'</span> <span style="color:#9966CC; font-weight:bold;">do</span> <span style="color:#006600; font-weight:bold;">|</span>task<span style="color:#006600; font-weight:bold;">|</span>
+      <span style="color:#008000; font-style:italic;"># get all the important components from the Rails GUI into the staging directory</span>
+      <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;Warbling #{rails_path}&quot;</span>
+      <span style="color:#CC00FF; font-weight:bold;">Dir</span>.<span style="color:#9900CC;">chdir</span><span style="color:#006600; font-weight:bold;">&#40;</span>rails_path<span style="color:#006600; font-weight:bold;">&#41;</span> <span style="color:#9966CC; font-weight:bold;">do</span>
+        warble_cfg = <span style="color:#CC0066; font-weight:bold;">eval</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#CC00FF; font-weight:bold;">File</span>.<span style="color:#CC0066; font-weight:bold;">open</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">&quot;config/warble.rb&quot;</span><span style="color:#006600; font-weight:bold;">&#41;</span> <span style="color:#006600; font-weight:bold;">&#123;</span><span style="color:#006600; font-weight:bold;">|</span>f<span style="color:#006600; font-weight:bold;">|</span> f.<span style="color:#9900CC;">read</span><span style="color:#006600; font-weight:bold;">&#125;</span><span style="color:#006600; font-weight:bold;">&#41;</span>
+        <span style="color:#6666ff; font-weight:bold;">Warbler::Task</span>.<span style="color:#9900CC;">new</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:war</span>, warble_cfg<span style="color:#006600; font-weight:bold;">&#41;</span>
+        warble_tasks.<span style="color:#9900CC;">each</span> <span style="color:#006600; font-weight:bold;">&#123;</span><span style="color:#006600; font-weight:bold;">|</span>task<span style="color:#006600; font-weight:bold;">|</span> <span style="color:#6666ff; font-weight:bold;">Rake::Task</span><span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;war:#{task}&quot;</span><span style="color:#006600; font-weight:bold;">&#93;</span>.<span style="color:#9900CC;">invoke</span><span style="color:#006600; font-weight:bold;">&#125;</span>
+      <span style="color:#9966CC; font-weight:bold;">end</span>
+    <span style="color:#9966CC; font-weight:bold;">end</span>
+  <span style="color:#9966CC; font-weight:bold;">end</span>
+&nbsp;
+<span style="color:#9966CC; font-weight:bold;">end</span>
+&nbsp;
+<span style="color:#9966CC; font-weight:bold;">class</span> <span style="color:#6666ff; font-weight:bold;">Buildr::Project</span>
+  <span style="color:#9966CC; font-weight:bold;">include</span> Barbler
+<span style="color:#9966CC; font-weight:bold;">end</span></pre></div></div>
+
+<p>Add the folllowing line to the top of your buildfile:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;">warble<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:rails</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> path_to<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:rails</span><span style="color:#006600; font-weight:bold;">&#41;</span>, <span style="color:#ff3333; font-weight:bold;">:tasks</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> <span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#ff3333; font-weight:bold;">:app</span>, <span style="color:#ff3333; font-weight:bold;">:public</span><span style="color:#006600; font-weight:bold;">&#93;</span><span style="color:#006600; font-weight:bold;">&#41;</span></pre></div></div>
+
+<p>You can then define your warble task using the following line</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;">warble<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:rails</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> path_to<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:rails</span><span style="color:#006600; font-weight:bold;">&#41;</span>, <span style="color:#ff3333; font-weight:bold;">:tasks</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> <span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#ff3333; font-weight:bold;">:app</span>, <span style="color:#ff3333; font-weight:bold;">:public</span><span style="color:#006600; font-weight:bold;">&#93;</span><span style="color:#006600; font-weight:bold;">&#41;</span></pre></div></div>
+
+<p> whereby the first parameter is a path string to where your Rails code is located. You may locate your code in src/main/rails in which case you&#8217;d use</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;">warble<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:rails</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> path_to<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:source</span>, <span style="color:#ff3333; font-weight:bold;">:main</span>, <span style="color:#ff3333; font-weight:bold;">:rails</span><span style="color:#006600; font-weight:bold;">&#41;</span>, <span style="color:#ff3333; font-weight:bold;">:tasks</span> <span style="color:#006600; font-weight:bold;">=&gt;</span> <span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#ff3333; font-weight:bold;">:app</span>, <span style="color:#ff3333; font-weight:bold;">:public</span><span style="color:#006600; font-weight:bold;">&#93;</span><span style="color:#006600; font-weight:bold;">&#41;</span></pre></div></div>
+
+<p>The second parameter is the list of Warbler tasks that you&#8217;d like to have executed. See the Warbler documentation for more help, or check out the Warbler source code &#8211; it&#8217;s very readable.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/ruby/barbler/#comments" thr:count="1"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/ruby/barbler/feed/atom/" thr:count="1"/>
+		<thr:total>1</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>ijonas</name>
+						<uri>http://ijonas.com</uri>
+					</author>
+		<title type="html"><![CDATA[Integrating Warbler and Buildr into Scala, JRuby, Java and Rails bliss]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/ruby/integrating-warbler-and-buildr-into-scala-jruby-java-rails-bliss/" />
+		<id>http://www.denofubiquity.com/?p=297</id>
+		<updated>2009-09-27T20:10:41Z</updated>
+		<published>2009-09-22T14:24:25Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Ruby" /><category scheme="http://www.denofubiquity.com" term="Software Development" /><category scheme="http://www.denofubiquity.com" term="ant" /><category scheme="http://www.denofubiquity.com" term="apache buildr" /><category scheme="http://www.denofubiquity.com" term="build" /><category scheme="http://www.denofubiquity.com" term="buildr" /><category scheme="http://www.denofubiquity.com" term="Java" /><category scheme="http://www.denofubiquity.com" term="jruby" /><category scheme="http://www.denofubiquity.com" term="jruby warbler scala java build apache buildr maven ant" /><category scheme="http://www.denofubiquity.com" term="maven" /><category scheme="http://www.denofubiquity.com" term="scala" /><category scheme="http://www.denofubiquity.com" term="warbler" />		<summary type="html"><![CDATA[At Vamosa we&#8217;re big fans of the Java Virtual Machine. It allows us to use the right tool for the job and deliver a high-quality consistent product for our end-users, whilst still getting the most of our developers. For years we were a .NET and Java shop. Our GUI developers would work in Visual Studio [...]]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/ruby/integrating-warbler-and-buildr-into-scala-jruby-java-rails-bliss/"><![CDATA[<p>At <a href="http://www.vamosa.com">Vamosa</a> we&#8217;re big fans of the Java Virtual Machine. It allows us to use the right tool for the job and deliver a high-quality consistent product for our end-users, whilst still getting the most of our developers. For years we were a .NET and Java shop. Our GUI developers would work in Visual Studio writing a C# application that via SOAP webservices would talk to the Java-backend. In June 2008 we decided to abandon our .NET Desktop GUI and redevelop and expand its functionality, delivered to the end-user&#8217;s browser using HTML+CSS+JavaScript from our Java-backend.</p>
+<p>We spend 7months hacking away trying to get Google Web Toolkit to behave before abandoning ship a month ago and switching to Rails. We already had some success building a MRI-based RubyOnRails application called <a href="http://www.vamosa.com/vamosa-check-and-fix-a315">Vamosa Check and Fix</a>. Our GUI developer pool was loving the ease of web development that comes with Rails, and really hated the total lack of productivity from GWT (worthy of a separate post).</p>
+<p>Meanwhile I was experimenting with Scala &#8211; IMO the Java language reinvented for the 21st century. So there we were steaming ahead with JRubyOnRails, old-skool Java Spring-based code, and sexy-new Scala code. Three languages, one set of JVM byte code. So how do you build and package all this code ???</p>
+<p>Your options are:</p>
+<ul>
+<li> Apache Maven &#8211; horrible for legacy projects that don&#8217;t build according to Maven doctrine.</li>
+<li> Apache Ant + Ivy &#8211; might be an option to you.</li>
+<li> Apache Buildr &#8211; JRuby-based build system</li>
+</ul>
+<p>For us, Apache Buildr had the best fit because its a DSL based-on Rake, which happily runs on JRuby. It provided the dependency management that kept us coming back to Maven (and quickly running away again). It&#8217;s JRuby/Rake-based allowing for tight integration with Warbler, the JRubyOnRails WAR-packaging gem. And lastly there&#8217;s not a shred of XML in sight. Its a DSL, so the buildfile has a nice declarative feel to it, yet can be modified quickly using some standard Ruby-syntax to provide branching and looping. All the other build systems use XML, and then try and retrofit branching and looping, eg. using  elements.</p>
+<p>Today we have all our source code in the following folder structure:</p>
+<pre>project
+src
+|-- main
+|   |-- java
+|   |-- resources
+|   |-- scala
+|   `-- webapp
+`-- test
+|-- java
+|-- resources
+`-- scala
+
+rails
+|-- app
+|-- config
+|-- db
+|-- doc
+|-- lib
+|-- log
+|-- nbproject
+|-- public
+|-- script
+|-- test
+|-- tmp
+`-- vendor</pre>
+<p>and our Apache Buildr buildfile in the root of the project tree looks like this:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;"><span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'buildr'</span>
+<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'buildr/scala'</span>
+<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'rubygems'</span>
+<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'warbler'</span>
+&nbsp;
+<span style="color:#008000; font-style:italic;"># define the version of the Vamosa product</span>
+VERSION_NUMBER = <span style="color:#996600;">'3.0.0'</span>
+&nbsp;
+<span style="color:#008000; font-style:italic;"># define repositories from which artifacts can be downloaded</span>
+repositories.<span style="color:#9900CC;">remote</span> <span style="color:#006600; font-weight:bold;">&amp;</span>lt;<span style="color:#006600; font-weight:bold;">&amp;</span>lt; <span style="color:#996600;">'http://www.ibiblio.org/maven2/'</span>
+repositories.<span style="color:#9900CC;">remote</span> <span style="color:#006600; font-weight:bold;">&amp;</span>lt;<span style="color:#006600; font-weight:bold;">&amp;</span>lt; <span style="color:#996600;">'http://scala-tools.org/repo-releases'</span>  <span style="color:#008000; font-style:italic;"># define artifacts that are not available from remote repositories  artifact(&quot;javax.jms:jms:jar:1.1&quot;).from(file(&quot;libs/javax.jms.jar&quot;))  # define the artifacts that the project depends on  SCALA         = group('scala-library', 'scala-compiler', 'axiom-dom', :under=&amp;gt;'org.scala-lang', :version=&amp;gt;'2.7.5')</span>
+SCALATEST     = <span style="color:#006600; font-weight:bold;">&#91;</span> <span style="color:#996600;">'org.scala-tools.testing:specs:jar:1.5.0'</span>,<span style="color:#996600;">'org.scalatest:scalatest:jar:0.9.5'</span><span style="color:#006600; font-weight:bold;">&#93;</span>
+XUNIT         = <span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;junit:junit:jar:4.4&quot;</span>, <span style="color:#996600;">&quot;org.dbunit:dbunit:jar:2.2.3&quot;</span>, <span style="color:#996600;">&quot;org.mockito:mockito-all:jar:1.7&quot;</span> <span style="color:#006600; font-weight:bold;">&#93;</span>
+JDBC_DRIVERS  = <span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;mysql:mysql-connector-java:jar:5.1.6&quot;</span><span style="color:#006600; font-weight:bold;">&#93;</span>
+HIBERNATE     = <span style="color:#006600; font-weight:bold;">&#91;</span> <span style="color:#996600;">&quot;org.hibernate:hibernate-core:jar:3.3.2.GA&quot;</span>,
+  <span style="color:#996600;">&quot;org.hibernate:hibernate-annotations:jar:3.4.0.GA&quot;</span>,
+  <span style="color:#996600;">&quot;org.hibernate:hibernate-commons-annotations:jar:3.3.0.ga&quot;</span>,
+  <span style="color:#996600;">&quot;org.hibernate:hibernate-search:jar:3.1.0.GA&quot;</span>,
+  <span style="color:#996600;">&quot;org.hibernate:hibernate-ehcache:jar:3.3.2.GA&quot;</span>,
+  <span style="color:#996600;">&quot;org.hibernate:jtidy-r8:jar:20060801&quot;</span>,
+  <span style="color:#996600;">'c3p0:c3p0:jar:0.9.1.2'</span>,
+  <span style="color:#996600;">'commons-collections:commons-collections:jar:3.2.1'</span>,
+  <span style="color:#996600;">'commons-lang:commons-lang:jar:2.4'</span>,
+  <span style="color:#996600;">'net.sf.ehcache:ehcache:jar:1.6.2'</span>,
+<span style="color:#996600;">'javax.persistence:persistence-api:jar:1.0'</span><span style="color:#006600; font-weight:bold;">&#93;</span>
+<span style="color:#008000; font-style:italic;"># DELETED FURTHER ARTIFACTS FOR SAKE OF BREVITY...</span>
+&nbsp;
+<span style="color:#008000; font-style:italic;"># now lets do some work</span>
+platforms = <span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;mysql&quot;</span>, <span style="color:#996600;">&quot;oracle&quot;</span>, <span style="color:#996600;">&quot;mssql&quot;</span>, <span style="color:#996600;">&quot;db2&quot;</span><span style="color:#006600; font-weight:bold;">&#93;</span>
+platform = <span style="color:#996600;">&quot;mysql&quot;</span>
+desc <span style="color:#996600;">'Enterprise Content Governance Platform'</span>
+define <span style="color:#996600;">'ContentMigrator'</span> <span style="color:#9966CC; font-weight:bold;">do</span>
+  project.<span style="color:#9900CC;">version</span> = VERSION_NUMBER
+  project.<span style="color:#9900CC;">group</span> = <span style="color:#996600;">'com.vamosa'</span>
+  manifest<span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">'Copyright'</span><span style="color:#006600; font-weight:bold;">&#93;</span> = <span style="color:#996600;">'Vamosa Ltd. (C) 2003-2009'</span>
+  compile.<span style="color:#9900CC;">options</span>.<span style="color:#9900CC;">target</span> = <span style="color:#996600;">'1.5'</span>
+&nbsp;
+  compile.<span style="color:#9900CC;">with</span> HIBERNATE, SPRING, COMMONS, LOGGING, CONTENT_PARSER, QUARTZ, J2EE_API, SCRIPTING, SOAP, JFREE_CHART, JAVASSIST, LUCENE, XALAN
+  test.<span style="color:#9900CC;">with</span> XUNIT, SCALATEST
+  test.<span style="color:#9900CC;">using</span> <span style="color:#ff3333; font-weight:bold;">:scalatest</span>
+&nbsp;
+  <span style="color:#008000; font-style:italic;"># get all the important components from the Rails GUI into the staging directory</span>
+  <span style="color:#CC00FF; font-weight:bold;">Dir</span>.<span style="color:#9900CC;">chdir</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">&quot;rails&quot;</span><span style="color:#006600; font-weight:bold;">&#41;</span> <span style="color:#9966CC; font-weight:bold;">do</span>
+    <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;Changed current directory to: #{Dir.pwd}&quot;</span>
+    warble_cfg = <span style="color:#CC0066; font-weight:bold;">eval</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#CC00FF; font-weight:bold;">File</span>.<span style="color:#CC0066; font-weight:bold;">open</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">&quot;config/warble.rb&quot;</span><span style="color:#006600; font-weight:bold;">&#41;</span> <span style="color:#006600; font-weight:bold;">&#123;</span><span style="color:#006600; font-weight:bold;">|</span>f<span style="color:#006600; font-weight:bold;">|</span> f.<span style="color:#9900CC;">read</span><span style="color:#006600; font-weight:bold;">&#125;</span><span style="color:#006600; font-weight:bold;">&#41;</span>
+    <span style="color:#6666ff; font-weight:bold;">Warbler::Task</span>.<span style="color:#9900CC;">new</span><span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:war</span>, warble_cfg<span style="color:#006600; font-weight:bold;">&#41;</span>
+    <span style="color:#6666ff; font-weight:bold;">Rake::Task</span><span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">'war:app'</span><span style="color:#006600; font-weight:bold;">&#93;</span>.<span style="color:#9900CC;">invoke</span>
+    <span style="color:#6666ff; font-weight:bold;">Rake::Task</span><span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">'war:public'</span><span style="color:#006600; font-weight:bold;">&#93;</span>.<span style="color:#9900CC;">invoke</span>
+  <span style="color:#9966CC; font-weight:bold;">end</span>
+  <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;Changed current directory to: #{Dir.pwd}&quot;</span>
+&nbsp;
+  <span style="color:#008000; font-style:italic;"># package it up</span>
+  package<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:war</span>, <span style="color:#ff3333; font-weight:bold;">:file</span> =<span style="color:#006600; font-weight:bold;">&amp;</span>gt; _<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">&quot;target/#{id}-#{VERSION_NUMBER}-#{platform}.war&quot;</span><span style="color:#006600; font-weight:bold;">&#41;</span><span style="color:#006600; font-weight:bold;">&#41;</span>.<span style="color:#9900CC;">tap</span> <span style="color:#9966CC; font-weight:bold;">do</span> <span style="color:#006600; font-weight:bold;">|</span>task<span style="color:#006600; font-weight:bold;">|</span>
+    task.<span style="color:#9966CC; font-weight:bold;">include</span> <span style="color:#996600;">'war/*'</span>
+    task.<span style="color:#9966CC; font-weight:bold;">include</span> <span style="color:#996600;">&quot;src/main/resources/#{platform}.session-factory.xml&quot;</span>, <span style="color:#ff3333; font-weight:bold;">:as</span>=<span style="color:#006600; font-weight:bold;">&amp;</span>gt;<span style="color:#996600;">'WEB-INF/session-factory.xml'</span>
+    task.<span style="color:#9966CC; font-weight:bold;">include</span> <span style="color:#996600;">'src/main/resources/jboss.jms-context.xml'</span>, <span style="color:#ff3333; font-weight:bold;">:as</span>=<span style="color:#006600; font-weight:bold;">&amp;</span>gt;<span style="color:#996600;">'WEB-INF/jms-context.xml'</span>
+  <span style="color:#9966CC; font-weight:bold;">end</span>
+<span style="color:#9966CC; font-weight:bold;">end</span></pre></div></div>
+
+<p>The key things we like about this setup are:</p>
+<ol>
+<li> Easily handling dependency artifacts like the Sun API jars locally. For example we store javax.jms.jar in our Git source repo, in the projects libs/ folder and then point to it using artifact(&#8220;javax.jms:jms:jar:1.1&#8243;).from(file(&#8220;libs/javax.jms.jar&#8221;)).</li>
+<li> Integrate Warbler tasks and cherry-pick the ones you want to run, such as in our case just war:app &amp; war:public but e.g. not war:xml because our web.xml is stored in src/main/webapp/WEB-INF instead.</li>
+<li> Its Ruby so we can use loops &amp; branching such as:</li>
+</ol>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;"><span style="color:#006600; font-weight:bold;">%</span>w<span style="color:#006600; font-weight:bold;">&#40;</span>mssql mysql oracle db2<span style="color:#006600; font-weight:bold;">&#41;</span>.<span style="color:#9900CC;">each</span> <span style="color:#9966CC; font-weight:bold;">do</span> <span style="color:#006600; font-weight:bold;">|</span>platform<span style="color:#006600; font-weight:bold;">|</span>
+  package<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#ff3333; font-weight:bold;">:war</span>, <span style="color:#ff3333; font-weight:bold;">:file</span> =<span style="color:#006600; font-weight:bold;">&amp;</span>gt; _<span style="color:#006600; font-weight:bold;">&#40;</span><span style="color:#996600;">&quot;target/#{id}-#{VERSION_NUMBER}-#{platform}.war&quot;</span><span style="color:#006600; font-weight:bold;">&#41;</span><span style="color:#006600; font-weight:bold;">&#41;</span>.<span style="color:#9900CC;">tap</span> <span style="color:#9966CC; font-weight:bold;">do</span> <span style="color:#006600; font-weight:bold;">|</span>task<span style="color:#006600; font-weight:bold;">|</span>
+    task.<span style="color:#9966CC; font-weight:bold;">include</span> <span style="color:#996600;">'war/*'</span>
+    task.<span style="color:#9966CC; font-weight:bold;">include</span> <span style="color:#996600;">&quot;src/main/resources/#{platform}.session-factory.xml&quot;</span>, <span style="color:#ff3333; font-weight:bold;">:as</span>=<span style="color:#006600; font-weight:bold;">&amp;</span>gt;<span style="color:#996600;">'WEB-INF/session-factory.xml'</span>
+    task.<span style="color:#9966CC; font-weight:bold;">include</span> <span style="color:#996600;">'src/main/resources/jboss.jms-context.xml'</span>, <span style="color:#ff3333; font-weight:bold;">:as</span>=<span style="color:#006600; font-weight:bold;">&amp;</span>gt;<span style="color:#996600;">'WEB-INF/jms-context.xml'</span>
+  <span style="color:#9966CC; font-weight:bold;">end</span>
+<span style="color:#9966CC; font-weight:bold;">end</span></pre></div></div>
+
+<p>Apache Buildr isn&#8217;t perfect. There are still some weird annoyances around resolving transitive dependencies, i.e. when hibernate.jar in turn depends on commons-logging.jar. But if you find yourself missing commons-logging.jar its easily added.<br />
+If something doesn&#8217;t work they way you think it ought to, you can easily dig into Buildr&#8217;s very readable Ruby code, something I couldn&#8217;t do with either Maven or Ant, and either customise it or find a quick workaround. You don&#8217;t have this black-box barrier between your buildscript and its output.</p>
+<p>UPDATE: A nicer way of integrating Warbler and Buildr can be achieved using my Buildr extension, <a href="http://www.denofubiquity.com/ruby/barbler/">Barbler</a>. <a href="http://www.vamosa.com"></a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/ruby/integrating-warbler-and-buildr-into-scala-jruby-java-rails-bliss/#comments" thr:count="2"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/ruby/integrating-warbler-and-buildr-into-scala-jruby-java-rails-bliss/feed/atom/" thr:count="2"/>
+		<thr:total>2</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>admin</name>
+					</author>
+		<title type="html"><![CDATA[JRuby-based Chat Server using Terracotta]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/ruby/jruby-based-chat-server-using-terracotta/" />
+		<id>http://www.denofubiquity.com/?p=261</id>
+		<updated>2009-08-08T14:24:13Z</updated>
+		<published>2009-08-08T05:59:24Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Ruby" /><category scheme="http://www.denofubiquity.com" term="Software Development" /><category scheme="http://www.denofubiquity.com" term="clustering" /><category scheme="http://www.denofubiquity.com" term="dso" /><category scheme="http://www.denofubiquity.com" term="jruby" /><category scheme="http://www.denofubiquity.com" term="terracotta" />		<summary type="html"><![CDATA[Two technologies are currently capturing my imagination, JRuby and Terracotta. JRuby is simply for my purposes the most effective language to tackle most of my computing challenges. Terracotta allows me to take those problems and solve them on large clusters of cheap servers in clouds such as those provided by Amazon EC2. Getting started with [...]]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/ruby/jruby-based-chat-server-using-terracotta/"><![CDATA[<p>Two technologies are currently capturing my imagination, <a href="http://kenai.com/projects/jruby/pages/Home">JRuby</a> and <a href="http://www.terracotta.org/">Terracotta</a>. JRuby is simply for my purposes the most effective language to tackle most of my computing challenges. Terracotta allows me to take those problems and solve them on large clusters of cheap servers in clouds such as those provided by Amazon EC2.</p>
+<p>Getting started with JRuby+Terracotta requires a bit of trial and error as its not as well documented as good old Java+Terracotta. The only post you’re likely to find is one by Jonas Boner (see below). During subsequent revisions of both Terracotta as well as JRuby, the example had stopped working. These files bring that example update to date for JRuby 1.3.1 and Terracotta 3.0.1.</p>
+<p>You can download the revised source code from <a href="http://github.com/ijonas/terracotta-jruby-chat/tree/master">my github account</a>. You will need installs of both JRuby and Terracotta with JRUBY_HOME and TC_HOME pointing to the base folders of both products respectively, e.g.</p>
+
+<div class="wp_syntax"><div class="code"><pre class="bash" style="font-family:monospace;"><span style="color: #7a0874; font-weight: bold;">export</span> <span style="color: #007800;">JRUBY_HOME</span>=<span style="color: #007800;">$HOME</span><span style="color: #000000; font-weight: bold;">/</span>java<span style="color: #000000; font-weight: bold;">/</span>jruby-1.3.1
+<span style="color: #7a0874; font-weight: bold;">export</span> <span style="color: #007800;">TC_HOME</span>=<span style="color: #007800;">$HOME</span><span style="color: #000000; font-weight: bold;">/</span>java<span style="color: #000000; font-weight: bold;">/</span>terracotta-3.0.1</pre></div></div>
+
+<p>Once these environment variables have been setup you can start a Terracotta server, followed launching multiple clients by typing:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="bash" style="font-family:monospace;">.<span style="color: #000000; font-weight: bold;">/</span>chat.sh</pre></div></div>
+
+<p><strong>Background</strong></p>
+<p>The key to fixing the example was fixing the java.lang.NoClassDefFoundError: com/tc/object/event/DmiManager, caused by the references to com.tc.object.bytecode.Manager in the terracotta.rb file:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;">WRITE_LOCK = com.<span style="color:#9900CC;">tc</span>.<span style="color:#9900CC;">object</span>.<span style="color:#9900CC;">bytecode</span>.<span style="color:#6666ff; font-weight:bold;">Manager::LOCK_TYPE_WRITE</span>
+READ_LOCK = com.<span style="color:#9900CC;">tc</span>.<span style="color:#9900CC;">object</span>.<span style="color:#9900CC;">bytecode</span>.<span style="color:#6666ff; font-weight:bold;">Manager::LOCK_TYPE_READ</span>
+CONCURRENT_LOCK = com.<span style="color:#9900CC;">tc</span>.<span style="color:#9900CC;">object</span>.<span style="color:#9900CC;">bytecode</span>.<span style="color:#6666ff; font-weight:bold;">Manager::LOCK_TYPE_CONCURRENT</span></pre></div></div>
+
+<p>Replacing the above fragment with:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="ruby" style="font-family:monospace;">WRITE_LOCK = <span style="color:#006666;">2</span>
+READ_LOCK = <span style="color:#006666;">1</span>
+CONCURRENT_LOCK = <span style="color:#006666;">4</span></pre></div></div>
+
+<p>and the whole example springs to life. My next problem to solve is that of Rubifying the Workmanager examples from chapter 11 of the &#8220;Definitive Guide to Terracotta&#8221; book.</p>
+<p><strong>Useful Links</strong></p>
+<ul>
+<li><a href="http://jonasboner.com/2007/02/05/clustering-jruby-with-open-terracotta.html">Clustering JRuby with Terracotta</a></li>
+<li><a href="http://weblambdazero.blogspot.com/2009/03/incoming-revolution-clojure-terracotta.html">Incoming Revolution: Clojure + Terracotta</a></li>
+<li><a href="https://github.com/ijonas/">My github pages</a></li>
+</ul>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/ruby/jruby-based-chat-server-using-terracotta/#comments" thr:count="3"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/ruby/jruby-based-chat-server-using-terracotta/feed/atom/" thr:count="3"/>
+		<thr:total>3</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>admin</name>
+					</author>
+		<title type="html"><![CDATA[TechMeetup Glasgow #3]]></title>
+		<link rel="alternate" type="text/html" href="http://www.denofubiquity.com/media-technology/techmeetup-glasgow-3/" />
+		<id>http://www.denofubiquity.com/?p=246</id>
+		<updated>2009-06-29T05:16:30Z</updated>
+		<published>2009-06-29T05:07:17Z</published>
+		<category scheme="http://www.denofubiquity.com" term="Media &amp; Technology" /><category scheme="http://www.denofubiquity.com" term="glasgow" /><category scheme="http://www.denofubiquity.com" term="techmeetup" />		<summary type="html"><![CDATA[TechMeetup Glasgow #3 is taking place on July 1st. Hey folks, guess what? Time for another TechMeetup in Glasgow, specifically next week Wednesday. The evening will follow the usual format: 2 great speakers, lots of good chat in between talks, and beer and pizza provided by our friends at the Hillington Park Innovation Centre. This [...]]]></summary>
+		<content type="html" xml:base="http://www.denofubiquity.com/media-technology/techmeetup-glasgow-3/"><![CDATA[<p>TechMeetup Glasgow #3 is taking place on July 1st.</p>
+<div>
+<div><strong><img class="alignright size-full wp-image-223" style="margin: 20px;" title="TechMeetup" src="http://www.denofubiquity.com/wp-content/uploads/2009/04/logo.gif" alt="TechMeetup" width="177" height="165" /></strong>Hey folks, guess what? Time for another TechMeetup in Glasgow, specifically next week Wednesday. The evening will follow the usual format: 2 great speakers, lots of good chat in between talks, and beer and pizza provided by our friends at the Hillington Park Innovation Centre.</p>
+<p>This month&#8217;s speaker&#8217;s topics are as follows:</p>
+<p><strong>Craig Nicol</strong> &#8211; A talk on the application of genetic algorithms and what makes them useful.</p>
+<p><strong>Thomas Figg</strong> &#8211; demonstrating his language interpreter project, giving us an overview what it takes to build a small computer language.</p>
+<p><img class="alignright size-medium wp-image-247" style="margin: 20px;" title="Saltire Centre" src="http://www.denofubiquity.com/wp-content/uploads/2009/06/saltire_centre_cjohncooper_bdp130308-300x240.jpg" alt="Saltire Centre" width="200" height="160" />The big change for this month is the location. <strong>We&#8217;re moving to Caledonian University&#8217;s Saltire Centre</strong>. If you attended last weekend Social Innovation Camp, you&#8217;ll know exactly where to go. In case you don&#8217;t, Google Maps is of no use because the maps are out of date. However its on the main campus <a href="http://maps.google.com/?ie=UTF8&amp;ll=55.866161,-4.250304&amp;spn=0.003883,0.01075&amp;t=h&amp;z=17">just north of Buchanan Bus Station</a>. See you this Wednesday&#8230; It going to be a good &#8216;un!</p>
+<p>Sam, Ijonas, Heidi, &amp; Ian.</p>
+<address style="padding-left: 30px;">Event: TechMeetup Glasgow<br />
+Date &amp; Time: 1st July 2009 &#8211; 7pm (the pizza is delivered then)<br />
+Directions: 2nd floor, Saltire Centre, Caledonian University Campus, Glasgow.</address>
+<address style="padding-left: 30px;">Contact:</address>
+<address style="padding-left: 30px;"><a id="q151" title="o.s.collins@gmail.com" href="mailto:o.s.collins@gmail.com">o.s.collins@gmail.com</a></address>
+<address style="padding-left: 30px;"><a id="plfv" title="ijonas.kisselbach@gmail.com" href="mailto:ijonas.kisselbach@gmail.com">ijonas.kisselbach@gmail.com</a></address>
+<address style="padding-left: 30px;"><a id="ov13" title="heidi@sauceandvinegar.com" href="mailto:heidi@sauceandvinegar.com">heidi@sauceandvinegar.com</a></address>
+<address style="padding-left: 30px;"><a href="mailto:isporter@gmail.com">isporter@gmail.com</a></address>
+<address style="padding-left: 30px;">or twitter: <a id="si4g" title="@techmeetup" href="http://twitter.com/techmeetup">@techmeetup</a></address>
+<address style="padding-left: 30px;"></address>
+<address style="padding-left: 30px;"></address>
+<address style="padding-left: 30px;"></address>
+<address style="padding-left: 30px;"></address>
+<address style="padding-left: 30px;"></address>
+<address>Visit our site <a id="xdgt" title="http://www.techmeetup.co.uk" href="http://www.techmeetup.co.uk/">http://www.techmeetup.co.uk</a> for a backgrounder on TechMeetup including past talks.</address>
+<address></address>
+<address></address>
+<address><span style="font-style: normal;">And a big thanks to <a href="http://www.innovationcentre.org/hillington/">Hillington Park Innovation Centre</a> who are sponsoring TechMeetup<br />
+Glasgow.</span></address>
+<address><span style="font-style: normal;"><br />
+</span></address>
+</div>
+</div>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.denofubiquity.com/media-technology/techmeetup-glasgow-3/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.denofubiquity.com/media-technology/techmeetup-glasgow-3/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+	</feed>
+
+<!-- Dynamic page generated in 0.780 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2011-09-26 20:00:55 -->

@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>me2day 서비스 점검 중입니다. </title>
+  <meta name="keywords" content="me2DAY" /> 
+  <meta name="description" content="me2DAY" />
+  <link rel="shortcut icon" type="images/ico" href="/favicon.ico" />
+  <style type="text/css">
+  
+/*me2DAY privacy*/
+
+* {font-weight: normal;font-style: normal;text-decoration: none;text-align: left;text-indent: 0;margin:0;padding:0;}
+body{background: #f1f2f2; color: #444; border-top:4px solid #404040;font-family:"NanumGothic", "NanumGothicOTF", "맑은고딕", dotum, 'Malgun Gothic', 'Trebuchet MS', 'Lucida Grande', Tahoma, Helvetica, Arial, sans-serif;}
+body *{font-size: 100%;line-height:1.5;}
+a{text-decoration: underline;}
+a:link{color: #369;}
+a:visited{color: #969;}
+a:hover{color: red;}
+a:active{color: #930;}
+img,fieldset{border:0;}
+li{list-style:none;}
+strong{font-weight: bold;}
+pre{padding: 3%;border-width: 1px;border-style: dotted;overflow: auto;}
+table{border-collapse:collapse;}
+hr{visibility:hidden;position:absolute;}
+input{font-family: "NanumGothic","NanumGothicOTF","맑은고딕",dotum,'Malgun Gothic','Trebuchet MS','Lucida Grande',Tahoma,Helvetica,Arial,sans-serif;overflow:visible;}
+textarea, .preview_txt{font-family: "NanumGothic","NanumGothicOTF","맑은고딕",dotum,'Malgun Gothic','Trebuchet MS','Lucida Grande',Tahoma,Helvetica,Arial,sans-serif;}
+button{font-family: "NanumGothic","NanumGothicOTF","맑은고딕",dotum,'Malgun Gothic','Trebuchet MS','Lucida Grande',Tahoma,Helvetica,Arial,sans-serif;overflow:visible;white-space:nowrap;cursor:pointer;_cursor:hand;}
+select{font-family: "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial", "hiragino kaku gothic pro", "NanumGothic" , "NanumGothicOTF", sans-serif;}
+.align_right{text-align:right;}
+.clearfloat{clear:both;}
+.displaynone{display:none;}
+.visiblehide{visibility:hidden;position:absolute;}
+
+/* privacy */
+.common_layout{width:979px; margin:0 auto; font-size:0.75em;}
+
+/* topbar */
+#topbar{position:relative;z-index:2;margin-left:29px;padding-top:0;height:46px;zoom:1;}
+#topbar h1{float:left;margin-top:14px;line-height:1;}
+#topbar h1 a{display:block;}
+#topbar .topMenu{float:right;}
+#topbar .topMenu ul{float:left;margin:4px 11px 0 0;}
+#topbar .topMenu ul li{float:left;}
+#topbar .topMenu ul li a{display:block;margin-right:10px;padding:10px 3px 5px 4px;color:#606161;text-decoration:none;}
+#topbar .topMenu ul li a:hover,
+#topbar .topMenu ul li a:focus{text-decoration:underline;}
+
+/* container */
+.common_layout #container{padding-bottom:16px;background:#fff url(/images/bg_common_bottom.gif) no-repeat scroll 0 100%;}
+.common_layout .wrap{padding-top:16px;background:#fff url(/images/bg_common_header.gif) no-repeat scroll 0 0;}
+.common_layout .contents{overflow:hidden;padding:73px 0 90px 183px;background: url(/images/bg_common_contents.gif) repeat-y scroll 0 0;zoom:1}
+.common_layout .alert{padding-left:70px;background:url(/images/ico_page_not_found.gif) no-repeat scroll 1px 4px;}
+.common_layout .alert{padding-left:70px;background:url(/images/ico_page_not_found.gif) no-repeat scroll 1px 4px;}
+.common_layout .alert h2{margin-bottom:17px;font-size:18px;font-weight:bold;color:#7a32b3;letter-spacing:-1px;}
+.common_layout .alert a{color:#e75b00;text-decoration:none;}
+.common_layout .alert a:hover{text-decoration:underline;}
+.common_layout .alert .btn_back{display:block;width:90px;height:22px;margin-top:20px;padding-top:4px;background:url(/images/btn_back.gif) no-repeat scroll 0 0;color:#4b4b4b;text-align:center;}
+.common_layout .util_box{width:510px;margin:25px 0 0 32px;padding:17px 0 17px 40px;border:1px solid #efefef;background-color:#fbfbfb;}
+.common_layout .util_box p{color:#000;font-weight:bold;}
+.common_layout .alert p{line-height:19px;}
+/* footer */
+#footer{overflow:hidden;height:64px;color:#787979;border:0;background:#f1f2f2;}
+#footer .footer_contents{width:984px;margin:0 auto;overflow:hidden;zoom:1;}
+#footer .footer_contents address{float:left;padding-left:35px;font-size:11px;line-height:64px;}
+#footer .footer_contents .c_info_link{float:right;padding-right:30px;font-size:11px;overflow:hidden;}
+#footer .footer_contents .c_info_link li{float:left;margin-left:-1px;padding:0 8px 0 6px;background:url(/images/bg_bar01.gif) no-repeat left 27px}
+#footer .footer_contents .c_info_link li a{color:#787979;text-decoration:none;line-height:64px;}
+#footer .footer_contents .c_info_link li.privacy a{font-weight:bold;}
+#footer .footer_contents .c_info_link li a:hover{text-decoration:underline;}
+
+/* Login */
+.common_login .contents{overflow:hidden;padding:73px 34px 90px 35px;background:#fff url(/images/bg_common_contents.gif) repeat-y scroll 0 0;}
+.common_login#container{background-image:url(/images/bg_common_login_bottom.gif);}
+.common_login .wrap{background-image:url(/images/bg_common_login_header.gif);}
+.common_login .contents{height:353px;padding-top:73px;background-image:url(/images/bg_common_login_contents.gif);}
+.common_login .login_box{float:left;width:558px;padding-left:68px;}
+.common_login .login_box h2{padding-bottom:22px;font-size:18px;color:#5932b3;font-weight:bold;border-bottom:1px solid #f1f1f1;letter-spacing:-1px;}
+.common_login .login_box .login_inner{padding:32px 0 19px 50px;border-bottom:1px solid #f1f1f1;}
+.common_login .login_box input{vertical-align:middle;}
+.common_login .login_box .input_type1{margin:0 7px;background:none repeat scroll 0 0 #fbfbfb;border-color:#c4c4c4 #eaeaea #eaeaea #c4c4c4;border-style:solid;border-width:1px;font-size:14px;font-weight:bold;height:25px;line-height:20px;padding:5px 6px 0;width:226px;} 
+.common_login .login_box .button_type1{width:61px;height:32px;border:0;background:url(/images/bg_btn_1.gif) no-repeat scroll 0 0;text-align:center;font-weight:bold;}
+.common_login .login_box p.auto_login{margin-top:9px;margin-left:115px;}
+.common_login .login_box p.forgot_pw{margin-top:12px;text-indent:163px;color:#7f7f7f;}
+.common_login .login_box p.forgot_pw a{color:#e65802;}
+.common_login .no_member{float:right;width:154px;padding-top:10px;}
+.common_login .no_member h2{font-size:14px;font-weight:bold;color:#000;padding-bottom:14px;border-bottom:1px solid #f1f1f1;letter-spacing:-1px;}
+.common_login .no_member p{margin-top:17px;margin-bottom:3px;padding-left:3px;color:#7d7d7d;}
+.common_login .no_member p .you{display:block;}
+.common_login .no_member p.join_msg{margin-top:27px;padding-top:20px;border-top:1px solid #f1f1f1;}
+.common_login .no_member a.btn_start,
+.common_login .no_member a.btn_join{display:inline-block;width:139px;height:27px;padding-top:6px;background:url(/images/bg_btn_2.gif) no-repeat scroll 0 0;text-align:center;text-decoration:none;color:#4a4a4a;letter-spacing:-1px;}
+
+/* Page Not Found */
+.page_not_found .util_box .list{width:530px;margin-top:18px;margin-bottom:20px;}
+.page_not_found .util_box .list ul{width:450px;margin-top:12px;padding-top:6px;overflow:hidden;}
+.page_not_found .util_box .list ul li{float:left;padding-right:3px;margin:4px 0 5px;}
+.page_not_found .util_box .find.list_top{clear:both;width:470px;padding-top:14px;border-top:1px solid #efefef;}
+.page_not_found .util_box .find label{color:#000;font-weight:bold;margin-right:20px;}
+.page_not_found .util_box .find .input_type1{position:relative;top:3px;margin:0 3px 0 1px;background:none repeat scroll 0 0 #fff;border-color:#c4c4c4 #eaeaea #eaeaea #c4c4c4;border-style:solid;border-width:1px;font-size:14px;font-weight:bold;height:20px;line-height:20px;padding:5px 6px 0;width:146px;vertical-align:middle;}
+.page_not_found .util_box .find .button_type3{position:relative;top:3px;width:44px;height:28px;border:0;background:url(/images/bg_btn_3.gif) no-repeat scroll 0 0;text-align:center;vertical-align:middle;}
+
+
+/* Service Check */
+.service_check .util_box strong{color:#5932b3;}
+.service_check .alert .contact_mail{margin-top:12px;}
+
+/* Allow Access */
+.allow_access .hgroup{position:relative;height:61px;margin-bottom:24px;padding-left:72px;background: url(/images/ico_allow_access.gif) no-repeat scroll 0 4px;}
+.allow_access h2{margin-bottom:7px;font-size:18px;font-weight:bold;color:#7a32b3;letter-spacing:-1px;}
+.allow_access .util_box{width:488px;margin:24px 0 0 31px;padding:22px 19px 31px 42px;border:1px solid #efefef;}
+.allow_access .util_box h3{margin-bottom:11px;font-weight:bold;font-size:16px;color:#000;}
+.allow_access .util_box .by{margin-left:8px;color:#777;font-size:12px;}
+.allow_access .util_box .by .author{color:#444;text-decoration:none;}
+.allow_access .util_box p {color:#777;font-weight:normal;}
+.allow_access ul.noti{margin-top:24px;}
+.allow_access ul.noti li{padding-left:30px;background:url(/images/bul_dot_1.gif) no-repeat scroll 17px 6px;color:#4c4c4c;}
+.allow_access .bts{width:690px;margin-top:30px;margin-left:70px;}
+.allow_access .bts a{display:inline-block;height:27px;padding-top:5px;text-align:center;text-decoration:none;}
+.allow_access .bts a.btn_allow{width:88px;background:url(/images/bg_btn_4.gif) no-repeat scroll 0 0;color:#fff;}
+.allow_access .bts a.btn_deny{width:81px;background:url(/images/bg_btn_5.gif) no-repeat scroll 0 0;color:#646464;}
+
+
+/* Post profile image style */
+.util_box .profile_master{position:relative;width:72px;top:0;left:6px;margin-top:0;height:63px;border:0;overflow:visible;}
+.util_box .profile_master .image_box{border-color:#eee #ccc #ccc #eee;border-style:solid;border-width:1px;margin:0;position:relative;width:60px;height:60px;overflow:hidden;}
+.util_box .profile_master .name_text{position:absolute;bottom:0;left:1px;overflow:hidden;width:56px;height:16px;padding:0 2px 2px;zoom:1;font-size:8pt;letter-spacing:0.1em;line-height:19px;opacity:0.8;filter: alpha(opacity=80);-ms-filter:"alpha(opacity=80)";background:#797979;color:#fff;text-align:center;text-indent:0;}
+.util_box .profile_master .name_text a{color:#fff;text-decoration:none;zoom:1;}
+.util_box .profile_master .action_link{position:absolute;left:-6px;top:-6px;width:72px;height:72px;background:url(/images/stream/bg_pb_60.png) no-repeat left top;cursor:pointer;_cursor:hand;}
+* html .util_box .profile_master .action_link{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/stream/bg_pb_60.png',sizingMethod='scale');}
+.util_box .profile_master .action_link a{position:absolute;left:45px;top:1px;}
+* html .util_box .profile_master .action_link img{visibility:hidden;}
+* html .util_box .profile_master .action_link a{display:block;margin-top:0px;width:26px;height:26px;cursor:hand;background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/stream/bg_p.png',sizingMethod='crop');}
+.util_box .profile_master .action_link .action_url{display:block;left:1px !important;top:1px !important;width:70px !important;height:70px !important;}
+* html .util_box .profile_master .action_link .action_url{filter:none;}
+*:first-child+html .util_box .profile_master .name_text{top:28px !important;}
+* html .util_box .profile_master .name_text{bottom:48px;}
+
+.singlefade {
+  background: url(/images/yani2.gif) repeat;
+}
+
+/* Partner Layer Style */
+
+#partner_box {
+position:absolute;
+float:left;
+border-right:2px solid #F5F5F5;
+}
+
+#partner_box #partner_arrow {
+background:url('/images/partner_layer_arrow.gif') left top no-repeat;
+position:absolute;
+left:0px; top:60px;
+width:28px; height:23px;
+z-index:2;
+}
+
+#partner_box #shadow_ri {
+background:url('/images/partner_layer_shadow_ri.gif') left top no-repeat;
+position:absolute;
+float:left;
+top:0px;
+width:2px; height:100%;
+}
+
+#partner_box #shadow_bo {
+background-image: url('/images/partner_layer_shadow_bo.gif');
+background-repeat: repeat;
+position:absolute;
+clear:both;
+left:0px; bottom: 0px;
+width:100%; height:2px;
+border-bottom:0px solid #F5F5F5;
+}
+
+#partner_box #partner_layer {
+background-color:#FFFFFF;
+border:1px solid #C3C3C3;
+padding:20px;
+margin-left:27px;
+float:left;
+position:relative;
+display:inline;
+}
+
+#partner_layer #partner_img {
+float:left;
+}
+
+#partner_layer #partner_cont {
+float:left;
+padding-left:20px;
+display:inline;
+}
+
+#partner_cont span {
+display:block;
+margin-bottom:10px;
+font-family:tahoma, verdana, sans-serif;
+font-size:12px;
+color:#C5C1BF;
+}
+
+#partner_cont span.tit
+{
+display:inline;
+margin: 0;
+color:#222222;
+}
+
+#partner_cont a.blt_link_tit {
+background:url('/images/blt_link_tit.gif') left 3px no-repeat;
+font-family:tahoma, verdana, sans-serif;
+font-size:12px;
+color:#E65802;
+text-decoration:none;
+padding-left:20px;
+}
+
+#partner_cont a:hover {
+text-decoration:underline;
+}
+
+
+/* partner icon change styles */
+dl.post_image dt a {
+        position:relative;
+        width:46px; height:46px;
+    display:block;
+        outline-style:none;
+}
+
+dl.post_image dt div.click {
+    background-color:#000;
+        opacity: .6;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    width:44px; height:16px;
+    display:block;
+        position:absolute;
+    bottom:1px; left:1px;
+        text-align:center;
+    color:#FFF;
+    font: 85% Trebuchet,"Trebuchet MS",Verdana,Sans-Serif;
+    font-size:8pt;
+    text-indent: 0;
+    line-height: 19px;
+    letter-spacing:.1em;
+    overflow: hidden;
+}
+
+dl.post_image dt a:hover div.click {
+        display:none;
+        background-color:transparent;
+}
+
+dl.post_image dt a:hover div.ico {
+        background-color:#000;
+        opacity: .6;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+        width:44px; height:44px;
+        display:block;
+        cursor:pointer;
+        position:absolute;
+        left:1px; top:1px;
+}
+
+dl.post_image div.ico {
+    background:#000 url("/images/partner/service_icon_default.gif") left top no-repeat;
+}
+
+dl.post_image dt div.video {
+        background:#000 url("/images/partner/service_icon_video.gif") left top no-repeat;
+}
+
+dl.post_image dt div.photo {
+        background:#000 url("/images/partner/service_icon_photo.gif") left top no-repeat;
+}
+
+dl.post_image dt div.music {
+        background:#000 url("/images/partner/service_icon_music.gif") left top no-repeat;
+}
+dl.post_image dt div.me2photo {
+        background:#000 url("/images/partner/service_icon_me2photo.gif") left top no-repeat;
+}
+
+dl.post_image dt div.RevU {
+    background:#000 url("/images/partner/service_icon_info.gif") left top no-repeat;
+}
+
+dl.post_image dt div.pumfit {
+    background:#000 url("/images/partner/service_icon_info.gif") left top no-repeat;
+}
+
+nt-face
+{font-family:"나눔고딕web"; src:url(/stylesheets/nanum_me2.eot);}
+body{
+  font-family:"나눔고딕web", "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+* html body *{
+  font-family:"나눔고딕web";
+}
+
+input {
+  overflow:visible;
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+
+input[type=text] {
+  font-family: "Arial","NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic","Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica",sans-serif;
+}
+
+select {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+
+textarea, .preview_txt {
+  font-family: "Arial","NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic","Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica",sans-serif;
+}
+
+select {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+
+option {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+
+button {
+  overflow:visible;
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+/*
+#topbar {
+    font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", arial, helvetica, sans-serif;
+}
+
+body#me2_front #topbar {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", "Trebuchet MS", "Lucida Grande", "Tahoma","Helvetica","Arial",sans-serif;
+}
+
+#friends_tab #primary a, #friends_tab #primary span {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", tahoma, verdana, sans-serif;
+}
+#masthead_form span#masthead_message, #masthead_form span#masthead_message a {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic", Gulim, sans-serif;
+}
+
+body#me2_front div#mainNavi ol.subMenu li a {
+  font-family: "NanumGothic", "NanumGothicOTF", "나눔고딕", "Malgun Gothic","Trebuchet MS","Lucida Grande","Tahoma","Helvetica","Arial",sans-serif;
+}
+*/
+
+
+  </style>
+</head>
+
+<body>
+<div id="service_check" class="common_layout service_check">
+
+	<div id="topbar">
+		<h1>
+			<!-- <a href="/"><img src="images/logo_me2day.png" alt="me2DAY" width="102" height="22" /></a> -->
+			<!-- <a href="/"><img src="http://static1.me2day.net/images/logo_me2day.gif" alt="me2day" width="102" height="22" /></a> -->
+			<a href="/"><img src="http://static1.me2day.net/images/stream/me2day_logo_type2.png" alt="me2day" width="102" height="22" /></a>
+		</h1>
+	</div>
+	<hr />
+	<div id="container">
+
+    <div class="wrap">
+      <div class="contents">
+        <div class="alert">
+          <h2>서비스 점검 중입니다.</h2>
+          <p>보다 안정적인 서비스 환경을 제공하기 위해, 현재 미투데이 서비스를 점검하고 있습니다.<br />이용에 불편을 끼친 점 진심으로 사과 드리며,<br />예정된 시간 안에 점검을 마칠 수 있도록 최선을 다하겠습니다.</p>
+
+          <p class="contact_mail">궁금하신 점이나 불편한 사항은 <a href="mailto:help@me2day.net">help@me2day.net</a>으로 문의해 주시기 바랍니다.</p>
+
+          <a href="#" onclick="history.back();" class="btn_back">이전 페이지로</a>
+        </div>
+        <div class="util_box">
+                <p>점검시간 <strong>2011.09.27(화) 오전 01:30 ~ 06:30</strong> (총 5시간, 한국시간 기준)</p>
+        </div>
+
+      </div>
+    </div>
+
+	</div>
+	<hr />
+  <div id="footer">
+    <div class="footer_contents">
+      <address>copyright &copy; NHN Corp.</address>
+
+      <ul class="c_info_link">
+
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

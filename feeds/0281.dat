@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/" 
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:dc="http://purl.org/dc/elements/1.1/" 
+     xmlns:cc="http://web.resource.org/cc/">
+  <channel>
+    <title>Delicious/mrspreadsheet/vba</title>
+    <link>http://www.delicious.com/mrspreadsheet/vba</link>
+    <description>bookmarks tagged vba by mrspreadsheet</description>
+    <atom:link rel="self" type="application/rss+xml" href="http://feeds.delicious.com/v2/rss/mrspreadsheet/vba"/>
+    
+        
+        <item>
+          <title>Getting Started with Development for Project 2010</title>
+          <pubDate>Mon, 21 Mar 2011 09:00:48 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/6cb40c03eca25cab0bee83442421f69d#mrspreadsheet</guid>
+          <link>http://msdn.microsoft.com/en-us/library/gg607685.aspx</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/6cb40c03eca25cab0bee83442421f69d</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/6cb40c03eca25cab0bee83442421f69d</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">project2010</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">office2010</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>How to check and remove incorrect project references in the Visual Basic Editor</title>
+          <pubDate>Sun, 21 Nov 2010 18:45:19 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/3c8cd0c3412ac58a3be9844a00156786#mrspreadsheet</guid>
+          <link>http://support.microsoft.com/kb/308340</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/3c8cd0c3412ac58a3be9844a00156786</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/3c8cd0c3412ac58a3be9844a00156786</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>LockXLS - Workbook Copy Protection</title>
+          <pubDate>Mon, 06 Sep 2010 21:09:09 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/545fe90411f04d63d823d6aa2389dcbc#mrspreadsheet</guid>
+          <link>http://www.lockxls.com/</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/545fe90411f04d63d823d6aa2389dcbc</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/545fe90411f04d63d823d6aa2389dcbc</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">protector</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">protection</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>Using Events with the Application Object [Word 2007 Developer Reference]</title>
+          <pubDate>Mon, 06 Sep 2010 10:23:21 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/e5ba5e9ab1f2542dd493f93036c1f4f9#mrspreadsheet</guid>
+          <link>http://msdn.microsoft.com/en-us/library/bb221264(office.12).aspx</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/e5ba5e9ab1f2542dd493f93036c1f4f9</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/e5ba5e9ab1f2542dd493f93036c1f4f9</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description>ntains the Ribbon XML and contains all the special macro buttons we used to have in 2003
+I implemented the Ribbon_Onload calling the DoAutoExec() because the startup macro&#39;s wont work if a web document is opened.
+The DoAutoExec checks for a version update and shells an external updater executable and fires Application.Quit
+I had a message box in that part and that starts a error message and caused a word crash and disabled the startup macro.
+
+After dissecting the procedures and program flow by creating a simpler version I discovered the DoAutostart gets fired twice (Watching Debug.Print messages.)
+I don&#39;t know where the second instance comes from, maybe the Instantiation of the App Class module runs the whole ribbon loadup a second time.
+
+I fixed the crashes by creating a semaphore regkey inhibiting a second instantiation of the update and Application.Quit</description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">events</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">word2007</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>Excel 2007 Tables (VBA)</title>
+          <pubDate>Sun, 04 Jul 2010 16:33:27 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/7f8203ce9ce795bdee21348973f4a758#mrspreadsheet</guid>
+          <link>http://www.jkp-ads.com/articles/Excel2007TablesVBA.asp</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/7f8203ce9ce795bdee21348973f4a758</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/7f8203ce9ce795bdee21348973f4a758</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">tables</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">excel</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>Aivosto&#39;s Visual Basic Tips</title>
+          <pubDate>Sat, 29 May 2010 18:56:10 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/acdd17b1b166c2ddc7e8775f7639a5fd#mrspreadsheet</guid>
+          <link>http://www.aivosto.com/vbtips/vbtips.html</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/acdd17b1b166c2ddc7e8775f7639a5fd</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/acdd17b1b166c2ddc7e8775f7639a5fd</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>Register UDFs</title>
+          <pubDate>Sat, 29 May 2010 18:56:10 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/6e73ae18bed336d799dce25f6684d9db#mrspreadsheet</guid>
+          <link>http://www.jkp-ads.com/articles/RegisterUDF00.asp</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/6e73ae18bed336d799dce25f6684d9db</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/6e73ae18bed336d799dce25f6684d9db</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">udf</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">excel</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>VBA Developer&#39;s Handbook</title>
+          <pubDate>Sat, 29 May 2010 18:56:10 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/a76ccdbc438f84f7695cfba3d144a8f1#mrspreadsheet</guid>
+          <link>http://msdn.microsoft.com/en-us/library/aa227581(VS.60).aspx</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/a76ccdbc438f84f7695cfba3d144a8f1</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/a76ccdbc438f84f7695cfba3d144a8f1</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">stack</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>How to implement a Stack in VBA</title>
+          <pubDate>Sat, 29 May 2010 18:56:10 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/e0159d2172006ef64a7ca5a1890284a3#mrspreadsheet</guid>
+          <link>http://www.tek-tips.com/viewthread.cfm?qid=1468970&amp;page=6</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/e0159d2172006ef64a7ca5a1890284a3</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/e0159d2172006ef64a7ca5a1890284a3</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">stack</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          
+        </item>
+        
+    
+        
+        <item>
+          <title>Error Handling and Debugging Tips for Access 2007, VB, and VBA</title>
+          <pubDate>Sat, 29 May 2010 18:56:13 +0000</pubDate>
+          <guid isPermaLink="false">http://www.delicious.com/url/8f0bbc12792af13291045697d66e0230#mrspreadsheet</guid>
+          <link>http://msdn.microsoft.com/en-us/library/ee358847.aspx</link>
+          <dc:creator><![CDATA[mrspreadsheet]]></dc:creator>
+          <comments>http://www.delicious.com/url/8f0bbc12792af13291045697d66e0230</comments>
+          <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/8f0bbc12792af13291045697d66e0230</wfw:commentRss>
+          <source url="http://feeds.delicious.com/v2/rss/mrspreadsheet">mrspreadsheet's bookmarks</source>
+          
+          <description></description>
+          
+          <category domain="http://www.delicious.com/mrspreadsheet/">vba</category>
+          <category domain="http://www.delicious.com/mrspreadsheet/">debugging</category>
+          
+        </item>
+        
+    
+  </channel>
+</rss>

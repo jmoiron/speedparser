@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>bodhi-sattva</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/" />
+    <link rel="self" type="application/atom+xml" href="http://blog.bodhi-s.com/atom.xml" />
+    <id>tag:blog.bodhi-s.com,2009-01-26://3</id>
+    <updated>2011-07-04T02:31:32Z</updated>
+    <subtitle>ひっそりと更新…ブログと言うより独り言？</subtitle>
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type Pro 4.22-ja</generator>
+
+<entry>
+    <title>『なぜベストを尽くさないのか』</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/07/post-78.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.158</id>
+
+    <published>2011-07-04T02:23:54Z</published>
+    <updated>2011-07-04T02:31:32Z</updated>
+
+    <summary> 「ナゼそーなるのか」が重要。 マーケティングもプログラムもデザインもそーだと思...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<a href="http://blog.bodhi-s.com/images/20110704.jpg" class="popup"><img src="http://blog.bodhi-s.com/20110704.jpg" alt="20110704" title="20110704.jpg" border="0" width="450" height="253" class="o_btn" /></a>
+
+<p>
+「ナゼそーなるのか」が重要。<br />
+マーケティングもプログラムもデザインもそーだと思うんだけど、<br />
+「コレをやればこーなる」っつーのは大体把握していると思うんだけど、<br />
+「ナゼそーなるのか」を理解しないで、その方法を実行・実装するのはあまりよろしく無い。<br />
+<br />
+例えば、一般的に「女性は四角よりも丸を好む」と言う事は知られていますが、どーしてなのか？という所まで突っ込んで考えてる方はあまり多く無いと思います。<br />
+コレを理解していればもっと良いアプローチをかける事ができるんではないでしょうか？<br />
+<br />
+さて、上記の画像は受験生の壁紙に制作されたモノだと思うんですが、<br />
+素晴らしかったので紹介したくなりました。<br />
+社会人にも是非読んでもらいたいです。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>ブログの更新は簡単がよい！</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/05/post-77.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.157</id>
+
+    <published>2011-05-17T08:40:24Z</published>
+    <updated>2011-05-17T08:40:26Z</updated>
+
+    <summary> MTでもWPでもいちいちブラウザ立ち上げてません？ そんな時は便利なツールがあ...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<img src="http://blog.bodhi-s.com//CRW_6682.png" alt="CRW 6682" title="CRW_6682.png" border="0" width="450" height="298" />
+<p>
+MTでもWPでもいちいちブラウザ立ち上げてません？<br />
+そんな時は便利なツールがあるんですね。<a href="http://www.red-sweater.com/marsedit/" class="popup">MarsEdit</a>これなら簡単に更新できてとてもナイスな感じ！<br />
+でも、忙しいを理由にして更新してませんが…
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>OmniFocusの使用方法がイマイチわからん…</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/05/omnifocus.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.156</id>
+
+    <published>2011-05-12T19:17:48Z</published>
+    <updated>2011-05-13T02:39:59Z</updated>
+
+    <summary> 最近タスク管理等にOmniFocusを使用してるんだけど、使い方がイマイチ分か...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+最近タスク管理等にOmniFocusを使用してるんだけど、使い方がイマイチ分からん。<br />
+マニュアルを見ない自分的にはもっと直感的に使用できる方が良い。iCalとの同期も出来るしOnmi関係製品は色々と使用してるんで、もうちょい使ってみるか〜。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>今まで気付かなかったけどSafariでYouTube再生出来なかったんだ！</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/05/safariyoutube.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.155</id>
+
+    <published>2011-05-12T19:00:29Z</published>
+    <updated>2011-05-13T02:40:33Z</updated>
+
+    <summary> 最近まで特にYouTubeは見てなかったんで気にもしてなかったんだけど、Saf...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<iframe width="480" height="349" src="http://www.youtube.com/embed/oYcVnT0OfZQ" frameborder="0" allowfullscreen></iframe>
+<p>
+最近まで特にYouTubeは見てなかったんで気にもしてなかったんだけど、SafariでYouTubeの再生が出来なかったんだね。<br />
+んで、ちょいと調べたらSafariを「32bitモードで開く」にすると再生できるらしい。なんでなん？？？
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3の本格的導入時期って</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/04/css3-1.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.154</id>
+
+    <published>2011-04-05T10:18:17Z</published>
+    <updated>2011-05-13T02:40:50Z</updated>
+
+    <summary>今んトコ本格的にはまだなんだろーけど、CSS3をチョイチョイ導入している。サイト...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>今んトコ本格的にはまだなんだろーけど、CSS3をチョイチョイ導入している。<br />サイトのターゲットにより変えてはいるけど、まだまだバシバシ実装な感じでは無い。実際IE6の問題も絡んできたりしててコーポレートサイトには不向きかなー。。。<br />今までのクライアントは殆どがIE7,8での確認だったんで、多分実装しても気づいてないんだろーけど…。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>今Webデザイナに必要なのは英語力</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/03/web.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.152</id>
+
+    <published>2011-03-05T04:39:18Z</published>
+    <updated>2011-03-05T04:50:45Z</updated>
+
+    <summary> 前から思っていた事ではあるんだけど、Web関連の最新情報やサービスを知ろうと思...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+前から思っていた事ではあるんだけど、Web関連の最新情報やサービスを知ろうと思うとどーしても避けて通れないのが英語力。<br />css3にしろJsにしろHTML5にしろSNSにしろ、いろんなコミュニティーがあるが質問すらできん...。この歳になって恥ずかしいが多少は理解出来るトコもあるんだけど専門用語等もあるんでチンプンカンプンな箇所も。<br />どっか教室に行こうかなー。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>刺激過多</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/01/post-76.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.151</id>
+
+    <published>2011-01-16T15:37:46Z</published>
+    <updated>2011-01-16T19:09:42Z</updated>
+
+    <summary> 1/15にD&amp;DEPARTMENT PROJECT NAGANO by COT...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+1/15に<a href="http://www.d-department.com/jp/shop/nagano/" class="popup">D&DEPARTMENT PROJECT NAGANO by COTO
+</a>で行われた「2011 id=Nagano & NSEG 合同新年会」が非常に刺激になりました。<br />プログラマさんとかなり深いお話しが出来て勉強になりました。<br />
+3次会？で教えてもらったのが、<a href="http://oss.infoscience.co.jp/seleniumhq/" class="popup">「Selenium」</a>
+Webアプリ等をデバッグしてくれるスグレもので、これはスゴイ！Firefoxのアドオンもあるのでステキ！<br />
+久々に刺激的で楽しい時間を過ごさせて頂きました。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>寝正月。</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2011/01/post-75.php" />
+    <id>tag:blog.bodhi-s.com,2011://3.150</id>
+
+    <published>2011-01-01T17:16:49Z</published>
+    <updated>2011-01-01T17:32:24Z</updated>
+
+    <summary> 新年明けましておめでとうございます。 今年も宜しくお願い致します 去年は12/...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+新年明けましておめでとうございます。<br />
+今年も宜しくお願い致します<br />
+去年は12/27あたりから急に忙しくなり、結局31日まで忙しくしてしまったため。今年こそは楽しよう！と思い、1日から寝る決意w 「一年の計は元旦にあり」を実行。<br />
+結構寝れるもんだ。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>ウーロン持病持ちに</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/12/post-74.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.149</id>
+
+    <published>2010-12-17T18:04:28Z</published>
+    <updated>2010-12-17T18:11:15Z</updated>
+
+    <summary> 昨日くらいから、ウーロンの足が痛そうだったんで、珍しく終業と同時で帰宅。んで動...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+昨日くらいから、ウーロンの足が痛そうだったんで、珍しく終業と同時で帰宅。んで動物病院に。<br />
+んで、見てもらったら「関節炎」らしい。<br />
+犬でも関節炎とかってあるんだね。取りあえず鎮痛剤（あまーい液体）もらって帰宅。<br />
+おじいちゃんなんで仕方ないんだが、ちと心配だ。<br /><br />
+しかし、「昨日」とタイプして「機能」と出るトコがなぜかむなしくなった...。
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>もう32bitでは限界か？</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/10/32bit.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.148</id>
+
+    <published>2010-10-28T03:48:48Z</published>
+    <updated>2010-10-28T04:08:30Z</updated>
+
+    <summary> 今、制作はMacとWinを行ったり来たりしているんだけど、特にWinの方はまだ...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Hardware" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="hardware" label="Hardware" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+今、制作はMacとWinを行ったり来たりしているんだけど、特にWinの方はまだWindowsXP Proの 32bit なんで色々とソフトを立ち上げとくと「メモリが足りません...」的なエラーが出る。※最近は特にヒッドイ。<br />
+エラーが出るならまだ良い方なんだけど、突然落ちる。。。保存してない時や忙しい時なんか最悪。<br />
+んで、前から考えてはいたんだけど本気でWin7 64bit に移行しようと検討中。<br />
+問題点は
+<blockquote>
+<ul class="simple_ul">
+<li>Adobe CS3が動くか？</li>
+<li>その他ソフトが動くか？</li>
+<li>会社プリンタ問題</li>
+</ul>
+</blockquote>
+上記が解決出来ればすぐにでも移行したいんだけど...。<br />
+取りあえず、SSD買ってソコにインストールしてみるかな？
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>教える事</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/09/post-73.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.147</id>
+
+    <published>2010-09-30T13:04:32Z</published>
+    <updated>2010-09-30T13:30:26Z</updated>
+
+    <summary> ちょいと前から、数名の生徒さんに主にFlashについて授業を担当する事になった...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<img alt="10002.jpg" src="http://blog.bodhi-s.com/image/10002.jpg" width="450" height="263" />
+<p>
+ちょいと前から、数名の生徒さんに主にFlashについて授業を担当する事になったんだけど、自分自身が人から教わった事があまり無いため、どー教えて良いか分からないw<br />
+かなり深くまで教えようと思うと、とても時間内では収まらない。まー生徒さんのやりたい事を実現出来る様にしてあげるだけなんだけど、実装方法が複数あるんで生徒さんのスキルに応じるのが難しい。せっかくなんで、少し突っ込んだトコまで行こうとすると引き気味に...。<br />
+だってaddEventListenerとかって日本語に訳せないんだもんw
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>閻魔大王のお札</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/08/post-72.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.146</id>
+
+    <published>2010-08-16T16:58:24Z</published>
+    <updated>2010-08-16T17:12:59Z</updated>
+
+    <summary> 交通安全のお守りを返すため善光寺に。 その日ちょうど盆踊りで人が多く、しかも夕...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<a href="http://blog.bodhi-s.com/image/14.jpg" class="popup"><img alt="14.jpg" src="http://blog.bodhi-s.com/assets_c/2010/08/14-thumb-450x300-33.jpg" width="450" height="300" /></a>
+<p>
+交通安全のお守りを返すため善光寺に。<br />
+その日ちょうど盆踊りで人が多く、しかも夕方というのにかなり暑い。<br />
+せっかくなのでお参りして行こうと思い、本堂へ行くと「閻魔大王の日（たしか...）」だそーで、お参りしたらお札を頂いた。<br />
+「今、閻魔大王の前でお参りした気持ちを忘れないため」<br />
+のお札で、忘れっぽい自分には持ってこいのお札だw。暑さが限界になってきたので盆踊りは見ずに帰る。久しぶりにお盆っぽい雰囲気?を味わえたw
+</p>
+<a href="http://blog.bodhi-s.com/image/12.jpg" class="popup"><img alt="12.jpg" src="http://blog.bodhi-s.com/assets_c/2010/08/12-thumb-450x320-35.jpg" width="450" height="320" /></a>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>十数年ぶりギター</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/08/post-71.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.145</id>
+
+    <published>2010-08-07T17:03:53Z</published>
+    <updated>2010-08-07T17:25:21Z</updated>
+
+    <summary> 十数年ぶりにギターを出した。なんでかというと仕事以外の趣味が無くなってきている...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<a href="http://blog.bodhi-s.com/image/11.jpg" class="popup"><img alt="11.jpg" src="http://blog.bodhi-s.com/assets_c/2010/08/11-thumb-450x305-31.jpg" width="450" height="305" /></a>
+
+<p>
+十数年ぶりにギターを出した。なんでかというと仕事以外の趣味が無くなってきているんで、これではイカンと思い昔やってたギターでもやろうかなと言う軽い感じ。<br />
+十数年経ってて指とかもすごいやわになってるんだけど体って覚えてるもんだ！ちょろっと弾いたら指が勝手に動きだした。体の各パーツにも脳がありそうなくらい！<br />
+あー思い出すわー。DinosaurJrとかEugeniusとかNIRVANAとかTeenageFanclubとかVelvet CrushとかMega City Four（笑）とかSwervedriverとか...キリが無いな！<br />Eugeniusとかまだ活動してるんだろーか？<br />
+渋谷でライブ見た時は感動したなー。Swervedriverのソロは会場中釘付けだったしw
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>そうだ！本を読もう！「第2回『予想どおりに不合理』」</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/08/2-1.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.144</id>
+
+    <published>2010-08-05T15:58:25Z</published>
+    <updated>2010-08-05T17:43:51Z</updated>
+
+    <summary> 最近読む本は殆どこんな感じの本なんだけど、コレが一番分かりやすかった！ 基本的...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Book" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="book" label="book" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<p>
+最近読む本は殆どこんな感じの本なんだけど、コレが一番分かりやすかった！<br />
+基本的には「行動経済学」っつーなんか小難しい感じなんだけど、内容はかなり分かりやすい！「人はなぜそれを選んでしまうのか？」とか「ダイエット出来ない訳」等が実験されたデータを元に書いてあるので非常に面白い。「刷り込み」の方法とかも記載されているのでWebはもちろん、広告等のデザインにはかなり使えそーだ。<br />
+もっと興味を引いたのは、人は少ない報酬の仕事では断るがボランティアなら喜んで参加すると言う事。つまりただ（無料）の方が仕事を受けると言う事だ。<br />
+っと言われると、ボランティアで参加するのは気持ちが良い。
+
+<a href="http://www.amazon.co.jp/gp/product/4152089792?ie=UTF8&tag=bodhis-22&linkCode=as2&camp=247&creative=7399&creativeASIN=4152089792" class="popup">予想どおりに不合理―行動経済学が明かす「あなたがそれを選ぶわけ」</a><img src="http://www.assoc-amazon.jp/e/ir?t=bodhis-22&l=as2&o=9&a=4152089792" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>社員旅行</title>
+    <link rel="alternate" type="text/html" href="http://blog.bodhi-s.com/2010/07/post-70.php" />
+    <id>tag:blog.bodhi-s.com,2010://3.143</id>
+
+    <published>2010-07-11T16:22:00Z</published>
+    <updated>2010-07-12T00:50:10Z</updated>
+
+    <summary> 7/10-11日と社員旅行に行ってきた。 社員旅行といっても「東京・横浜」で横...</summary>
+    <author>
+        <name>turu</name>
+        <uri>http://blog.bodhi-s.com/</uri>
+    </author>
+    
+        <category term="Diary" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="diary" label="Diary" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://blog.bodhi-s.com/">
+        <![CDATA[<a href="http://blog.bodhi-s.com/image/10.jpg" class="popup"><img alt="10.jpg" src="http://blog.bodhi-s.com/assets_c/2010/07/10-thumb-450x337-28.jpg" width="450" height="337" /></a>
+
+<p>
+7/10-11日と社員旅行に行ってきた。<br />
+社員旅行といっても「東京・横浜」で横浜では中華街と八景島シーパラダイスに。<br />横浜、八景島は自分が学生時代から数年間住んでいたトコなんで、特に興味は無かったんだけど、実際行ってみると色々と街が変わっていて面白かった！<br />
+横浜の山下公園あたりはさらにキレイにライトアップされバージョンアップしていた。<br />しかし行った時間が悪かったー。<br />ちょうど夜のライトアップされてキレイな感じの時なんであたりはデートしてる男女ばかり。。。<br />
+こっちは男ばっかなんで、かなり浮いていた。<br />
+やはりあーいうトコは男女で行った方が良いし絵になるね。<br />
+んでもって次の日には八景島シーパラダイスに！<br />
+なんとココもやはりデートで来ている男女が多く、ちょろっとイライラw<br />
+そーゆートコなんでしかた無いんだが...。<br />
+でも、中華街のご飯はおいしかったし、たまにこういうイベントは面白い！<br />
+まーデートで来た方がもっと面白いんだろーけど...。
+</p>]]>
+        
+    </content>
+</entry>
+
+</feed>

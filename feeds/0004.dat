@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<?xml-stylesheet href="http://d.hatena.ne.jp/lepton9/rssxsl" type="text/xsl" media="screen"?>
+
+
+<rdf:RDF
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xml:lang="ja">
+<channel rdf:about="http://d.hatena.ne.jp/lepton9/rss">
+	<title>RLC響振テクノ</title>
+	<link>http://d.hatena.ne.jp/lepton9/</link>
+	<description>RLC響振テクノ</description>
+	
+	<dc:creator>lepton9</dc:creator>
+	<dc:date>2011-05-23T01:36:16+09:00</dc:date>
+	<items>
+	<rdf:Seq>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/lepton9/20110523/p1"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/lepton9/20101202/p1"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/lepton9/20100713/p1"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/lepton9/20100629/p1"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/lepton9/20090927/p1"/>
+	</rdf:Seq>
+	</items>
+</channel>
+
+
+
+<item rdf:about="http://d.hatena.ne.jp/lepton9/20110523/p1">
+	<title>[*netlabel][drone][ambient]lefolk ”weather to shore”</title>
+	<link>http://d.hatena.ne.jp/lepton9/20110523/p1</link>
+	<description> Download Netlabel: Resting Bell &#8211; Netlabel &#8211; Berlin Released: 2011/05/15 13 tracks / 61’39” ベルリンのネットレーベル、Resting Bellからのリリース。これから来る湿湿とした梅雨の季節によく合いそう。雨の日の日曜日午後に聴きたい一枚。 hennepin from</description>
+
+	<content:encoded><![CDATA[
+		<div class="section">
+			<p><a href="http://f.hatena.ne.jp/lepton9/20110523004243" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lepton9/20110523/20110523004243.png" alt="f:id:lepton9:20110523004243p:image" title="f:id:lepton9:20110523004243p:image" class="hatena-fotolife"></a></p>
+
+			<ul>
+				<li><a href="http://www.restingbell.net/releases/rb097-weather-to-shore">Download</a></li>
+				<li>Netlabel: <a href="http://www.restingbell.net/">Resting Bell &#8211; Netlabel &#8211; Berlin</a></li>
+				<li>Released: 2011/05/15</li>
+				<li>13 tracks / 61'39"</li>
+			</ul>
+			<p>ベルリンのネットレーベル、Resting Bellからのリリース。これから来る湿湿とした梅雨の季節によく合いそう。<br>雨の日の日曜日午後に聴きたい一枚。</p>
+			<p><object width="400" height="300"><param name="allowfullscreen" value="true" ></param><param name="allowscriptaccess" value="always" ></param><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=22521813&#38;server=vimeo.com&#38;show_title=0&#38;show_byline=0&#38;show_portrait=0&#38;color=&#38;fullscreen=1" ></param><embed src="http://vimeo.com/moogaloop.swf?clip_id=22521813&#38;server=vimeo.com&#38;show_title=0&#38;show_byline=0&#38;show_portrait=0&#38;color=&#38;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><p><a href="http://vimeo.com/22521813">hennepin</a> from <a href="http://vimeo.com/lefolk">lefolk</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
+			<p>2. leafield<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.archive.org/download/rb097/02-leafield.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.archive.org/download/rb097/02-leafield.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.archive.org/download/rb097/02-leafield.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p>11. pretoria<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.archive.org/download/rb097/11-pretoria.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.archive.org/download/rb097/11-pretoria.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.archive.org/download/rb097/11-pretoria.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p>(<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">cc:by-nc-nd</a>)</p>
+		</div>
+]]></content:encoded>
+	<dc:creator>lepton9</dc:creator>
+	<dc:date>2011-05-23</dc:date>
+	<dc:subject>*netlabel</dc:subject>
+	<dc:subject>drone</dc:subject>
+	<dc:subject>ambient</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/lepton9/20101202/p1">
+	<title>[*netlabel][experimental]Rui Gato &#38; Hiraku Suzuki ”Beam Drop”</title>
+	<link>http://d.hatena.ne.jp/lepton9/20101202/p1</link>
+	<description> Download: test tube - [tube222] Rui Gato &#38; Hiraku Suzuki - Beam Drop Netlabel: test tube Released: 2010/11/08 7 tracks / 12’45’’ test tube11月のリリース。いいですねなんかこうとりあえず叩いてみた的な感じ。音フェチの僕にとってはこの低音で響く金属音がた</description>
+
+	<content:encoded><![CDATA[
+		<div class="section">
+			<p><a href="http://f.hatena.ne.jp/lepton9/20101202005515" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lepton9/20101202/20101202005515.jpg" alt="f:id:lepton9:20101202005515j:image" title="f:id:lepton9:20101202005515j:image" class="hatena-fotolife"></a></p>
+
+			<ul>
+				<li>Download: <a href="http://www.monocromatica.com/netlabel/releases/tube222.htm">test tube - [tube222] Rui Gato &#38; Hiraku Suzuki - Beam Drop</a></li>
+				<li>Netlabel: <a href="http://www.monocromatica.com/netlabel/">test tube</a></li>
+				<li>Released: 2010/11/08</li>
+				<li>7 tracks / 12'45''</li>
+			</ul>
+			<p>test tube11月のリリース。いいですねなんかこうとりあえず叩いてみた的な感じ。<br/>音フェチの僕にとってはこの低音で響く金属音がたまりません。</p>
+			<p>1. Knowing Limits<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.monocromatica.com/netlabel/releases/tube222/tube222-01-rui_gato_%26%0D%0A_hiraku_suzuki_-_knowing_limits.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.monocromatica.com/netlabel/releases/tube222/tube222-01-rui_gato_%26%0D%0A_hiraku_suzuki_-_knowing_limits.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.monocromatica.com/netlabel/releases/tube222/tube222-01-rui_gato_%26%0D%0A_hiraku_suzuki_-_knowing_limits.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p>7. Earthbound<br/><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.monocromatica.com/netlabel/releases/tube222/tube222-07-rui_gato_%26%0D%0A_hiraku_suzuki_-_earthbound.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.monocromatica.com/netlabel/releases/tube222/tube222-07-rui_gato_%26%0D%0A_hiraku_suzuki_-_earthbound.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.monocromatica.com/netlabel/releases/tube222/tube222-07-rui_gato_%26%0D%0A_hiraku_suzuki_-_earthbound.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p>(<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">cc:by-nc-nd</a>)</p>
+		</div>
+]]></content:encoded>
+	<dc:creator>lepton9</dc:creator>
+	<dc:date>2010-12-02</dc:date>
+	<dc:subject>*netlabel</dc:subject>
+	<dc:subject>experimental</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/lepton9/20100713/p1">
+	<title>[*netlabel][electronica]Kris Cadwell ”Art is a style of perception”</title>
+	<link>http://d.hatena.ne.jp/lepton9/20100713/p1</link>
+	<description> Download: JNN092 Kris Cadwell &#8211; Art is a style of perception Netlabel: Justnotnormal Netlabel Released: 2010/06/07 9 tracks / 38’41’’ なんか不思議な音使いをしていますね。いかにもエレクトロニカというか。外に出て適当に歩きながら聴くと周りの関係ない音</description>
+
+	<content:encoded><![CDATA[
+		<div class="section">
+			<p><a href="http://f.hatena.ne.jp/lepton9/20100713021906" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lepton9/20100713/20100713021906.jpg" alt="f:id:lepton9:20100713021906j:image" title="f:id:lepton9:20100713021906j:image" class="hatena-fotolife"></a></p>
+
+			<ul>
+				<li>Download: <a target="_blank" href="http://justnotnormal.wordpress.com/2010/06/07/jnn092-kris-cadwell-art-is-a-style-of-perception/">JNN092 Kris Cadwell &#8211; Art is a style of perception</a></li>
+				<li>Netlabel: <a target="_blank" href="http://justnotnormal.wordpress.com/">Justnotnormal Netlabel</a></li>
+				<li>Released: 2010/06/07</li>
+				<li>9 tracks / 38'41''</li>
+			</ul>
+			<p>なんか不思議な音使いをしていますね。いかにもエレクトロニカというか。<br/>外に出て適当に歩きながら聴くと周りの関係ない音と合わさって大変心地良い。</p>
+			<p>2. The feared poly drug abuser<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.archive.org/download/JNN092-KrisCadwell-ArtisaStyleofPerception/JNN092-02-Thefearedpolydrugabuser.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.archive.org/download/JNN092-KrisCadwell-ArtisaStyleofPerception/JNN092-02-Thefearedpolydrugabuser.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.archive.org/download/JNN092-KrisCadwell-ArtisaStyleofPerception/JNN092-02-Thefearedpolydrugabuser.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p>3. Hues<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.archive.org/download/JNN092-KrisCadwell-ArtisaStyleofPerception/JNN092-03-Hues.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.archive.org/download/JNN092-KrisCadwell-ArtisaStyleofPerception/JNN092-03-Hues.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.archive.org/download/JNN092-KrisCadwell-ArtisaStyleofPerception/JNN092-03-Hues.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" style="border-width:0"></a></p>
+		</div>
+]]></content:encoded>
+	<dc:creator>lepton9</dc:creator>
+	<dc:date>2010-07-13</dc:date>
+	<dc:subject>*netlabel</dc:subject>
+	<dc:subject>electronica</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/lepton9/20100629/p1">
+	<title>[*netlabel][electronica]Analog Workshop ”Emporium of Broken Toys”</title>
+	<link>http://d.hatena.ne.jp/lepton9/20100629/p1</link>
+	<description> Download: test tube - [tube207] Analog Workshop - Emporium of Broken Toys Netlabel: test tube Released: 2010/05/09 15 tracks / 46’42’’ 最近はこういうゆっくりめのビートにやや明るめのメロディが乗ってるような曲が好きです。強めのリバーブがかかっているのもい</description>
+
+	<content:encoded><![CDATA[
+		<div class="section">
+			<p><a href="http://f.hatena.ne.jp/lepton9/20100629232603" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lepton9/20100629/20100629232603.jpg" alt="f:id:lepton9:20100629232603j:image" title="f:id:lepton9:20100629232603j:image" class="hatena-fotolife"></a></p>
+
+			<ul>
+				<li>Download: <a target="_blank" href="http://www.monocromatica.com/netlabel/releases/tube207.htm">test tube - [tube207] Analog Workshop - Emporium of Broken Toys</a></li>
+				<li>Netlabel: <a target="_blank" href="http://www.monocromatica.com/netlabel/">test tube</a></li>
+				<li>Released: 2010/05/09</li>
+				<li>15 tracks / 46'42''</li>
+			</ul>
+			<p>最近はこういうゆっくりめのビートにやや明るめのメロディが乗ってるような曲が好きです。強めのリバーブがかかっているのもいいですね。</p>
+			<p>3. Tranquility Base<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.monocromatica.com/netlabel/releases/tube207/tube207-03-analog_workshop_-_tranquility_base.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.monocromatica.com/netlabel/releases/tube207/tube207-03-analog_workshop_-_tranquility_base.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.monocromatica.com/netlabel/releases/tube207/tube207-03-analog_workshop_-_tranquility_base.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p>11. Noisy Little Spirits<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.monocromatica.com/netlabel/releases/tube207/tube207-11-analog_workshop_-_noisy_little_spirits.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.monocromatica.com/netlabel/releases/tube207/tube207-11-analog_workshop_-_noisy_little_spirits.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.monocromatica.com/netlabel/releases/tube207/tube207-11-analog_workshop_-_noisy_little_spirits.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" style="border-width:0"></a></p>
+			<br>
+
+			<p>ぼちぼちこのブログもリハビリしていけたらなと思います。</p>
+		</div>
+]]></content:encoded>
+	<dc:creator>lepton9</dc:creator>
+	<dc:date>2010-06-29</dc:date>
+	<dc:subject>*netlabel</dc:subject>
+	<dc:subject>electronica</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/lepton9/20090927/p1">
+	<title>[*netlabel][ambient][drone]Geronymakis ”Hupnos”</title>
+	<link>http://d.hatena.ne.jp/lepton9/20090927/p1</link>
+	<description> Download: dw061 - Geronymakis - Hupnos Netlabel: www.darkwinter.com Released: 2009/08/31 1 track / 56’34’’ ダークアンビエント系ネットレーベルdarkwinterからの最新リリース。一曲通して低周波数のサイン波が流れ続けていて、その周辺でゆらゆらと小さな音達が彷徨</description>
+
+	<content:encoded><![CDATA[
+		<div class="section">
+			<p><a href="http://f.hatena.ne.jp/lepton9/20090927002058" class="hatena-fotolife" target="_blank"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lepton9/20090927/20090927002058.jpg" alt="f:id:lepton9:20090927002058j:image" title="f:id:lepton9:20090927002058j:image" class="hatena-fotolife"></a></p>
+
+			<ul>
+				<li>Download: <a target="_blank" href="http://www.darkwinter.com/dw061.html">dw061 - Geronymakis - Hupnos</a></li>
+				<li>Netlabel: <a target="_blank" href="http://www.darkwinter.com/">www.darkwinter.com</a></li>
+				<li>Released: 2009/08/31</li>
+				<li>1 track / 56'34''</li>
+			</ul>
+			<p>ダークアンビエント系ネットレーベルdarkwinterからの最新リリース。一曲通して低周波数のサイン波が流れ続けていて、その周辺でゆらゆらと小さな音達が彷徨っています。ヘッドホンで聴くといい感じに頭おかしくなりますよ。45'38''あたりから入ってくる耳鳴りみたいな音がたまらないです。</p>
+			<p>1. Hupnos<br><span style="vertical-align:middle;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="25" id="mp3_3" align="middle" style="vertical-align:bottom">
+<param name="flashVars" value="mp3Url=http://www.darkwinter.com/dw061/dw061-Geronymakis-01-Hupnos.mp3">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="http://g.hatena.ne.jp/tools/mp3_3.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="wmode" value="transparent">
+<embed src="http://g.hatena.ne.jp/tools/mp3_3.swf" flashvars="mp3Url=http://www.darkwinter.com/dw061/dw061-Geronymakis-01-Hupnos.mp3" quality="high" wmode="transparent" bgcolor="#ffffff" width="220" height="25" name="mp3_3" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="vertical-align:bottom">
+</object>
+<a href="http://www.darkwinter.com/dw061/dw061-Geronymakis-01-Hupnos.mp3"><img src="http://g.hatena.ne.jp/images/podcasting.gif" title="Download" alt="Download" border="0" style="border:0px;vertical-align:bottom;"></a>
+</span>
+</p>
+			<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" style="border-width:0"></a></p>
+		</div>
+]]></content:encoded>
+	<dc:creator>lepton9</dc:creator>
+	<dc:date>2009-09-27</dc:date>
+	<dc:subject>*netlabel</dc:subject>
+	<dc:subject>ambient</dc:subject>
+	<dc:subject>drone</dc:subject>
+</item>
+</rdf:RDF>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="/css/rss20.xsl" type="text/xsl"?>
+<!-- QRY-PAG-RSSXml, searchsecurity.techtarget.com, generated at 13:43:40 Mon Sep 26, 2011 , by vappma10.techtarget.com -->
+<rss version="2.0" xmlns:pheedo="http://www.pheedo.com/namespace/pheedo" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title><![CDATA[SearchSecurity: Network Security Tactics]]></title>
+		<link>http://rss.techtarget.com/260.xml</link>
+		<description><![CDATA[Tactical advice on securing the enterprise network and managing network security devices.]]></description>
+		<language>en-us</language>
+		<copyright>Copyright TechTarget - All rights reserved.</copyright>
+		<docs>http://searchSecurity.techtarget.com/rss/Network-Security-Tactics.xml</docs>
+		<generator>Techtarget Feed Generator</generator>
+		<managingEditor>editor@searchSecurity.com (Editor)</managingEditor>
+		<webMaster>webmaster@techtarget.com (Webmaster)</webMaster>
+		<ttl>60</ttl>
+		<image>
+			<width>175</width>
+			<height>33</height>
+			<title><![CDATA[searchSecurity]]></title>
+			<link>http://rss.techtarget.com/260.xml</link>
+		</image>
+		<lastBuildDate>Mon, 26 Sep 2011 12:43:40 EDT</lastBuildDate>
+		<atom:link rel="hub" href="http://www.pheedo.com/api/hub/"/>
+		<atom:link rel="self" href="http://feeds.pheedo.com/techtarget/searchsecurity/networksecurity" type="application/rss+xml"/>
+		<item>
+			<title><![CDATA[How to know if you need file activity monitoring to track file access]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=d22f8240438feb8e4facdb6725b65215</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/How-to-know-if-you-need-file-activity-monitoring-to-track-file-access</pheedo:origLink>
+			<description><![CDATA[Is file activity monitoring, a new product meant to integrate with DLP to provide more granular file access tracking, right for your enterprise?<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:d150763a6582494c3a306057cfba017b:w5LAjzBPqJ832OlXGRdcOzHjxhnaAh4%2BywFFXTfOHL6cDt5DJ4TZTTYTaUzOU6YD7G7WN6z7QjZbQ5Y%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:6d639979a32ccc6fc1529154385804a4:1GyfQ5kimLwNXKtzIFmU%2Ff%2BTubNIUFrlpwIuJ6eRc5FqRtq9JBcFpcZYHOXk2t0AIJqNDttdOVIsjVY%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:43e87670e5db5d2a29bb1adf6f297240:M4YTPSQSdG292IFgXb4jZePli867ue7qMGsBF4mmIPx%2FH7GMynXZWYWUR%2F35V1%2B0jPiRcllK858UFg%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:0359c271fcf0c301312247f6e756957d:KrmW%2B3ko1Azklj2HeVOHOWvMNwml9JpwcGMa8JNeuw3i%2BaHnur%2B5plSHwaReT%2BWhgoeuSN8vtpef3A%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=d22f8240438feb8e4facdb6725b65215&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=d22f8240438feb8e4facdb6725b65215&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike Chapple, Network Security(editor@searchsecurity.com]]></author>
+			<pubDate>Tue, 20 Sep 2011 08:02:45 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Next-gen firewall vs. UTM device: Which is better for Web 2.0 risks?]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=46f16337dee7e7a6a4ebe1195631910e</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/answer/Next-gen-firewall-vs-UTM-device-Which-is-better-for-Web-20-risks</pheedo:origLink>
+			<description><![CDATA[How does a next-gen firewall differ from a UTM device, and how does each stack up against Web 2.0 risks? <br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:ab3e5bac177eeffff4705e7b9522ef1f:AiPHaChL9yvDH3iW9KkWG4Z4nrzvQLS9%2F%2BuG%2FtVYZ9m6pjM702T3uDwk4%2B4%2BNoMwr5NX7k824gGe%2FCg%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:8c462449465fd0b45a050a1fdbb42b6b:Y1sM6RaTe0BlqNKgyMje2nebx0nRZHBg%2B6dJ7ULaeNZxSEBOdQLDauwOyU0w9Fgwzk%2FeAz1A9PNxtvE%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:c5a8465f980270d85b4364052ce1fad6:m10Wypm%2B4p2vOjVL12DRWT4Di7qCS70S7DRNpx36Dk3i8RKvPO9%2BftpOmITGyIkVcnjehJRYv5NIyQ%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:236fb5f2a69008e8371c11e54a7c8bc0:oa7YSzH02vT667ABjj7fDH9%2BwqB1rR0SYJCNfAZ1ufdDdw8EPzXJnaz9r8ZnmKhchcXxaTaPSDK7Eg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=46f16337dee7e7a6a4ebe1195631910e&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=46f16337dee7e7a6a4ebe1195631910e&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike Chapple, Network Security(editor@searchsecurity.com]]></author>
+			<pubDate>Mon, 12 Sep 2011 09:38:42 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Will independent endpoint protection review improve products?]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=568c6082120e4ff491f635573ab889dd</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/answer/Will-independent-endpoint-protection-review-improve-products</pheedo:origLink>
+			<description><![CDATA[ICSA Labs recently announced a new endpoint security certification. Could it help improve endpoint security products?<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f2ee42ee7b5a0864ded29fa982ee3863:AXWhwryKOR6Fmd9e7imTSvpzze1CuPYdA87X89iyEYGsSvXkUP68dNDPILzGrxYbR84E0Fj9bM2vifA%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:91ca443a4bba24791dfb9ba11b1f5379:SdD5DyZUqY6VyllmGeRXrapS71zwz3SGyKfX2HUOXQEcyODEV64Y6pYKbmnYhddy%2FbQqrPSkeVAU85Y%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:e0dae8e691ac8d261ff99387951f6c2c:SQpxKS1K2sp6fdFpA4XDjc3Vq8kpR7KQGMUGMClDFseFkz4xDqZjcilunlZAGqnCY0bHjVPUqrbDHw%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:0b0a10d857ec0e85b3b14ca4bada325e:UfAXLxCQ%2FlbnDbXSSo2T3wnmja58%2FTSF5wXOQJfnINxiAbI7SPYkpSOfqGMBbpIQOONos0ui1%2FFhTQ%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=568c6082120e4ff491f635573ab889dd&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=568c6082120e4ff491f635573ab889dd&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike Chapple, Network Security(editor@searchsecurity.com]]></author>
+			<pubDate>Mon, 12 Sep 2011 09:27:27 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Network security metrics: Basic network security controls assessment]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=f81e3a028f38979d605cd149c31605a7</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/answer/Network-security-metrics-Basic-network-security-controls-assessment</pheedo:origLink>
+			<description><![CDATA[Get advice on how to devise appropriate network security metrics for your enterprise from expert Mike Chapple.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:7b34745a8019fb207e681472391f5fa5:NkE3ta967LUkLgvh4EmCwa7FBGbSM8KfKhq34CuN27u%2BZdef8Gy1snyhwydJHh7K8CCkkcG8Cc9IaGY%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:4474f4365fd6309a7414ce63dad2a853:zS0JPZDcwGpJBa%2FQW27FtIm72HgPde%2BlGZnCdqWlkX%2BC38flq2n2W%2BbS%2BFMo6TusmA4Tfw8KHaGNZCc%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:84ed03030fd8d7168abdfc3015345dd4:MssIVajR2WArQlww%2Bu5YE3jtwjK5paN5mVVFpGfzQ%2B8BFxwtwi8tqyokY9l3vAgqsBomq1z9TjnmVw%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:e3b3e0d87485b186a2f11199c2423a11:YEIfMh6Y09I3ZItH9eSDUe2WPva7o9tSa5yd%2B4%2FMOqYEZxJq67js%2FOyCt6OqPJAUUILIWu6Q0kym9w%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<hr />
+<div style="font-size:xx-small;color:gray;padding-bottom:.5em">Presented By:</div>
+<div><a href="http://ads.pheedo.com/feeds/ht.php?t=c&amp;i=f81e3a028f38979d605cd149c31605a7&amp;p=1">Visualize the Future of the Network</a></div>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td rowspan="2" valign="top"><a href="http://ads.pheedo.com/feeds/ht.php?t=c&amp;i=f81e3a028f38979d605cd149c31605a7&amp;p=1"><img src="http://images.pheedo.com/9/5/icon-95aa2b4eb33a4889954ae08d9d1ff786-1313452279.jpg"/></a></td><td rowspan="2">&nbsp;&nbsp;</td><td valign="top">Do you know what a zettabyte is? Does the cloud confuse you? Why will your company need a CIO? Make sure you?re in the know with Cisco and be prepared for what?s in store. Read, learn, share and discuss the future of the Internet.</td></tr>
+<tr><td><a href="http://ads.pheedo.com/feeds/ht.php?t=c&amp;i=f81e3a028f38979d605cd149c31605a7&amp;p=1">socialmedia.cisco.com</a></td></tr>
+</table>
+<div style="font-size:xx-small; padding-top: 1em;"><span style="border-top: 1px solid">
+<br style="display:none"/>
+<a href="http://www.pheedo.com/">Ads by Pheedo</a>
+</span><img alt="" style="border: 0; height: 1px; width: 1px;" border="0" height="1" width="1" src="http://ads.pheedo.com/feeds/ht.php?t=v&amp;i=f81e3a028f38979d605cd149c31605a7&amp;p=1"/>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><br/>
+</div>
+]]></description>
+			<author><![CDATA[Mike Chapple, Network Security(editor@searchsecurity.com]]></author>
+			<pubDate>Mon, 12 Sep 2011 09:05:34 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[How to use OWASP Broken Web Apps to prevent vulnerabilities]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=acdbd9d93ea7f0e52bd13d73a06657ed</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/How-to-use-OWASP-Broken-Web-Apps-to-prevent-vulnerabilities</pheedo:origLink>
+			<description><![CDATA[OWASP Broken Web Apps allows pen testers to attack applications that are intentionally insecure to hone their skills at securing their own apps. <br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:925c2e3767cecdbfa8953ff1eac0ba11:JyqWAcpVFEKtCWq699NFEfromXhGbItLEt8sC6k9vpZPNrrt3ZmFCtftNIuJabsiFsXYzYPLGBeI%2BwM%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:307076b4a63819a1f5dac2d9848ad56e:%2B%2BfWXxdfzMqhhlfpuSwQ8UlbH3ZOI560R%2BlAAY8vjRMAOJYl%2Fl060PxOsch%2B8mvqQ0VsxkhjRuwjDVA%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f829481d171036ac305ee2e81b15e438:6CxxmbF48kHk6Nd7Odu%2F75VLHo0s%2F3mmOBuUeSNalJud%2Bwe7eR4TB7n2dv9yKN8aqjMcQvs67K9O9g%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:c0e80addd84bf21860166561d53e9630:jzjPFp7pQOADTlZlV7XEoO5OpxeXeV%2FDaFPtazgh818IBwe4qQqLDEkUKfFpH2adkYMUOmmE%2Fwiwew%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=acdbd9d93ea7f0e52bd13d73a06657ed&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=acdbd9d93ea7f0e52bd13d73a06657ed&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike McLaughlin, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Fri, 26 Aug 2011 13:57:40 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Addressing the dangers of JavaScript in the enterprise]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=daa753997462036b4c1ac96e27cd788f</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/Addressing-the-dangers-of-JavaScript-in-the-enterprise</pheedo:origLink>
+			<description><![CDATA[The dangers of JavaScript are no secret to security professionals. Expert Michael Cobb discusses enterprise JavaScript defense technology and tactics.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:71fec554cf7f831f2578f96ef0c27163:%2Fjix0V01vI0arGYARvXTuf0ENJbNM7VOzWBv%2BYuxQzMwq7DkNMSGYAapmV7UpNwVDo5xDFRJPCA72h0%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:d2bd5b3ac508521c065cbd79e99df520:sC0crgIFcoa1ElFCQ2j2dNkiHiLFnzBxiqZKtXJgcH7V%2B7syi4x6QbbnkpdjhGuvPO86D7azIkoxG68%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:7e0f6bd1144c0c787091f392b1906e3b:hB9ksRKvIYKTRMgElN5qBaN5x%2B3e1Iy%2BpAsXoiAGVOI%2BHKe0NxkSNLhJd8ePl4FDX6CjmvjRFo4x1g%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:b4191a735899e850f860d7cd2c784a92:2eCeHOwyE7vRHqhcqs%2FA8rKrDeFiZrQMS6NutG2KiBIJJcfW%2BlH5Pnsv6UlMLFtWCs5MPXRD%2FZLdZg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=daa753997462036b4c1ac96e27cd788f&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=daa753997462036b4c1ac96e27cd788f&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Michael Cobb, Application Security(editor@techtarget.com]]></author>
+			<pubDate>Thu, 18 Aug 2011 12:36:54 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Enterprise network forensic analysis: Reconstructing a breach]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=ec70661d382b543e7102f236ab147a60</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/Enterprise-network-forensic-analysis-Reconstructing-a-breach</pheedo:origLink>
+			<description><![CDATA[In the aftermath of a breach, what are the first steps security pros should take? Learn how to get started with enterprise network forensic analysis.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:bb16bc95727c4410bfe21590f5172992:Tn9yBl2Gp1N%2BEDeHY2MBTck10S%2B3GAZjQVxnG5EwesWYBn5bZsMfOrbOkX2aoTr9ognXbdUmmo49oZQ%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:38e027c3685876f48e47b944e1cecf6c:6rEyJZTVBnh0xL8OqMwDfT6wsl3GaG1XU7O9yMTG9iHClkfRCbfY3C3mGsamyoZJ75P36LPPs6oc4u4%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f6914c76bd8159101995b7b32bef7734:JLXMhCj0HCn4wC5%2FVFtJcA5AbCP1EIyvxtPk5pQr43idvPRpveYoXMois2fdRnRhio6lKVkveruDtA%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:8e53ba22d4ee5c45c0463326a17b245d:mJ0REykqjqgUE%2FdQl89%2BvZSPpUwk708JiiSAqm0XKFYyD4w7DTEtXvBAbsrIQ9bQFKuUdmsoLfVhEg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=ec70661d382b543e7102f236ab147a60&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=ec70661d382b543e7102f236ab147a60&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike Chapple, Network Security(editor@searchsecurity.com]]></author>
+			<pubDate>Mon, 15 Aug 2011 12:49:48 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Joel Snyder’s five-step mobile device protection plan]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=cc5a58646286c4638c6380c9a6c15667</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/video/Joel-Snyders-five-step-mobile-device-protection-plan</pheedo:origLink>
+			<description><![CDATA[Are securing mobile devices a top priority for your enterprise? Expert Joel Snyder discusses his five-step mobile device protection plan in this exclusive SearchSecurity.com video.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:a642854dc8f168f91a16859440a5588a:T9rqcjMOtV2JCecyqnzOPs7UOMyjGMotMD%2BXctly1vZvJlogCIdOpPsajOAbGrubKOb%2FltSWMrcwbTc%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f59ac9683ecdb48236571135bef8cc09:%2FMmzcLOzM2L%2FLWkALJBWHUEdIwo8JyCvDZQMY6HlaUxOyUvSI%2FzIXNjZLR%2FKUAobafBeN8mef1d5iLA%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:0a268a6378a7f5c8be3f0ab8b078876c:aSj8RQNibpt97ZzhyivqMLxK7QfJB4%2ByH%2BI3FY5DjaHJscOcsxRlQZEYnNYLPJlcjNgNDVBEzK%2Fwqg%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:7995e025b28742b94dac660c57d0faf2:Id1QJ75ahP0POb4am1McBPLxuW8OyzPHREtkVfMfp7WUdojEkDvUglKyTJhzkkx1L9UdRqcJx6E%2Bag%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=cc5a58646286c4638c6380c9a6c15667&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=cc5a58646286c4638c6380c9a6c15667&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[SearchSecurity.com(editor@searchsecurity.com)]]></author>
+			<pubDate>Thu, 4 Aug 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Mitigating security risks of mobile location-based services technology]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=180abd8cb38866a8f5b2946bfa592ac8</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/Mitigating-security-risks-of-mobile-location-based-services-technology</pheedo:origLink>
+			<description><![CDATA[What can enterprises do to mitigate the security risk of mobile location-based services technology and the like? Start by limiting smartphone apps.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:a9026fe865dd088561202d2b8d252012:faUgxXuY2BW0SU5D2OjCagf1IZWT2Zo%2B5QFh3KnvIDrtP1q3DSpOolh%2BjfHiHE31bBl%2B9zr6xq9PUcc%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:385957621332df4a2e56bae106745821:WWfDk6hJvkZ0HZGntq4yzzgUgOfgUONVH6K%2FaNxqw5V3%2BTorbKi3%2FTw3wwt4ODBI1pKBZekHM8CAS8g%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:cdf78c9cf2dcd6a9b6f78fcba8404d41:x36HX12rH6laBEnF8StWu8W8Cy8CoNA2LrQTubF4%2BwsO2xxOkCA3P6vZcykssl69gGA%2BOtcypuDM4w%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:e34868ac8a8b337e2a9d12ef60f2b8c0:CcNoD6tFUf9SL8Bi60Hicm7ng8%2BJulqJNEfTEhYbWH5W6OKt4lXEMMwiEFSJJkrI9f%2BsB%2F09UDCK%2Bg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=180abd8cb38866a8f5b2946bfa592ac8&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=180abd8cb38866a8f5b2946bfa592ac8&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Michael Cobb, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Sun, 31 Jul 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[An inside look into OWASP’s Mantra tool]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=8429e7d33c3c4b72a5e140c3135f67c5</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/An-inside-look-into-OWASPs-Mantra-tool</pheedo:origLink>
+			<description><![CDATA[OWASP’s Mantra tool is being praised by security pro’s for its abundance of options and ease of use. In this screencast, Mike McLaughlin takes a look at what Mantra has to offer.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:e01e806669e417dd01373e2c3f4ee6df:wPDJG%2BCX9Ef3g63kntPbRdTidKkOJ93LlZJpuyTFKQYiOrizyQFJqn4tq3JcAATj%2FkX%2FEFqI%2B%2BslUjQ%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:16f3fd515d913603f86267aded0a5184:T8xTHiJ2KahgKb83u4NYA77iU1dgi3yNrPPORVMSunA1HCj5sV3eiB7c4T5X09areCffYNNl4Vvt%2FYo%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:5c55a2ce6b5b519f4d2270b477275520:IVP%2Bc6e2HiVIvuQK2upvrxBpfo%2B7NOM2SkTPFFkBUApdUoO8hOtlthmEBbEKg4lCz6FJqqoTNP4Kdg%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f7e5a49983521babadd42b3f823114c8:Xb%2FMoUCLt7lvqVrWG4DhE58KsCstMiAB2PKz3i7w65Gou51eXXD93WIPSnn1Ym4%2Bu5C%2FwupWdSMoiA%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<hr />
+<div style="font-size:xx-small;color:gray;padding-bottom:.5em">Presented By:</div>
+<div><a href="http://ads.pheedo.com/feeds/ht.php?t=c&amp;i=8429e7d33c3c4b72a5e140c3135f67c5&amp;p=1">Welcome the Zettabyte Era with Cisco</a></div>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td rowspan="2" valign="top"><a href="http://ads.pheedo.com/feeds/ht.php?t=c&amp;i=8429e7d33c3c4b72a5e140c3135f67c5&amp;p=1"><img src="http://images.pheedo.com/6/c/icon-6c08feca02d946e5b3e3677321157fa3-1310770102.png"/></a></td><td rowspan="2">&nbsp;&nbsp;</td><td valign="top">Today we use terms like gigabyte and terabyte when it comes to data. Five years from now, we will enter the era of the zettabyte. Connect with Cisco across the web through various social channels as we guide you through the future of the Internet.</td></tr>
+<tr><td><a href="http://ads.pheedo.com/feeds/ht.php?t=c&amp;i=8429e7d33c3c4b72a5e140c3135f67c5&amp;p=1">socialmedia.cisco.com</a></td></tr>
+</table>
+<div style="font-size:xx-small; padding-top: 1em;"><span style="border-top: 1px solid">
+<br style="display:none"/>
+<a href="http://www.pheedo.com/">Ads by Pheedo</a>
+</span><img alt="" style="border: 0; height: 1px; width: 1px;" border="0" height="1" width="1" src="http://ads.pheedo.com/feeds/ht.php?t=v&amp;i=8429e7d33c3c4b72a5e140c3135f67c5&amp;p=1"/>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><br/>
+</div>
+]]></description>
+			<author><![CDATA[Mike McLaughlin, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Sun, 24 Jul 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Network access control policy: Handling smartphone access control]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=44ce1418e8af64fb9317ccbd8aec5bc6</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/Network-access-control-policy-Handling-smartphone-access-control</pheedo:origLink>
+			<description><![CDATA[NAC can be helpful for laptops and desktops, but it’s limited with mobile devices. In this tip, learn how to extend NAC for smartphone access control.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:9a5d60836a5da932e6670343da000ab9:gON7cuV%2BYJivUdr2fYN%2FUpu40as9kHxU1lARdQ9D3nlXL0zh6qFy4tO623WX12HvJ48EoHHOubAoI9k%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:eaf9819f4ca8d9ddee7695652beac801:ij3zzOp6cMPEbKCMxb7XdwX8qQSQj6%2F6vEsP1NBodmFH8f7gj8McalpWDYegCFSFuhaoNyD74Hr6Sow%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:75c02d43d1749fea1e4d9fb1a52373ba:xNbm4Aee3WE6zxloxtTxqxLXR8LAWQU3kRHc%2FZJ9IJQKDERYqATJXGhW2Rb4%2B6aCREY3tuDYksvexQ%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:779af4d9c052c9e8bc3803df5cad4584:B9MYYcBBathIzjUwN8q2zgAQ2hgaQ48yLXgIJk4UTWLbL5T9LM74qv2JDvQqy7mCmJjgsImF6yTR8g%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=44ce1418e8af64fb9317ccbd8aec5bc6&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=44ce1418e8af64fb9317ccbd8aec5bc6&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike Chapple, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Sun, 17 Jul 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Understanding iPad security concerns for better iPad enterprise management]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=e4c2721a695f56fe3785670d5f205f87</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/Understanding-iPad-security-concerns-for-better-iPad-enterprise-management</pheedo:origLink>
+			<description><![CDATA[Are iPad security concerns burdening your company’s adoption of the technology? Expert Michael Cobb discusses common security concerns and iPad enterprise management issues.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:27199e5f52718cfbf5f3ce2103c0c24c:NgEQl7E92FxN4H1tpyODjRoBKisL4jjA%2BwhrcWe%2BAfKsc2hO4tuzxevfPJybMsTepo%2BvA0mpAxIElos%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:5243f6f689e9e034afaeec8401011666:mpE9m2%2BvE6kIXsldc4exfoBEP9dsMH%2BGzkRwdM6jOCspdpLIa4nDnon59s2expfYKrbZwIDrFBIxBLk%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:d966a21996647743b3a0d6f12d16f634:HjNjwUiDu53j9O4i5oW2NFEsNoQ1qKCCQKe9p82DiGuy6FHW9XB7WXPCG6egAfshZ89OvtngtawGYA%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:a8e0a342d41d444af553ae4d0f7b789c:nKmJVF9Trj8U5cBlpcsjhnCa4eVxkYmkoMIPvXD%2Bp7feGk6QuxbYTtQt2x5XKF8dySd2GLHLEl%2Beig%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=e4c2721a695f56fe3785670d5f205f87&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=e4c2721a695f56fe3785670d5f205f87&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Michael Cobb, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Sun, 10 Jul 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[WebScarab tutorial: Demonstration of WebScarab proxy functionalities]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=a4ddd15a286ae069f6e34b906488b0c1</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/WebScarab-tutorial-Demonstration-of-WebScarab-proxy-functionalities</pheedo:origLink>
+			<description><![CDATA[In this WebScarab tutorial video, get step-by-step advice on how to install and use this free tool, including the WebScarab proxy features, among others.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:6c0c84f33f78684745fb53cbe15b76ec:LOLRksTrsRFrp7IS4E2w%2F4l7ARow86acYlYsKLdRWxpDjJTM%2Fe85ltNyXRua4EWMrAabuOkerqasEJY%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:4e0b32832ec4dc9c0248a7a67ee70261:bKSlhT9Bt2YrtShbP%2BHgBl0t2%2BbgSsDtaqVunPorG9BWH8eGbAHPJZtW8T%2Bz4zFuVYJa30Jn8V90hxA%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f92c51c8b3747bd1a04beb1ad2f22815:l6gQnIhxz0E%2FcfQwMUTGqa7EhtfEQm4wHLc9ZoD%2BjDmL3ZEXLkyAzf21g8foEq%2B7pyFe4FKPOZUYhA%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:9123e078f9f72622f512e63080449ae3:6vGm1gL08awfjqRUbYVGxUuZQ9S0NNWxW7wEkMCyUHZSsFpdN5zSK%2FTuVP9%2B4hIEuG0%2B5EhYpGa7YQ%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=a4ddd15a286ae069f6e34b906488b0c1&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=a4ddd15a286ae069f6e34b906488b0c1&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Peter Giannoulis, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Wed, 22 Jun 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Getting started with a DNSSEC implementation]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=d404b6d7b489dd82aa82ce525b13e63e</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/answer/Getting-started-with-a-DNSSEC-implementation</pheedo:origLink>
+			<description><![CDATA[The many well-publicized flaws in DNS make implementing DNSSEC even more vital. In this expert response, Mike Chapple explains the enterprise basics for a DNSSEC implementation.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:94769de72344141c7ae43e9449fe3ed0:CZrWNmhKiTl1bxlPMn%2FUP%2BmOSlOXdo5nLCrDk6BwuObewpS7ttn0AYW50i5uyYcXQqyfX0LMMc4H9T4%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:eaffba9ee635ec9f0b4c947ba4c73f36:ZzCbhjjywAZKOxHe6UlSGf58pE6fmu5PVbcn7GKUPRCem40Vf8gdCzLyxSNyydn8u7jVqTsffQmPQm4%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:aad28e901fc87980f106150db38ec7ef:%2BG2bcJCClT%2FYdR6n%2BoXUOyMjRGNkIkO1Cbxr17CNuhEGL9H02JI0xpwpyY5TA56i8QWoa%2B34ygrdMw%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f60d289e7955dbee1d556536ddfd9904:Zx5HfXOvc9I%2BHyMtkxeym1JmsHm86cm4aFArxzapSEp7IitWngDGDD6Fh4XD25sk532hL1imbxBeAg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=d404b6d7b489dd82aa82ce525b13e63e&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=d404b6d7b489dd82aa82ce525b13e63e&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Mike Chapple, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Sun, 5 Jun 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[IPv6 myths: Debunking misconceptions regarding IPv6 security features]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=3f98eee8d4f2cab4077bc1d5aa49de3b</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/IPv6-myths-Debunking-misconceptions-regarding-IPv6-security-features</pheedo:origLink>
+			<description><![CDATA[Aggressive marketing has helped perpetuate a number of security-related IPv6 myths. Expert Fernando Gont helps separate myth from fact to ensure a secure IPv6 deployment.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:97d25d4108e66d264fe335cda3c1f6ac:Er2Gh54BBVILlC3zsnL2eBoZxg2Ze48i%2F1hGR6Zj7jY7fyHj883NjXqaxHqCLuHCGEGAjrN%2BJWdJERw%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:780a406fe7890f319219b1d7e22f6f70:qWkNmGLZ98Zgk%2BgE%2Fk%2Fr47fLF0yTGbRmIurYgIdSGku7kk6U0HrTjvWmmWN%2Bne32sW9x1aHDVipYREk%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:4fd9c66f5714c384e156222bed2a0cd8:fZCmKfPMvJm9tvKDve3wlRYunUNAjWVi9rNh7%2BlYQQ8kTV2xOBsic%2F3oWt1ZGq%2BQwsm3enUxJZrphw%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:81570d1f7f45699ed073ba3568d02655:zXwd3%2BnxQ0%2FimsFUyFgatAZlz2MJLeIv%2BPP3mGydGFIyaEteBAMVW60MhB6ttU%2FS35QTKwEn%2B5jC4Q%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=3f98eee8d4f2cab4077bc1d5aa49de3b&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=3f98eee8d4f2cab4077bc1d5aa49de3b&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Fernando Gont, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Mon, 30 May 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[IPSec VPN vs. SSL VPN: Comparing respective VPN security risks]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=b7893b4fe8d002305a220681d0936572</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/IPSec-VPN-vs-SSL-VPN-Comparing-respective-VPN-security-risks</pheedo:origLink>
+			<description><![CDATA[When it comes to VPNs, which of the two most-used options -- IPSec or SSL -- presents the greater security threat? Expert Anand Sastry describes the pros and cons of each, as well as how to test your VPN implementations for security.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:a0a4aaf7026af48a1993160c91fcd53d:xqO0FAWf9IpiNObSk8NQh4A01oihCL32PDgzva6jGeYxnKKSYdPUTSWk7%2BLXwhP5kF%2Fa%2BbSOmFiAxuE%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:05a8b38a2a18bc773613b669a1c5ac00:v2F8KjSAeVJfjgsBIWSPqlcUwHM8riDBfHGAWY3zjdofs458IXCl15%2F%2Fri5rxUxjlmy5sy%2Bs54EmyZA%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:0afda343d49df5dc10535ca135803e42:nYBwyoefrK7m%2FMj4F2z%2FGPaaVINAjmE305lCSqvfEJVtQVIj8BGB4OOCbWVRJ7s6FyBomnALA01fWg%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:2575b1bcac7694a5a5957a97f4573c23:%2FSFYJ2E38vlzMcIQEfYntyIbOYphzatOCtQRUUYvqly6fzGOMfaAOSxJ7uSP5mdDOdwMy8aLYUOGJg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=b7893b4fe8d002305a220681d0936572&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=b7893b4fe8d002305a220681d0936572&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Anand Sastry, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Sun, 15 May 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[IPv6 security issues: IPv6 transition mechanisms]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=7f2d6753b66d2437a741ce60b0f5c43d</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/IPv6-security-issues-IPv6-transition-mechanisms</pheedo:origLink>
+			<description><![CDATA[Several IPv6 transition mechanisms have been created to ease the transition from IPv4, but Fernando Gont explains why they present IPv6 security concerns for enterprises.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:f269d102a9fb654e9744199a23139463:uZlCakyLWolNBtc3rqVj8Xy5RkB9lTJLQCes88eW6Z7HNrH3zi0eWPRo6KO9E9dxHAHS53%2B97vnA90I%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:1d5f62ebc53f6a5608216eaa3bcbc9f2:%2F1nPKOIX%2Fiyt5VCBCEJI1KLEFDA4swfzUz5lMJQ9EsFgyBe9xs3He5mgO5jUIoiBw5LDuFN%2BohKhv8k%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:c2a8e9d4543f97ab6b9ab81015768121:m4Rp4XqHHo9qJxUO2JeR5QP6JAqnH4BS4Hk9gczgo7wRSUPq%2F58LW1C6bqCdPEaQX5vo09y0vhH%2F9w%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:7edc520b1a18e809612b1507982b9821:yPjpMUr3GOrRY82IdasqkDA34sGKw9VjHzOIz%2BfQnYkdaI%2Be5oToZ5ZYfawjL%2Bab1GA0%2BwSmwL18og%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=7f2d6753b66d2437a741ce60b0f5c43d&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=7f2d6753b66d2437a741ce60b0f5c43d&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[Fernando Gont, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Tue, 10 May 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[How to use the free eEye Retina scanner community edition]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=54610c808a27f0339022c6e308f11311</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tip/How-to-use-the-free-eEye-Retina-scanner-community-edition</pheedo:origLink>
+			<description><![CDATA[In this screencast, learn how to use the free community edition of the eEye Retina scanner.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:e801d09733eb2af30a5fc364213abe02:nMxO0M2Njs4RjZSlCQHbYvpodIwUY4CK4wcYjdC9Ed0gl3ALAK2EE1MZFSwLOvP1RnraVvhFRzQcwzI%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:e7c32c7621a43ed0e46014b0bc9cd626:N1INW9z6uBqQCv50DLNMHRu3TVdk%2BFahoUisjJmO7ygrx8BSsyMUC2saDXBNaUErOEVeRPSUJMAWDVQ%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:eafb9a773230266218118d42098446dd:o9ljysVp2bi%2BJpra9Eq1Jl9jj2lzNs6sJZKGJopympfqwSXsiel4jWNJbWSZG%2B4L714AFA0zdKhUDQ%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:987a62c03be789affe8b7d6eee932e60:QrtcCCdDoti6UfWlt0YsXA1zm%2B%2F2S%2BhIasn4P0I7%2FGcZEfzy1GbqcyCNv3etg5AxF9tHCzxhrt3TmA%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=54610c808a27f0339022c6e308f11311&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=54610c808a27f0339022c6e308f11311&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[SearchSecurity.com(editor@searchsecurity.com)]]></author>
+			<pubDate>Wed, 13 Apr 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Cloud flow: Network flow analysis and application traffic monitoring]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=2d2bc9cae3b4a17bd9fb83da7dfce669</link>
+			<pheedo:origLink>http://searchcloudsecurity.techtarget.com/tip/Cloud-flow-Network-flow-analysis-and-application-traffic-monitoring</pheedo:origLink>
+			<description><![CDATA[How can you determine where and when your data is flowing to the cloud? In this tip, learn about network flow analysis and application traffic monitoring for cloud computing migrations.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:8dd9fe339415a95b943ccff050e04cf1:eZIzXCBbvbHmRVCVZ4axWD%2BLM1SAdVRYjRKNH8QMblYSZCGHMncQGjXpUaCV94ACsVlffllwBwF88Ek%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:73e98face664ce349e52759bccc18cf8:EeNKQqlfUieY7zGesc5vWinCHygVUPzppMAqN1jtq1oQCBV2GrxmxkFgWzgWvt6rc7oKv7BUBIWTgxA%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:77bb879c87635345b18ad9cb58a73d08:T%2FPaXMWUph6mbsvJ0wlMU5Oi%2BZhVakCi2aFN9krXmjRdvfTIqofGkkeQjnsRl4BAx8CtuWPDjxbyXQ%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:fb0862334a33de36a7bbd9d573ad8d8b:CSxh74HgkMmpQyXhOrYxWV9%2F3nPDOuMSpkE6laE4Qpl8%2B3UE94ABEQNDHkXLVnWXu%2BIPu1wI5LHgMg%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=2d2bc9cae3b4a17bd9fb83da7dfce669&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=2d2bc9cae3b4a17bd9fb83da7dfce669&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[David Newman, Contributor(editor@searchsecurity.com]]></author>
+			<pubDate>Wed, 13 Apr 2011 23:00:00 EDT</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Network security audit guidelines: Inside the importance of audit planning]]></title>
+			<link>http://www.pheedcontent.com/click.phdo?i=8d17723c8b48a37e5579e708227a2dd4</link>
+			<pheedo:origLink>http://searchsecurity.techtarget.com/tutorial/Network-security-audit-guidelines-Inside-the-importance-of-audit-planning</pheedo:origLink>
+			<description><![CDATA[In this SearchSecurity.com mini learning guide you will learn the ins and outs of network security audit guidelines, as well as the importance of audit planning, and how to perform and prepare for an audit.<br clear="both" style="clear: both;"/>
+<br clear="both" style="clear: both;"/>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:6e5e362c980dd366ea62b6369ed83910:wDeEPiORuMxNumHc2DBxoGbUiGsNc3%2BIfdYgu37LGSjBotmCY9QmpCtn3bwxXDLUAfFiMBBJMqjne6I%3D'><img border='0' title='Add to digg' alt='Add to digg' src='http://images.pheedo.com/images/mm/digg_64x16.png'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:8f05bc0ddf23d91f873331ed2a00b9d7:a%2FlmE1yNAxyHc7Zw0EF9DlRYs1BTKLOwuTW4rLz7BdFSu4WzGK6%2FEdQxildohlZHXp0OrdVDycoBs08%3D'><img border='0' title='Add to StumbleUpon' alt='Add to StumbleUpon' src='http://images.pheedo.com/images/mm/stumbleit.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:0b604e235abddb6217a001e8a62c0d3f:WnhwewBwNfT%2F7lGzRcYPK9O5e%2FTIqnKXom%2Fk5L%2B1WTKmwqC6ymzFpxvE4CMmydgcdAbOB6P6LPn%2BNg%3D%3D'><img border='0' title='Add to del.icio.us' alt='Add to del.icio.us' src='http://images.pheedo.com/images/mm/delicious.gif'/></a>
+  <a style='font-size: 10px; color: maroon;' href='http://www.pheedcontent.com/hostedMorselClick.php?hfmm=v3:7592531b627530453c79a0b445851852:3DGnDZaHHCNmpKtgRTekJugqodGAuxLcL69GxbaYf7ZnnCE5bsNB%2FiHOo20zzl479JLW7eDti1JK%2FA%3D%3D'><img border='0' title='Add to Google' alt='Add to Google' src='http://images.pheedo.com/images/mm/google.png'/></a>
+<br clear="both" style="clear: both;"/>
+<a href="http://ads.pheedo.com/click.phdo?s=8d17723c8b48a37e5579e708227a2dd4&p=1"><img alt="" style="border: 0;" border="0" src="http://ads.pheedo.com/img.phdo?s=8d17723c8b48a37e5579e708227a2dd4&p=1"/></a>
+<img alt="" height="0" width="0" border="0" style="display:none" src="http://segment-pixel.invitemedia.com/pixel?code=TechBiz
+&partnerID=167&key=segment"/><img alt="" height="0" width="0" border="0" style="display:none" src="http://pixel.quantserve.com/pixel/p-8bUhLiluj0fAw.gif?labels=pub.30034.rss.TechBiz
+.38024,cat.TechBiz
+.rss"/>]]></description>
+			<author><![CDATA[SearchSecurity.com(editor@searchsecurity.com)]]></author>
+			<pubDate>Sun, 10 Apr 2011 23:00:00 EDT</pubDate>
+		</item>
+	</channel>
+</rss>
+<!-- 
+Region/Component Load time
+===============
+QRY-PAG-RSSXml=4
+End-Of-Page=0
+
+TOTAL PAGE LOAD TIME=4
+ -->
+<!-- Request Serving Server : vappma10.techtarget.com-->

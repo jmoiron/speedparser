@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Andy D Day</title>
+	<atom:link href="http://www.andydday.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.andydday.com</link>
+	<description>A giant in digital media...</description>
+	<lastBuildDate>Sun, 25 Sep 2011 13:01:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0</generator>
+		<item>
+		<title>Help Setting Up AWS</title>
+		<link>http://www.andydday.com/2011/09/help-setting-up-aws/</link>
+		<comments>http://www.andydday.com/2011/09/help-setting-up-aws/#comments</comments>
+		<pubDate>Sun, 25 Sep 2011 12:52:40 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=245</guid>
+		<description><![CDATA[If you need help setting up your own server farm in the cloud then I will happily assist you. I&#8217;m a total Cloud Convert, so helping other SMEs get into the cloud is something I&#8217;m evangelical about. I use Scalr, which is SaaS AWS management tool, you will need to also sign up for this [...]]]></description>
+			<content:encoded><![CDATA[<p>If you need help setting up your own server farm in the cloud then I will happily assist you. I&#8217;m a total Cloud Convert, so helping other SMEs get into the cloud is something I&#8217;m evangelical about. I use <a href="http://scalr.net" target="_blank">Scalr</a>, which is SaaS AWS management tool, you will need to also sign up for this service before I can get started. There is a monthly cost of $99 to this. I am not affiliated with Scalr, or earn any referral revenues from them, I just think it&#8217;s a great tool that makes life a lot easier (and it costs next to nothing).</p>
+<p>I charge $400 for this service and I do not develop your app, only build the farm on which it sits. I will talk you through the process and work with your developers to get you up and running. If I feel your app is particularly complicated that it may require extra time and costs, I will advise you up front of this. I will not charge more than the initial fee in most circumstances. Additional weekly consultancy is $100 a week, I am available on Google chat during UK office hours and most evenings. I don&#8217;t make any apologies for charging for set up. Once you know what you&#8217;re doing it is relatively uncomplicated, however, I am extremely busy running my own successful company <a title="Giant Digital" href="http://www.giant-digital.co.uk" target="_blank">Giant Digital</a> and I have been using this set up for over 2 years.</p>
+<p>I accept PayPal. Get in contact using the contact form <a href="http://www.giant-digital.co.uk/contact.php" target="_blank">here</a> using the subject &#8220;business proposal&#8221;.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2011/09/help-setting-up-aws/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Scalr Explained And Alternatives</title>
+		<link>http://www.andydday.com/2011/09/scalr-explained-and-alternatives/</link>
+		<comments>http://www.andydday.com/2011/09/scalr-explained-and-alternatives/#comments</comments>
+		<pubDate>Sun, 25 Sep 2011 11:53:02 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=242</guid>
+		<description><![CDATA[If you need help setting up a hosted cloud environment on AWS and Scalr and don&#8217;t feel confident doing this yourself, then I can help. 1. Scalr Scalr is a fully redundant, self-curing and self-scaling hosting environment utilizing Amazon&#8217;s EC2.  Scalr helps you create and manage scalable infrastructure, providing pre-built images of load balancers, database servers, [...]]]></description>
+			<content:encoded><![CDATA[<h3>If you need help setting up a hosted cloud environment on AWS and Scalr and don&#8217;t feel confident doing this yourself, then <a href="http://www.andydday.com/2011/09/help-setting-up-aws/">I can help</a>.</h3>
+<h3>1. Scalr</h3>
+<div>Scalr is a fully redundant, self-curing and self-scaling hosting environment utilizing Amazon&#8217;s EC2.  Scalr helps you create and manage scalable infrastructure, providing pre-built images of load balancers, database servers, application and caching servers which can be customised to a developers needs and arranged into logical groups as farms.</div>
+<p>Although Scalr has been released as an open source download, the SaaS version developed and maintained by Intridea is a stable, secure and cost effective way to manage your EC2 instances online.</p>
+<p>Scalr monitors traffic to your app and brings up new instances to cope with it by polling each instance for a response. The health of the farm is continuously monitored and maintained. When the Load Average on a type of node goes above a configurable threshold a new node is inserted into the farm to spread the load and the cluster is reconfigured. When a node crashes a new machine of that type is inserted into the farm to replace it.</p>
+<p>Databases are managed by maintaining a master database, that when put under heavy loads Scalr will bring up clones of the database as slaves. The app will read from the slaves freeing up resources on the master, which is often cpu bound, and allows you to make intensive queries without killing overall performance. Besides the intelligent and auto provisioning features of Scalr, it also offers a disaster recovery feature.  If a database server or web service master is lost, Scalr can promote a slave server to the master service in order to provide a fault tolerant solution.</p>
+<h3>2. Alternatives</h3>
+<div>An alternative to Scalr is Rightscale, an enterprise solution which better suits corporate entities  as it is cost inhibitive. Accounts start at $500 a month compared to $99 for Scalr. However Rightscale offers an extended range of support options in comparison to Scalr&#8217;s basic package, although Scalr offers much more support in its Mission Critical Editiion for $399 which competes with Rightscale. However in my experience, the support provided by Scalr&#8217;s basic package has been competent enough.</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2011/09/scalr-explained-and-alternatives/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Networking</title>
+		<link>http://www.andydday.com/2010/09/networking/</link>
+		<comments>http://www.andydday.com/2010/09/networking/#comments</comments>
+		<pubDate>Thu, 30 Sep 2010 13:22:01 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[business]]></category>
+		<category><![CDATA[media]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=230</guid>
+		<description><![CDATA[I am not one for going to networking events at all. I know everyone says you need to network, blah, blah, blah. I just find it so forced, wandering around a room introducing yourself to people. So it was quite a surprise that I enjoyed myself so much at last night&#8217;s The eMeet event in [...]]]></description>
+			<content:encoded><![CDATA[<p>I am not one for going to networking events at all. I know everyone says you need to network, blah, blah, blah. I just find it so forced, wandering around a room introducing yourself to people. So it was quite a surprise that I enjoyed myself so much at last night&#8217;s <a href="http://www.theemeet.co.uk" target="_blank">The eMeet</a> event in Ronnie Scotts in Soho.</p>
+<p>I was only there for the free booze (and that I try and expose myself to <a href="http://en.wikipedia.org/wiki/Black_swan_theory" target="_blank">black swans</a>), after an invite from the good people of <a href="http://www.viagogo.co.uk" target="_blank">Viagogo</a>, but managed to make some new contacts by accident after being subjected to people who were there to work the room and press the flesh.  Of the people I had never heard of but seemed to be involved in something interesting were Robin Dhara of <a href="http://www.red-robin.co.uk" target="_blank">Red Robin</a>, Rebekah Campbell from <a href="http://www.posse.com" target="_blank">Posse</a> (who&#8217;s site and domain name are excellent) and Marc Bridgen from <a href="http://www.gigjunkie.net" target="_blank">Gig Junkie</a>.</p>
+<p>The eMeet is free to attend as long as you have registered beforehand and there&#8217;s space. It&#8217;s aimed at eCommerce people, although the definition of eCommerce People according to The eMeet&#8217;s Steve Roest, is anyone making money online. There was a definite bias towards music sites, probably because Roest also works for Viagogo, so there was a good fit with the night&#8217;s sponsor <a href="http://www.emusic.com" target="_blank">eMusic</a>, who I thought had ceased to exist!</p>
+<p>I&#8217;ll definitely be attending in future, make sure you get in touch with the organisers and secure your place.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/09/networking/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Reinvigorate Your Stats Addiction</title>
+		<link>http://www.andydday.com/2010/08/reinvigorate-your-stats-addiction/</link>
+		<comments>http://www.andydday.com/2010/08/reinvigorate-your-stats-addiction/#comments</comments>
+		<pubDate>Mon, 30 Aug 2010 22:05:17 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[business]]></category>
+		<category><![CDATA[media]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=227</guid>
+		<description><![CDATA[Just as I thought I couldn&#8217;t get any more addicted to stats&#8230; I&#8217;ve stumbled on another 3rd party stat tool at Reinvigorate.net, which is different enough to Chartbeat to be useful on its own but not instead of. There are a few similarities, I can see who is on the site, what page they&#8217;re on, [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignright size-medium wp-image-228" title="heatmap" src="http://www.andydday.com/wp-content/uploads/2010/08/heatmap-300x181.png" alt="" width="300" height="181" />Just as I thought I couldn&#8217;t get any more addicted to stats&#8230; I&#8217;ve stumbled on another 3rd party stat tool at <a href="http://www.reinvigorate.net/" target="_blank">Reinvigorate.net</a>, which is different enough to Chartbeat to be useful on its own but not instead of.</p>
+<p>There are a few similarities, I can see who is on the site, what page they&#8217;re on, where they&#8217;re from etc, etc. With the added bonus of being able to drill down to users by location, OS, browser. Most of the kind of stuff you can find on Analytics, except these are users on your site right now.</p>
+<p>The dashboard view is nowhere near as instant as Chartbeat&#8217;s, you certainly have to poke around to find the bits of info that you want, although it is much more detailed. However, where it does shit on Chartbeat from a great height is with its click heat maps.</p>
+<p>Using this view of any of your popular pages, you can see exactly where users are clicking on your pages and make adjustments as necessary, to either put links where users are expecting them, or make them more visible where they aren&#8217;t. It&#8217;s surprising how often users click on people&#8217;s names expecting them to be links as well as clicking on headings and photos expecting to be taken somewhere else.</p>
+<p>We&#8217;ve already been able to make several pages on Giant Digital sites more user friendly by making what looks clickable more clickable.</p>
+<p>Reinvigorate is definitely a tool to put in your tool box, it provides you with detailed statistical data above and beyond what&#8217;s available on Analytics, teamed with Chartbeat you will have enough information at your fingertips to keep users on your site interested and providing them with content where they expect it to be.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/08/reinvigorate-your-stats-addiction/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Real Time Site Stats, Chartbeat, For Stat Junkies Everywhere</title>
+		<link>http://www.andydday.com/2010/08/real-time-site-stats-charbeat-for-stat-junkies-everywhere/</link>
+		<comments>http://www.andydday.com/2010/08/real-time-site-stats-charbeat-for-stat-junkies-everywhere/#comments</comments>
+		<pubDate>Wed, 18 Aug 2010 21:06:55 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[business]]></category>
+		<category><![CDATA[cool]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=215</guid>
+		<description><![CDATA[I have a new addiction, I&#8217;ve been dabbling with stats for a while, I started out messing with log reports, then moved onto Analytics, and for a while I thought I had control of it, but now I&#8217;m onto the hard stuff. Chartbeat.com, so addictive, it should be banned. Chartbeat is a new SaaS from the [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.andydday.com/wp-content/uploads/2010/08/chartbeat_dashboard1.png"><img class="alignright size-medium wp-image-216" title="chartbeat_dashboard[1]" src="http://www.andydday.com/wp-content/uploads/2010/08/chartbeat_dashboard1-148x300.png" alt="" width="148" height="300" /></a>I have a new addiction, I&#8217;ve been dabbling with stats for a while, I started out messing with log reports, then moved onto Analytics, and for a while I thought I had control of it, but now I&#8217;m onto the hard stuff. <a href="http://www.chartbeat.com" target="_blank">Chartbeat.com</a>, so addictive, it should be banned.</p>
+<p>Chartbeat is a new SaaS from the people behind <a href="http://bit.ly/">bit.ly</a> and <a href="http://tweetdeck.com/">tweetdeck</a> and funded by the people behind <a href="http://twitter.com/">Twitter</a>, <a href="http://tumblr.com/">Tumblr</a> and <a href="http://superfeedr.com/">Superfeedr</a>, so it comes with good pedigree. It&#8217;s a real time analytics app that let&#8217;s you see who is on your site right now, what page they&#8217;re on, where they came from, what they were searching for and where they are. It makes you feel like you&#8217;re driving your site, giving you real time feedback straight to your fingertips.</p>
+<p>You can literally tailor content to your users interest for any given moment, helping you build site traffic and user loyalty. All the Giant staff are already completely addicted, I feel like a drug dealer having introduced them to this crack rock version of Analytics.</p>
+<p>The great thing about it is you no longer have to wait for Analytics to update the following day, you can see what&#8217;s happening now, RIGHT NOW!</p>
+<p>I can&#8217;t see Google letting this go though, they&#8217;re bound to copy this, if they weren&#8217;t already thinking of it, it&#8217;s such an invaluable tool.</p>
+<p>There are some shortcomings, you can&#8217;t drill down to users and there&#8217;s not much granular control over stats over a longer period of time. That said, it&#8217;s still early days and I can see this tool developing in leaps and bounds as more and more sign up to the service. They&#8217;re already claiming it to be used by:</p>
+<p><a href="http://gawker.com/" target="_blank"><img src="http://static.chartbeat.com/images/customerlogos/gawker.jpg" border="0" alt="logo" /></a> <a href="http://nytimes.com/" target="_blank"><img src="http://static.chartbeat.com/images/customerlogos/nytimes.jpg" border="0" alt="logo" /></a> <a href="http://threadless.com/" target="_blank"><img src="http://static.chartbeat.com/images/customerlogos/threadless.jpg" border="0" alt="logo" /></a> <a href="http://theonion.com/" target="_blank"><img src="http://static.chartbeat.com/images/customerlogos/onion_logo.jpg" border="0" alt="logo" /></a></p>
+<p>which is a pretty impressive line up!</p>
+<p>There is also an API, which I&#8217;m yet to explore fully, but you can basically get real time stats right onto your sites, so you can let your users see what&#8217;s hot right now. Huffington Post and Mashable already implement similar widgets where they show what&#8217;s trending and using the API from chartbeat.com will enable a lot of site developers to add the same usability, which is a lot cooler than just having a box showing what&#8217;s got the most hits over a longer period of time. There&#8217;s certainly a lot of exploration Giant will be doing in that area as we have time to include it into our sites.</p>
+<p>I&#8217;m extremely impressed with what I&#8217;ve seen so far, I just hope I can keep my dirty little secret under wraps.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/08/real-time-site-stats-charbeat-for-stat-junkies-everywhere/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Giant Digital Rebrand</title>
+		<link>http://www.andydday.com/2010/08/giant-digital-rebrand/</link>
+		<comments>http://www.andydday.com/2010/08/giant-digital-rebrand/#comments</comments>
+		<pubDate>Mon, 09 Aug 2010 10:19:34 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=206</guid>
+		<description><![CDATA[We&#8217;re currently in the process of rebranding Giant Digital, or more accurately, creating our brand for the first time. I&#8217;ve found as our interaction with other companies has increased (mostly with agencies) there is a need to have continuity across the Giant Digital company. As the company grew out of Gigwise.com, we tended to only [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.andydday.com/wp-content/uploads/2010/08/alittlebird.jpg"><img class="alignright size-medium wp-image-210" title="A Little Bird Logo" src="http://www.andydday.com/wp-content/uploads/2010/08/alittlebird-300x295.jpg" alt="" width="300" height="295" /></a>We&#8217;re currently in the process of rebranding <a href="http://www.giant-digital.co.uk" target="_blank">Giant Digital</a>, or more accurately, creating our brand for the first time. I&#8217;ve found as our interaction with other companies has increased (mostly with agencies) there is a need to have continuity across the Giant Digital company.</p>
+<p>As the company grew out of <a href="http://www.gigwise.com" target="_blank">Gigwise.com</a>, we tended to only use the company name (formerly GiEnt) in passing as we were more well known for our sites than as an umbrella company, and for that we didn&#8217;t really need a seperate brand. However as our visibility as a network has grown with the addition of our new sites and other partner sites that we work with, there has been a need for the company to have its own distinct identity.</p>
+<p>We have hired a fantastic identity designer who is based in London, a guy called <a href="http://www.kevinmacey.co.uk/" target="_blank">Kevin Macey</a> who is friends with our sales and marketing head honcho, but is also responsible for some well reputed brand design for A Little Bird and degradable.net. We&#8217;re in the first throes of getting this done so there&#8217;s not much to report yet, but check out his work and <a href="http://www.kevinmacey.co.uk/" target="_blank">his portfolio site</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/08/giant-digital-rebrand/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>I Want To Ride This Bicycle, I Want To Ride This Bike &#8211; bikebyme.com</title>
+		<link>http://www.andydday.com/2010/08/i-want-to-ride-this-bicycle-i-want-to-ride-this-bike-bikebyme-com/</link>
+		<comments>http://www.andydday.com/2010/08/i-want-to-ride-this-bicycle-i-want-to-ride-this-bike-bikebyme-com/#comments</comments>
+		<pubDate>Sun, 08 Aug 2010 08:46:10 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[cool]]></category>
+		<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=183</guid>
+		<description><![CDATA[I remember when I went to buy my first brand new bike, it was a Raleigh Team Burner BMX. My dad, younger brother and myself headed off to some bike shop in Manchester and we chose the same bike only with different colour seats. I had a blue seat and my little bro chose a [...]]]></description>
+			<content:encoded><![CDATA[<p>I remember when I went to buy my first brand new bike, it was a Raleigh Team Burner BMX. My dad, younger brother and myself headed off to some bike shop in Manchester and we chose the same bike only with different colour seats. I had a blue seat and my little bro chose a white seat. BMXs were great for customization and personalization, but as an adult your cycling options become a lot more limited. Every bike I&#8217;ve bought since then, never roused the same level of excitement. However, things are set to change for me and many others.</p>
+<p><a title="Bike By Me" href="http://www.bikebyme.com" target="_blank">Bikebyme.com</a> is a beautiful Swedish website that allows you to choose the colours of the parts on your bike. The colour choices are cool as fuck and the resulting bike is the most unique looking, personal thing ever. I don&#8217;t know whether it&#8217;s the process of choosing the look of your own bits and pieces or whether bikebyme.com have provided the lushest colour choices, but the resulting bike is the most desirable looking thing I&#8217;ve laid my eyes on since I met my girlfriend.</p>
+<p>You can select frame, seat, tire, rims, handles and even chain colour. Here is my beautiful new bike:</p>
+<div id="attachment_184" class="wp-caption aligncenter" style="width: 588px"><a href="http://www.andydday.com/wp-content/uploads/2010/08/bikebyme.png"><img class="size-full wp-image-184" title="bikebyme" src="http://www.andydday.com/wp-content/uploads/2010/08/bikebyme.png" alt="bikebyme.com" width="578" height="397" /></a><p class="wp-caption-text">This is my dream bike!</p></div>
+<p>What&#8217;s really interesting about bikebyme.com is how they&#8217;ve brought something very web based into the real world. Selecting the colour things is a common on certain websites, after all it was what made MySpace a site worth visiting. Bringing an every day web concept into the real world will surely become a much more common process as companies chase profits further down the longtail and consumers come to expect a much higher level of choices. <a href="http://nikeid.nike.com" target="_blank">Nike</a> and <a href="http://www.converse.com" target="_blank">Converse</a> have made designing your own unique trainers a common process, t-shirt design has been around for years and it&#8217;s just as easy to <a href="http://www.mini.co.uk/html/ecom/ecom.html?s3_route=quicklink" target="_blank">design your own car</a> or <a href="http://www.smallblueprinter.com/sbp.html" target="_blank">house</a>.</p>
+<p>The only limit to this kind of process will be our imaginations. Meanwhile, get to <a href="http://www.bikebyme.com" target="_blank">bikebyme.com</a> and get on your bike.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/08/i-want-to-ride-this-bicycle-i-want-to-ride-this-bike-bikebyme-com/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Free Cloud Development Hosting &#8211; Kodingen</title>
+		<link>http://www.andydday.com/2010/08/free-cloud-development-hosting-kodingen/</link>
+		<comments>http://www.andydday.com/2010/08/free-cloud-development-hosting-kodingen/#comments</comments>
+		<pubDate>Fri, 06 Aug 2010 20:47:00 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[technology]]></category>
+		<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=176</guid>
+		<description><![CDATA[We host all of our sites on Amazon AWS and have a shared server that we use for development and our smaller sites, but occasionally friends ask me to help them set up a site or a blog and putting them on our servers isn&#8217;t always practical. I&#8217;ve recently found a solution when faced with the dilemma of helping [...]]]></description>
+			<content:encoded><![CDATA[<p>We host all of our sites on <a href="http://aws.amazon.com/" target="_blank">Amazon AWS</a> and have a shared server that we use for development and our smaller sites, but occasionally friends ask me to help them set up a site or a blog and putting them on our servers isn&#8217;t always practical. I&#8217;ve recently found a solution when faced with the dilemma of helping a friend that assumes I have unlimited hosting supplies, it&#8217;s a cloud based hosting and development app called <a href="http://kodingen.com/" target="_blank">Kodingen</a>.</p>
+<p>The service allows you to set up your own hosting environment on their servers, and cleverly, the whole thing is more or less point and click (if you want it to be). You can, using one click installation, install a number of open source apps and solutions from their &#8220;app store&#8221;, including <a href="http://wordpress.org/" target="_blank">WordPress</a>, <a href="http://drupal.org/" target="_blank">Drupal</a>, <a href="http://www.joomla.org/" target="_blank">Joomla</a>, <a href="http://www.phpbb.com/" target="_blank">phpBB</a> and <a href="http://www.mediawiki.org/" target="_blank">MediaWiki</a>. You can ftp to your hosting, control databases and edit your source code using <a href="https://bespin.mozillalabs.com/" target="_blank">Bespin</a>, <a href="http://codemirror.net/" target="_blank">CodeMirror</a> or <a href="http://www.ymacs.org/" target="_blank">Ymacs</a> without having to leave the app environment.</p>
+<p>You can code in all the open source languages: php, perl, python, django, ruby on rails, fastcgi AND there is even version control in 3 flavours.</p>
+<p>I&#8217;m impressed with the easiness of setting up an account and getting up and running with an app. Installing WordPress is just a case of setting up an empty database and then clicking on installation, the WP setup process guides you through the rest as per normal.</p>
+<p>No doubt, as Kodingen gets a name for itself, the service will get flooded with users and the way they operate will have to change, with perhaps there being a small fee after a trial period. From what I can see, the service is freemium, only requiring a paid account if &#8221; you want to have a lot of storage and traffic, keep-alive domains etc.&#8221;</p>
+<p>If you need some webspace to play around with some ideas, then head over there now and get started with a few clicks.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/08/free-cloud-development-hosting-kodingen/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Pixlr: An Online Alternative To Photoshop</title>
+		<link>http://www.andydday.com/2010/08/pixlr-an-online-alternative-to-photoshop/</link>
+		<comments>http://www.andydday.com/2010/08/pixlr-an-online-alternative-to-photoshop/#comments</comments>
+		<pubDate>Sun, 01 Aug 2010 12:54:55 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[media]]></category>
+		<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=170</guid>
+		<description><![CDATA[I&#8217;ve come up against a few situations recently when I&#8217;ve been using a PC without Photoshop installed, so have stumbled across an amazing SaaS app called Pixlr Editor. The online service provides a decent version of Photoshop in the browser without you having to install a single thing. Layout of the work area is almost [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve come up against a few situations recently when I&#8217;ve been using a PC without Photoshop installed, so have stumbled across an amazing SaaS app called <a href="http://www.pixlr.com/editor/">Pixlr Editor</a>. The online service provides a decent version of Photoshop in the browser without you having to install a single thing.</p>
+<p>Layout of the work area is almost exactly the same, with your tool palette available to the left and layers, navigator and history to the right. In fact so far, I haven&#8217;t been able to find something that is missing from the original Photoshop, only being a light user anyway.</p>
+<p>You&#8217;re able to manipulate text, resize photos, blur, smudge, fill, add filters, adjust contrast and just about most other uses you will find in a full version of Photoshop.</p>
+<p>If you were considering buying or pirating Photoshop but you&#8217;re not a heavy user then this is the solution for you. Pixlr have also provided plugins for Firefox and Chrome for screen grabbing from your browser window.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/08/pixlr-an-online-alternative-to-photoshop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AiCache &#8211; Keeps Your Servers Alive</title>
+		<link>http://www.andydday.com/2010/07/aicache-keeps-your-servers-alive/</link>
+		<comments>http://www.andydday.com/2010/07/aicache-keeps-your-servers-alive/#comments</comments>
+		<pubDate>Sun, 11 Jul 2010 22:14:48 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://www.andydday.com/?p=167</guid>
+		<description><![CDATA[We&#8217;ve been trialling aiCache, a software caching solution, for nearly two months now. AiCache sits in front of our load balancer and caches all our static files and pages limiting the amount of traffic to our app servers and more importantly, calls to our database. We&#8217;ve had a few teething problems while setting up and [...]]]></description>
+			<content:encoded><![CDATA[<p>We&#8217;ve been trialling aiCache, a software caching solution, for nearly two months now. AiCache sits in front of our load balancer and caches all our static files and pages limiting the amount of traffic to our app servers and more importantly, calls to our database.</p>
+<p>We&#8217;ve had a few teething problems while setting up and adjusting for the various foibles of our sites, but now it&#8217;s tuned up it&#8217;s really handling things well. Last week we made a link on the home page of IMDB which sent us a huge amount of traffic over a 24 hour period. AiCache handled everything that was thrown at it without batting an eye lid.</p>
+<p>If you&#8217;ve been running out of options, trying to keep your site up, then this is a recommended solution to your problems.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.andydday.com/2010/07/aicache-keeps-your-servers-alive/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>

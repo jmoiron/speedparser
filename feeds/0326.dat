@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule">
+
+<channel>
+	<title>Giuliano Abate</title>
+	<atom:link href="http://www.giulianoabate.it/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.giulianoabate.it</link>
+	<description>Diario di un Mercante</description>
+	<lastBuildDate>Tue, 20 Sep 2011 22:07:28 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>Il pisolino</title>
+		<link>http://www.giulianoabate.it/il-pisolino/</link>
+		<comments>http://www.giulianoabate.it/il-pisolino/#comments</comments>
+		<pubDate>Tue, 06 Sep 2011 13:08:14 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Pensieri]]></category>
+		<category><![CDATA[commercianti]]></category>
+		<category><![CDATA[photo]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=232</guid>
+		<description><![CDATA[Il cibo che concilia il sonno: per alcuni una conseguenza del troppo averne, per altri del troppo lavorarlo Per tutti chiudere gli occhi é sognare. E questo ci rende  più simili. &#160; Un ragazzo dorme accanto a teste di pesce che sua madre lavora per produrre  un estratto di carne , in un mercato del [...]]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/il-pisolino/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>EAT</title>
+		<link>http://www.giulianoabate.it/eat/</link>
+		<comments>http://www.giulianoabate.it/eat/#comments</comments>
+		<pubDate>Sat, 06 Aug 2011 16:23:20 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[oggetti Smarriti]]></category>
+		<category><![CDATA[cibi dal modo]]></category>
+		<category><![CDATA[viaggi]]></category>
+		<category><![CDATA[video]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=223</guid>
+		<description><![CDATA[3 ragazzi, 44 giorni, 11 paesi, 18 voli, 38 mila miglia, un vulcano in eruzione, 2 macchine fotografiche e quasi un terabyte di filmati &#8230; Il risultato di questa avventura sono 3 brevi filmati  commissionati da STA Travel Australia:  move, eat, learn Qui, naturalmente, quello dedicato al cibo &#160; &#160; Rick Mereki : Director, producer, additional [...]]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/eat/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>#tutor</title>
+		<link>http://www.giulianoabate.it/tutor/</link>
+		<comments>http://www.giulianoabate.it/tutor/#comments</comments>
+		<pubDate>Mon, 11 Oct 2010 12:14:14 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[oggetti Smarriti]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[tutor]]></category>
+		<category><![CDATA[vino]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=143</guid>
+		<description><![CDATA[Tutor è di origine latina, significa colui che difende,che sostiene… Con queste parole Vittiorio Rusinà inizia il racconto della sua nuova idea nata ,ca va sans dire, su Twitter. Difendere, sostenere, promuovere la trasmissione di una cultura, quella del vino e delle sue diversità, ma anche di un territorio e di quanti lo lavorano spesso [...]]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/tutor/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>La Geometria della Pasta</title>
+		<link>http://www.giulianoabate.it/la-geometra-della-pasta/</link>
+		<comments>http://www.giulianoabate.it/la-geometra-della-pasta/#comments</comments>
+		<pubDate>Mon, 11 Oct 2010 09:39:00 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[oggetti Smarriti]]></category>
+		<category><![CDATA[Cucina italiana]]></category>
+		<category><![CDATA[libri]]></category>
+		<category><![CDATA[pasta]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=138</guid>
+		<description><![CDATA[Che poi , noi italiani, siamo quelli dei mille tipi: un pane diverso in ogni forno, un caffè dalle  declinazioni a iosa . Un libro di ricette, certo,  con  un pizzico di  storia e condito di filosofia e scienza q.b.]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/la-geometra-della-pasta/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>WiandFi</title>
+		<link>http://www.giulianoabate.it/wiandfi/</link>
+		<comments>http://www.giulianoabate.it/wiandfi/#comments</comments>
+		<pubDate>Sat, 09 Oct 2010 09:00:27 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Eventi]]></category>
+		<category><![CDATA[Meeting]]></category>
+		<category><![CDATA[Salone del Gusto]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[Torino]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=133</guid>
+		<description><![CDATA[Torino e i suoi, per niente, &#8220;bugia nen&#8221; si conferma terreno fertile per tutte le tematiche che possono declinare in * condivisione* Se poi ti ritrovi un pezzo di mondo vino-mangereccio a partata di mano grazie al Salone del Gusto non puoi che incontrare gli amici social in due locali cult della città: da Stato [...]]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/wiandfi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Verdi speranze</title>
+		<link>http://www.giulianoabate.it/verdi-speranze/</link>
+		<comments>http://www.giulianoabate.it/verdi-speranze/#comments</comments>
+		<pubDate>Wed, 30 Jun 2010 09:26:04 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Pensieri]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=128</guid>
+		<description><![CDATA[(photo: E.Maccanti)]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/verdi-speranze/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Pagare per l&#8217;acqua sporca</title>
+		<link>http://www.giulianoabate.it/pagare-per-lacqua-sporca/</link>
+		<comments>http://www.giulianoabate.it/pagare-per-lacqua-sporca/#comments</comments>
+		<pubDate>Fri, 28 May 2010 11:32:05 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Pensieri]]></category>
+		<category><![CDATA[acqua]]></category>
+		<category><![CDATA[acqua in caraffa]]></category>
+		<category><![CDATA[ristoranti]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=119</guid>
+		<description><![CDATA[Quando mi siedo al tavolo di un ristorante ci sono cose che, a vario titolo, non riesco proprio a giustificare: una di queste è il vedermi servire l&#8217;acqua in caraffa. Non accetto quella che vivo come una  imposizione da parte del ristoratore, non accetto l&#8217;assoluta insicurezza  igenica dell&#8217;acqua così proposta, non accetto il costo assolutamente [...]]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/pagare-per-lacqua-sporca/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Chantango  &#8211; Il Vino Triste di Cesare Pavese</title>
+		<link>http://www.giulianoabate.it/chantango-il-vino-triste-di-cesare-pavese/</link>
+		<comments>http://www.giulianoabate.it/chantango-il-vino-triste-di-cesare-pavese/#comments</comments>
+		<pubDate>Sat, 22 May 2010 15:18:21 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Pensieri]]></category>
+		<category><![CDATA[Chantango. Cesare Pavese]]></category>
+		<category><![CDATA[poesia]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=113</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/chantango-il-vino-triste-di-cesare-pavese/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>E che Twit Asta sia!</title>
+		<link>http://www.giulianoabate.it/e-che-twit-asta-sia/</link>
+		<comments>http://www.giulianoabate.it/e-che-twit-asta-sia/#comments</comments>
+		<pubDate>Mon, 26 Apr 2010 10:14:09 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Eventi]]></category>
+		<category><![CDATA[asta beneficenza]]></category>
+		<category><![CDATA[az crociani]]></category>
+		<category><![CDATA[bele casel]]></category>
+		<category><![CDATA[cantele wines]]></category>
+		<category><![CDATA[cantine twittanti]]></category>
+		<category><![CDATA[carbone vini]]></category>
+		<category><![CDATA[cascina gilli]]></category>
+		<category><![CDATA[cascina i carpini]]></category>
+		<category><![CDATA[cromobox]]></category>
+		<category><![CDATA[giuliano abate]]></category>
+		<category><![CDATA[il brolo]]></category>
+		<category><![CDATA[il mosnel]]></category>
+		<category><![CDATA[il palazzone]]></category>
+		<category><![CDATA[roberto colombo]]></category>
+		<category><![CDATA[sandro de bruno]]></category>
+		<category><![CDATA[santa margherita]]></category>
+		<category><![CDATA[schemalibero]]></category>
+		<category><![CDATA[terre contese]]></category>
+		<category><![CDATA[tweet your wines]]></category>
+		<category><![CDATA[twit asta]]></category>
+		<category><![CDATA[twitter]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=103</guid>
+		<description><![CDATA[A volte le cose più belle nascono per caso, anche chiacchierando con delle cantine amiche su Twitter. E cosi, tweet dopo tweet, e&#8217; nata un&#8217;altra bella iniziativa di cui andiamo orgogliosi che, con grandissima fantasia, abbiamo battezzato &#8216;Twit Asta&#8217;. Stiamo organizzando un&#8217;asta di beneficenza a favore di una neonata associazione dell&#8217;ospedale Gaslini che si occuperà [...]]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/e-che-twit-asta-sia/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>La breve storia di quasi tutto</title>
+		<link>http://www.giulianoabate.it/la-breve-storia-di-quasi-tutto/</link>
+		<comments>http://www.giulianoabate.it/la-breve-storia-di-quasi-tutto/#comments</comments>
+		<pubDate>Fri, 19 Feb 2010 22:26:37 +0000</pubDate>
+		<dc:creator>Giuliano</dc:creator>
+				<category><![CDATA[Pensieri]]></category>
+		<category><![CDATA[animazione]]></category>
+		<category><![CDATA[storia]]></category>
+
+		<guid isPermaLink="false">http://www.giulianoabate.it/?p=97</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>http://www.giulianoabate.it/la-breve-storia-di-quasi-tutto/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

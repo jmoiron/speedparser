@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2portuguesefull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Blog do Graveheart</title>
+	
+	<link>http://graveheart.me</link>
+	<description>Cultura Nerd em geral</description>
+	<lastBuildDate>Fri, 29 Jul 2011 21:24:10 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/GuravehaatoDesuKa" /><feedburner:info uri="guravehaatodesuka" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>GuravehaatoDesuKa</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/GuravehaatoDesuKa" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare><feedburner:feedFlare href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsalloy.com/?rss=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.newsalloy.com/subrss3.gif">Subscribe with NewsAlloy</feedburner:feedFlare><feedburner:feedFlare href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare><feedburner:feedFlare href="http://download.attensa.com/app/get_attensa.html?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.attensa.com/blogs/attensa/WindowsLiveWriter/BadgeredintoBadges_10C02/attensa_feed_button5.gif">Subscribe with Attensa for Outlook</feedburner:feedFlare><feedburner:feedFlare href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare><feedburner:feedFlare href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare href="http://www.flurry.com/pushRssFeed.do?r=fb&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.flurry.com/images/flurry_rss_logo2.gif">Subscribe with Flurry</feedburner:feedFlare><feedburner:feedFlare href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare><feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2FGuravehaatoDesuKa" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+		<title>E um feliz SysAdmin day para todos!</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/mkfkdAZD5RA/</link>
+		<comments>http://graveheart.me/geek-life/e-um-feliz-sysadmin-day-para-todos/#comments</comments>
+		<pubDate>Fri, 29 Jul 2011 21:19:38 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Geek Life]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5926</guid>
+		<description><![CDATA[Convidado pelo conhecido de longa data das interwebz, Manoel Netto, para escrever sobre o Sysadmin Day, acabei me emocionando um pouco demais e escrevendo algo que, por questões de espaço, não pôde ir para o blog do UOLHost. Como o &#8230; <a href="http://graveheart.me/geek-life/e-um-feliz-sysadmin-day-para-todos/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p><em>Convidado pelo conhecido de longa data das interwebz, <a href="http://twitter.com/mnetto">Manoel Netto</a>, para escrever sobre o Sysadmin Day, acabei me emocionando um pouco demais e escrevendo algo que, por questões de espaço, não pôde ir para o <a href="http://www.uolhost.com.br/blog/2824/sysadminday-parabens-para-quem-mantem-nossa-ferramenta-de-trabalho">blog do UOLHost</a>. Como o texto ficou maneiro, e com autorização do Manoel, publico aqui o texto na íntegra. E um feliz SysAdmin Day pra todos! <img src='http://graveheart.me/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </em></p>
+<p><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter size-full wp-image-5927" title="6a00d83451f25369e2012876459907970c-800wi" src="http://img.graveheart.me/2011/07/6a00d83451f25369e2012876459907970c-800wi.jpg" alt="" width="800" height="340" /><br />
+A vida de um sysadmin é ingrata. Acordamos às 2 da manhã com o celular tocando e recebemos a notícia de que o site caiu. Ao tentarmos sair de férias, ouvimos do chefe a clássica frase &#8220;deixa anotado o telefone do lugar onde você está indo e deixa o celular sempre por perto. Você vai conseguir acessar a internet em caso de emergência, né?&#8221;. Quando a internet na empresa cai, somos os primeiros a entrar em pânico, e os primeiros a sermos amaldiçoados. Quando um site, ou um servidor de emails, ou qualquer outro serviço crítico cai, somos os primeiros a chegar no local e os últimos a sair. Varamos noites seguidas à base de pizza fria e refrigerante quente para colocar todos os serviços de volta ao ar, para que vocês possam continuar suas atividades normalmente. E raramente ouvimos um simples obrigado. Pelo contrário, normalmente só ouvimos reclamações.</p>
+<p>Afinal, todo mundo já viu Matrix e sabe que trabalhar com computadores é a coisa mais fácil do mundo.</p>
+<p>Mas&#8230; se esse é um trabalho tão ruim, por que ainda continuamos nele? Porque gostamos. Sentimos uma certa satisfação pessoal em saber que as coisas acontecem porque nós tornamos isso possível. Estamos construindo algo maravilhoso, mesmo que vocês só percebam que a gente existe quando o sistema cai. No final do dia, quando você sai pra comemorar com a turma do comercial aquela venda fantástica que você fez, nós sabemos que isso só foi possível porque o CRM estava funcionando corretamente, porque o servidor de emails não caiu em nenhum momento, porque a rede estava protegida contra vírus e invasões, e portanto você pôde trabalhar sem interrupções. Assim como sabemos que o seu texto pode ser lindo, e emocionar milhões de pessoas. Mas ele dificilmente será lido se não conseguirmos manter o servidor do blog no ar. Assim como o layout do seu site pode ser perfeito e digno de premiações mundiais, ninguém o verá se não estivermos lá para verificar cada *mínimo* detalhe de uma estrutura complicada que envolve cabos, computadores, sistemas operacionais, números e mais números, rotas, e ajustes de segurança.</p>
+<p>E, acreditem: ao contrário do que os filmes mostram, isso não é fácil.</p>
+<p>Portanto, mesmo sabendo que é difícil, agradeçam o sysadmin se você está lendo esse texto hoje. Ele pode parecer um cara esquisito, usando umas camisetas estranhas e falando de umas coisas que não fazem o menor sentido, mas esse cara troca horas de sono, festas, viagens e até mesmo expectativa de vida pela garantia de que seu trabalho será feito da melhor maneira possível, muitas vezes pela simples alegria de saber que você está usando algo no qual ele se dedicou tanto para fazer funcionar. E, acreditem, isso é mais do que muita gente está disposta a fazer por você. <img src='http://graveheart.me/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/kf240'>kf240</a>
+<a href='http://graveheart.me/compre/f250'>f250</a>
+<a href='http://graveheart.me/compre/turbo2'>turbo2</a>
+<a href='http://graveheart.me/compre/technica'>technica</a>
+<a href='http://graveheart.me/compre/fo'>fo</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+No tags for this post.
+<p><a href="http://feedads.g.doubleclick.net/~a/WLR0WXAHKZO9b3uWruPmqc5Cul0/0/da"><img src="http://feedads.g.doubleclick.net/~a/WLR0WXAHKZO9b3uWruPmqc5Cul0/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/WLR0WXAHKZO9b3uWruPmqc5Cul0/1/da"><img src="http://feedads.g.doubleclick.net/~a/WLR0WXAHKZO9b3uWruPmqc5Cul0/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=mkfkdAZD5RA:cRe9q1AOIOI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=mkfkdAZD5RA:cRe9q1AOIOI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=mkfkdAZD5RA:cRe9q1AOIOI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=mkfkdAZD5RA:cRe9q1AOIOI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=mkfkdAZD5RA:cRe9q1AOIOI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=mkfkdAZD5RA:cRe9q1AOIOI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/mkfkdAZD5RA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/geek-life/e-um-feliz-sysadmin-day-para-todos/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://graveheart.me/geek-life/e-um-feliz-sysadmin-day-para-todos/</feedburner:origLink></item>
+		<item>
+		<title>Como conquistar uma mulher usando o ChatRoulette</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/FzXYfDUS2-M/</link>
+		<comments>http://graveheart.me/geek-life/como-conquistar-uma-mulher-usando-o-chatroulette/#comments</comments>
+		<pubDate>Wed, 16 Mar 2011 04:12:41 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Geek Life]]></category>
+		<category><![CDATA[Músicas]]></category>
+		<category><![CDATA[chatroulette]]></category>
+		<category><![CDATA[internet]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5921</guid>
+		<description><![CDATA[Que o ChatRoulette é uma ótima forma de conhecer pessoas mundo afora e de pregar peças em desconhecidos, todo mundo já sabe. O que você não sabe é que, com muita cara de pau, um certo talento para música, e &#8230; <a href="http://graveheart.me/geek-life/como-conquistar-uma-mulher-usando-o-chatroulette/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Que o <a href="http://graveheart.me/geek-life/chat-roulette-como-usar-dicas-e-duvidas/">ChatRoulette</a> é uma ótima forma de conhecer pessoas mundo afora e de <a href="http://graveheart.me/geek-life/top-5-pegadinhas-com-o-chat-roulette/">pregar peças em desconhecidos</a>, todo mundo já sabe. O que você não sabe é que, com muita cara de pau, um certo talento para <a class="bbli" href="http://sledge.boo-box.com/list/page/bSVGQXNpY2FfIyNfYmFyXyMjX3RhZ2dpbmctdG9vbC13cF8jI185NjQz-56">música<img class="bbic" src="http://boo-box.com/bbli" alt="[bb]" /></a>, e a ajuda de alguns amigos, você pode conquistar o coração de QUALQUER mulher na internet. Dúvida? Assista até o fim:</p>
+<span style="text-align:center; display: block;"><a href="http://graveheart.me/geek-life/como-conquistar-uma-mulher-usando-o-chatroulette/"><img src="http://img.youtube.com/vi/fU1x8Ll62QE/2.jpg" alt="" /></a></span>
+<p>Reparem que nem é preciso muito para a garota ficar completamente apaixonada pela declaração cantada do sujeito. Talvez eles morem a continentes de distância, talvez eles sejam vizinhos de bairro, talvez eles nunca se encontrem pessoalmente, talvez nasça uma relação daí. Não importa. Apenas reparem na reação da garota. Com 1 minuto de vídeo, ela visivelmente já estava emocionada. E tudo isso com uma melodia inventada quase que na hora, baseada em um nome que o rapaz tinha acabado de ouvir.</p>
+<p>Obviamente, tudo isso pode ser mentira. A garota pode ser a irmã /namorada / amiga do cara, e tudo isso pode ser uma grande montagem, mas&#8230;. sinceramente, qual o problema em acreditar que com um pouco de esforço e o uso correto do <strong>ChatRoulette</strong> um homem pode fazer o dia de qualquer mulher no mundo?</p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/g800'>g800</a>
+<a href='http://graveheart.me/compre/pioneer'>pioneer</a>
+<a href='http://graveheart.me/compre/impact'>impact</a>
+<a href='http://graveheart.me/compre/kyogre'>kyogre</a>
+<a href='http://graveheart.me/compre/honeywell'>honeywell</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/chatroulette/" title="chatroulette" rel="tag">chatroulette</a>, <a href="http://graveheart.me/tag/internet/" title="internet" rel="tag">internet</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/ArB3I87o1wev4D5PsxonLkCkHTc/0/da"><img src="http://feedads.g.doubleclick.net/~a/ArB3I87o1wev4D5PsxonLkCkHTc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/ArB3I87o1wev4D5PsxonLkCkHTc/1/da"><img src="http://feedads.g.doubleclick.net/~a/ArB3I87o1wev4D5PsxonLkCkHTc/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=FzXYfDUS2-M:NdNW1kNHvNc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=FzXYfDUS2-M:NdNW1kNHvNc:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=FzXYfDUS2-M:NdNW1kNHvNc:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=FzXYfDUS2-M:NdNW1kNHvNc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=FzXYfDUS2-M:NdNW1kNHvNc:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=FzXYfDUS2-M:NdNW1kNHvNc:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/FzXYfDUS2-M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/geek-life/como-conquistar-uma-mulher-usando-o-chatroulette/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		<feedburner:origLink>http://graveheart.me/geek-life/como-conquistar-uma-mulher-usando-o-chatroulette/</feedburner:origLink></item>
+		<item>
+		<title>Anime da década de 60 inspira onda de ações de caridade no Japão</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/U70nUMpWGMg/</link>
+		<comments>http://graveheart.me/resenhas/anime/anime-da-decada-de-60-inspira-onda-de-acoes-de-caridade-no-japao/#comments</comments>
+		<pubDate>Wed, 12 Jan 2011 16:14:58 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Anime]]></category>
+		<category><![CDATA[solidariedade]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5917</guid>
+		<description><![CDATA[Um anime já bem antigo, mas que ainda é lembrado por muitos como um dos melhores animes de luta já criados, tem ganhado a mídia japonesa nos últimos dias. Tudo por que ele é responsável por uma onda de doações &#8230; <a href="http://graveheart.me/resenhas/anime/anime-da-decada-de-60-inspira-onda-de-acoes-de-caridade-no-japao/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Um anime já bem antigo, mas que ainda é lembrado por muitos como um dos <a href="http://graveheart.me/animepoint/os-10-maiores-mangas-de-porrada/">melhores animes de luta</a> já criados, tem ganhado a mídia japonesa nos últimos dias. Tudo por que ele é responsável por uma onda de doações em todo o país. O anime em questão? <a href="http://en.wikipedia.org/wiki/Tiger_Mask">Tiger Mask</a>, uma série que foi exibida originalmente no final da década de 60.</p>
+<p><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter" src="http://www.guravehaato.info/arquivos/2009/09/6a00e398a23877000300fa9699c4140002320pi.jpg" alt="" width="320" height="196" /></p>
+<p>Em <strong>Tiger Mask</strong>, Naoto Date era um lutador de luta-livre que usava o dinheiro ganho em lutas para ajudar crianças carentes e orfanatos. Uma característica marcante da série era a máscara de tigre que o personagem usava e seus golpes absurdos. Já na vida real, o movimento começou quando um orfanato na região de Gunma, na manhã de natal, recebeu dez mochilas contendo 30.000 yens (algo em torno de R$ 600,00), com uma carta assinada em nome de &#8220;Naoto Date&#8221;.</p>
+<p>Desde então, pelo menos 15 outras instituições em todo o Japão receberam diversas doações, entre dinheiro e material escolar, todas assinadas por Naoto Date. Em uma das mensagens, &#8220;Naoto&#8221; pede desculpas por &#8220;ter chegado tão tarde&#8221;. Em outra, Naoto pede para que as crianças tentem sempre seu melhor e avisa que o &#8220;o mundo não as abandonou ainda&#8221;.</p>
+<div id="attachment_5918" class="wp-caption aligncenter" style="width: 370px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center; display: block; margin-right: auto; margin-left: auto;"><a href="http://graveheart.me/arquivos/2011/01/tiger-mask-donors2011-01-10.gif"><img class="size-full wp-image-5918" title="tiger-mask-donors2011-01-10" src="http://graveheart.me/arquivos/2011/01/tiger-mask-donors2011-01-10.gif" alt="" width="360" height="262" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">Acima: os locais que receberam doações de Tiger Mask</p></div>
+<p style="text-align: left;">Como o anime tem pelo menos 40 anos, imagina-se que o doador (ou doadores) anônimo sejam pessoas na casa dos 50/60 anos, mas não seria estranho imaginar que mesmo pessoas mais jovens estejam ajudando.</p>
+<p style="text-align: left;">Em uma época em que tanto se discute a influência de obras violentas na juventude, é interessante notar que um anime conseguiu inspirar um grupo de pessoas a ajudar crianças carentes de forma anônima. Um exemplo e tanto, e um caso a se estudar. É muito dificil termos algo assim no Brasil?</p>
+<p style="text-align: left;">Com informações: <a href="http://www.animenewsnetwork.com/interest/2011-01-10/tiger-mask-donors-strike-again-in-8-more-cities">Anime News Network</a></p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/800w'>800w</a>
+<a href='http://graveheart.me/compre/fit'>fit</a>
+<a href='http://graveheart.me/compre/z80'>z80</a>
+<a href='http://graveheart.me/compre/estetica'>estetica</a>
+<a href='http://graveheart.me/compre/ole'>ole</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/anime/" title="Anime" rel="tag">Anime</a>, <a href="http://graveheart.me/tag/solidariedade/" title="solidariedade" rel="tag">solidariedade</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/-AFtIao7mcSMFUybMZT8iECAfgE/0/da"><img src="http://feedads.g.doubleclick.net/~a/-AFtIao7mcSMFUybMZT8iECAfgE/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/-AFtIao7mcSMFUybMZT8iECAfgE/1/da"><img src="http://feedads.g.doubleclick.net/~a/-AFtIao7mcSMFUybMZT8iECAfgE/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=U70nUMpWGMg:5XA6sDJiiwM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=U70nUMpWGMg:5XA6sDJiiwM:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=U70nUMpWGMg:5XA6sDJiiwM:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=U70nUMpWGMg:5XA6sDJiiwM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=U70nUMpWGMg:5XA6sDJiiwM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=U70nUMpWGMg:5XA6sDJiiwM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/U70nUMpWGMg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/resenhas/anime/anime-da-decada-de-60-inspira-onda-de-acoes-de-caridade-no-japao/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://graveheart.me/resenhas/anime/anime-da-decada-de-60-inspira-onda-de-acoes-de-caridade-no-japao/</feedburner:origLink></item>
+		<item>
+		<title>A Mac App Store e mais uma importante lição sobre marketing pessoal</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/zaltVNl_KPk/</link>
+		<comments>http://graveheart.me/geek-life/a-mac-app-store-e-mais-uma-importante-licao-sobre-marketing-pessoal/#comments</comments>
+		<pubDate>Tue, 11 Jan 2011 03:36:31 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Geek Life]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[mac app store]]></category>
+		<category><![CDATA[Windows]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5912</guid>
+		<description><![CDATA[Se você acompanha notícias sobre tecnologia, deve ter reparado que o assunto mais recorrente da semana passada era o lançamento da Mac App Store, um aplicativo para OSX que basicamente faz o mesmo que a App Store do iPhone, mas &#8230; <a href="http://graveheart.me/geek-life/a-mac-app-store-e-mais-uma-importante-licao-sobre-marketing-pessoal/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Se você acompanha notícias sobre tecnologia, deve ter reparado que o assunto mais recorrente da semana passada era o lançamento da Mac App Store, um aplicativo para OSX que basicamente faz o mesmo que a App Store do iPhone, mas dessa vez com programas para desktop. Assim, é possível comprar, baixar e instalar um pouco mais de 1.000 aplicativos com pouquíssimos cliques, e apenas inserindo sua senha do iTunes.</p>
+<p>Legal, não? Agora, sem precisar procurar pela internet, é possível ter centenas, milhares de aplicativos no seu desktop, a maioria sem nem mesmo precisar pagar, ou com preços bem menores do que os mesmos programas vendidos nas lojas, com caixinha, CD, e manual de instruções. Mas&#8230; e se eu disser que esse conceito já existe há mais de 10 anos? E se eu disser que existe um grupo de usuários que já utilizam esse conceito de &#8220;baixe e instale em apenas um clique&#8221; desde 1998?</p>
+<div id="attachment_5913" class="wp-caption aligncenter" style="width: 650px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center; display: block; margin-right: auto; margin-left: auto;"><a href="http://graveheart.me/arquivos/2011/01/800px-Synaptic_Package_Manager.png"><img class="size-full wp-image-5913" title="800px-Synaptic_Package_Manager" src="http://graveheart.me/arquivos/2011/01/800px-Synaptic_Package_Manager.png" alt="" width="640" height="363" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">APT, a Mac App Store do Linux</p></div>
+<p>O APT é uma solução que nasceu no Debian Linux, existe desde 1998, e no frigir dos ovos tem um conceito que é <strong>exatamente</strong> o mesmo da App Store, sem tirar nem por. Você quer um programa, pede para que esse programa seja baixado e instalado, e o processo é realizado com o mínimo de interação humana. <strong>Tecnicamente</strong>, não há nada que a App Store não faça que o APT não faça também. Inclusive, o <strong>Ubuntu Software Center</strong>, uma implementação do APT para o Ubuntu, permite até mesmo que você compre programas.</p>
+<p>Vejam bem, não estou acusando a Apple de plágio ou qualquer coisa do tipo, longe de mim. Mas é curioso para mim que tantos meios de informação (como blogs e jornais) e &#8220;formadores de opinião&#8221; digam a todos os pulmões que a Mac App Store é &#8220;revolucionária&#8221; ou &#8220;única&#8221;. Não é. Qualquer um que enxergue fora do mundinho Microsoft/Apple sabe disso.</p>
+<p>Mas, se o APT já permitia essa &#8220;revolução&#8221; toda ainda em 1998, porque ele é ignorado ou nem mesmo levado em consideração quando falamos de sistemas que me permitam gerenciar aplicativos no sistema operacional? A explicação é bem simples: na vida real, não importa <strong>o quê</strong> você faz, mas <strong>como você diz que fez</strong>.</p>
+<p>A comunidade Open Source tinha uma necessidade: facilitar a instalação de aplicativos e a solução de dependências do <em>dpkg</em>. E o APT surgiu. E eles disseram &#8220;OK, nossa, que legal, problema resolvido&#8221;. A Apple tinha a mesma necessidade, mas ela não só desenvolveu a solução, como também embrulhou tudo em uma interface bonita, intuitiva e comercialmente atraente. Assim, a atenção da mídia e dos usuários foi maior.</p>
+<p>Pode parecer absurdo, mas não há nada de errado nisso. A comunidade Open Source precisa aprender a &#8220;se vender&#8221; melhor. Há centenas, milhares de soluções livres que funcionam melhor que as alternativas pagas, ou nem mesmo encontram concorrentes pagos. Mas pela falta de um processo que chame a atenção para os usuários, essas mesmas soluções hoje vivem sub-utilizadas.</p>
+<p>Basta ver a maioria das interfaces de aplicativos Open Source: elas fazem <strong>exatamente</strong> o que deveriam fazer, mas muitas vezes de uma maneira crua, seca, sem qualquer atrativo maior para o usuário. E isso <strong>faz </strong>diferença. E não sou eu quem está dizendo isso, é a Apple. Basta ver a maioria dos lançamentos dela nos últimos anos, há pouquíssima coisa realmente nova ali, o resto é uma leva de soluções que já existiam mas que foram empacotadas de uma forma tão atraente que as pessoas acabam <strong>querendo</strong> ter o produto <strong>de qualquer jeito.</strong></p>
+<p>O mesmo vale para você, enquanto profissional. Você pode ser o cara mais competente do universo, mas se não sabe vender o que faz, acaba sendo ofuscado pelo cara que não faz nada de surpreendente mas já se anuncia como &#8220;expert em PHP&#8221; desde o primeiro <em>Hello World</em>. Quantas pessoas você talvez não conheça que são exatamente assim?</p>
+<p>Sinceramente, não é um processo simples, mas é necessário. Se o Software Livre quiser realmente ganhar uma fatia visível do mercado, a comunidade precisa começar a &#8220;vender&#8221; melhor as idéias que tem, precisa começar a mostrar o quão revolucionárias são suas idéias, mas de uma forma que as pessoas comuns entendam e se sintam interessadas.</p>
+<p>Caso contrário, o Linux como um todo continuará sendo sempre o patinho feio dos Sistemas Operacionais para usuários, e descobrindo só depois de mais de 10 anos que tinham desde o começo uma solução revolucionária em suas mãos.</p>
+<p style="text-align: center;">
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/chiquititas'>chiquititas</a>
+<a href='http://graveheart.me/compre/brincando'>brincando</a>
+<a href='http://graveheart.me/compre/px32'>px32</a>
+<a href='http://graveheart.me/compre/pneumatica'>pneumatica</a>
+<a href='http://graveheart.me/compre/ortobom'>ortobom</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/linux/" title="Linux" rel="tag">Linux</a>, <a href="http://graveheart.me/tag/mac-app-store/" title="mac app store" rel="tag">mac app store</a>, <a href="http://graveheart.me/tag/windows/" title="Windows" rel="tag">Windows</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/t5jfwVuLRc7yy4wwjCt73VVHYFI/0/da"><img src="http://feedads.g.doubleclick.net/~a/t5jfwVuLRc7yy4wwjCt73VVHYFI/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/t5jfwVuLRc7yy4wwjCt73VVHYFI/1/da"><img src="http://feedads.g.doubleclick.net/~a/t5jfwVuLRc7yy4wwjCt73VVHYFI/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=zaltVNl_KPk:elIdMhmmPPI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=zaltVNl_KPk:elIdMhmmPPI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=zaltVNl_KPk:elIdMhmmPPI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=zaltVNl_KPk:elIdMhmmPPI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=zaltVNl_KPk:elIdMhmmPPI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=zaltVNl_KPk:elIdMhmmPPI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/zaltVNl_KPk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/geek-life/a-mac-app-store-e-mais-uma-importante-licao-sobre-marketing-pessoal/feed/</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		<feedburner:origLink>http://graveheart.me/geek-life/a-mac-app-store-e-mais-uma-importante-licao-sobre-marketing-pessoal/</feedburner:origLink></item>
+		<item>
+		<title>A abertura de UltraSeven, tocada por uma orquestra!</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/446JJMa_qHA/</link>
+		<comments>http://graveheart.me/geek-life/a-abertura-de-ultraseven-tocada-por-uma-orquestra/#comments</comments>
+		<pubDate>Wed, 17 Nov 2010 13:54:13 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Geek Life]]></category>
+		<category><![CDATA[coral]]></category>
+		<category><![CDATA[japão]]></category>
+		<category><![CDATA[Ultraman]]></category>
+		<category><![CDATA[ultraseven]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5883</guid>
+		<description><![CDATA[O que uma zapeada pelos &#8220;Vídeos Relacionados&#8221; do Youtube não revela&#8230;. Ontem encontrei uma série de vídeos mostrando vários temas de séries japonesas clássicas sendo tocadas por uma orquestra, e logo na do UltraSeven podemos ver até mesmo o ator &#8230; <a href="http://graveheart.me/geek-life/a-abertura-de-ultraseven-tocada-por-uma-orquestra/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>O que uma zapeada pelos &#8220;Vídeos Relacionados&#8221; do Youtube não revela&#8230;. Ontem encontrei uma série de vídeos mostrando vários temas de séries japonesas clássicas sendo tocadas por uma orquestra, e logo na do <a class="bbli" href="http://sledge.boo-box.com/list/page/VWx0cmFTZXZlbl8jI19iYXJfIyNfdGFnZ2luZy10b29sLXdwXyMjXzk2NDM=-60">UltraSeven<img class="bbic" src="http://boo-box.com/bbli" alt="[bb]" /></a> podemos ver até mesmo o ator que fazia o Dan Moroboshi participando do coral. Clássico, simplesmente clássico:</p>
+<p style="text-align: center;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/6Pk1KQXS_Ks&amp;feature" /><embed type="application/x-shockwave-flash" width="425" height="350" src="http://www.youtube.com/v/6Pk1KQXS_Ks&amp;feature"></embed></object></p>
+<p style="text-align: center;">Aqui, a versão sem coral:</p>
+<p style="text-align: center;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/M4sjh8qy-rE&amp;feature" /><embed type="application/x-shockwave-flash" width="425" height="350" src="http://www.youtube.com/v/M4sjh8qy-rE&amp;feature"></embed></object></p>
+<p style="text-align: center;">Aqui, uma versão tocada por uma banda da marinha norte-americana</p>
+<p style="text-align: center;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/8g0Rlsx5k1o&amp;feature" /><embed type="application/x-shockwave-flash" width="425" height="350" src="http://www.youtube.com/v/8g0Rlsx5k1o&amp;feature"></embed></object></p>
+<p style="text-align: center;">E, finalmente, um coral com a abertura do Ultraman original:</p>
+<p style="text-align: center;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/fL9fvDr3oEU" /><embed type="application/x-shockwave-flash" width="425" height="350" src="http://www.youtube.com/v/fL9fvDr3oEU"></embed></object></p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/93ghz'>93ghz</a>
+<a href='http://graveheart.me/compre/interlagos'>interlagos</a>
+<a href='http://graveheart.me/compre/lgip'>lgip</a>
+<a href='http://graveheart.me/compre/4pcs'>4pcs</a>
+<a href='http://graveheart.me/compre/507'>507</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/coral/" title="coral" rel="tag">coral</a>, <a href="http://graveheart.me/tag/japao/" title="japão" rel="tag">japão</a>, <a href="http://graveheart.me/tag/ultraman/" title="Ultraman" rel="tag">Ultraman</a>, <a href="http://graveheart.me/tag/ultraseven/" title="ultraseven" rel="tag">ultraseven</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/FZnl3HnKS0AaYMK6BU1OVaQNpd8/0/da"><img src="http://feedads.g.doubleclick.net/~a/FZnl3HnKS0AaYMK6BU1OVaQNpd8/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/FZnl3HnKS0AaYMK6BU1OVaQNpd8/1/da"><img src="http://feedads.g.doubleclick.net/~a/FZnl3HnKS0AaYMK6BU1OVaQNpd8/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=446JJMa_qHA:m9sGPP7ZWBo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=446JJMa_qHA:m9sGPP7ZWBo:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=446JJMa_qHA:m9sGPP7ZWBo:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=446JJMa_qHA:m9sGPP7ZWBo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=446JJMa_qHA:m9sGPP7ZWBo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=446JJMa_qHA:m9sGPP7ZWBo:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/446JJMa_qHA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/geek-life/a-abertura-de-ultraseven-tocada-por-uma-orquestra/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://graveheart.me/geek-life/a-abertura-de-ultraseven-tocada-por-uma-orquestra/</feedburner:origLink></item>
+		<item>
+		<title>BoardWalk Empire: gângsters, bebidas e peitos de fora</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/NQ_IX-sk8CE/</link>
+		<comments>http://graveheart.me/series/boardwalk-empire-gangsters-bebidas-e-peitos-de-fora/#comments</comments>
+		<pubDate>Fri, 05 Nov 2010 15:21:47 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Resenhas]]></category>
+		<category><![CDATA[séries]]></category>
+		<category><![CDATA[BoardWalk empire]]></category>
+		<category><![CDATA[resenha]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5873</guid>
+		<description><![CDATA[Com o fim de Lost e 24 Horas (Heroes nem conta mais, mas enfim), a temporada 2010 deixou uma dúvida gigante: haveriam novas séries boas o suficiente para ocupar o espaço deixado por essas que terminaram? Felizmente, a temporada 2010/2011 trouxe &#8230; <a href="http://graveheart.me/series/boardwalk-empire-gangsters-bebidas-e-peitos-de-fora/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Com o fim de Lost e 24 Horas (Heroes nem conta mais, mas enfim), a temporada 2010 deixou uma dúvida gigante: haveriam novas séries boas o suficiente para ocupar o espaço deixado por essas que terminaram? Felizmente, a temporada 2010/2011 trouxe boas surpresas, que valem a pena acompanhar. <strong>The Event</strong>, <strong>The Walking Dead</strong> e <strong>BoardWalk Empire</strong> (O Império do Contrabando) já estão nos meus top 10 da temporada, e aproveito para comentar sobre esse último, a única da qual já assisti episódios o suficiente para ter uma boa opinião formada. Não percam, em breve, uma resenha sobre essas outras séries. <img src='http://graveheart.me/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Produção da HBO, e mantendo a mesma qualidade que o canal imprime em todas suas produções, BoardWalk Empire chama a atenção pelos diálogos afiadíssimos, boas interpretações, fotografia excelente e precisão histórica nas roupas e costumes. Uma série para quem quer conhecer uma das fases mais interessantes dos EUA: a proibição da fabricação e consumo de bebidas alcoólicas e o conseqüente contrabando, que enriqueceu vários mafiosos e transformou <strong>Al Capone</strong> em um nome conhecido. Aliás, como a série foca no começo da proibição, Al aparece aidna como um João Ninguém completametne sem noção, uma sombra do que viria a se tornar. E assim, vamos vendo o crescimendo das máfias em Atlantic City e em outras cidades, bem no começo da Lei Seca, e acompanhando vários personagens que de alguma forma estão envolvidos com o contrabando e em outras situações, como por exemplo o crescimento da KKK, a luta pelo direito do voto feminino, e o fim da primeira guerra.</p>
+<div id="attachment_5875" class="wp-caption aligncenter" style="width: 522px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center; display: block; margin-right: auto; margin-left: auto;"><a href="http://graveheart.me/arquivos/2010/11/Boardwalk-Empire.jpg"><img class="size-large wp-image-5875" title="Boardwalk-Empire" src="http://graveheart.me/arquivos/2010/11/Boardwalk-Empire-1024x682.jpg" alt="" width="512" height="341" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">Os cenários e a caracterização chamam a atenção. Nem pense em assistir se não for HD</p></div>
+<p style="text-align: left;">O seriado foca em Enoch (Nucky) Thompson (baseado em um personagem real), um político ambicioso que aproveita a Lei Seca para enriquecer e se tornar ainda mais poderoso. Com isso, ele acaba se envolvendo com personagens históricos e levando uma vida tripla (político corrupto, criminoso sem escrúpulos e figura importante na sociedade). E o que vamos acompanhando é justamente a tentativa de Nucky em tentar equilibrar esses aspectos de sua vida, entre bebidas, festas, sexo e&#8230; amores.</p>
+<blockquote><p>- No final, tudo o que eu preciso fazer pra ele ficar comigo é usar isso (abre as pernas)<br />
+- Quando eu era criança na Irlanda, um maltrapilho aparecia toda primavera, com um pequeno galo de briga. Ele tocava com o bico, &#8220;The Mountains of Mourne&#8221; em um piano de brinquedo, pendurado no peito.<br />
+- E daí?<br />
+- No primeiro ano em que ele veio, todas nós, as garotinhas de lá, achamos mágico. No segundo ano, rimos discretamente do velho em seus trapos. E no terceiro ano, nem fomos vê-lo. Porque o galo só sabia tocar &#8220;The Mountains of Mourne&#8221;.<br />
+- O que quer dizer?<br />
+- Que a sua x0x0ta não é tão interessante quanto pensa.</p></blockquote>
+<p>Como eu disse, o que torna Bordwalk Empire realmente interessante são o roteiro e os diálogos, e o exemplo acima é uma mostra disso. Por ser uma série da HBO, não há restrições e os personagens fumam, bebem, falam palavrões, transam e andam nús, como fariam normalmente. Nem mesmo a violência é suavizada, como podemos ver em uma cena com Nelson Van Alden, um agente federal que faz <strong>qualquer coisa</strong> para pegar os contrabandistas de Atlantic City.</p>
+<div id="attachment_5876" class="wp-caption aligncenter" style="width: 519px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center; display: block; margin-right: auto; margin-left: auto;"><a href="http://graveheart.me/arquivos/2010/11/boardwalk-empire-02-1024.jpg"><img class="size-full wp-image-5876" title="boardwalk-empire-02-1024" src="http://graveheart.me/arquivos/2010/11/boardwalk-empire-02-1024-e1288969836491.jpg" alt="" width="509" height="376" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">Fumando, o Capone moleque, de várzea.</p></div>
+<p style="text-align: left;">Se tudo isso ainda não te convenceu, vale lembrar que o primeiro episódio foi dirigito pelo todo fodão <strong>Martin Scorcese</strong>, grande conhecido dos fãs de filmes sobre máfia e crimes. E o episódio de estréia teve uma audiência tão grande que a segunda temporada já foi confirmada.</p>
+<div id="attachment_5877" class="wp-caption aligncenter" style="width: 583px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center; display: block; margin-right: auto; margin-left: auto;"><a href="http://graveheart.me/arquivos/2010/11/boardwalk-empire-2010-steve-buscemi.jpg"><img class="size-full wp-image-5877" title="boardwalk-empire-2010-steve-buscemi" src="http://graveheart.me/arquivos/2010/11/boardwalk-empire-2010-steve-buscemi.jpg" alt="" width="573" height="378" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">Senhoras e senhors, acreditem em mim quando lhes digo: a série é boa. Eu tenho cara de quem mentiria para vocês?</p></div>
+<p style="text-align: left;">
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/6040b'>6040b</a>
+<a href='http://graveheart.me/compre/laqueada'>laqueada</a>
+<a href='http://graveheart.me/compre/buzina'>buzina</a>
+<a href='http://graveheart.me/compre/eletrodomesticos'>eletrodomesticos</a>
+<a href='http://graveheart.me/compre/sw4'>sw4</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/boardwalk-empire/" title="BoardWalk empire" rel="tag">BoardWalk empire</a>, <a href="http://graveheart.me/tag/resenha/" title="resenha" rel="tag">resenha</a>, <a href="http://graveheart.me/tag/series/" title="séries" rel="tag">séries</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/ufWjkxggIxP7GFsMER46OufDFQI/0/da"><img src="http://feedads.g.doubleclick.net/~a/ufWjkxggIxP7GFsMER46OufDFQI/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/ufWjkxggIxP7GFsMER46OufDFQI/1/da"><img src="http://feedads.g.doubleclick.net/~a/ufWjkxggIxP7GFsMER46OufDFQI/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=NQ_IX-sk8CE:KoI4vf0dbTI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=NQ_IX-sk8CE:KoI4vf0dbTI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=NQ_IX-sk8CE:KoI4vf0dbTI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=NQ_IX-sk8CE:KoI4vf0dbTI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=NQ_IX-sk8CE:KoI4vf0dbTI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=NQ_IX-sk8CE:KoI4vf0dbTI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/NQ_IX-sk8CE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/series/boardwalk-empire-gangsters-bebidas-e-peitos-de-fora/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://graveheart.me/series/boardwalk-empire-gangsters-bebidas-e-peitos-de-fora/</feedburner:origLink></item>
+		<item>
+		<title>Saiba quem levou os prêmios do Foursquare!</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/YvZZOs-LSJo/</link>
+		<comments>http://graveheart.me/blog/saiba-quem-levou-os-premios-do-foursquare/#comments</comments>
+		<pubDate>Fri, 29 Oct 2010 16:27:05 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[foursquare]]></category>
+		<category><![CDATA[prêmio]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5868</guid>
+		<description><![CDATA[Uma semana se passou, vários RTs foram dados, e agora é hora de saber quem levou os sticker e bottons do Foursquare. Apenas recapitulando: As regras descritas no post eram: a) me seguir e b) twittar uma frase com um &#8230; <a href="http://graveheart.me/blog/saiba-quem-levou-os-premios-do-foursquare/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Uma semana se passou, vários RTs foram dados, e agora é hora de saber quem levou os sticker e bottons do Foursquare. Apenas recapitulando: As regras <a href="http://graveheart.me/blog/ganhe-bottons-e-stickers-do-fourquare/">descritas no post</a> eram: a) me seguir e b) twittar uma frase com um link do migre.me.</p>
+<p>Com base nisso, agrupei todos os perfis que seguiram as regras em uma planilha (cada perfil em uma linha), e usei o random.org para gerar dois números. Ganhou quem estava na linha correspondente aos números sorteados. Assim, sem mais detalhes técnicos, vamos aos ganhadores!</p>
+<p style="text-align: center;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/X0YAnNNK2OE" /><embed type="application/x-shockwave-flash" width="425" height="350" src="http://www.youtube.com/v/X0YAnNNK2OE"></embed></object></p>
+<p>Os vencedores foram <a href="http://twitter.com/jonathaslacerda">@jonathaslacerda</a> e <a href="http://twitter.com/lentesuja">@lentesuja</a>. Já estou enviando um DM para vocês, para acertar a entregas do prêmios.</p>
+<p>Aos demais, um muito obrigado pela participação e fiquem ligados, não demora muito teremos mais promoções rolando por aqui. <img src='http://graveheart.me/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/pentagrama'>pentagrama</a>
+<a href='http://graveheart.me/compre/voil'>voil</a>
+<a href='http://graveheart.me/compre/f3'>f3</a>
+<a href='http://graveheart.me/compre/gar'>gar</a>
+<a href='http://graveheart.me/compre/hss'>hss</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/blog/" title="Blog" rel="tag">Blog</a>, <a href="http://graveheart.me/tag/foursquare/" title="foursquare" rel="tag">foursquare</a>, <a href="http://graveheart.me/tag/premio/" title="prêmio" rel="tag">prêmio</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/p1cSPxAqTqKOZzmqJm4yUQBlvQM/0/da"><img src="http://feedads.g.doubleclick.net/~a/p1cSPxAqTqKOZzmqJm4yUQBlvQM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/p1cSPxAqTqKOZzmqJm4yUQBlvQM/1/da"><img src="http://feedads.g.doubleclick.net/~a/p1cSPxAqTqKOZzmqJm4yUQBlvQM/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=YvZZOs-LSJo:M9w2Sim8R6w:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=YvZZOs-LSJo:M9w2Sim8R6w:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=YvZZOs-LSJo:M9w2Sim8R6w:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=YvZZOs-LSJo:M9w2Sim8R6w:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=YvZZOs-LSJo:M9w2Sim8R6w:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=YvZZOs-LSJo:M9w2Sim8R6w:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/YvZZOs-LSJo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/blog/saiba-quem-levou-os-premios-do-foursquare/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://graveheart.me/blog/saiba-quem-levou-os-premios-do-foursquare/</feedburner:origLink></item>
+		<item>
+		<title>Ganhe bottons e stickers do Foursquare!</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/o57W2pclYsE/</link>
+		<comments>http://graveheart.me/blog/ganhe-bottons-e-stickers-do-fourquare/#comments</comments>
+		<pubDate>Thu, 21 Oct 2010 16:54:18 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[foursquare]]></category>
+		<category><![CDATA[sorteio]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5860</guid>
+		<description><![CDATA[Mas então&#8230;. Meses atrás, esse blog completou quatro anos de existência. Por pura falta de tempo / ânimo / vontade, deixei a data passar em branco e esqueci de fazer um post comemorativo. Nesse período, o blog até mudou de &#8230; <a href="http://graveheart.me/blog/ganhe-bottons-e-stickers-do-fourquare/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Mas então&#8230;.</p>
+<p>Meses atrás, esse blog completou quatro anos de existência. Por pura falta de tempo / ânimo / vontade, deixei a data passar em branco e esqueci de fazer um post comemorativo. Nesse período, o blog até mudou de URL, de nome, e de tema (<em>aliás, se alguém quiser fazer uma imagem de cabeçalho personalizado, agradecerei do fundo do coração e ainda deixarei um link eterno para você no meu blog</em>) .</p>
+<p>Mas, para não deixar a data passar totalmente em branco e homenagear os milhares de leitores que já caíram nesse blog e viraram fãs, resolvi fazer uma promoção rápida, valendo um brinde difícil de se encontrar no Brasil: <a href="http://store.foursquare.com/shop/product/BT_greenMayor_001">bottons</a> e <a href="http://store.foursquare.com/shop/product/ST_Badges_001">stickers</a>, diretos da loja do Foursquare! Como, você não sabe o que é Foursquare? Tudo bem, o patrão já <a href="http://www.interney.net/?p=9771175">explicou em um post como ele funciona</a>, e é bem fácil!</p>
+<p style="text-align: center;"><a href="http://graveheart.me/arquivos/2010/10/21102010_001.jpg"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="size-large wp-image-5862  aligncenter" title="21102010_001" src="http://graveheart.me/arquivos/2010/10/21102010_001-1024x768.jpg" alt="" width="512" height="384" /></a></p>
+<p style="text-align: left;">Ao todo serão dois conjuntos para dois sortudos, cada um deles com cinco bottons e um conjunto de seis stickers. E como eu faço para ganhar? Você só precisa fazer duas coisas simples: Me <a href="http://twitter.com/graveheart">seguir no Twitte</a>r e também twittar a mensagem abaixo:</p>
+<blockquote>
+<p style="text-align: left;">&#8220;Quero ganhar os brindes do Foursquare que o @graveheart está sorteando: http://migre.me/1Gkpj&#8221;</p>
+</blockquote>
+<p style="text-align: left;">&#8220;Ah, mas não tenho twitter!&#8221; &#8211; Cria uma conta, coisa que cinco segundos e você já está concorrendo. Mais fácil que isso, impossível! <img src='http://graveheart.me/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p style="text-align: left;">O sorteio será na sexta-feira que vem, dia 29/10, então não perca tempo e <strong>participe!</strong></p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/knight'>knight</a>
+<a href='http://graveheart.me/compre/gt4'>gt4</a>
+<a href='http://graveheart.me/compre/capuz'>capuz</a>
+<a href='http://graveheart.me/compre/mugler'>mugler</a>
+<a href='http://graveheart.me/compre/cin'>cin</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/foursquare/" title="foursquare" rel="tag">foursquare</a>, <a href="http://graveheart.me/tag/sorteio/" title="sorteio" rel="tag">sorteio</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/5BYobCrM-2PG6OcxYfdl38Lb_Oo/0/da"><img src="http://feedads.g.doubleclick.net/~a/5BYobCrM-2PG6OcxYfdl38Lb_Oo/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/5BYobCrM-2PG6OcxYfdl38Lb_Oo/1/da"><img src="http://feedads.g.doubleclick.net/~a/5BYobCrM-2PG6OcxYfdl38Lb_Oo/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=o57W2pclYsE:1fKre8Hrcm0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=o57W2pclYsE:1fKre8Hrcm0:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=o57W2pclYsE:1fKre8Hrcm0:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=o57W2pclYsE:1fKre8Hrcm0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=o57W2pclYsE:1fKre8Hrcm0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=o57W2pclYsE:1fKre8Hrcm0:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/o57W2pclYsE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/blog/ganhe-bottons-e-stickers-do-fourquare/feed/</wfw:commentRss>
+		<slash:comments>29</slash:comments>
+		<feedburner:origLink>http://graveheart.me/blog/ganhe-bottons-e-stickers-do-fourquare/</feedburner:origLink></item>
+		<item>
+		<title>10 fatos da minha infância que me definiram como nerd</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/2DH6yd0agHA/</link>
+		<comments>http://graveheart.me/geek-life/10-fatos-da-minha-infancia-que-me-definiram-como-nerd/#comments</comments>
+		<pubDate>Wed, 13 Oct 2010 20:47:06 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Geek Life]]></category>
+		<category><![CDATA[dia das crianças]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[infância]]></category>
+		<category><![CDATA[Jogos]]></category>
+		<category><![CDATA[nerd]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5844</guid>
+		<description><![CDATA[1 &#8211; Quando tinha meus quatro, cinco anos, minha mãe me levou no médico e me prometeu um presente se eu me comportasse. Podia ser qualquer coisa, um brinquedo, comida, etc. desde que fosse barato. Na saída do médico, passei &#8230; <a href="http://graveheart.me/geek-life/10-fatos-da-minha-infancia-que-me-definiram-como-nerd/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>1 &#8211; Quando tinha meus quatro, cinco anos, minha mãe me levou no médico e me prometeu um presente se eu me comportasse. Podia ser qualquer coisa, um brinquedo, comida, etc. desde que fosse barato. Na saída do médico, passei em frente a uma banca e apontei para as revistas. Minha mãe acabou comprando uma do Chico Bento, e eu ficava no quintal de casa tentando entender o que estava escrito lá;</p>
+<p><a href="http://graveheart.me/arquivos/2010/10/change-robo.jpg"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter size-full wp-image-5847" title="change robo" src="http://graveheart.me/arquivos/2010/10/change-robo.jpg" alt="" width="320" height="310" /></a></p>
+<p>2 &#8211; Enquanto assistia Changeman, esperava a hora das naves começarem a formar o Change-Robot começar a se transformar e ficava prestando atenção para entender COMO eles se encaixavam até formar o robô;</p>
+<p>3 &#8211; Logo que meu primeiro controle do Atari quebrou, meu pai simplesmente abriu o bicho, lixou umas partes metálicas e ao montar tudo de novo, o bicho estava funcionando. Fiquei tão fascinado pela &#8220;mágica&#8221; que acabei tentando fazer o mesmo. O controle nunca mais funcionou. <img src='http://graveheart.me/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+<p><a href="http://graveheart.me/arquivos/2010/10/teenage-mutant-ninja-turtles.jpg"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter size-full wp-image-5851" title="teenage-mutant-ninja-turtles" src="http://graveheart.me/arquivos/2010/10/teenage-mutant-ninja-turtles.jpg" alt="" width="431" height="318" /></a>4 &#8211; Já fui até o Shopping com dinheiro suficiente para umas duas fichas de fliperama, um lanche no McDonald&#8217;s e sobremesa. Gastei tudo no fliperama das Tartarugas Ninja e acabei tendo que pedir dinheiro para pagar a passagem de ônibus na volta;</p>
+<p><a href="http://graveheart.me/arquivos/2010/10/dd432dc903be08ecd861213ec510493f-Phantasy_Star.jpg"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter size-full wp-image-5848" title="dd432dc903be08ecd861213ec510493f-Phantasy_Star" src="http://graveheart.me/arquivos/2010/10/dd432dc903be08ecd861213ec510493f-Phantasy_Star.jpg" alt="" width="300" height="406" /></a>5 &#8211; Chorei tanto para que meus pais comprassem o Phantasy Star para o Master System (o primeiro jogo em português que levou TRÊS MESES para ser finalizado pelos analistas da Tec Toy!) que não aceitei ter encerrado em três semanas e fiquei procurando segredos e macetes no jogo durante dias. Até mandei uma dica para o número de telefone que a TecToy disponibiliza para que os jogadores pudessem tirar dúvidas;</p>
+<p><a href="http://graveheart.me/arquivos/2010/10/street_fighter.jpg"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter size-full wp-image-5850" title="street_fighter" src="http://graveheart.me/arquivos/2010/10/street_fighter.jpg" alt="" width="350" height="462" /></a>6 &#8211; Quando anunciaram o filme do Street Fighter, fiz questão de pegar a primeira sessão no dia da estréia. E como todo bom nerd, saí do filme me sentindo enganado;</p>
+<p>7 &#8211; Lá pelos meus 10 anos, minha coleção de revistas já obrigava meus pais a tomar medidas para armazená-las &#8211; já que só caixas de papelão não estavam sendo o suficiente;</p>
+<p>8 &#8211; Com 13 anos, &#8220;evangelizei&#8221; boa parte dos meus amigos da escola a assistirem Cavaleiros do Zodíaco. Série que eu só descobri por acaso, zapeando nos canais logo depois de arrumar a casa;</p>
+<p><a href="http://graveheart.me/arquivos/2010/10/Spider-Man_SMS_ScreenShot1.gif"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter size-full wp-image-5849" title="Spider-Man_SMS_ScreenShot1" src="http://graveheart.me/arquivos/2010/10/Spider-Man_SMS_ScreenShot1.gif" alt="" width="256" height="224" /></a>9 &#8211; Joguei tanto o Homem-Aranha para o Master System que me interessei pelo personagem e em um dado momento peguei uns trocados que tinham sobrado para comprar uma edição usada, a 98. Em menos de seis meses já tinha trocado todas as minhas revistas da Turma da Mônica e Disney por revistas do Homem-Aranha. Aliás, tenho quase todas essas revistas até  hoje;</p>
+<p>10 &#8211; O primeiro computador que entrou em casa foi um MSX usado, que a minha irmã havia comprado. Veio com poucos jogos, ligava direto na TV, como um videogame, e o mais interessante eram os manuais, ensinando a fazer os mais diversos aplicativos usando o fantástico BASIC. Inspirado pelo filme &#8220;A Mosca II&#8221;, levei horas fazendo um programa que se auto-destruía se a senha correta não fosse digitada. Foi a primeira vez que o conceito de &#8220;backup&#8221; surgiu na minha cabeça. <img src='http://graveheart.me/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/i930'>i930</a>
+<a href='http://graveheart.me/compre/donkey'>donkey</a>
+<a href='http://graveheart.me/compre/sineta'>sineta</a>
+<a href='http://graveheart.me/compre/truss'>truss</a>
+<a href='http://graveheart.me/compre/prado'>prado</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/dia-das-criancas/" title="dia das crianças" rel="tag">dia das crianças</a>, <a href="http://graveheart.me/tag/games/" title="games" rel="tag">games</a>, <a href="http://graveheart.me/tag/infancia/" title="infância" rel="tag">infância</a>, <a href="http://graveheart.me/tag/jogos/" title="Jogos" rel="tag">Jogos</a>, <a href="http://graveheart.me/tag/nerd/" title="nerd" rel="tag">nerd</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/S2iUs5rSAFDcKdykCYwQsYnm5GY/0/da"><img src="http://feedads.g.doubleclick.net/~a/S2iUs5rSAFDcKdykCYwQsYnm5GY/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/S2iUs5rSAFDcKdykCYwQsYnm5GY/1/da"><img src="http://feedads.g.doubleclick.net/~a/S2iUs5rSAFDcKdykCYwQsYnm5GY/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=2DH6yd0agHA:1x0D6xByg1c:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=2DH6yd0agHA:1x0D6xByg1c:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=2DH6yd0agHA:1x0D6xByg1c:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=2DH6yd0agHA:1x0D6xByg1c:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=2DH6yd0agHA:1x0D6xByg1c:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=2DH6yd0agHA:1x0D6xByg1c:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/2DH6yd0agHA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/geek-life/10-fatos-da-minha-infancia-que-me-definiram-como-nerd/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://graveheart.me/geek-life/10-fatos-da-minha-infancia-que-me-definiram-como-nerd/</feedburner:origLink></item>
+		<item>
+		<title>Eu não tenho TV</title>
+		<link>http://feedproxy.google.com/~r/GuravehaatoDesuKa/~3/tHxLyaYHHPk/</link>
+		<comments>http://graveheart.me/geek-life/eu-nao-tenho-tv/#comments</comments>
+		<pubDate>Tue, 21 Sep 2010 20:39:03 +0000</pubDate>
+		<dc:creator>graveheart</dc:creator>
+				<category><![CDATA[Geek Life]]></category>
+		<category><![CDATA[download]]></category>
+		<category><![CDATA[internet]]></category>
+		<category><![CDATA[séries]]></category>
+		<category><![CDATA[torrent]]></category>
+
+		<guid isPermaLink="false">http://graveheart.me/?p=5835</guid>
+		<description><![CDATA[Semanas atrás, comprei um monitor/tv da LG. Tava barato, era final de Copa, e a idéia era queimar preço mesmo. Vi o preço, vi se batia no orçamento, comprei. Pela internet, chegou em uns dois dias. &#8220;Finalmente terei uma TV &#8230; <a href="http://graveheart.me/geek-life/eu-nao-tenho-tv/">Continue lendo <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[
+<p>Semanas atrás, comprei um monitor/tv da LG. Tava barato, era final de Copa, e a idéia era queimar preço mesmo. Vi o preço, vi se batia no orçamento, comprei. Pela internet, chegou em uns dois dias. &#8220;Finalmente terei uma TV em casa, pensei&#8221;. Afinal, desde que me mudei para São Paulo, em 2008, eu não morava em algum lugar com televisão. Ou pelo menos não morava onde pudesse assistir TV do jeito que gostava quando criança: jogadão no sofá.</p>
+<p>Enfim, comprei, liguei na antena do prédio, e&#8230; OK, não era bem isso o que eu estava pensando. Com um pouco de pesquisa e muito papo, consegui um esquema interessante de TV a cabo + internet, e aí pensei &#8220;ótimo, mais canais, imagino que agora sim vai ser melhor do que ficar vendo novela&#8221;.</p>
+<p>Mentira. Mesmo os canais pagos cheios de conteúdo VIP não me agradavam mais. E o motivo é que eu percebi não precisar mais de uma TV em casa. Pelo menos, não uma das convencionais. Eu já havia me acostumado com conteúdo online.</p>
+<div id="attachment_5839" class="wp-caption aligncenter" style="width: 372px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center; display: block; margin-right: auto; margin-left: auto;"><a href="http://graveheart.me/arquivos/2010/09/couch-potato.jpg"><img class="size-full wp-image-5839" title="couch-potato" src="http://graveheart.me/arquivos/2010/09/couch-potato.jpg" alt="" width="362" height="260" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">&quot;O filme que quero ver é daqui a duas horas, então vou ficar sentado no sofá zapeando para não perder a hora certa....&quot;</p></div>
+<p style="text-align: left;">Na verdade, não exatamente &#8220;online&#8221;. Muitos anos antes da internet e dos computadores em geral terem <strong>alguma</strong> estrutura para prover vídeos com qualidade e velocidade, eu já consumia conteúdo que não estava disponível na TV: Através dos <em>fansubbers</em>, comprava fitas com séries de anime que dificilmente passariam no Brasil. Ou seja, ainda assistia a vários programas na TV, mas já sabia que não precisava ficar preso àquela caixinha.</p>
+<p>Aí foi chegando um computador novo, internet rápida, e um belo dia eu deixei de ver um episódio de Lost que estava passando na Globo porque tinha ido numa festa, ou algo assim. Normalmente eu gravava e assistia no outro dia, mas dessa vez havia esquecido. Foi quando pensei &#8220;Ué, e se eu baixar esse episódio pela internet? E se eu aproveitar logo e baixar todo o resto da temporada, mais o que está passando no momento lá fora, e já ficar por dentro da história toda?&#8221;. A partir desse momento, a TV havia se tornado para mim apenas um componente extra para o videogame, ou algo para deixar ligado em um programa qualquer enquanto estivesse na frente do computador, fazendo outra coisa. Na teoria, eu não tinha mais que depender dos horários malucos que as emissoras escolhiam para as minhas séries, eu podia assistir quando quisesse.</p>
+<p>Em 2008 vim para São Paulo, e TODO meu contato com séries ficou restrito a conteúdo baixado ou DVDs. Durante dois anos, vivi sem ter um aparelho de TV em casa. Eu montava meus horários, definia minhas maratonas, escolhia minhas pausas. Já deixei um filme em pausa no notebook durante uma semana toda, para só voltar a assistir quando tivesse tempo. Já baixei temporadas inteiras e devorei em um feriado, basicamente sem pausas. Não haviam comerciais a cada cinco minutos.</p>
+<p>Por isso o choque quando finalmente voltei a ter uma TV. De uma hora para outra, a <strong>liberdade</strong> que eu havia conquistado evaporou. Na minha cabeça, é complicado entender que eu <strong>preciso </strong> estar em casa, acordado, e sem nada para fazer, no horário e dia X, para poder assistir a um episódio ou a um filme qualquer. Já me peguei em situações de aproveitar um comercial para arrumar um lanche e perder uns bons minutos do filme. Ou de pensar em dar um pulo até a padaria mas desistir por não poder parar o episódio para ver depois. Ou seja: para mim, a TV convencional é um <strong>atraso de vida</strong>, justamente por não me dar o direito de escolher <strong>quando</strong> e o <strong>quê</strong> quero assistir. Hoje eu posso chegar a hora que quiser em casa, e ainda assim assistir meus programas prediletos.</p>
+<div id="attachment_5837" class="wp-caption alignnone" style="width: 570px;  border: 1px solid #dddddd; background-color: #f3f3f3; padding-top: 4px; margin: 10px; text-align:center;"><a href="http://graveheart.me/arquivos/2010/09/mat01.jpg"><img class="size-full wp-image-5837 " title="mat01" src="http://graveheart.me/arquivos/2010/09/mat01.jpg" alt="" width="560" height="160" /></a><p style=' padding: 0 4px 5px; margin: 0;'  class="wp-caption-text">Nada disso daria para achar zapeando na TV. Pelo menos, não em um horário onde eu possa estar de frente para a TV.</p></div>
+<p>Há outro fator: Muito do conteúdo que consumo não é do tipo que passa na TV, mesmo na paga. Séries de anime, filmes e materiais um pouco mais <em>cult</em> raramente tem espaço nos canais a que temos acesso. Assim, ao optar pelo conteúdo baixado, consigo ter acesso a esse tipo de material. Ou seja, o conteúdo digital é mais diversificado, não se prende apenas aos &#8220;campeões de audiência&#8221;. Com isso, tenho acesso a materiais que dificilmente teria na TV.</p>
+<p>Não termina aí. Hoje a assinatura de um plano de 2MB de internet (que ainda não é o ideal, mas já permite manter uma boa média) sai por algo em torno de R$ 70,00. Uma assinatura de TV a cabo que me traga alguns canais interessantes acaba saindo um pouco mais caro, em torno de R$ 90,00. Lógico, existem os <strong>combos internet com tv a cabo</strong>, mas jogo por alto e imagino que, mesmo que eu <strong>pagasse</strong> pelo conteúdo que hoje eu baixo, ainda assim sairia mais em conta. Afinal, eu pagaria um valor pequeno por episódio, e ainda poderia usar a internet para outros fins depois do download.</p>
+<p>Durante dois anos, muita gente sempre me olhava de forma estranha quando eu comentava que não tinha TV em casa. Um misto de &#8220;Coitado, deve ter se metido com tóxico e vendeu a televisão para comprar crack&#8221; e &#8220;mas, ué, como então ele fica por dentro das notícias e das coisas que passam na TV?&#8221;. Hoje, depois de voltar a ter um desses aparelhos em casa eu percebo que estranho é ficar preso, <strong>escravo</strong> dos horários que as emissoras me impõem.  Sinceramente, prefiro continuar consumindo conteúdo da maneira como eu fazia antes, pela internet. A TV para mim é algo em extinção, uma tecnologia que não faz mais sentido em um mundo corrido como o nosso.</p>
+<p>&#8220;Mas, cara, assim você está matando os programas que assiste. Isso é apologia à pirataria&#8221;. Não. Como já disse, eu pagaria pelo conteúdo que baixo, desde que fosse um <strong>preço justo</strong>, e não esses valores que algumas empresas pagam. Lógico, há outras formas de capitalizar em cima de downloads: séries japonesas passam, logo depois da abertura, uma <strong>vinheta</strong> rápida com logos de vários patrocionadores e agradecendo pela ajuda deles. É eficaz? Não sei, mas para quem baixa é uma forma de ver algumas marcas, mesmo fugindo dos comerciais.</p>
+<p style="text-align: center;"><a href="http://graveheart.me/resenhas/analise-monitor-lcd-philips-19-190cw7cs/"><img style=' display: block; margin-right: auto; margin-left: auto;'  class="aligncenter" src="http://farm2.static.flickr.com/1291/1261090709_91fbe65058.jpg" alt="" width="500" height="400" /></a></p>
+<p>Assim, a importância dos canais na TV vai aos poucos perdendo a força. OK, temos a TV digital, melhor, mais nítida, permite gravar os programas para assistir depois, mas&#8230; A que custo mesmo? Voltamos para o ponto da economia. Com isso, resta à TV servir como uma saída para outras mídias: videogames, dvds, bd-players, e até computadores, como no meu caso.</p>
+<p>Quero dizer com isso que os canais de TV estão mortos? Não. Ainda vai demorar muito para o modelo de distribuição digital pegar, e mesmo assim, ainda vai haver um público fiel nos programas locais e de notícias. Mas não prevejo um futuro onde as pessoas vão fazer como faziam poucos anos atrás, grudadas na frente da TV e correndo pra chegar em casa antes da novela começar.</p>
+<p><em>(nota: vinha rascunhando esse texto há semanas, e por uma incrível coincidência do destino o Renmero tratou do mesmo assunto em <a href="http://www.epicshit.com.br/2010/09/02/nao-tenha-tv/">outro blog</a>. Normalmente eu abandonaria a idéia do post, mas nesse caso abro uma exceção. <img src='http://graveheart.me/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  )</em></p>
+<p><em>(E se você acha que só consigo viver de downloads por assistir meia dúzia de séries, dê uma olhada no meu perfil no <a href="http://orangotag.com/user/graveheart">Orangotag</a> e no <a href="http://myanimelist.net/profile/graveheart">MyAnimelist</a>. Detalhe: não tem nem metade cadastrado lá)</em></p>
+
+<small>
+<p class='secundum_links_titulo'>Veja algumas ofertas em nossa loja!</p>
+<p class='secundum_links'>
+<a href='http://graveheart.me/compre/pequeno'>pequeno</a>
+<a href='http://graveheart.me/compre/indias'>indias</a>
+<a href='http://graveheart.me/compre/s500i'>s500i</a>
+<a href='http://graveheart.me/compre/mtbw'>mtbw</a>
+<a href='http://graveheart.me/compre/cata'>cata</a>
+<a href='http://secundum.com.br/'>Secundum</a></p></small>
+
+
+	Tags: <a href="http://graveheart.me/tag/download/" title="download" rel="tag">download</a>, <a href="http://graveheart.me/tag/internet/" title="internet" rel="tag">internet</a>, <a href="http://graveheart.me/tag/series/" title="séries" rel="tag">séries</a>, <a href="http://graveheart.me/tag/torrent/" title="torrent" rel="tag">torrent</a><br />
+
+<p><a href="http://feedads.g.doubleclick.net/~a/rQ_vaovtX8iQwujiiDfoZdI0ZoM/0/da"><img src="http://feedads.g.doubleclick.net/~a/rQ_vaovtX8iQwujiiDfoZdI0ZoM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/rQ_vaovtX8iQwujiiDfoZdI0ZoM/1/da"><img src="http://feedads.g.doubleclick.net/~a/rQ_vaovtX8iQwujiiDfoZdI0ZoM/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=tHxLyaYHHPk:dm0TiayW3Xk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=tHxLyaYHHPk:dm0TiayW3Xk:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=tHxLyaYHHPk:dm0TiayW3Xk:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=tHxLyaYHHPk:dm0TiayW3Xk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?i=tHxLyaYHHPk:dm0TiayW3Xk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?a=tHxLyaYHHPk:dm0TiayW3Xk:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/GuravehaatoDesuKa?d=7Q72WNTAKBA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/GuravehaatoDesuKa/~4/tHxLyaYHHPk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://graveheart.me/geek-life/eu-nao-tenho-tv/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://graveheart.me/geek-life/eu-nao-tenho-tv/</feedburner:origLink></item>
+	</channel>
+</rss><!-- Dynamic page generated in 1.451 seconds. --><!-- Cached page generated by WP-Super-Cache on 2011-09-26 05:40:33 --><!-- Compression = gzip -->

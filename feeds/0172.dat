@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Dicas de Fotografia</title>
+	
+	<link>http://www.dicasdefotografia.com.br</link>
+	<description>Fotografia, edição e equipamentos</description>
+	<lastBuildDate>Sun, 25 Sep 2011 13:30:46 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<copyright>2008-2009 </copyright>
+	<managingEditor>contato@claudiaregina.com (Claudia Regina)</managingEditor>
+	<webMaster>contato@claudiaregina.com (Claudia Regina)</webMaster>
+	<category>Fotografia</category>
+	<image><link>http://www.dicasdefotografia.com.br/</link><url>http://img296.imageshack.us/img296/5034/mdesignimagefeedhd9.jpg</url><title>DDF</title></image>
+	<itunes:subtitle />
+	<itunes:summary>Click - um podcast para quem fotografa - podcast sobre fotografia trazido pelo blog DicasDeFotografia.com.br</itunes:summary>
+	<itunes:keywords>photography, fotografia, pós produção, iluminação, foto, edição, photoshop</itunes:keywords>
+	<itunes:category text="Arts" />
+	<itunes:category text="Arts">
+		<itunes:category text="Visual Arts" />
+	</itunes:category>
+	<itunes:category text="Technology" />
+	<itunes:author>Claudia Regina</itunes:author>
+	<itunes:owner>
+		<itunes:name>Claudia Regina</itunes:name>
+		<itunes:email>contato@claudiaregina.com</itunes:email>
+	</itunes:owner>
+	<itunes:block>no</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://www.dicasdefotografia.com.br/click_podcast/images/click_300.jpg" />
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/dicasdefotografia" /><feedburner:info uri="dicasdefotografia" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>dicasdefotografia</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>Preciso de uma Lente com Estabilizador de Imagem?</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/sDbnpyGF1CY/preciso-de-uma-lente-com-estabilizador-de-imagem</link>
+		<comments>http://www.dicasdefotografia.com.br/preciso-de-uma-lente-com-estabilizador-de-imagem#comments</comments>
+		<pubDate>Sun, 25 Sep 2011 13:30:46 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Equipamento]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3454</guid>
+		<description><![CDATA[Já escrevi sobre Como Escolher sua Lente aqui no DDF com informações iniciais interessantes para quem quer comprar suas primeiras Objetivas. Mas muitos leitores chegam até mim com dúvidas relacionadas ao Estabilizador de Imagem (IS nas Canon, VR nas Nikon.) Resolvi então juntar essas dúvidas e, quem sabe assim, ajudar quem está com o pé [...]<p><a href="http://www.dicasdefotografia.com.br/preciso-de-uma-lente-com-estabilizador-de-imagem">Preciso de uma Lente com Estabilizador de Imagem?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>Já escrevi sobre <a title="Como Escolher Objetiva" href="http://www.dicasdefotografia.com.br/como-escolher-sua-lente">Como Escolher sua Lente</a> aqui no DDF com informações iniciais interessantes para quem quer<strong> comprar suas primeiras Objetivas</strong>. Mas muitos leitores chegam até mim com dúvidas relacionadas ao <strong>Estabilizador de Imagem</strong> (IS nas Canon, VR nas Nikon.)</p>
+<p><img class="alignnone" title="Funcionamento dos Estabilizadores" src="http://dl.dropbox.com/u/16348214/DDF/110924-estabilizadores/Image_Stabilizer.png" alt="" width="728" height="325" /></p>
+<p>Resolvi então juntar essas dúvidas e, quem sabe assim, ajudar quem está com o pé atrás na hora da decisão de comprar uma Lente com ou sem essa funcionalidade.</p>
+<h2>O que é esse tal de Estabilizador de Imagem (IS ou VR)?</h2>
+<p>Nada mais é do que um mecanismo que <strong>diminui as “tremidas” que damos ao segurar a câmera</strong>.</p>
+<p><img class="alignnone" title="Simulação de uma imagem com e sem IS" src="http://dl.dropbox.com/u/16348214/DDF/110924-estabilizadores/simulacao.png" alt="" width="728" height="546" /></p>
+<p>Uma das partes óticas móveis da lente fica “dançando” dentro dela, <strong>compensando assim os pequenos movimentos</strong> externos que fazemos quando estamos segurando uma lente de Distância Focal maior somente com as mãos e sem ajuda de um Monopé ou Tripé. Você pode ver como funciona o sistema IS da Canon, por dentro da Lente, <a href="http://www.youtube.com/watch?v=C60ehMe3wQ8&amp;NR=1">neste vídeo aqui</a>.</p>
+<p>Abaixo um vídeo que mostra direitinho a diferença:</p>
+<p><iframe width="640" height="360" src="http://www.youtube.com/embed/fe6VZde_2_8?rel=0#t=00m13s" frameborder="0" allowfullscreen></iframe></p>
+<h2>Para que serve?</h2>
+<p>Para <strong>compensar</strong> este balanço que fazemos ao segurar a câmera que é visível e pode atrapalhar quando estamos usando uma lente Tele Objetiva (em lentes normais ou Grande Angulares esse balanço não faz tanta diferença.)</p>
+<blockquote><p>Não sabe o que é essa tal de Tele Objetiva? <a href="http://www.dicasdefotografia.com.br/como-escolher-sua-lente">Clique aqui para saber</a>.</p></blockquote>
+<p>Segundo a Canon lentes com IS permitem o uso de um tempo de exposição 2 stops maior que o normal sem que o resultado fique tremido. Todas as lentes com Estabilizadores mostram mais ou menos a mesma melhora.</p>
+<p>Lembra daquela regrinha rápida de <strong>definir o Tempo de Exposição de acordo com a Distância Focal</strong>? Podemos usá-la aqui para ilustrar: digamos que estamos falando de uma 200mm. De forma prática podemos considerar que para conseguir uma imagem nítida usando esta lente é preciso usar pelo menos 1/200. Com o Estabilizador essa velocidade pode ir para 1/60 sem comprometer a nitidez. Essa regrinha não é exata, mas é boa para usarmos como base para fazer as contas de cabeça. Eu costumo adicionar um tempinho a mais só para ter certeza, então nesta lente eu usaria pelo menos 1/250 sem IS e 1/100 com IS.</p>
+<p>O Estabilizador também ajuda a visualizar melhor o resultado final através do ViewFinder, mesmo se você estiver usando um tempo de exposição rápido o suficiente. Isso também serve para quem faz filmagens com DLSR: o resultado dos vídeos é bem mais constante.</p>
+<p><strong>Resumindo, o Estabilizador serve para:</strong></p>
+<ul>
+<li>Compensar o balanço involuntário ao segurar a câmera com uma Tele Objetiva na mão;</li>
+<li>Permitir o uso de um tempo de exposição maior sem que o resultado fique tremido;</li>
+<li>Facilitar a visualização no ViewFinder/Filmagem.</li>
+</ul>
+<h2>Para que não serve?</h2>
+<p>Acho que o mais importante a ser dito, além dos motivos para comprar e usar o Estabilizador, são os motivos e situações quando <strong>não</strong> usar.</p>
+<p>O erro mais comum é achar que o Estabilizador ajuda a fotografar assuntos em movimento. Como já expliquei lá em cima não é bem assim que funciona: <strong>ele ajuda a compensar movimentos do Fotógrafo, não do assunto</strong>. Para conseguir fotografar assuntos em movimento (carros, pessoas, etc) é preciso trabalhar com um Tempo de Exposição adequado. <strong>Não há Estabilizador que resolva nesse caso</strong>!</p>
+<p>Além disso é bom lembrar que se você está em uma situação ideal (usando um Tempo de Exposição rápido o suficiente) o Estabilizador não vai fazer diferença no resultado final.</p>
+<p>Por fim, em situações aonde a câmera não está realmente se movendo (como em um tripé) ou que você quer movimento (como ao criar <a href="http://www.dicasdefotografia.com.br/o-que-e-panning-e-como-usar-este-efeito">pannings</a>), é melhor desligar o Estabilizador, se não ele pode mais atrapalhar do que ajudar.</p>
+<p><strong>Resumindo, você não precisa de Estabilizador para:</strong></p>
+<ul>
+<li>Fotografar assuntos em movimento;</li>
+<li>Fotografar com Tempo de Exposição suficiente para congelar o seu movimento;</li>
+<li>Fotografar com tripé ou fazer Panning.</li>
+</ul>
+<p>Algumas lentes mais modernas possuem modos de Estabilizador mais inteligentes, que “notam” quando você está movendo de propósito, quando a câmera está em um Tripé, etc&#8230; Mas mais fácil que isso é simplesmente desligar o Estabilizador quando você não precisa, afinal nenhuma lente é mais inteligente do que o fotógrafo ;-)</p>
+<h2>Devo comprar uma Lente com Estabilizador?</h2>
+<p>É só fazer a primeira pesquisa para compra de lentes e percebemos a enorme diferença entre os preços de Lentes com e sem IS/VR. Por isso é bom você analisar bem suas necessidades na hora de definir se vale a pena ou não fazer esse investimento. Se pergunte:</p>
+<p><em>Vou fotografar em situações extremas de luz a ponto de 2 stops fazerem diferença?</em></p>
+<p>Para fotógrafos de casamento que costumam usar lentes Tele Objetivas para fotos mais espontâneas o Estabilizador pode vir a calhar afinal Igrejas, Salões e Restaurantes não costumam ser perfeitamente iluminados e ganhar 2 stops pode realmente fazer diferença.</p>
+<p>Já para quem faz Ensaios externos, como eu, acho que o investimento não vale a pena pois trabalhar com a luz do dia costuma possibilitar o uso de Tempos de Exposição mais do que suficientes para não “tremer” a foto.</p>
+<p>De qualquer forma só você poderá definir se precisa ou não dele.</p>
+<p>&#8212;</p>
+<p><em>Você tem alguma Lente com Estabilizador? Nos conte: usa bastante? Acha que valeu o investimento?</em></p>
+<p><a href="http://www.dicasdefotografia.com.br/preciso-de-uma-lente-com-estabilizador-de-imagem">Preciso de uma Lente com Estabilizador de Imagem?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=sDbnpyGF1CY:KNZ81LlG3IY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=sDbnpyGF1CY:KNZ81LlG3IY:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=sDbnpyGF1CY:KNZ81LlG3IY:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=sDbnpyGF1CY:KNZ81LlG3IY:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=sDbnpyGF1CY:KNZ81LlG3IY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/sDbnpyGF1CY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/preciso-de-uma-lente-com-estabilizador-de-imagem/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/preciso-de-uma-lente-com-estabilizador-de-imagem</feedburner:origLink></item>
+		<item>
+		<title>Stephan Shore Talks</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/dgWZrfNWVcc/stephan-shore-talks</link>
+		<comments>http://www.dicasdefotografia.com.br/stephan-shore-talks#comments</comments>
+		<pubDate>Thu, 22 Sep 2011 09:28:51 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Artigos diversos]]></category>
+		<category><![CDATA[Eventos]]></category>
+		<category><![CDATA[Grandes Fotógrafos]]></category>
+		<category><![CDATA[Guest Post]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3445</guid>
+		<description><![CDATA[Este é um artigo escrito por um colaborador. Quer escrever aqui no DDF também? Saiba como! Quando a Cláudia colocou à disposição [aos participantes dos Workshops] o passe livre para assistir à palestra do Stephan Shore para VIPs não tive dúvida e me habilitei para ir e compartilhar com vocês o que eu ouvi, absorvi [...]<p><a href="http://www.dicasdefotografia.com.br/stephan-shore-talks">Stephan Shore Talks</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<blockquote><p>Este é um artigo escrito por um colaborador. Quer escrever aqui no DDF também? <a href="http://www.dicasdefotografia.com.br/escreva-no-ddf">Saiba como</a>!</p></blockquote>
+<p>Quando a Cláudia colocou à disposição [<em>aos participantes dos Workshops</em>] o passe livre para assistir à palestra do Stephan Shore para VIPs não tive dúvida e me habilitei para ir e compartilhar com vocês <strong>o que eu ouvi, absorvi e refleti</strong>.</p>
+<p>Confesso que não sabia quem era ou qual o trabalho do fotógrafo <a href="http://en.wikipedia.org/wiki/Stephen_Shore"><strong>Stephan Shore</strong></a>, mas considerando que ele expôs no MoMA aos <strong>18 anos de idade</strong> achei que valeria a pena conhecer. E claro, não me arrependi!</p>
+<p>O que eu mais gosto nestas palestras com fotógrafos é a experiência de vida que eles compartilham. E é esta experiência que lapida e forma o estilo pessoal de cada um.</p>
+<p><img class="alignnone" title="Stephan Shore, por Paula Pedrosa" src="http://dl.dropbox.com/u/16348214/DDF/110922%20-%20Stephen%20Shore/stephanshore.jpg" alt="" width="728" height="483" /></p>
+<p>Eis que surge um velhinho simpático que começa a mostrar fotos da sua infância e de seus tempos jovens na famosa <strong>The Factory de Andy Wharol</strong> (sim, o cara trabalhou com Andy Wharol!) e foi falando tudo que o motivou a fotografar e continuar fotografando ao longo da vida.</p>
+<p>Ouvindo ele falar cheguei a conclusão que o cara pira. Sério. Ao contrário de muitos fotógrafos que seguem uma linha bressoniana em busca do momento único na fotografia (que ao meu ver não é nada ruim), a busca de Stephan Shore era muito mais contemporânea do que isso. Ele buscava <strong>fotos naturais e ordinárias</strong>, que me lembraram muito a revolução que estamos passando hoje em dia com nossos smartphones que captam a nossa rotina cotidiana. Em meados dos anos 70 Stephan Shore fotografava sua comida, sua geladeira, sua rua e qualquer coisa que ele julgava livre de convenções artísticas. Moderno né?!?</p>
+<p><img class="alignnone" title="Fotos cotidianas de Stephen Shore" src="http://dl.dropbox.com/u/16348214/DDF/110922%20-%20Stephen%20Shore/fotosdesshore.jpg" alt="" width="728" height="260" /></p>
+<p>Sempre que ele alcançava um objetivo na fotografia ele logo se propunha outro. Se nos anos 70 ele pegou uma <em>Point &amp; Shoot</em> para sair das convenções artísticas assim que ele se satisfez com os resultados ele propôs outras questões, por exemplo: <strong>como analisar uma fotografia que transformou um espaço que era tridimensional em bidimensional</strong>, afinal é isso que fazem as fotos. Mudou de equipamento e seguiu fotografando em busca de solucionar suas questões. Solucionando uma, logo se propunha outra para não ficar na mesmice.</p>
+<p>Uma frase de sua palestra que eu gostei foi: &#8220;<em>I question convention, not only people&#8217;s convention, but mine too.</em>&#8221;</p>
+<p>Traduzindo: <strong>Eu questiono as convenções, não somente as dos outros, mas as minhas também</strong>.</p>
+<p><img class="alignnone" title="Fotos de Stephen Shore" src="http://dl.dropbox.com/u/16348214/DDF/110922%20-%20Stephen%20Shore/fotosdesshore2.jpg" alt="" width="728" height="260" /></p>
+<p>Foi muito interessante notar que ao longo de sua carreira ele mudou de equipamento, de filme e de questões, mas seu estilo pessoal estava registrado em todos os momentos. <strong>E acho que é isso que todo fotógrafo busca.</strong></p>
+<p>Agradeço ao Dicas de Fotografia pela oportunidade!</p>
+<blockquote><p>Este post foi escrito pela colaboradora <strong>Paula Pedrosa</strong>: <a href="http://www.teckelfotografia.com/" target="_blank">www.teckelfotografia.com</a><br />
+<strong>Quer escrever aqui no DDF também? <a href="http://www.dicasdefotografia.com.br/escreva-no-ddf">Saiba como!</a></strong></p></blockquote>
+<p><a href="http://www.dicasdefotografia.com.br/stephan-shore-talks">Stephan Shore Talks</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=dgWZrfNWVcc:XdpPPQyluNI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=dgWZrfNWVcc:XdpPPQyluNI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=dgWZrfNWVcc:XdpPPQyluNI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=dgWZrfNWVcc:XdpPPQyluNI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=dgWZrfNWVcc:XdpPPQyluNI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/dgWZrfNWVcc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/stephan-shore-talks/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/stephan-shore-talks</feedburner:origLink></item>
+		<item>
+		<title>Dicas para Diagramação de Álbuns</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/ekJGIFrLF4g/dicas-para-diagramacao-de-albuns</link>
+		<comments>http://www.dicasdefotografia.com.br/dicas-para-diagramacao-de-albuns#comments</comments>
+		<pubDate>Wed, 07 Sep 2011 00:47:52 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Edição]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3435</guid>
+		<description><![CDATA[Já faz um tempo que Álbuns Diagramados (como os Fotolivros) fazem parte da vida de Fotógrafos, principalmente daqueles que trabalham com Eventos Sociais (como Casamentos.) Só que álbuns assim pedem mais ainda do Fotógrafo. E é por ver muitos colegas se batendo nessa parte que resolvi escrever esse post :) Diagramação é Design A primeira [...]<p><a href="http://www.dicasdefotografia.com.br/dicas-para-diagramacao-de-albuns">Dicas para Diagramação de Álbuns</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>Já faz um tempo que <strong>Álbuns Diagramados</strong> (como os Fotolivros) fazem parte da vida de Fotógrafos, principalmente daqueles que trabalham com Eventos Sociais (como Casamentos.) Só que álbuns assim pedem mais ainda do Fotógrafo. E é por ver muitos colegas se batendo nessa parte que resolvi escrever esse post :)</p>
+<h2>Diagramação é Design</h2>
+<p>A primeira coisa a se entender quando falamos de Diagramação é que ela <strong>faz parte do Design, e não da Fotografia</strong>. Pense em uma revista: quem cuida da Diagramação de seus elementos não é o Redator e sim um Diagramador (ou profissional de Editoração Gráfica, Design ou similar.)</p>
+<p><img class="alignnone" title="Fotolivro" src="http://dl.dropbox.com/u/16348214/DDF/110906-diagramacao/diagramacao.jpg" alt="" width="728" height="289" /><br />
+<em>Fotos: <a href="http://regina.fot.br/">Claudia Regina</a> | Diagramação e Fotos do álbum pronto: <a href="http://vaalbuns.wordpress.com/">Va Albuns</a></em></p>
+<p>O Redator escreve seus incríveis textos (em um editor de textos, tipo o Google Docs) e o Diagramador vai lá e organiza estes textos incríveis no espaço da revista. O objetivo é fazer o texto ficar totalmente legível e bem estruturado. <strong>O leitor quer admirar o texto, não a diagramação</strong>.</p>
+<p>Acontece exatamente assim com os Álbuns Fotográficos: <strong>o objetivo é valorizar as fotos</strong>.</p>
+<p>Por isso não dá pra simplesmente diagramar um álbum sem nenhum conhecimento sobre isso: <strong>é preciso estudar Design</strong>. Margens. Espaçamentos. Áreas de descanso. Espaço negativo. Tipografia.</p>
+<p>Algumas dessas coisas vão de encontro com a Fotografia (como a própria composição) e outras são totalmente diferentes (como o uso de Tipografia.)</p>
+<blockquote><p>Se você não está disposto a aprender Design para fazer seus próprios Álbuns com qualidade considere <a href="http://vaalbuns.wordpress.com/">contratar um profissional desta área</a>! É menos trabalho para você e suas fotos serão valorizadas como merecem.</p></blockquote>
+<p>Por isso nada de preguiça: se o objetivo é montar Álbuns com qualidade é importante ir além da fotografia! <strong>Estude Design</strong>.</p>
+<h2>Enfeites e efeitos mirabolantes</h2>
+<p>Existem clientes para todos os gostos e entendo que muitos procuram uma diagramação que por si só já complementa as fotos. Para esses clientes álbuns com “efeitos”, ilustrações, desenhos, texturas e cores são lindos. Mas lá vai uma opinião pessoal: até gosto de <em>ScrapBooks</em> para fotos pessoais (aquelas que o cliente tira nas férias e que são todas reveladas em 10x15cm), e preferencialmente que seja um ScrapBook real, e não digital. <strong>Mas como Fotógrafa Profissional gosto que minhas imagens sejam o centro das atenções</strong> :-)</p>
+<p>Por isso evito ao máximo efeitos nos meus álbuns: eles têm fotos, e só. E muitas fotos enormes, ocupando a página inteira. E quase nada além disso (um pouco de texto, para título e descrição, e uma ou outra forma geométrica simples.)</p>
+<p>Nessa hora o ideal é seguir aquela dica de <em>Albert Einstein</em>:</p>
+<blockquote><p>Tudo deve ser feito da forma mais simples possível, mas não mais simples que isso.</p></blockquote>
+<p>Usar uma diagramação simples é complicado: quando estamos vendo a página diagramada na tela do computador parece <strong>simples demais</strong>. Mas confia em mim: depois de impresso o Álbum fica muito mais lindo assim, e as fotos ganham total destaque.</p>
+<h2>Esqueça o Photoshop</h2>
+<p>Isso é um complemento para o primeiro item que comentei neste post: <strong>nenhum diagramador de revistas deste universo faz seu trabalho Photoshop</strong>, então por que nós usaríamos esse aplicativo para diagramar álbuns? É possível usá-lo pra isso? Sim. É o ideal? Não.</p>
+<p><strong>Mas usa-se o que então?</strong> Existem vários aplicativos feitos para Diagramação e um que nenhum usuário de Photoshop vai ter dificuldades em aprender é o <strong>Indesign</strong>. Por ser também da Adobe a interface já é familiar.</p>
+<p>Usar o aplicativo ideal para este fim melhora não só a qualidade do trabalho mas também economiza tempo pra caramba! O seu Workflow agradece :-)</p>
+<p><em>Ps.: para a arte da Capa costumo usar ainda o Photoshop já que a empresa responsável pelos Fotolivros recebe os arquivos em .PSD para checar a altura da Lombada.</em></p>
+<h2>Tutoriais de Indesign</h2>
+<p>Não dá pra ensinar como usar o Indesign em apenas um post, mas existem vários Tutoriais online para você já ir conhecendo. Encontrei posts com dicas básicas bem legais no blog <a href="http://www.indesignupgrade.com/?cat=24">Indesign Upgrade</a>, acho que acompanhar essas dicas é um ótimo começo.</p>
+<p><img class="alignnone" title="Indesign" src="http://dl.dropbox.com/u/16348214/DDF/110906-diagramacao/indesign.jpg" alt="" width="728" height="410" /></p>
+<p>Se houver procura posso fazer um vídeo sobre o assunto, aí já focando mais na diagramação de álbuns de fotografia mesmo :) Então se você tiver interesse nesse conteúdo, diga aí.</p>
+<p>&#8212;</p>
+<p><em>Pessoalmente eu até gosto de fazer meus álbuns, mas é algo que toma tempo e por isso ultimamente tenho preferido contratar alguém para cuidar disso pra mim na maioria dos casos.</em></p>
+<p><em>E digo uma coisa: o mercado para Diagramadores profissionais está escasso aqui no Brasil. Designers que entrarem agora nessa área não terão falta de clientes: fotógrafos não têm mais tempo para essa parte do trabalho e ainda existem poucos profissionais de qualidade. É definitivamente um mercado cheio de oportunidades!</em></p>
+<p><a href="http://www.dicasdefotografia.com.br/dicas-para-diagramacao-de-albuns">Dicas para Diagramação de Álbuns</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=ekJGIFrLF4g:OWo3i_qHZyc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=ekJGIFrLF4g:OWo3i_qHZyc:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=ekJGIFrLF4g:OWo3i_qHZyc:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=ekJGIFrLF4g:OWo3i_qHZyc:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=ekJGIFrLF4g:OWo3i_qHZyc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/ekJGIFrLF4g" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/dicas-para-diagramacao-de-albuns/feed</wfw:commentRss>
+		<slash:comments>109</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/dicas-para-diagramacao-de-albuns</feedburner:origLink></item>
+		<item>
+		<title>Uma mensagem aos que estão comprando a primeira Reflex</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/cX6EM3S1xN4/uma-mensagem-aos-que-estao-comprando-a-primeira-reflex</link>
+		<comments>http://www.dicasdefotografia.com.br/uma-mensagem-aos-que-estao-comprando-a-primeira-reflex#comments</comments>
+		<pubDate>Fri, 26 Aug 2011 01:59:30 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Equipamento]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3412</guid>
+		<description><![CDATA[Você cansou das câmeras compactas? Ou até mesmo das “Bridge” ou “SuperZoom”? Quer partir para câmeras mais robustas? Está pensando em trabalhar com fotografia no futuro? Ou simplesmente quer ter total controle sobre sua foto com uma qualidade de imagem legal? Então esta mensagem é para você. Chegou a hora de comprar uma Reflex. A [...]<p><a href="http://www.dicasdefotografia.com.br/uma-mensagem-aos-que-estao-comprando-a-primeira-reflex">Uma mensagem aos que estão comprando a primeira Reflex</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>Você cansou das câmeras compactas? Ou até mesmo das “Bridge” ou “SuperZoom”? Quer partir para câmeras mais robustas? Está pensando em trabalhar com fotografia no futuro? Ou simplesmente quer ter total controle sobre sua foto com uma qualidade de imagem legal? Então esta mensagem é para você.</p>
+<p><strong>Chegou a hora de comprar uma Reflex</strong>. A sigla DSLR (Digital Single-Lens Reflex) já impressiona, e você já se imagina carregando aquela câmera enorme por aí e sendo notado por todos à sua volta.</p>
+<p><img class="alignnone" title="Fuck Yeah Reflex" src="http://dl.dropbox.com/u/16348214/DDF/110827-reflex/fuckyeah-reflex.jpg" alt="" width="500" height="397" /></p>
+<p>Calma. Pare um pouquinho e acompanhe meu pensamento:</p>
+<p>Se você é como a maioria da população (ou seja: não caga dinheiro) você provavelmente tem um valor X para gastar no total, certo? E como você já pesquisou um pouquinho percebeu que as Reflex são somente uma parte do equipamento. Além do <strong>Corpo da Câmera</strong> você precisará comprar <strong>Lentes</strong> (também conhecidas como Objetivas) e outros <strong>Acessórios</strong>.</p>
+<p><img class="alignnone" title="Corpo, Lente e Acessórios" src="http://dl.dropbox.com/u/16348214/DDF/110827-reflex/corpo-lente-acessorios.jpg" alt="" width="727" height="193" /></p>
+<p>Seu <strong>orçamento X</strong> vai ser dividido mais ou menos assim:</p>
+<ul>
+<li>Uma parte para o <strong>Corpo</strong></li>
+<li>Uma parte para a sua primeira <strong>Lente</strong></li>
+<li>Uma parte para <strong>Acessórios</strong> (cartões de memória, bateria extra, filtros, etc)</li>
+</ul>
+<h2>Como fazer essa divisão?</h2>
+<p>O erro mais comum dos compradores de Reflex é deixar a <strong>maior fatia do Orçamento no Corpo</strong>. Daí sobra uns trocados para a Lente e para os Acessórios. <strong>Não faça isso.</strong></p>
+<p>Sabe aquele Corpo de Câmera incrível que você quer comprar e vai comer 90% do orçamento? Não compre ele. Compre um corpo de uma linha anterior, ou mesmo de um modelo anterior.</p>
+<p><strong>Seu corpo não precisa ser top de linha.</strong></p>
+<ul>
+<li>Se você quer trabalhar com fotografia eventualmente pode fazer diferença ter um Corpo top de linha. Mas de início não precisa. Afinal você não é daqueles que acha que é só comprar uma câmera grande e já dá pra sair vendendo fotografia, né?</li>
+<li>Se você não quer trabalhar com fotografia, se ela é só um hobby, aí é óbvio que você não precisa de um corpo top de linha.</li>
+</ul>
+<p>Então vá com calma e compre um corpo mais antigo.</p>
+<p>Aí vem o que interessa: a sua primeira Lente. Eu não tenho nada contra as lentes do Kit (como a 18-55mm), eu mesma também comecei com uma dessas, mas você pode fazer melhor que isso!</p>
+<ul>
+<li>Se você não tem a menor ideia do que gosta de fotografar, que tal comprar uma <a href="http://www.dicasdefotografia.com.br/50mm-a-melhor-lente-para-comprar-ja">50mm, a lente clara mais versátil e barata que existe</a>?</li>
+<li>Se você já sabe o que quer fotografar, vá em uma lente mais específica: se gosta de paisagens compre uma Grande Angular. Se gosta de Retratos compre uma Tele-objetiva. Se gosta de fotografar insetos pequenininhos compre uma Macro. Se não sabe do que estou falando leia a <a href="http://www.dicasdefotografia.com.br/aprenda-a-fotografar-em-7-licoes">Apostila de Fotografia Básica aqui do DDF</a>.</li>
+</ul>
+<p>O restante reserve para comprar cartões de memória de qualidade (nada de xing-lings) e uma bateria extra das oficiais (nada de xing-lings, de novo!)</p>
+<h2>Um exemplo</h2>
+<p>É bem mais fácil aprender com exemplos, não é? Então vamos lá:*</p>
+<p>Eu sou a Claudia, e estou pesquisando para comprar minha primeira Reflex. Já fiz meu orçamento e tenho R$ 2.800 disponíveis para gastar.</p>
+<p>Eu PODERIA ir correndo no Mercado Livre e comprar uma <strong>Canon T3i</strong> novinha em folha por <strong>R$ 2.600</strong>. Ela vem com a lente 18-55mm e eu posso gastar R$ 200 com dezenas de cartões baratos e uma bateria xing-ling.</p>
+<p>Mas eu não vou fazer isso, pois é muito mais interessante gastar meu dinheiro da seguinte forma:</p>
+<blockquote><p>Corpo Canon T1i (R$ 2.000) + Lente 50mm f/1.8 (R$ 500) + 2 Cartões Sandisk 8Gb (R$ 200) + Bateria oficial Canon (R$ 100)</p></blockquote>
+<p>Também posso ir além, diminuindo ainda mais o “<em>top-de-linhadade</em>” do corpo para uma lente melhor ou mais específica:</p>
+<blockquote><p>Corpo Canon 40d usado (R$ 1.200) + Lente 85mm f/1.8 (R$ 1.300) + acessórios, um kit lindo para Retratos ou Macro!</p></blockquote>
+<p>Esse é o Kit que eu faria se eu fosse recomeçar com o conhecimento que tenho hoje. Quando comecei eu comprei um corpo que já não era top de linha, mas podia ter simplificado mais e investido em uma Lente e Acessórios melhores.</p>
+<p>Confie em mim: investindo em lentes melhores você não só terá essa lente para a vida toda como verá uma diferença realmente grande na <strong>qualidade das suas fotos</strong> e na sua <strong>curva de aprendizado</strong>!</p>
+<p>&#8212;</p>
+<p><strong>Conta aí: com qual equipamento você começou no mundo das Reflex?</strong></p>
+<p>Eu comprei a Canon 20D com a lente do Kit, quando a 30d tinha acabado de ser lançada (2006.) Mas só fui ficar feliz mesmo quando comprei a 50mm. Fiquei com essa 20D (lançada em 2004) por exatos 4 anos. Comprei lentes melhores e fiz muitos trabalhos profissionais com ela!</p>
+<p>Foi só em 2010 que comprei minha primeira câmera top de linha, a Canon 7D, mas <strong>desafio</strong> qualquer um a vasculhar <a href="http://www.regina.fot.br/">meu portfolio</a> e, só pelas fotos, descobrir quando mudei de Corpo. É quase impossível, pois usando as mesmas lentes e a mesma técnica a diferença é muito pequena.</p>
+<p>&#8212;</p>
+<p><em>* Lembrando que esses exemplos equivalem à pesquisa em Agosto de 2011. Daqui a pouco os modelos de câmeras mudam, mas a filosofia ainda pode ser aplicada. Fiz a pesquisa de preços com médias do Mercado Livre, é desnecessário dizer que podem mudar a qualquer momento e diferem de lojas físicas.</em></p>
+<p><a href="http://www.dicasdefotografia.com.br/uma-mensagem-aos-que-estao-comprando-a-primeira-reflex">Uma mensagem aos que estão comprando a primeira Reflex</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cX6EM3S1xN4:KTPBLf_y4H0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cX6EM3S1xN4:KTPBLf_y4H0:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cX6EM3S1xN4:KTPBLf_y4H0:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=cX6EM3S1xN4:KTPBLf_y4H0:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cX6EM3S1xN4:KTPBLf_y4H0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/cX6EM3S1xN4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/uma-mensagem-aos-que-estao-comprando-a-primeira-reflex/feed</wfw:commentRss>
+		<slash:comments>146</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/uma-mensagem-aos-que-estao-comprando-a-primeira-reflex</feedburner:origLink></item>
+		<item>
+		<title>A Internet é Casa da Mãe Joana?</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/aAfgYSBag1M/a-internet-e-casa-da-mae-joana</link>
+		<comments>http://www.dicasdefotografia.com.br/a-internet-e-casa-da-mae-joana#comments</comments>
+		<pubDate>Thu, 25 Aug 2011 00:49:59 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Negócios]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3408</guid>
+		<description><![CDATA[Update sobre os Workshops do DDF: Aracaju tem últimas vagas e Floripa está com Inscrições abertas! Clique aqui para saber mais. &#8212; Sou uma leitora ávida de blogs e sites de outros fotógrafos. Também troco centenas de emails por dia com outros colegas, clientes e amigos. Além disso estou no Twitter e no Facebook. Ou [...]<p><a href="http://www.dicasdefotografia.com.br/a-internet-e-casa-da-mae-joana">A Internet é Casa da Mãe Joana?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p><em>Update sobre os Workshops do DDF: Aracaju tem últimas vagas e Floripa está com Inscrições abertas! <a href="http://www.dicasdefotografia.com.br/workshops-2011">Clique aqui para saber mais.</a></em></p>
+<p>&#8212;</p>
+<p>Sou uma leitora ávida de blogs e sites de outros fotógrafos. Também troco centenas de emails por dia com outros colegas, clientes e amigos. Além disso estou no <a href="http://www.twitter.com/dicasfotografia">Twitter</a> e no <a href="http://www.facebook.com/claudiaregina">Facebook</a>. Ou seja: na maior parte do meu dia <strong>leio ou escrevo na Internet</strong>.</p>
+<p>E sabe o que mais me deixa triste? Perceber que muitos seguem a <a href="http://www.tecnologiaoutonal.com.br/2009/08/28/netiqueta-xuxa-e-twitter/">tendência-Xuxa</a> e acham que a <strong>Internet</strong> é um <strong>meio à parte da realidade</strong> e por isso não seguem as mesmas regras de bom senso e educação.</p>
+<p><a href="http://www.flickr.com/photos/claudiaregina/3406521225/in/set-72157605798230260/"><img class="alignnone" title="Foto por Claudia Regina" src="http://dl.dropbox.com/u/16348214/DDF/110824-netiqueta/netiqueta.jpg" alt="Moça com Macbook" width="728" height="486" /></a></p>
+<p>Vejo que muitos colegas fotógrafos <strong>enviam emails como se fossem SMS</strong>, esquecendo que emails nada mais são do que cartas digitais. E assim como em cartas é de bom tom começar com uma saudação, ter um texto bem organizado e finalizar com uma assinatura. Em emails pode parecer óbvio colocar no campo “Assunto” o assunto a ser tratado, mas ainda recebo emails com “Urgente”, “Me ajude por favor”, “Leia esta mensagem” ou “Olá!”</p>
+<p>Vejo que muitos colegas fotógrafos <strong>postam nos seus blogs como se regras de gramática e ortografia não existissem</strong>. Esquecem que existem pontos, vírgulas e acentuação. E não percebem que quem está lendo os vê de forma negativa por causa disso.</p>
+<p>Vejo que muitos colegas fotógrafos entram nos blogs (inclusive neste aqui) e <strong>fazem comentários EM CAIXA ALTA</strong>. Acham que isso é “um jeitinho” quando na realidade dificulta a leitura e faz parecer que estão gritando.</p>
+<p>E ao ver tudo isso fico decepcionada. Pois assim como gosto de gente educada na vida real gosto de gente educada na Internet (que, pasme, também é vida real!)</p>
+<p>E o pior é que sei que escrever este post aqui não vai afetar aqueles que precisam da mensagem, pois <strong>quem acha que a Internet é Casa da Mãe Joana não procura aprender</strong> – acha que na Internet vale tudo.</p>
+<p>Se não for o seu caso (ou se você concorda e quer enviar esse post para alguém), algumas dicas rápidas:</p>
+<h2>Chegou na Internet hoje? Então leia:</h2>
+<p>Não escreva somente em Caixa Alta (maiúsculas) – isso equivale a Gritar e dificulta a leitura.</p>
+<p>No assunto dos seus Emails coloque o Assunto do Email de forma clara.</p>
+<p>Monte seus Emails como cartas: primeiro vem a <strong>saudação</strong>, depois vem a <strong>mensagem</strong> estruturada de forma clara e paragrafada, depois vem uma <strong>despedida</strong> e, por fim, sua <strong>assinatura</strong>.</p>
+<p>Sua assinatura de Email deve conter dados que facilitem a vida de quem está falando com você. No seu email profissional lembre-se de adicionar o <strong>link do seu site</strong> e seu <strong>telefone</strong>.</p>
+<p><strong>Revise</strong> seus emails, posts e textos a serem enviados/publicados. Um ou outro erro ortográfico não mata ninguém, mas normalmente dá para simplificar uma mensagem. Isso vale também para textos informais.</p>
+<p>Se não quer ser mal interpretado <strong>escreva com pontuação e pausas</strong>. A revisão ajuda nesta parte também.</p>
+<p>Não use todos os <strong>efeitos</strong> que os formatadores de emails e blogs permitem: fazer um texto com 10 cores, fontes e tamanhos diferentes <strong>não é interessante e sim infantil</strong>. Se você tem mais de 10 anos use somente um padrão para parágrafo, utilizando de forma limitada cores, negritos e sublinhados para destaques necessários no texto.</p>
+<p><strong>Respeite o próximo</strong>: não copie da Internet fotos e imagens sem dar os créditos, se pediu ajuda agradeça pela resposta e seja educado com todos.</p>
+<p>Nas <strong>Redes Sociais</strong> use a regra da avó: você falaria aquilo na frente da sua avó? Se não, provavelmente não é necessário compartilhar. Lembre-se que uma vez publicado é difícil excluir uma informação online.</p>
+<p>Por fim: a Internet faz parte da vida real. <strong>Aja nela como você agiria fora dela</strong>.</p>
+<h2>Alguns links úteis:</h2>
+<p><a href="http://pt.wikipedia.org/wiki/Netiqueta">O que é a Netiqueta</a></p>
+<p><a href="http://www.efetividade.net/2011/06/13/e-mail-como-escrever-para-receber-melhores-respostas/">Email: Como escrever para receber melhores respostas</a></p>
+<p><a href="http://www.mediconerd.com/2010/01/14-dicas-para-criar-uma-assinatura-de-e.html">14 Dicas para Assinaturas de Email Efetivas</a></p>
+<p><a href="http://www.dicasdefotografia.com.br/a-internet-e-casa-da-mae-joana">A Internet é Casa da Mãe Joana?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=aAfgYSBag1M:o61Qdn9gSwk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=aAfgYSBag1M:o61Qdn9gSwk:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=aAfgYSBag1M:o61Qdn9gSwk:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=aAfgYSBag1M:o61Qdn9gSwk:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=aAfgYSBag1M:o61Qdn9gSwk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/aAfgYSBag1M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/a-internet-e-casa-da-mae-joana/feed</wfw:commentRss>
+		<slash:comments>30</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/a-internet-e-casa-da-mae-joana</feedburner:origLink></item>
+		<item>
+		<title>O que é resolução?</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/7N3-BJMvu2A/o-que-e-resolucao</link>
+		<comments>http://www.dicasdefotografia.com.br/o-que-e-resolucao#comments</comments>
+		<pubDate>Thu, 04 Aug 2011 21:51:31 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Fotografia]]></category>
+		<category><![CDATA[Nomenclaturas]]></category>
+		<category><![CDATA[Resolução]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3374</guid>
+		<description><![CDATA[Um aviso sobre os Workshops: As inscrições para a segunda turma de São Paulo, dia 14/08, estão abertas: clique aqui para se inscrever. As inscrições para o Workshop em Aracaju, dia 27/08, estão no fim: clique aqui para se inscrever. &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; A fotografia digital tem um monte de termos técnicos e chatos que a gente precisa saber. Vamos [...]<p><a href="http://www.dicasdefotografia.com.br/o-que-e-resolucao">O que é resolução?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p><em>Um aviso sobre os Workshops:</em></p>
+<ul>
+<li>As inscrições para a segunda turma de <strong>São Paulo,</strong> dia 14/08, estão abertas: <a href="http://www.dicasdefotografia.com.br/workshops-2011/sao-paulo-1408">clique aqui para se inscrever.</a></li>
+<li>As inscrições para o Workshop em <strong>Aracaju</strong>, dia 27/08, estão no fim: <a href="http://www.dicasdefotografia.com.br/workshops-2011/aracaju-2708">clique aqui para se inscrever.</a></li>
+</ul>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p>A fotografia digital tem um monte de termos técnicos e chatos que a gente precisa saber. Vamos tentar simplificá-los? Começando com a boa e velha <strong>Resolução de Imagem</strong>:</p>
+<h2>O que é resolução?</h2>
+<p>Imagine que uma foto é feita de vários pontinhos. Cada pontinho tem uma cor e juntando muuuuitos pontinhos chegamos a uma imagem completa.</p>
+<p><img class="alignnone size-full wp-image-3377" title="pontinho" src="http://www.dicasdefotografia.com.br/article-images/pontinho.jpg" alt="" width="728" height="379" /></p>
+<p>A resolução é, bem resumidamente, a quantidade de pontinhos em um determinado espaço. Quanto <strong>mais pontinhos</strong> em um espaço, <strong>mais detalhes</strong> teremos na imagem.</p>
+<p>Simples assim! Mas existem alguns outros detalhes, é claro:</p>
+<p><strong>1. Pixels ou pontos reais?</strong></p>
+<p>Pixels são diferentes de pontos reais. Pixels são os pontos em uma tela (de computador ou da televisão, por exemplo), mas uma imagem com vários pixels não é necessariamente uma imagem com resolução adequada. Por exemplo:</p>
+<p><img class="alignnone size-full wp-image-3378" title="pixels-pontos" src="http://www.dicasdefotografia.com.br/article-images/pixels-pontos.jpg" alt="" width="728" height="243" /></p>
+<p>Embora as duas imagens ocupem a mesma quantidade de pixels da tela do seu computador dá para ver que a primeira tem uma qualdiade maior. Isso acontece porque a imagem da esquerda tem 360px de largura e 360 pontinhos de informação. Já a segunda imagem tem 360px de largura e apenas 160 pontinhos de informação nessa largura.</p>
+<p>É por isso que não dá para aumentar imagens e manter a qualidade delas como acontece nos seriados de investigação :-)</p>
+<p><strong>2. Qual resolução usar?</strong></p>
+<p>Dependendo do meio aonde está a foto é necessário ter mais ou menos pontos por polegada. É isso que chamamos casualmente de “Resolução”.</p>
+<p>Ao fazer uma imagem para mostrar na tela do computador (a imagem que vai para o flickr, por exemplo) usamos uma resolução de 72 pontos por polegada, pois isso é o que, no geral, as telas mostram.</p>
+<p>Ao fazer uma imagem para uma ampliação (em 15x21cm para um álbum, por exemplo) é preciso usar uma resolução maior, pois os pontinhos são impressos mais “apertadinhos” e assim garantimos mais qualidade. A resolução indicada nesse caso é de 300 pontos por polegada.</p>
+<p>Ao fazer um Outdoor a resolução é bem menor, pois vemos Outdoors bem de longe, normalmente fica em torno de 30 pontos por polegada. Se você chegar perto de um Outdoor vai notar que dá pra ver os “quadradinhos” da imagem!</p>
+<p><em>O nome certinho disso que chamamos casualmente de resolução é <strong>DPI</strong> (Dots per Inch, ou pontos por polegada.)</em></p>
+<p><strong>3. E os Mega Pixels?</strong></p>
+<p>Já falei aqui que <a href="http://www.dicasdefotografia.com.br/5-mitos-da-fotografia-desmitificados">uma câmera com mais Mega Pixels não é necessariamente uma câmera melhor</a>, e isso continua sendo verdade! <a href="http://www.dicasdefotografia.com.br/fotografia-digital-o-que-e-sensor">O que importa é a qualidade do Sensor</a>. A quantidade de Mega Pixels, conforme vimos acima, vai definir o tamanho máximo de ampliação de uma imagem sem diminuir a sua qualidade. Se uma câmera tem um sensor muito ruim e vários Mega Pixels ela vai simplesmente fazer fotos horríveis e enormes ;-)</p>
+<p>&#8212;</p>
+<p>É claro que o assunto Resolução de Imagem tem vários detalhes e nerdices – mas aqui eu quis explicar para todos que não conhecem nada sobre o assunto e ficam em dúvida em “visualizar” a Resolução no dia a dia de Fotógrafo :-) Espero que seja útil!</p>
+<p><a href="http://www.dicasdefotografia.com.br/o-que-e-resolucao">O que é resolução?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7N3-BJMvu2A:IlBhUT3t8eA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7N3-BJMvu2A:IlBhUT3t8eA:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7N3-BJMvu2A:IlBhUT3t8eA:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=7N3-BJMvu2A:IlBhUT3t8eA:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7N3-BJMvu2A:IlBhUT3t8eA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/7N3-BJMvu2A" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/o-que-e-resolucao/feed</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/o-que-e-resolucao</feedburner:origLink></item>
+		<item>
+		<title>Eu checo as fotos no LCD, e daí?</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/QjX24S_bUrw/eu-checo-as-fotos-no-lcd-e-dai</link>
+		<comments>http://www.dicasdefotografia.com.br/eu-checo-as-fotos-no-lcd-e-dai#comments</comments>
+		<pubDate>Sat, 23 Jul 2011 00:35:41 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Equipamento]]></category>
+		<category><![CDATA[Fotografia]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3339</guid>
+		<description><![CDATA[Eu sempre gostei dessa “liberdade” (não confundir com preguiça) digital de ver as fotos enquanto elas são feitas, direto no LCD. Não faço isso para checar cores, elementos ou composição: isso, na minha visão, é algo que um fotógrafo tem que perceber ao olhar a cena, não depois de tirar a foto. Olho no LCD [...]<p><a href="http://www.dicasdefotografia.com.br/eu-checo-as-fotos-no-lcd-e-dai">Eu checo as fotos no LCD, e daí?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>Eu sempre gostei dessa “liberdade” (não confundir com preguiça) digital de ver as fotos enquanto elas são feitas, direto no LCD. Não faço isso para checar cores, elementos ou composição: isso, na minha visão, é algo que um fotógrafo tem que perceber <strong>ao olhar</strong> a cena, não <strong>depois</strong> de tirar a foto. Olho no LCD pelo motivo que mais irrita os puristas: <strong>checar a exposição</strong>.</p>
+<p>Pode me julgar, vai (hehehehe.) Mas quando estou usando uma fonte de luz “artificial” (como strobes) ou quando as condições de luz são bem complicadas para o fotômetro interno da câmera acertar, eu olho sim no LCD sem medo de ser feliz.</p>
+<p>Mas percebi que fazer isso leva a dois problemas:</p>
+<h2>1. Falta de exatidão</h2>
+<p>Dependendo das condições de luz ou mesmo do brilho do LCD é possível que a gente ache que a foto tá legal, mas ao passar pro computador&#8230; OPS! Tudo errado. Ter uma exposição errada, para quem tem dúvidas, é <strong>basicamente</strong> a foto ter ficado clara ou escura.</p>
+<p><img class="alignnone size-medium wp-image-3340" title="IMG_0255" src="http://www.dicasdefotografia.com.br/article-images/IMG_0255-728x543.jpg" alt="" width="728" height="543" /></p>
+<p><strong>Para resolver isso:</strong></p>
+<p><strong></strong>Gosto de deixar na tela o Histograma (<a href="http://www.dicasdefotografia.com.br/como-interpretar-um-histograma">já falei sobre como usar o Histograma aqui</a>) e manter o brilho do LCD quase nulo (numa escala de 1 a 7 deixo no 2.) Isso também ajuda a economizar bateria, já que estarei analisando a exposição somente no Histograma mesmo.</p>
+<h2>2. Nem sempre o Histograma está certo</h2>
+<p>Mesmo com o Histograma mostrando uma exposição equilibrada nem sempre essa é a exposição ideal para aquela foto. É possível que justamente aquilo que você quer dar destaque na foto esteja escuro, mas o resto está OK&#8230; aí o Histograma diz que na média está tudo OK e mais uma vez você acaba com uma foto com exposição errada.</p>
+<p><strong>Para resolver isso:</strong></p>
+<p><strong>Sempre fotografo em Preto e Branco</strong>. Você leu certo: fotografo <strong>tudo</strong> em Preto e Branco. Os arquivos, em si, estão em RAW – por isso ao passar para o computador verei as imagens com suas cores originais. Mas enquanto estou fotografando deixo ligada a opção de vê-las em PB ao olhar para o LCD.</p>
+<blockquote><p>Não sabe o que é o <strong>formato RAW</strong>? <a href="http://www.dicasdefotografia.com.br/click-1-o-que-e-fotografia-em-raw">Escute o Episódio <a href="http://twitter.com/#search?q=%231" class="twitter-hashtag-link" title="Search '1' on Twitter" target="_blank">#1</a> do Podcast Click</a> ou <a href="http://www.dicasdefotografia.com.br/vantagens-e-desvantagens-de-fotografar-em-raw">leia suas vantagens e desvantagens</a>.</p></blockquote>
+<p>Desde que comecei a fotografar assim notei uma diferença tão grande nas exposições das minhas fotos que decidi que isso é simplesmente genial! Se não me engano foi em um Congresso ano passado que o fotógrafo mexicano <a href="http://www.ferjuaristi.com/">Fer Juaristi</a> disse que fazia isso, e resolvi tentar. É interessante principalmente quando estamos lidando com flashes ou várias fontes de luz: dá para ver bem melhor a diferença e se é necessário mexer em posição ou potência. Tente um dia, e vai ver como é legal!</p>
+<p>&#8212;</p>
+<p>Com essas soluções resolvi os problemas do LCD e ele se tornou um aliado. Sei que tem quem prefira fazer cálculos ou usar fotômetros externos e admiro muito essas pessoas. Mas, para mim, usar o LCD para controlar exposições mais difíceis é bem prático e funciona bem, por isso não pretendo abandoná-lo muito cedo :)</p>
+<p><a href="http://www.dicasdefotografia.com.br/eu-checo-as-fotos-no-lcd-e-dai">Eu checo as fotos no LCD, e daí?</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=QjX24S_bUrw:6EQKzmHdpIU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=QjX24S_bUrw:6EQKzmHdpIU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=QjX24S_bUrw:6EQKzmHdpIU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=QjX24S_bUrw:6EQKzmHdpIU:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=QjX24S_bUrw:6EQKzmHdpIU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/QjX24S_bUrw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/eu-checo-as-fotos-no-lcd-e-dai/feed</wfw:commentRss>
+		<slash:comments>34</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/eu-checo-as-fotos-no-lcd-e-dai</feedburner:origLink></item>
+		<item>
+		<title>Workshops do DDF em Curitiba e SP – 13 e 20/08</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/cmySjUqrfQ4/workshops-do-ddf-em-curitiba-e-sp-13-e-2008</link>
+		<comments>http://www.dicasdefotografia.com.br/workshops-do-ddf-em-curitiba-e-sp-13-e-2008#comments</comments>
+		<pubDate>Mon, 11 Jul 2011 01:59:50 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Artigos diversos]]></category>
+		<category><![CDATA[Workshop]]></category>
+		<category><![CDATA[workshops]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3285</guid>
+		<description><![CDATA[É com muita felicidade que anuncio os Workshops do DDF de Agosto! :D Vamos começar com Curitiba e São Paulo :) Update: agora tem Aracaju também! Este Workshop vai ser um pouquinho diferente dos Workshops do ano passado. Além da parte de retratos com a Direção e Técnica também vou falar sobre o Treino do olhar [...]<p><a href="http://www.dicasdefotografia.com.br/workshops-do-ddf-em-curitiba-e-sp-13-e-2008">Workshops do DDF em Curitiba e SP &#8211; 13 e 20/08</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>É com muita felicidade que anuncio os Workshops do DDF de Agosto! :D Vamos começar com <strong>Curitiba</strong> e <strong>São Paulo</strong> :)</p>
+<p><em>Update: agora tem <strong>Aracaju</strong> também!</em></p>
+<p><a href="http://www.dicasdefotografia.com.br/workshops-2011"><img class="alignnone size-medium wp-image-3341" title="workshop-infos-3" src="http://www.dicasdefotografia.com.br/article-images/workshop-infos-3-728x509.jpg" alt="" width="728" height="509" /></a></p>
+<p>Este Workshop vai ser um pouquinho diferente dos Workshops do ano passado. Além da parte de retratos com a Direção e Técnica também vou falar sobre o <strong>Treino do olhar</strong> e <strong>Business</strong> (para quem quer trabalhar com fotografia começar com o pé direito.)</p>
+<p>Está interessado? <a href="http://www.dicasdefotografia.com.br/workshops-2011">Saiba todos os detalhes sobre essas edições dos Workshops e faça sua inscrição clicando aqui</a>.</p>
+<p>&#8212;</p>
+<p><em>Quer organizar um Workshop do DDF na sua cidade? Eu vou para onde você quiser: é só me ajudar a encontrar um lugarzinho bacana para fazê-lo acontecer. Se quiser me ajudar é só entrar em contato: <strong>contato@dicasdefotografia.com.br</strong>.</em></p>
+<p><a href="http://www.dicasdefotografia.com.br/workshops-do-ddf-em-curitiba-e-sp-13-e-2008">Workshops do DDF em Curitiba e SP &#8211; 13 e 20/08</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cmySjUqrfQ4:TzRmvgsFmJI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cmySjUqrfQ4:TzRmvgsFmJI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cmySjUqrfQ4:TzRmvgsFmJI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=cmySjUqrfQ4:TzRmvgsFmJI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=cmySjUqrfQ4:TzRmvgsFmJI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/cmySjUqrfQ4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/workshops-do-ddf-em-curitiba-e-sp-13-e-2008/feed</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/workshops-do-ddf-em-curitiba-e-sp-13-e-2008</feedburner:origLink></item>
+		<item>
+		<title>Por que fotos do Instagram são sempre bonitas</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/7Mh6NKDf9Cs/por-que-fotos-do-instagram-sao-sempre-bonitas</link>
+		<comments>http://www.dicasdefotografia.com.br/por-que-fotos-do-instagram-sao-sempre-bonitas#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 01:59:38 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Fotografia]]></category>
+		<category><![CDATA[Celular]]></category>
+		<category><![CDATA[Iluminação]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=3186</guid>
+		<description><![CDATA[As fotos feitas com câmeras de celular, aliadas aos aplicativos que deixam elas mais apresentáveis, são incríveis. Acho mesmo: é muito legal podermos gravar pequenas coisas do dia a dia, com a praticidade de uma câmera que você já leva pra todo lugar mesmo. Não fazemos essas fotos para resultar em uma mostra de arte, nem para [...]<p><a href="http://www.dicasdefotografia.com.br/por-que-fotos-do-instagram-sao-sempre-bonitas">Por que fotos do Instagram são sempre bonitas</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>As fotos feitas com câmeras de celular, aliadas aos aplicativos que deixam elas mais apresentáveis, <strong>são incríveis</strong>. Acho mesmo: é muito legal podermos gravar pequenas coisas do dia a dia, com a praticidade de uma câmera que você já leva pra todo lugar mesmo. Não fazemos essas fotos para resultar em uma mostra de arte, nem para fazer posters ou aparecer em revistas. Pra falar a verdade dificilmente nós imprimimos essas fotos. Elas estão aí pra <strong>guardar recordações</strong>, serem colocadas nas redes sociais e lembrar de pequenos detalhes da vida, além de <strong>treinar o olhar fotográfico para formas, luzes e composições em todos os lugares que passamos</strong>, sem muitas pretensões.</p>
+<p>Dá pra fotografar sério com o celular também, mas são casos mais pontuais ;) Vamos focar aqui na brincadeira.</p>
+<p>Mas você já se perguntou por que praticamente toda foto feita com o <a href="http://instagr.am/">Instagram</a> (ou qualquer aplicativo similar) tende a ficar bonita? Eu tenho três palpites: <strong>falta de flash</strong>, <strong>efeitinhos pra esconder defeitinhos</strong> e <strong>formato quadrado</strong>.</p>
+<h2>Flash</h2>
+<p>A coisa mais legal do <strong>Instagram</strong> é que a <strong>opção padrão de Flash é com ele desligado</strong>! Ou seja: aquelas pessoas que usam o Flash em momentos inoportunos com a desculpa de <em>não saber desligar</em> acabam fazendo fotos melhores por causa disso.</p>
+<p><img class="size-full wp-image-3255 aligncenter" title="luz" src="http://www.dicasdefotografia.com.br/article-images/luz.jpg" alt="" width="612" height="612" /></p>
+<p>O Flash embutido de câmeras Compactas e Reflex deve ser usado com cuidado e o Flash do celular não foge à regra: uma luz direta e dura no seu assunto <strong>quase sempre acaba com as chances de uma foto decente</strong>.</p>
+<blockquote><p>Algumas dicas úteis que já postei sobre Flash: “<a href="http://www.dicasdefotografia.com.br/luz-dura-e-luz-difusa">Luz dura e Luz difusa</a>”, “<a href="http://www.dicasdefotografia.com.br/quem-tem-medo-do-flash">Quem tem Medo do Flash</a>”, “<a href="http://www.dicasdefotografia.com.br/o-segredo-da-contra-luz-como-luz-de-contorno">O Segredo do Contra Luz como Luz de Contorno</a>” e “<a href="http://www.dicasdefotografia.com.br/video-usando-a-luz-da-janela-para-fazer-belos-retratos">Vídeo: Usando a Luz de Janela em Retratos</a>”.</p></blockquote>
+<h2>Efeitinhos que escondem defeitinhos</h2>
+<p>É claro que nem sempre tem  luz suficiente e a foto sem flash fica ruim. Ou o Flash é necessário e a iluminação da foto fica somente aceitável. A qualidade de uso da luz também pode influenciar.</p>
+<p>O fato é que na maioria das vezes <strong>fotos feitas com o celular tem uma qualidade de luz e balanço de branco duvidáveis</strong> (por simples falta de controle sobre eles.) E é aí que entram os <strong>efetinhos</strong>. A luz tá ruim? <strong>Bota um efeito Vintage na foto e tudo ficará bem</strong>.</p>
+<p><img class="size-full wp-image-3256 aligncenter" title="fotos-de-instagram" src="http://www.dicasdefotografia.com.br/article-images/fotos-de-instagram.jpg" alt="" width="612" height="612" /></p>
+<p>Os efeitos são exagerados? <strong>É claro que são</strong>. Mas esse é o objetivo: não editamos essas fotos para terem consistência ou veracidade e sim para ficarem bonitinhas e divertidas! O celular virou uma Toy Cam bem mais cara e que também telefona.</p>
+<p>E quem nunca transformou uma foto em Preto e Branco porque ela não tava muito boa que atire a primeira pedra, pois é o mesmo princípio.</p>
+<h2>Quadrado</h2>
+<p>A forma quadrada, lembrada pelo uso nas Médio Formato, nos dá uma <strong>nova visão de composição</strong> ao mesmo tempo que facilita o <strong>equilíbrio dos elementos do quadro</strong>. Além disso a composição de fotos quadradas é sempre pelo menos um pouquinho interessante, mesmo se esse nem foi o objetivo inicial.</p>
+<p><img class="size-full wp-image-3257 aligncenter" title="fotos-de-instagram-2" src="http://www.dicasdefotografia.com.br/article-images/fotos-de-instagram-2.jpg" alt="" width="612" height="612" /></p>
+<p>&#8212;</p>
+<p>No Digital Photography School você encontra <a href="http://www.digital-photography-school.com/10-tips-for-mastering-instagram">10 dicas para fotos mais legais com o Instagram</a> (em inglês.)</p>
+<p>Não quero filosofar muito sobre esse assunto além desses três itens, mas o fato da câmera mais usada no Flickr hoje ser o iPhone quer dizer alguma coisa, não? O Clicio já escreveu um <a href="http://www.clicio.com.br/blog/2011/instagram-vicio-ou-virtude/">texto mais profundo sobre o uso do Celular/Instagram</a> e você pode ver várias fotos tiradas com o aplicativo <a href="http://www.flickr.com/groups/instagram/">neste grupo do Flickr</a>.</p>
+<p><a href="http://www.dicasdefotografia.com.br/por-que-fotos-do-instagram-sao-sempre-bonitas">Por que fotos do Instagram são sempre bonitas</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7Mh6NKDf9Cs:9A-UheTR2FM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7Mh6NKDf9Cs:9A-UheTR2FM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7Mh6NKDf9Cs:9A-UheTR2FM:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=7Mh6NKDf9Cs:9A-UheTR2FM:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=7Mh6NKDf9Cs:9A-UheTR2FM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/7Mh6NKDf9Cs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/por-que-fotos-do-instagram-sao-sempre-bonitas/feed</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/por-que-fotos-do-instagram-sao-sempre-bonitas</feedburner:origLink></item>
+		<item>
+		<title>O que é uma foto poluída, e como evitá-la</title>
+		<link>http://feedproxy.google.com/~r/dicasdefotografia/~3/r2mJorLZW2M/o-que-e-uma-foto-poluida-e-como-evita-la</link>
+		<comments>http://www.dicasdefotografia.com.br/o-que-e-uma-foto-poluida-e-como-evita-la#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 19:23:33 +0000</pubDate>
+		<dc:creator>Claudia Regina</dc:creator>
+				<category><![CDATA[Fotografia]]></category>
+		<category><![CDATA[Composição]]></category>
+
+		<guid isPermaLink="false">http://www.dicasdefotografia.com.br/?p=2482</guid>
+		<description><![CDATA[Recebo muitas mensagens, tweets e links de leitores pedindo para que eu analise suas fotos. Infelizmente não tenho tempo para responder cada um individualmente (por isso indico sempre participar do grupo do DDF aonde todo mundo pode participar quando tem um tempinho livre.) Mas coincidentemente quando as fotos que recebo tem algum problema normalmente é [...]<p><a href="http://www.dicasdefotografia.com.br/o-que-e-uma-foto-poluida-e-como-evita-la">O que é uma foto poluída, e como evitá-la</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+]]></description>
+			<content:encoded><![CDATA[<p>Recebo muitas mensagens, tweets e links de leitores pedindo para que eu analise suas fotos. Infelizmente não tenho tempo para responder cada um individualmente (por isso indico sempre participar do grupo do DDF aonde todo mundo pode participar quando tem um tempinho livre.)</p>
+<p>Mas coincidentemente quando as fotos que recebo tem algum problema normalmente é o mesmo: <strong>elas estão muito poluídas</strong>. Isso quer dizer que a foto tem muito dióxido de carbono? Nãoooo. Quer dizer que a foto tem muita <strong>informação</strong>.</p>
+<h2>O que significa?</h2>
+<p>Uma foto poluída <strong>dá destaque para muitas coisas ao mesmo tempo</strong>. É como aquelas pessoas que falam, falam, falam e não dizem nada. Isso pode acontecer por vários motivos:</p>
+<ul>
+<li>São muitos elementos que não conversam entre si</li>
+<li>Dá-se muito destaque aquilo que não merecia destaque</li>
+<li>O ponto mais importante da foto não tem mais destaque do que os secundários</li>
+<li>Não existe um equilíbrio entre os elementos da composição</li>
+<li>A foto não conta uma história e não instiga a curiosidade</li>
+<li>Ao olhar a foto não sabemos para onde olhar primeiro</li>
+</ul>
+<p>Lembre-se que <strong>o que</strong> você está fotografando não interessa muito. Pode ser uma paisagem incrível, uma modelo linda, o quintal da sua casa ou uma textura encontrada num cantinho da sua cidade: tudo pode resultar em uma foto bonita se você prestar atenção nos pontos acima.</p>
+<h2>Como evitá-la?</h2>
+<p><strong>Antes de clicar pense no objetivo da sua foto</strong>: o que ela quer contar? O que ela quer mostrar? Tudo que estiver na foto e não estiver ajudando a contar esta história é poluição. O que fazer com essa poluição? Esconda! <a href="http://www.dicasdefotografia.com.br/chegue-mais-perto-mais-perto-mais-perto">Chegue mais perto</a>, <a href="http://www.dicasdefotografia.com.br/como-desfocar-o-fundo-das-fotos">desfoque o fundo</a>, <a href="http://www.dicasdefotografia.com.br/buscando-novos-angulos">tente ângulos mais altos ou mais baixos</a>. Componha a foto pensando em todos esses detalhes. <strong>É esse cuidado na hora de compor sua foto que vai diferenciá-la de uma foto sem sal!</strong></p>
+<p>Uma foto que poderia ser ordinária pode ficar interessante desfocando o fundo&#8230;</p>
+<p><a href="http://www.flickr.com/photos/claudiaregina/5344697382/in/photostream"><img class="alignnone" title="Good morning, I love you" src="http://farm6.static.flickr.com/5006/5344697382_cb3d228650_b.jpg" alt="" width="728" /><br />
+</a><em>Caneca | 70mm – f/2.8 – ISO 100 – 1/500s</em></p>
+<p>&#8230;procurando um ângulo mais alto ou mais baixo&#8230;</p>
+<p><img class="alignnone size-medium wp-image-3266" title="Angulo Diferente" src="http://www.dicasdefotografia.com.br/article-images/angulo-diferente-728x545.jpg" alt="" width="728" height="545" /><br />
+<em>Beijinho | 24mm – f/2.8 – ISO 250 – 1/100s</em></p>
+<p>&#8230;ou chegando mais perto.</p>
+<p><img class="alignnone size-medium wp-image-3267" title="Chegue Mais Perto" src="http://www.dicasdefotografia.com.br/article-images/chegue-mais-perto-728x485.jpg" alt="" width="728" height="485" /><br />
+<em>Retrato | 70mm &#8211; f/2.8 – ISO 100 – 1/250s</em></p>
+<p>&#8212;</p>
+<p>No post anterior me pediram para colocar fotos “erradas” também. Eu acho injusto pegar uma foto dos outros e falar que está feia, então vou ter que manchar minha imagem e mostrar as minhas fotos horríveis :P Lá vai uma foto totalmente sem sal porque foi tirada sem pensar:</p>
+<p><img class="alignnone size-full wp-image-3268" title="foto-sem-graca-nenhuma" src="http://www.dicasdefotografia.com.br/article-images/foto-sem-graca-nenhuma.jpg" alt="" width="728" height="485" /></p>
+<p>O que essa foto tem de errado? Tudo! O céu não tem graça nenhuma (então pq mostrá-lo?), a vegetação é toda da mesma cor e não diz nada além de “oi, sou uma vegetação” e as casas não ajudam em nada na composição. Não é a câmera usada e sim aquele equipamento mais importante: <strong>nosso olhar</strong>. Uma foto só fica feia por preguiça de olhar.</p>
+<p>Não tenho uma foto muuuuuito melhor deste mesmo lugar pra comparar mas uma ficou um pouco mais interessante simplesmente porque cheguei mais perto:</p>
+<p><img class="alignnone size-full wp-image-3270" title="um-pouco-melhor" src="http://www.dicasdefotografia.com.br/article-images/um-pouco-melhor.jpg" alt="" width="728" height="485" /></p>
+<p>Não chega a ser boa (tá, eu tava bem preguiçosa nesse momento) mas dá pra ver a melhora comparando com a de cima, né? Além disso a foto conta uma história (uma biblioteca comunitária de uma pequena ilha no litoral do Paraná.)</p>
+<p>&#8212;</p>
+<p>Quem tiver coragem pra mostrar umas fotos “sem sal” pode mostrar! Elas também são boas para analisarmos o motivo delas terem ficado tão ruins e tentar evitar de repetir o erro. Criei <a href="http://www.flickr.com/groups/dicasdefotografia/discuss/72157627124566374/">este tópico no grupo do Flickr</a> especificamente para nos queimarmos com fotos feias :P</p>
+<p><a href="http://www.dicasdefotografia.com.br/o-que-e-uma-foto-poluida-e-como-evita-la">O que é uma foto poluída, e como evitá-la</a> é uma dica do <a href="<a href="http://www.dicasdefotografia.com.br">Dicas de Fotografia</a>">Dicas de Fotografia</a>, por Claudia Regina
+
+
+<small>Esta dica foi enviada para o seu Leitor de RSS ou Email automaticamente.</small></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=r2mJorLZW2M:tUlb1jXTxk8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=r2mJorLZW2M:tUlb1jXTxk8:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=r2mJorLZW2M:tUlb1jXTxk8:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?i=r2mJorLZW2M:tUlb1jXTxk8:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/dicasdefotografia?a=r2mJorLZW2M:tUlb1jXTxk8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/dicasdefotografia?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/dicasdefotografia/~4/r2mJorLZW2M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.dicasdefotografia.com.br/o-que-e-uma-foto-poluida-e-como-evita-la/feed</wfw:commentRss>
+		<slash:comments>22</slash:comments>
+		<feedburner:origLink>http://www.dicasdefotografia.com.br/o-que-e-uma-foto-poluida-e-como-evita-la</feedburner:origLink></item>
+	</channel>
+</rss><!-- Dynamic page generated in 0.336 seconds. --><!-- Cached page generated by WP-Super-Cache on 2011-09-25 11:32:51 -->

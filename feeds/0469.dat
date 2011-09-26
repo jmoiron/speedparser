@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+		<rss version="2.0">
+		<channel>
+		<title>L'actualité informatique en direct du site de Pixelle.org</title>
+		<link>http://www.pixelle.org/</link>
+		<description>Le flux du site de Pixelle.org, pour suivre toute l'actualité de l'informatique general</description>
+		<copyright>© www.pixelle.org 2011</copyright>
+		<language>fr</language>
+
+		<image>
+		<title>Pixelle's Informatique</title>
+		<url>http://www.pixelle.org/img/rss_ico.png</url>
+		<link>http://www.pixelle.org/</link>
+		<description>Pixelle: Communauté d'aide et de soutien informatique</description>
+		</image> 
+		<item> 
+			<title>Un nouveau PC de gamers chez CyberPower</title> 
+			<link>http://www.pixelle.org/news/20110302-2-nouveaux-pc-gamers-chez-cyberpower.php</link> 
+			<description><![CDATA[ 
+				CyberPower a récemment dévoiler le Gamer Xtreme FTW, un nouveaux desktop destiné aux gamers, en effet, ce dernier embarque un boitier Thermaltake Level 10 GT, une Intel X58, un...			]]> </description>
+		</item>
+				<item> 
+			<title>La tablette HTC Flyer pour le mois de mars</title> 
+			<link>http://www.pixelle.org/news/20110302-tablette-htc-flyer-pour-mois-mars.php</link> 
+			<description><![CDATA[ 
+				HTC pourrai d'après les rumeurs, mettre en vente courant le mois de mars, une tablette, nommée HTC Flyer, cette dernière serait équipée d'un écran de 7 pouces et tournerai sous...			]]> </description>
+		</item>
+				<item> 
+			<title>Le Acer Revo RL100 disponible</title> 
+			<link>http://www.pixelle.org/news/20110218-le-acer-revo-rl100-disponible.php</link> 
+			<description><![CDATA[ 
+				Acer a annoncé en septembre, son dernier nettop, l'Acer Revo RL100, ce dernier tournant sous un processeur AMD athlon Neo II K325 double coeur cadencé à 1.3Ghz avec jusqu'à 4Go de...			]]> </description>
+		</item>
+				<item> 
+			<title>MSI lâche son Wind Top AE2240</title> 
+			<link>http://www.pixelle.org/news/20110218-msi-lache-son-wind-top-ae2240.php</link> 
+			<description><![CDATA[ 
+				MSI a récemment présenter son tout dernier ordinateur tout en un, le Wind Top AE2240, ce dernier offrant un écran tactile multitouch de 21.6 pouces permettant d'afficher une...			]]> </description>
+		</item>
+				<item> 
+			<title>MySpace est à vendre !</title> 
+			<link>http://www.pixelle.org/news/20110218-myspace-est-a-vendre.php</link> 
+			<description><![CDATA[ 
+				MySpace le célèbre réseau social musical qui était en perte de vitesse face à ses concurrents, notamment Facebook et Twitter, est à vendre. Chase Carey, directeur d'exploitation...			]]> </description>
+		</item>
+				<item> 
+			<title>LaCie présente la clé USB Galet</title> 
+			<link>http://www.pixelle.org/news/20110207-lacie-presente-cle-usb-galet.php</link> 
+			<description><![CDATA[ 
+				LaCie a récemment présenté sa nouvelle clé USB en partenariat avec Christofle, cette dernière baptisée Galet est dotée d'un revêtement en argent et a la forme d'un galet, le tout...			]]> </description>
+		</item>
+				<item> 
+			<title>Une nouvelle tablette chez Marvell</title> 
+			<link>http://www.pixelle.org/news/20110207-nouvelle-tablette-chez-marvell.php</link> 
+			<description><![CDATA[ 
+				Présenté par Marvell, lors du CES 2011, cette nouvelle tablette doté d'un écran multitouch de 10 pouces tourne sous un Android 2.2, dispose du Wifi, d'une sortie HDMI, et tourne...			]]> </description>
+		</item>
+				<item> 
+			<title>Un portable 3D dénué de lunettes chez Toshiba</title> 
+			<link>http://www.pixelle.org/news/20110201-portable-3d-denue-lunettes-chez-toshiba.php</link> 
+			<description><![CDATA[ 
+				Toshiba a récemment annoncé lors du CES 2011, son dernier ordinateur portable, ce dernier offrant un écran 3D, a la particularité de ne pas nécessiter de lunettes puisqu'il se...			]]> </description>
+		</item>
+				<item> 
+			<title>Un disque dur externe Lamborghini</title> 
+			<link>http://www.pixelle.org/news/20110201-disque-dur-externe-lamborghini.php</link> 
+			<description><![CDATA[ 
+				Asus propose depuis peu un nouveau disque dur externe à l'effigie de Lamborghini, ce dernier offrant une connectique USB 3.0 est disponible en noir ou en blanc en capacités de 500...			]]> </description>
+		</item>
+				<item> 
+			<title>MSI lâche son GT680</title> 
+			<link>http://www.pixelle.org/news/20110128-msi-lache-son-gt680.php</link> 
+			<description><![CDATA[ 
+				On continu avec les portables destinés au gamers, avec celui ci, signé MSI, le GT680, ce dernier offrant un écran de 15.6 pouces, tourne sous un processeur Intel Quad Core avec...			]]> </description>
+		</item>
+				<item> 
+			<title>Un nouveau PC de gamer chez Mouse Computer</title> 
+			<link>http://www.pixelle.org/news/20110128-nouveau-pc-gamer-chez-mouse-computer.php</link> 
+			<description><![CDATA[ 
+				Mouse Computer a récemment dévoilé son dernier ordinateur pour gamers, le NextGear i819GA1-ATI-SP, ce dernier tournant sous un processeur Intel Core i7-950 cadencé à 3.06Ghz avec...			]]> </description>
+		</item>
+				<item> 
+			<title>Une tablette sous Windows 7 chez Fujitsu</title> 
+			<link>http://www.pixelle.org/news/20110127-tablette-sous-windows-7-chez-fujitsu.php</link> 
+			<description><![CDATA[ 
+				Fujitsu a récemment dévoilé lors du CES 2011, une nouvelle tablette, cette dernière tournant sous un processeur Intel Oak Trail Atom Z670 avec 2Go de RAM, dispose de deux capteurs...			]]> </description>
+		</item>
+				<item> 
+			<title>Un nouveau moniteur de 24 pouces chez iiyama</title> 
+			<link>http://www.pixelle.org/news/20110127-nouveau-moniteur-24-pouces-chez-iiyama.php</link> 
+			<description><![CDATA[ 
+				Le constructeur Iiyama a récemment annoncé son dernier moniteur, le E2473HDS-B1, ce dernier offrant une dalle de 24 pouces permet d'afficher une résolution de 1920x1080px, et...			]]> </description>
+		</item>
+				<item> 
+			<title>Acer annonce son Aspire One 522</title> 
+			<link>http://www.pixelle.org/news/20110127-acer-annonce-son-aspire-one-522.php</link> 
+			<description><![CDATA[ 
+				Acer a récemment présenté lors du CES 2011, son tout dernier ordinateur portable, l'Aspire One 522, ce dernier offrant un écran de 10 pouces permet d'afficher une résolution de...			]]> </description>
+		</item>
+				<item> 
+			<title>Lenovo lâche son Ideapad S100</title> 
+			<link>http://www.pixelle.org/news/20110118-lenovo-lache-son-ideapad-s100.php</link> 
+			<description><![CDATA[ 
+				Lenovo a récemment dévoilé son IdeaPad S100, un nouveau portable doté d'un écran de 10.1 pouces, ce dernier tournant sous un processeur Dual Core Intel Atom N570 avec jusqu'à 2Go...			]]> </description>
+		</item>
+				 
+		</channel>
+		</rss>
