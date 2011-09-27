@@ -5,8 +5,6 @@
 
 import random
 import sys
-from pprint import pprint
-
 import feedparser
 from multiprocessing import Pool
 
@@ -17,12 +15,15 @@ from eventlet import tpool
 active = set([])
 titles = list()
 
+
 def parse_feed(data):
-    doc = feedparser.parse(data)
+    doc = tpool.execute(feedparser.parse, data)
     return doc.feed.get('title', "NO TITLE")
+
 
 def parse_feed_callback(result):
     titles.append(result)
+
 
 def geturl(url, filename):
     active.add(url)
@@ -41,13 +42,14 @@ def geturl(url, filename):
         return ''
     return document
 
+
 def main():
     opts, args = parse_args()
     pool = eventlet.GreenPool(opts.pool)
     with open(args[0]) as f:
         urls = map(str.strip, f.read().split('\n'))
     to_fetch = random.sample(urls, opts.max)
-    filenames = ['%04d.dat' % i for i in range(1, opts.max+1)]
+    filenames = ['%04d.dat' % i for i in range(1, opts.max + 1)]
     parser_pool = Pool(5)
     results = []
     for document in pool.imap(geturl, to_fetch, filenames):
@@ -57,11 +59,12 @@ def main():
     parser_pool.join()
     print titles
 
+
 def parse_args():
     import optparse
     parser = optparse.OptionParser(usage='%prog [opts] urls.txt')
     parser.add_option('-n', '--pool', default=25, help='pool size')
-    parser.add_option('-m', '--max', default=500, help='number of urls to download')
+    parser.add_option('-m', '--max', default=400, help='number of urls to download')
     parser.add_option('', '--no-write', action='store_true', default=False, help='dont write output files')
     opts, args = parser.parse_args()
     opts.max = int(opts.max)
@@ -73,4 +76,3 @@ def parse_args():
 
 if __name__ == '__main__':
     main()
-
