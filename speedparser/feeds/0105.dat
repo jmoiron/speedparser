@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss" xmlns:dm="http://www.dailymotion.com/dmrss">
+   <channel>
+   <title>Dailymotion - bares-renaud's favorites</title>
+   <link>http://www.dailymotion.com/bookmark/bares-renaud/1</link>
+   <description><![CDATA[Bares-renaud's Favorites]]></description>
+    <itunes:subtitle>Dailymotion - Bares-renaud's Favorites</itunes:subtitle>
+    <itunes:summary>Bares-renaud's Favorites</itunes:summary>
+   <itunes:owner>
+      <itunes:name>Dailymotion</itunes:name>
+      <itunes:email>rss@dailymotion.com</itunes:email>
+   </itunes:owner>
+   <itunes:author>Dailymotion</itunes:author>
+   <itunes:image href="http://www.dailymotion.com/images/dailymotion_itunes.jpg"/>
+   <itunes:explicit>no</itunes:explicit>
+   <itunes:category text="TV &amp; Film" />
+   <language>en-US</language>
+   <lastBuildDate>Mon, 26 Sep 2011 22:00:25 +0200</lastBuildDate>
+      <image>
+          <url>http://www.dailymotion.com/images/dailymotion.jpg</url>
+          <title>Dailymotion - bares-renaud's favorites</title>
+          <link>http://www.dailymotion.com/bookmark/bares-renaud/1</link>
+          <width>400</width>
+          <height>144</height>
+      </image>
+        <dm:link rel="uql" href="http://www.dailymotion.com/rss/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_featured" title="Featured Videos" href="http://www.dailymotion.com/rss/us/featured/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_buzz" title="Hot Right Now" href="http://www.dailymotion.com/rss/us/buzz/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_hd" title="HD content" href="http://www.dailymotion.com/rss/hd/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_official" title="Official Content" href="http://www.dailymotion.com/rss/us/official/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_creative" title="Creative Content" href="http://www.dailymotion.com/rss/us/creative/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_visited-week" title="Most Viewed" href="http://www.dailymotion.com/rss/visited-week/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="sort_by_rated-week" title="Best Rated" href="http://www.dailymotion.com/rss/rated-week/bookmark/bares-renaud/1" type="application/rss+xml"/>
+        <dm:link rel="up" href="http://www.dailymotion.com/rss/1" type="application/rss+xml"/>
+        <item>
+            <title>Feeling Good, Nina Simone</title>
+            <link>http://www.dailymotion.com/video/x6xtaa_feeling-good-nina-simone_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x6xtaa_feeling-good-nina-simone_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/892/556/11655298:jpeg_preview_medium.jpg?20110904101630" style="border: 2px solid #B9D3FE;"></a><p>nina simone</p><p>Author: <a href="http://www.dailymotion.com/mrfnk"><img src="http://static2.dmcdn.net/static/user/773/802/21208377:avatar_medium.jpg?20101023144021" width="80" height="80" alt="avatar"/>mrfnk</a><br />Tags: <a href="http://www.dailymotion.com/tag/nina">nina</a> <a href="http://www.dailymotion.com/tag/simone">simone</a> <a href="http://www.dailymotion.com/tag/mrfnk">mrfnk</a> <a href="http://www.dailymotion.com/tag/feeling">feeling</a> <a href="http://www.dailymotion.com/tag/good">good</a> <br />Posted: 02 October 2008<br />Rating: 4.9<br />Votes: 35<br /></p>]]></description>
+            <author>rss@dailymotion.com (mrfnk)</author>
+            <itunes:author>mrfnk</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>nina simone</itunes:summary>
+            <itunes:subtitle>nina simone</itunes:subtitle>
+            <dm:videorating>4.9</dm:videorating>
+            <dm:videovotes>35</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x6xtaa_feeling-good-nina-simone_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/mrfnk" type="application/rss+xml"/>
+            <dm:views>316622</dm:views>
+            <dm:comments>27</dm:comments>
+            <dm:favorites>164</dm:favorites>
+            <dm:id>x6xtaa</dm:id>
+            <dm:author>mrfnk</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x6xtaa?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=bgswyxe0my0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=38b3a8ce0c1220ba0908c097ac03f5e2</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/773/802/21208377:avatar_medium.jpg?20101023144021</dm:authorAvatar>
+            <dm:relativeDate>posted 2 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Thu, 02 Oct 2008 05:11:20 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x6xtaa_feeling-good-nina-simone_music</guid>
+            <media:title>Feeling Good, Nina Simone</media:title>
+            <media:credit>mrfnk</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/892/556/11655298:jpeg_preview_large.jpg?20110904101630" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x6xtaa_feeling-good-nina-simone_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x6xtaa"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x6xtaa" type="text/html" duration="179" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x6xtaa" type="application/x-shockwave-flash" duration="179" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>nina, simone, mrfnk, feeling, good</itunes:keywords>
+            <media:category label="nina">nina</media:category>
+            <media:category label="simone">simone</media:category>
+            <media:category label="mrfnk">mrfnk</media:category>
+            <media:category label="feeling">feeling</media:category>
+            <media:category label="good">good</media:category>
+        </item>
+        <item>
+            <title>Billy Stewart - Summertime</title>
+            <link>http://www.dailymotion.com/video/x4nxsh_billy-stewart-summertime_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x4nxsh_billy-stewart-summertime_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/543/538/7835345:jpeg_preview_medium.jpg?20110914065519" style="border: 2px solid #B9D3FE;"></a><p>Billy at his finest!</p><p>Author: <a href="http://www.dailymotion.com/SoulLegends"><img src="http://static2.dmcdn.net/static/user/303/667/15766303:avatar_medium.jpg?20090118003618" width="80" height="80" alt="avatar"/>SoulLegends</a><br />Tags: <a href="http://www.dailymotion.com/tag/Billy">Billy</a> <a href="http://www.dailymotion.com/tag/Stewart">Stewart</a> <a href="http://www.dailymotion.com/tag/Summertime">Summertime</a> <a href="http://www.dailymotion.com/tag/Soul">Soul</a> <br />Posted: 10 March 2008<br />Rating: 5.0<br />Votes: 3<br /></p>]]></description>
+            <author>rss@dailymotion.com (SoulLegends)</author>
+            <itunes:author>SoulLegends</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Billy at his finest!</itunes:summary>
+            <itunes:subtitle>Billy at his finest!</itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>3</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x4nxsh_billy-stewart-summertime_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/SoulLegends" type="application/rss+xml"/>
+            <dm:views>2494</dm:views>
+            <dm:comments>1</dm:comments>
+            <dm:favorites>3</dm:favorites>
+            <dm:id>x4nxsh</dm:id>
+            <dm:author>SoulLegends</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x4nxsh?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=3ca0j293n80j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=582b756e531627efa5b86659fed4c6e8</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/303/667/15766303:avatar_medium.jpg?20090118003618</dm:authorAvatar>
+            <dm:relativeDate>posted 3 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Mon, 10 Mar 2008 16:34:41 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/x4nxsh_billy-stewart-summertime_music</guid>
+            <media:title>Billy Stewart - Summertime</media:title>
+            <media:credit>SoulLegends</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/543/538/7835345:jpeg_preview_large.jpg?20110914065519" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x4nxsh_billy-stewart-summertime_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x4nxsh"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x4nxsh" type="text/html" duration="167" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x4nxsh" type="application/x-shockwave-flash" duration="167" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>Billy, Stewart, Summertime, Soul</itunes:keywords>
+            <media:category label="Billy">Billy</media:category>
+            <media:category label="Stewart">Stewart</media:category>
+            <media:category label="Summertime">Summertime</media:category>
+            <media:category label="Soul">Soul</media:category>
+        </item>
+        <item>
+            <title>Lee Dorsey - Workin' In The Coalmine</title>
+            <link>http://www.dailymotion.com/video/x4o1ak_lee-dorsey-workin-in-the-coalmine_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x4o1ak_lee-dorsey-workin-in-the-coalmine_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/488/938/7839884:jpeg_preview_medium.jpg?20110914064522" style="border: 2px solid #B9D3FE;"></a><p>Lee Dorsey a true Soul Legend!</p><p>Author: <a href="http://www.dailymotion.com/SoulLegends"><img src="http://static2.dmcdn.net/static/user/303/667/15766303:avatar_medium.jpg?20090118003618" width="80" height="80" alt="avatar"/>SoulLegends</a><br />Tags: <a href="http://www.dailymotion.com/tag/Lee">Lee</a> <a href="http://www.dailymotion.com/tag/Dorsey">Dorsey</a> <a href="http://www.dailymotion.com/tag/Workin">Workin</a> <a href="http://www.dailymotion.com/tag/The">The</a> <a href="http://www.dailymotion.com/tag/Coalmine">Coalmine</a> <br />Posted: 10 March 2008<br />Rating: 5.0<br />Votes: 3<br /></p>]]></description>
+            <author>rss@dailymotion.com (SoulLegends)</author>
+            <itunes:author>SoulLegends</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Lee Dorsey a true Soul Legend!</itunes:summary>
+            <itunes:subtitle>Lee Dorsey a true Soul Legend!</itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>3</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x4o1ak_lee-dorsey-workin-in-the-coalmine_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/SoulLegends" type="application/rss+xml"/>
+            <dm:views>2336</dm:views>
+            <dm:comments>1</dm:comments>
+            <dm:favorites>4</dm:favorites>
+            <dm:id>x4o1ak</dm:id>
+            <dm:author>SoulLegends</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x4o1ak?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=anf77qxfjw0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=c539ceb67aeb05a5b90a96a7e21bb0f7</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/303/667/15766303:avatar_medium.jpg?20090118003618</dm:authorAvatar>
+            <dm:relativeDate>posted 3 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Mon, 10 Mar 2008 20:06:16 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/x4o1ak_lee-dorsey-workin-in-the-coalmine_music</guid>
+            <media:title>Lee Dorsey - Workin' In The Coalmine</media:title>
+            <media:credit>SoulLegends</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/488/938/7839884:jpeg_preview_large.jpg?20110914064522" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x4o1ak_lee-dorsey-workin-in-the-coalmine_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x4o1ak"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x4o1ak" type="text/html" duration="184" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x4o1ak" type="application/x-shockwave-flash" duration="184" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>Lee, Dorsey, Workin, The, Coalmine</itunes:keywords>
+            <media:category label="Lee">Lee</media:category>
+            <media:category label="Dorsey">Dorsey</media:category>
+            <media:category label="Workin">Workin</media:category>
+            <media:category label="The">The</media:category>
+            <media:category label="Coalmine">Coalmine</media:category>
+        </item>
+        <item>
+            <title>Serge Gainsbourg - Pauvre Lola</title>
+            <link>http://www.dailymotion.com/video/x259mo_serge-gainsbourg-pauvre-lola_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x259mo_serge-gainsbourg-pauvre-lola_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/299/406/3604992:jpeg_preview_medium.jpg?20100722142305" style="border: 2px solid #B9D3FE;"></a><p></p><p>Author: <a href="http://www.dailymotion.com/Salut-les-copains"><img src="http://static2.dmcdn.net/static/user/181/697/4796181:avatar_medium.jpg?20080922204750" width="80" height="80" alt="avatar"/>Salut-les-copains</a><br />Tags: <a href="http://www.dailymotion.com/tag/serge">serge</a> <a href="http://www.dailymotion.com/tag/gainsbourg">gainsbourg</a> <a href="http://www.dailymotion.com/tag/pauvre">pauvre</a> <a href="http://www.dailymotion.com/tag/lola">lola</a> <br />Posted: 02 June 2007<br />Rating: 4.5<br />Votes: 11<br /></p>]]></description>
+            <author>rss@dailymotion.com (Salut-les-copains)</author>
+            <itunes:author>Salut-les-copains</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary></itunes:summary>
+            <itunes:subtitle></itunes:subtitle>
+            <dm:videorating>4.5</dm:videorating>
+            <dm:videovotes>11</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x259mo_serge-gainsbourg-pauvre-lola_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/Salut-les-copains" type="application/rss+xml"/>
+            <dm:views>6434</dm:views>
+            <dm:comments>1</dm:comments>
+            <dm:favorites>16</dm:favorites>
+            <dm:id>x259mo</dm:id>
+            <dm:author>Salut-les-copains</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x259mo?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=38n2wtl9b10j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=28b87e873f866125b753bd4a8d2f08ea</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/181/697/4796181:avatar_medium.jpg?20080922204750</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Sat, 02 Jun 2007 10:04:44 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x259mo_serge-gainsbourg-pauvre-lola_music</guid>
+            <media:title>Serge Gainsbourg - Pauvre Lola</media:title>
+            <media:credit>Salut-les-copains</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/299/406/3604992:jpeg_preview_large.jpg?20100722142305" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x259mo_serge-gainsbourg-pauvre-lola_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x259mo"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x259mo" type="text/html" duration="120" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x259mo" type="application/x-shockwave-flash" duration="120" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>serge, gainsbourg, pauvre, lola</itunes:keywords>
+            <media:category label="serge">serge</media:category>
+            <media:category label="gainsbourg">gainsbourg</media:category>
+            <media:category label="pauvre">pauvre</media:category>
+            <media:category label="lola">lola</media:category>
+        </item>
+        <item>
+            <title>The Mighty Hannibal - Jerkin' The Dog</title>
+            <link>http://www.dailymotion.com/video/x1mn14_the-mighty-hannibal-jerkin-the-dog_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x1mn14_the-mighty-hannibal-jerkin-the-dog_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/698/537/2735896:jpeg_preview_medium.jpg?20110924085423" style="border: 2px solid #B9D3FE;"></a><p></p><p>Author: <a href="http://www.dailymotion.com/soulpatrol"><img src="http://static2.dmcdn.net/static/user/410/056/650014:avatar_medium.jpg?20091023013551" width="80" height="80" alt="avatar"/>soulpatrol</a><br />Tags: <a href="http://www.dailymotion.com/tag/The">The</a> <a href="http://www.dailymotion.com/tag/Mighty">Mighty</a> <a href="http://www.dailymotion.com/tag/Hannibal">Hannibal</a> <a href="http://www.dailymotion.com/tag/Jerkin">Jerkin</a> <a href="http://www.dailymotion.com/tag/Dog">Dog</a> <br />Posted: 04 April 2007<br />Rating: 0.0<br />Votes: 0<br /></p>]]></description>
+            <author>rss@dailymotion.com (soulpatrol)</author>
+            <itunes:author>soulpatrol</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary></itunes:summary>
+            <itunes:subtitle></itunes:subtitle>
+            <dm:videorating>0.0</dm:videorating>
+            <dm:videovotes>0</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x1mn14_the-mighty-hannibal-jerkin-the-dog_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/soulpatrol" type="application/rss+xml"/>
+            <dm:views>631</dm:views>
+            <dm:comments>0</dm:comments>
+            <dm:favorites>3</dm:favorites>
+            <dm:id>x1mn14</dm:id>
+            <dm:author>soulpatrol</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x1mn14?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=a0kl05jovm0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=ae00f9d70019b6ce876096c896c630cd</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/410/056/650014:avatar_medium.jpg?20091023013551</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Wed, 04 Apr 2007 21:15:57 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x1mn14_the-mighty-hannibal-jerkin-the-dog_music</guid>
+            <media:title>The Mighty Hannibal - Jerkin' The Dog</media:title>
+            <media:credit>soulpatrol</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/698/537/2735896:jpeg_preview_large.jpg?20110924085423" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x1mn14_the-mighty-hannibal-jerkin-the-dog_music" height="400" width="480"><![CDATA[<iframe frameborder="0" width="480" height="400" src="http://www.dailymotion.com/embed/video/x1mn14"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x1mn14" type="text/html" duration="187" width="480" height="400"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x1mn14" type="application/x-shockwave-flash" duration="187" width="480" height="400"/>
+            </media:group>
+            <itunes:keywords>The, Mighty, Hannibal, Jerkin, Dog</itunes:keywords>
+            <media:category label="The">The</media:category>
+            <media:category label="Mighty">Mighty</media:category>
+            <media:category label="Hannibal">Hannibal</media:category>
+            <media:category label="Jerkin">Jerkin</media:category>
+            <media:category label="Dog">Dog</media:category>
+        </item>
+        <item>
+            <title>STEPPENWOLF - Sookie Sookie 1968</title>
+            <link>http://www.dailymotion.com/video/x3ex0k_steppenwolf-sookie-sookie-1968_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x3ex0k_steppenwolf-sookie-sookie-1968_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/028/437/5734820:jpeg_preview_medium.jpg?20110605211741" style="border: 2px solid #B9D3FE;"></a><p></p><p>Author: <a href="http://www.dailymotion.com/soulpatrol"><img src="http://static2.dmcdn.net/static/user/410/056/650014:avatar_medium.jpg?20091023013551" width="80" height="80" alt="avatar"/>soulpatrol</a><br />Tags: <a href="http://www.dailymotion.com/tag/STEPPENWOLF">STEPPENWOLF</a> <a href="http://www.dailymotion.com/tag/Sookie">Sookie</a> <a href="http://www.dailymotion.com/tag/+1968">1968</a> <br />Posted: 07 November 2007<br />Rating: 5.0<br />Votes: 2<br /></p>]]></description>
+            <author>rss@dailymotion.com (soulpatrol)</author>
+            <itunes:author>soulpatrol</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary></itunes:summary>
+            <itunes:subtitle></itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>2</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x3ex0k_steppenwolf-sookie-sookie-1968_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/soulpatrol" type="application/rss+xml"/>
+            <dm:views>1037</dm:views>
+            <dm:comments>0</dm:comments>
+            <dm:favorites>4</dm:favorites>
+            <dm:id>x3ex0k</dm:id>
+            <dm:author>soulpatrol</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x3ex0k?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=cmptdzzoxk0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=506d1048f321d67657dae41ab850458e</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/410/056/650014:avatar_medium.jpg?20091023013551</dm:authorAvatar>
+            <dm:relativeDate>posted 3 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Wed, 07 Nov 2007 11:55:06 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/x3ex0k_steppenwolf-sookie-sookie-1968_music</guid>
+            <media:title>STEPPENWOLF - Sookie Sookie 1968</media:title>
+            <media:credit>soulpatrol</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/028/437/5734820:jpeg_preview_large.jpg?20110605211741" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x3ex0k_steppenwolf-sookie-sookie-1968_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x3ex0k"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x3ex0k" type="text/html" duration="175" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x3ex0k" type="application/x-shockwave-flash" duration="175" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>STEPPENWOLF, Sookie, 1968</itunes:keywords>
+            <media:category label="STEPPENWOLF">STEPPENWOLF</media:category>
+            <media:category label="Sookie">Sookie</media:category>
+            <media:category label="1968">1968</media:category>
+        </item>
+        <item>
+            <title>Breakestra - Getcho Soul Togetha</title>
+            <link>http://www.dailymotion.com/video/xs8hh_breakestra-getcho-soul-togetha_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/xs8hh_breakestra-getcho-soul-togetha_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/563/713/1317365:jpeg_preview_medium.jpg?20100721061302" style="border: 2px solid #B9D3FE;"></a><p>Un pti groupe de jazz-funk.  <br />Le groupe s'appel Breakestra et ca balance graaaave!! <br /></p><p>Author: <a href="http://www.dailymotion.com/piRjtull"><img src="http://static2.dmcdn.net/static/user/538/851/1158835:avatar_medium.jpg?20080922204305" width="80" height="80" alt="avatar"/>piRjtull</a><br />Tags: <a href="http://www.dailymotion.com/tag/breakestra">breakestra</a> <a href="http://www.dailymotion.com/tag/getcho">getcho</a> <a href="http://www.dailymotion.com/tag/soul">soul</a> <a href="http://www.dailymotion.com/tag/togetha">togetha</a> <a href="http://www.dailymotion.com/tag/break">break</a> <a href="http://www.dailymotion.com/tag/dance">dance</a> <a href="http://www.dailymotion.com/tag/funk">funk</a> <a href="http://www.dailymotion.com/tag/jazz">jazz</a> <a href="http://www.dailymotion.com/tag/cuivre">cuivre</a> <a href="http://www.dailymotion.com/tag/sax">sax</a> <a href="http://www.dailymotion.com/tag/cabaret">cabaret</a> <a href="http://www.dailymotion.com/tag/events">events</a> <br />Posted: 11 December 2006<br />Rating: 5.0<br />Votes: 7<br /></p>]]></description>
+            <author>rss@dailymotion.com (piRjtull)</author>
+            <itunes:author>piRjtull</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Un pti groupe de jazz-funk.  Le groupe s'appel Breakestra et ca balance graaaave!! </itunes:summary>
+            <itunes:subtitle>Un pti groupe de jazz-funk.  Le groupe s'appel Breakestra et ca balance graaaave!! </itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>7</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/xs8hh_breakestra-getcho-soul-togetha_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/piRjtull" type="application/rss+xml"/>
+            <dm:views>1316</dm:views>
+            <dm:comments>4</dm:comments>
+            <dm:favorites>9</dm:favorites>
+            <dm:id>xs8hh</dm:id>
+            <dm:author>piRjtull</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/xs8hh?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=8qtxblxuuw0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=0625bd292aa661b1ffeed1ad62e3e1b2</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/538/851/1158835:avatar_medium.jpg?20080922204305</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Mon, 11 Dec 2006 14:42:14 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/xs8hh_breakestra-getcho-soul-togetha_music</guid>
+            <media:title>Breakestra - Getcho Soul Togetha</media:title>
+            <media:credit>piRjtull</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/563/713/1317365:jpeg_preview_large.jpg?20100721061302" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/xs8hh_breakestra-getcho-soul-togetha_music" height="327" width="480"><![CDATA[<iframe frameborder="0" width="480" height="327" src="http://www.dailymotion.com/embed/video/xs8hh"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/xs8hh" type="text/html" duration="230" width="480" height="327"/>
+                <media:content url="http://www.dailymotion.com/swf/video/xs8hh" type="application/x-shockwave-flash" duration="230" width="480" height="327"/>
+            </media:group>
+            <itunes:keywords>breakestra, getcho, soul, togetha, break, dance, funk, jazz, cuivre, sax, cabaret, events</itunes:keywords>
+            <media:category label="breakestra">breakestra</media:category>
+            <media:category label="getcho">getcho</media:category>
+            <media:category label="soul">soul</media:category>
+            <media:category label="togetha">togetha</media:category>
+            <media:category label="break">break</media:category>
+            <media:category label="dance">dance</media:category>
+            <media:category label="funk">funk</media:category>
+            <media:category label="jazz">jazz</media:category>
+            <media:category label="cuivre">cuivre</media:category>
+            <media:category label="sax">sax</media:category>
+            <media:category label="cabaret">cabaret</media:category>
+            <media:category label="events">events</media:category>
+        </item>
+        <item>
+            <title>Moreno Dario - Si tu vas Rio (1959)</title>
+            <link>http://www.dailymotion.com/video/x47f9t_moreno-dario-si-tu-vas-rio-1959_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x47f9t_moreno-dario-si-tu-vas-rio-1959_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/948/460/7064849:jpeg_preview_medium.jpg?20110613024918" style="border: 2px solid #B9D3FE;"></a><p></p><p>Author: <a href="http://www.dailymotion.com/Salut-les-copains"><img src="http://static2.dmcdn.net/static/user/181/697/4796181:avatar_medium.jpg?20080922204750" width="80" height="80" alt="avatar"/>Salut-les-copains</a><br />Tags: <a href="http://www.dailymotion.com/tag/moreno">moreno</a> <a href="http://www.dailymotion.com/tag/dario">dario</a> <a href="http://www.dailymotion.com/tag/vas">vas</a> <a href="http://www.dailymotion.com/tag/rio">rio</a> <a href="http://www.dailymotion.com/tag/+1959">1959</a> <br />Posted: 29 January 2008<br />Rating: 5.0<br />Votes: 13<br /></p>]]></description>
+            <author>rss@dailymotion.com (Salut-les-copains)</author>
+            <itunes:author>Salut-les-copains</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary></itunes:summary>
+            <itunes:subtitle></itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>13</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x47f9t_moreno-dario-si-tu-vas-rio-1959_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/Salut-les-copains" type="application/rss+xml"/>
+            <dm:views>6139</dm:views>
+            <dm:comments>4</dm:comments>
+            <dm:favorites>20</dm:favorites>
+            <dm:id>x47f9t</dm:id>
+            <dm:author>Salut-les-copains</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x47f9t?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=3v9157ayzw0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=317aefea54cc3da2f0f38af04b168972</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/181/697/4796181:avatar_medium.jpg?20080922204750</dm:authorAvatar>
+            <dm:relativeDate>posted 3 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Tue, 29 Jan 2008 15:13:13 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/x47f9t_moreno-dario-si-tu-vas-rio-1959_music</guid>
+            <media:title>Moreno Dario - Si tu vas Rio (1959)</media:title>
+            <media:credit>Salut-les-copains</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/948/460/7064849:jpeg_preview_large.jpg?20110613024918" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x47f9t_moreno-dario-si-tu-vas-rio-1959_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x47f9t"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x47f9t" type="text/html" duration="115" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x47f9t" type="application/x-shockwave-flash" duration="115" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>moreno, dario, vas, rio, 1959</itunes:keywords>
+            <media:category label="moreno">moreno</media:category>
+            <media:category label="dario">dario</media:category>
+            <media:category label="vas">vas</media:category>
+            <media:category label="rio">rio</media:category>
+            <media:category label="1959">1959</media:category>
+        </item>
+        <item>
+            <title>CQMD - Pelota Funk</title>
+            <link>http://www.dailymotion.com/video/xa8nuk_cqmd-pelota-funk_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/xa8nuk_cqmd-pelota-funk_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/613/002/17200316:jpeg_preview_medium.jpg?20110821083308" style="border: 2px solid #B9D3FE;"></a><p>Pelota Funk, short video with Ceux Qui Marchent Debout (CQMD).<br />And... Yes we had a lot of fun during this dangerous shooting at Chiquito de Cambo.<br /><br />Directed by Arnaud Contreras ( http://www.arnaudcontreras.com )<br />Music: SuperSoul by CQMD ( http://www.cqmd.net )<br />With Héloïse Godet ( http://www.heloisegodet.book.fr )<br />Produced by À 360 Productions ( http://www.a360.fr )</p><p>Author: <a href="http://www.dailymotion.com/a360"><img src="http://static2.dmcdn.net/static/user/727/462/264727:avatar_medium.jpg?20100409193022" width="80" height="80" alt="avatar"/>a360</a><br />Tags: <a href="http://www.dailymotion.com/tag/CQMD">CQMD</a> <a href="http://www.dailymotion.com/tag/Ceux qui marchent debout">Ceux qui marchent debout</a> <a href="http://www.dailymotion.com/tag/funk">funk</a> <a href="http://www.dailymotion.com/tag/pelota">pelota</a> <a href="http://www.dailymotion.com/tag/vasca">vasca</a> <a href="http://www.dailymotion.com/tag/basque">basque</a> <a href="http://www.dailymotion.com/tag/euskadi">euskadi</a> <a href="http://www.dailymotion.com/tag/fronton">fronton</a> <a href="http://www.dailymotion.com/tag/pelote basque">pelote basque</a> <a href="http://www.dailymotion.com/tag/pelota vasca">pelota vasca</a> <a href="http://www.dailymotion.com/tag/trinquet">trinquet</a> <a href="http://www.dailymotion.com/tag/Héloïse Godet">Héloïse Godet</a> <a href="http://www.dailymotion.com/tag/comédienne">comédienne</a> <a href="http://www.dailymotion.com/tag/clip">clip</a> <a href="http://www.dailymotion.com/tag/sport">sport</a> <br />Posted: 22 August 2009<br />Rating: 5.0<br />Votes: 3<br /></p>]]></description>
+            <author>rss@dailymotion.com (a360)</author>
+            <itunes:author>a360</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Pelota Funk, short video with Ceux Qui Marchent Debout (CQMD).And... Yes we had a lot of fun during this dangerous shooting at Chiquito de Cambo.Directed by Arnaud Contreras ( http://www.arnaudcontreras.com )Music: SuperSoul by...</itunes:summary>
+            <itunes:subtitle>Pelota Funk, short video with Ceux Qui Marchent Debout (CQMD).And... Yes we had a lot of fun during this dangerous shooting at Chiquito de Cambo.Directed by Arnaud Contreras ( http://www.arnaudcontreras.com )Music: SuperSoul by...</itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>3</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/xa8nuk_cqmd-pelota-funk_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/a360" type="application/rss+xml"/>
+            <dm:views>1187</dm:views>
+            <dm:comments>1</dm:comments>
+            <dm:favorites>1</dm:favorites>
+            <dm:id>xa8nuk</dm:id>
+            <dm:author>a360</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/xa8nuk?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=bl32r0v0ye0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=6822ee23b33230185e9f03925de43ad5</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/727/462/264727:avatar_medium.jpg?20100409193022</dm:authorAvatar>
+            <dm:relativeDate>posted 2 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Sat, 22 Aug 2009 12:19:33 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/xa8nuk_cqmd-pelota-funk_music</guid>
+            <media:title>CQMD - Pelota Funk</media:title>
+            <media:credit>a360</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/613/002/17200316:jpeg_preview_large.jpg?20110821083308" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/xa8nuk_cqmd-pelota-funk_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/xa8nuk"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/xa8nuk" type="text/html" duration="112" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/xa8nuk" type="application/x-shockwave-flash" duration="112" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>CQMD, Ceux qui marchent debout, funk, pelota, vasca, basque, euskadi, fronton, pelote basque, pelota vasca, trinquet, Héloïse Godet, comédienne, clip, sport</itunes:keywords>
+            <media:category label="CQMD">CQMD</media:category>
+            <media:category label="Ceux qui marchent debout">Ceux qui marchent debout</media:category>
+            <media:category label="funk">funk</media:category>
+            <media:category label="pelota">pelota</media:category>
+            <media:category label="vasca">vasca</media:category>
+            <media:category label="basque">basque</media:category>
+            <media:category label="euskadi">euskadi</media:category>
+            <media:category label="fronton">fronton</media:category>
+            <media:category label="pelote basque">pelote basque</media:category>
+            <media:category label="pelota vasca">pelota vasca</media:category>
+            <media:category label="trinquet">trinquet</media:category>
+            <media:category label="Héloïse Godet">Héloïse Godet</media:category>
+            <media:category label="comédienne">comédienne</media:category>
+            <media:category label="clip">clip</media:category>
+            <media:category label="sport">sport</media:category>
+        </item>
+        <item>
+            <title>Manif de droite</title>
+            <link>http://www.dailymotion.com/video/x1tl2l_manif-de-droite_news</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x1tl2l_manif-de-droite_news"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/949/950/3059949:jpeg_preview_medium.jpg?20101202160726" style="border: 2px solid #B9D3FE;"></a><p>Le 25 octobre 2003, des "artistes de rue de droite" se mobilisaient pour "soutenir" le gouvernement.<br />Arnaud Contreras a réalisé un documentaire-court sur cet évènement culturel inouï, absurde, à prendre avec humour (dommage qu'il faille le préciser, mais certains commentaires de gauche comme de droite sont parfois trop emportés). + d'infos sur: www.arnaudcontreras.com / Pour acheter le DVD Manifs de Droite : http://www.manifdedroite.com/</p><p>Author: <a href="http://www.dailymotion.com/a360"><img src="http://static2.dmcdn.net/static/user/727/462/264727:avatar_medium.jpg?20100409193022" width="80" height="80" alt="avatar"/>a360</a><br />Tags: <a href="http://www.dailymotion.com/tag/sarkozy">sarkozy</a> <a href="http://www.dailymotion.com/tag/royal">royal</a> <a href="http://www.dailymotion.com/tag/elections">elections</a> <a href="http://www.dailymotion.com/tag/+2007">2007</a> <a href="http://www.dailymotion.com/tag/mai">mai</a> <a href="http://www.dailymotion.com/tag/presidentielles">presidentielles</a> <a href="http://www.dailymotion.com/tag/associations">associations</a> <a href="http://www.dailymotion.com/tag/manifestations">manifestations</a> <a href="http://www.dailymotion.com/tag/manif de droite">manif de droite</a> <br />Posted: 26 April 2007<br />Rating: 4.5<br />Votes: 893<br /></p>]]></description>
+            <author>rss@dailymotion.com (a360)</author>
+            <itunes:author>a360</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Le 25 octobre 2003, des &quot;artistes de rue de droite&quot; se mobilisaient pour &quot;soutenir&quot; le gouvernement.Arnaud Contreras a réalisé un documentaire-court sur cet évènement culturel inouï, absurde, à prendre avec humour (dommage qu'il faille le...</itunes:summary>
+            <itunes:subtitle>Le 25 octobre 2003, des &quot;artistes de rue de droite&quot; se mobilisaient pour &quot;soutenir&quot; le gouvernement.Arnaud Contreras a réalisé un documentaire-court sur cet évènement culturel inouï, absurde, à prendre avec humour (dommage qu'il faille le...</itunes:subtitle>
+            <dm:videorating>4.5</dm:videorating>
+            <dm:videovotes>893</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x1tl2l_manif-de-droite_news" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/a360" type="application/rss+xml"/>
+            <dm:views>741599</dm:views>
+            <dm:comments>358</dm:comments>
+            <dm:favorites>1180</dm:favorites>
+            <dm:id>x1tl2l</dm:id>
+            <dm:author>a360</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x1tl2l?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=9ur2vc3oin0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=d36ed6c4fe80a0492925035110504ad2</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/727/462/264727:avatar_medium.jpg?20100409193022</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>news</dm:channels>
+            <pubDate>Thu, 26 Apr 2007 18:56:20 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x1tl2l_manif-de-droite_news</guid>
+            <media:title>Manif de droite</media:title>
+            <media:credit>a360</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/949/950/3059949:jpeg_preview_large.jpg?20101202160726" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x1tl2l_manif-de-droite_news" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x1tl2l"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x1tl2l" type="text/html" duration="548" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x1tl2l" type="application/x-shockwave-flash" duration="548" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>sarkozy, royal, elections, 2007, mai, presidentielles, associations, manifestations, manif de droite</itunes:keywords>
+            <media:category label="sarkozy">sarkozy</media:category>
+            <media:category label="royal">royal</media:category>
+            <media:category label="elections">elections</media:category>
+            <media:category label="2007">2007</media:category>
+            <media:category label="mai">mai</media:category>
+            <media:category label="presidentielles">presidentielles</media:category>
+            <media:category label="associations">associations</media:category>
+            <media:category label="manifestations">manifestations</media:category>
+            <media:category label="manif de droite">manif de droite</media:category>
+        </item>
+        <item>
+            <title>Selah Sue : Showcase Under Le Louvre</title>
+            <link>http://www.dailymotion.com/video/x9w3t8_selah-sue-showcase-under-le-louvre_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x9w3t8_selah-sue-showcase-under-le-louvre_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/674/416/16614476:jpeg_preview_medium.jpg?20110531231858" style="border: 2px solid #B9D3FE;"></a><p>Alors qu’elle n’a encore sorti aucun album, Selah Sue est déjà reconnue pour sa voix remarquable aux combinaisons étonnantes ! Ses chansons « black music » ont résonné au Carrousel du Louvre, dans le cadre de l'événement Under le Louvre.<br /><br />Pour en savoir plus http://www.tamamtamam.com</p><p>Author: <a href="http://www.dailymotion.com/Mihaizz"><img src="http://static1.dmcdn.net/images/avatar/male/80x80.jpg.v6de6bde24007c41c" width="80" height="80" alt="avatar"/>Mihaizz</a><br />Tags: <a href="http://www.dailymotion.com/tag/city:">city:</a> <a href="http://www.dailymotion.com/tag/country:">country:</a> <a href="http://www.dailymotion.com/tag/state:">state:</a> <a href="http://www.dailymotion.com/tag/Under">Under</a> <a href="http://www.dailymotion.com/tag/Louvre">Louvre</a> <a href="http://www.dailymotion.com/tag/Selah">Selah</a> <a href="http://www.dailymotion.com/tag/Sue">Sue</a> <a href="http://www.dailymotion.com/tag/Concert">Concert</a> <a href="http://www.dailymotion.com/tag/Showcase">Showcase</a> <a href="http://www.dailymotion.com/tag/Musique">Musique</a> <a href="http://www.dailymotion.com/tag/TamamTamam">TamamTamam</a> <br />Posted: 17 July 2009<br />Rating: 5.0<br />Votes: 2<br /></p>]]></description>
+            <author>rss@dailymotion.com (Mihaizz)</author>
+            <itunes:author>Mihaizz</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Alors qu’elle n’a encore sorti aucun album, Selah Sue est déjà reconnue pour sa voix remarquable aux combinaisons étonnantes ! Ses chansons « black music » ont résonné au Carrousel du Louvre, dans le cadre de l'événement Under le Louvre...</itunes:summary>
+            <itunes:subtitle>Alors qu’elle n’a encore sorti aucun album, Selah Sue est déjà reconnue pour sa voix remarquable aux combinaisons étonnantes ! Ses chansons « black music » ont résonné au Carrousel du Louvre, dans le cadre de l'événement Under le Louvre...</itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>2</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x9w3t8_selah-sue-showcase-under-le-louvre_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/Mihaizz" type="application/rss+xml"/>
+            <dm:views>4991</dm:views>
+            <dm:comments>1</dm:comments>
+            <dm:favorites>7</dm:favorites>
+            <dm:id>x9w3t8</dm:id>
+            <dm:author>Mihaizz</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x9w3t8?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=4ujcxojdpy0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=64cbe9b7a40833b943562c32a3fabec8</dm:loggerURL>
+            <dm:authorAvatar>http://static1.dmcdn.net/images/avatar/male/80x80.jpg.v6de6bde24007c41c</dm:authorAvatar>
+            <dm:relativeDate>posted 2 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Fri, 17 Jul 2009 15:16:48 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x9w3t8_selah-sue-showcase-under-le-louvre_music</guid>
+            <media:title>Selah Sue : Showcase Under Le Louvre</media:title>
+            <media:credit>Mihaizz</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/674/416/16614476:jpeg_preview_large.jpg?20110531231858" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x9w3t8_selah-sue-showcase-under-le-louvre_music" height="379" width="480"><![CDATA[<iframe frameborder="0" width="480" height="379" src="http://www.dailymotion.com/embed/video/x9w3t8"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x9w3t8" type="text/html" duration="162" width="480" height="379"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x9w3t8" type="application/x-shockwave-flash" duration="162" width="480" height="379"/>
+            </media:group>
+            <itunes:keywords>city:, country:, state:, Under, Louvre, Selah, Sue, Concert, Showcase, Musique, TamamTamam</itunes:keywords>
+            <media:category label="city:">city:</media:category>
+            <media:category label="country:">country:</media:category>
+            <media:category label="state:">state:</media:category>
+            <media:category label="Under">Under</media:category>
+            <media:category label="Louvre">Louvre</media:category>
+            <media:category label="Selah">Selah</media:category>
+            <media:category label="Sue">Sue</media:category>
+            <media:category label="Concert">Concert</media:category>
+            <media:category label="Showcase">Showcase</media:category>
+            <media:category label="Musique">Musique</media:category>
+            <media:category label="TamamTamam">TamamTamam</media:category>
+        </item>
+        <item>
+            <title>FunkDoobiest - The Funkiest</title>
+            <link>http://www.dailymotion.com/video/x1y1dn_funkdoobiest-the-funkiest_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x1y1dn_funkdoobiest-the-funkiest_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/707/762/3267707:jpeg_preview_medium.jpg?20100722095207" style="border: 2px solid #B9D3FE;"></a><p></p><p>Author: <a href="http://www.dailymotion.com/rikma"><img src="http://static2.dmcdn.net/static/user/010/321/3123010:avatar_medium.jpg?20080916003732" width="80" height="80" alt="avatar"/>rikma</a><br />Tags: <a href="http://www.dailymotion.com/tag/funkdoobiest">funkdoobiest</a> <a href="http://www.dailymotion.com/tag/the">the</a> <a href="http://www.dailymotion.com/tag/funkiest">funkiest</a> <a href="http://www.dailymotion.com/tag/rap">rap</a> <a href="http://www.dailymotion.com/tag/hip">hip</a> <a href="http://www.dailymotion.com/tag/hop">hop</a> <a href="http://www.dailymotion.com/tag/street">street</a> <br />Posted: 10 May 2007<br />Rating: 0.0<br />Votes: 0<br /></p>]]></description>
+            <author>rss@dailymotion.com (rikma)</author>
+            <itunes:author>rikma</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary></itunes:summary>
+            <itunes:subtitle></itunes:subtitle>
+            <dm:videorating>0.0</dm:videorating>
+            <dm:videovotes>0</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x1y1dn_funkdoobiest-the-funkiest_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/rikma" type="application/rss+xml"/>
+            <dm:views>525</dm:views>
+            <dm:comments>0</dm:comments>
+            <dm:favorites>1</dm:favorites>
+            <dm:id>x1y1dn</dm:id>
+            <dm:author>rikma</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x1y1dn?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=1n42lbin460j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=31f6116405ee3bccf3789a8c2973e2f7</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/010/321/3123010:avatar_medium.jpg?20080916003732</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Thu, 10 May 2007 19:53:16 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x1y1dn_funkdoobiest-the-funkiest_music</guid>
+            <media:title>FunkDoobiest - The Funkiest</media:title>
+            <media:credit>rikma</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/707/762/3267707:jpeg_preview_large.jpg?20100722095207" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x1y1dn_funkdoobiest-the-funkiest_music" height="393" width="480"><![CDATA[<iframe frameborder="0" width="480" height="393" src="http://www.dailymotion.com/embed/video/x1y1dn"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x1y1dn" type="text/html" duration="225" width="480" height="393"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x1y1dn" type="application/x-shockwave-flash" duration="225" width="480" height="393"/>
+            </media:group>
+            <itunes:keywords>funkdoobiest, the, funkiest, rap, hip, hop, street</itunes:keywords>
+            <media:category label="funkdoobiest">funkdoobiest</media:category>
+            <media:category label="the">the</media:category>
+            <media:category label="funkiest">funkiest</media:category>
+            <media:category label="rap">rap</media:category>
+            <media:category label="hip">hip</media:category>
+            <media:category label="hop">hop</media:category>
+            <media:category label="street">street</media:category>
+        </item>
+        <item>
+            <title>Prince Lets Go Crazy / Purple Rain tour 1985</title>
+            <link>http://www.dailymotion.com/video/x93d85_prince-lets-go-crazy-purple-rain-to_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x93d85_prince-lets-go-crazy-purple-rain-to_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/356/372/15273653:jpeg_preview_medium.jpg?20110826211938" style="border: 2px solid #B9D3FE;"></a><p>Let's go crazy Purple Rain Tour  , New york 1985 30th mars</p><p>Author: <a href="http://www.dailymotion.com/Recoda321"><img src="http://static1.dmcdn.net/images/avatar/male/80x80.jpg.v6de6bde24007c41c" width="80" height="80" alt="avatar"/>Recoda321</a><br />Tags: <a href="http://www.dailymotion.com/tag/Prince">Prince</a> <a href="http://www.dailymotion.com/tag/the">the</a> <a href="http://www.dailymotion.com/tag/revolution">revolution</a> <a href="http://www.dailymotion.com/tag/live">live</a> <a href="http://www.dailymotion.com/tag/Purple">Purple</a> <a href="http://www.dailymotion.com/tag/Rain">Rain</a> <a href="http://www.dailymotion.com/tag/Tour">Tour</a> <br />Posted: 25 April 2009<br />Rating: 5.0<br />Votes: 5<br /></p>]]></description>
+            <author>rss@dailymotion.com (Recoda321)</author>
+            <itunes:author>Recoda321</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Let's go crazy Purple Rain Tour  , New york 1985 30th mars</itunes:summary>
+            <itunes:subtitle>Let's go crazy Purple Rain Tour  , New york 1985 30th mars</itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>5</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x93d85_prince-lets-go-crazy-purple-rain-to_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/Recoda321" type="application/rss+xml"/>
+            <dm:views>27421</dm:views>
+            <dm:comments>0</dm:comments>
+            <dm:favorites>47</dm:favorites>
+            <dm:id>x93d85</dm:id>
+            <dm:author>Recoda321</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x93d85?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=d1cblf5fxx0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=b482dd7eebf4b89dd977f215a3404d05</dm:loggerURL>
+            <dm:authorAvatar>http://static1.dmcdn.net/images/avatar/male/80x80.jpg.v6de6bde24007c41c</dm:authorAvatar>
+            <dm:relativeDate>posted 2 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Sat, 25 Apr 2009 19:43:09 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x93d85_prince-lets-go-crazy-purple-rain-to_music</guid>
+            <media:title>Prince Lets Go Crazy / Purple Rain tour 1985</media:title>
+            <media:credit>Recoda321</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/356/372/15273653:jpeg_preview_large.jpg?20110826211938" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x93d85_prince-lets-go-crazy-purple-rain-to_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x93d85"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x93d85" type="text/html" duration="321" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x93d85" type="application/x-shockwave-flash" duration="321" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>Prince, the, revolution, live, Purple, Rain, Tour</itunes:keywords>
+            <media:category label="Prince">Prince</media:category>
+            <media:category label="the">the</media:category>
+            <media:category label="revolution">revolution</media:category>
+            <media:category label="live">live</media:category>
+            <media:category label="Purple">Purple</media:category>
+            <media:category label="Rain">Rain</media:category>
+            <media:category label="Tour">Tour</media:category>
+        </item>
+        <item>
+            <title>Jungle brothers ft de la soul - how you want it</title>
+            <link>http://www.dailymotion.com/video/x2gycr_jungle-brothers-ft-de-la-soul-how-y_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x2gycr_jungle-brothers-ft-de-la-soul-how-y_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/152/051/4150251:jpeg_preview_medium.jpg?20100722215019" style="border: 2px solid #B9D3FE;"></a><p></p><p>Author: <a href="http://www.dailymotion.com/dougpark17"><img src="http://static2.dmcdn.net/static/user/506/804/408605:avatar_medium.jpg?20091018194826" width="80" height="80" alt="avatar"/>dougpark17</a><br />Tags: <a href="http://www.dailymotion.com/tag/rap">rap</a> <a href="http://www.dailymotion.com/tag/east">east</a> <a href="http://www.dailymotion.com/tag/coast">coast</a> <a href="http://www.dailymotion.com/tag/NYC">NYC</a> <a href="http://www.dailymotion.com/tag/native">native</a> <a href="http://www.dailymotion.com/tag/tongue">tongue</a> <a href="http://www.dailymotion.com/tag/jungle">jungle</a> <a href="http://www.dailymotion.com/tag/brothers">brothers</a> <a href="http://www.dailymotion.com/tag/a.t.c.q">a.t.c.q</a> <a href="http://www.dailymotion.com/tag/maseo">maseo</a> <a href="http://www.dailymotion.com/tag/dave">dave</a> <a href="http://www.dailymotion.com/tag/pos">pos</a> <a href="http://www.dailymotion.com/tag/plug">plug</a> <a href="http://www.dailymotion.com/tag/wonder">wonder</a> <a href="http://www.dailymotion.com/tag/why">why</a> <a href="http://www.dailymotion.com/tag/+1996">1996</a> <br />Posted: 06 July 2007<br />Rating: 5.0<br />Votes: 5<br /></p>]]></description>
+            <author>rss@dailymotion.com (dougpark17)</author>
+            <itunes:author>dougpark17</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary></itunes:summary>
+            <itunes:subtitle></itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>5</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x2gycr_jungle-brothers-ft-de-la-soul-how-y_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/dougpark17" type="application/rss+xml"/>
+            <dm:views>1597</dm:views>
+            <dm:comments>3</dm:comments>
+            <dm:favorites>12</dm:favorites>
+            <dm:id>x2gycr</dm:id>
+            <dm:author>dougpark17</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x2gycr?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=4ncm9ae11p0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=7ea820c626ce2388c71fcfe5776f2bff</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/506/804/408605:avatar_medium.jpg?20091018194826</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Fri, 06 Jul 2007 10:00:53 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x2gycr_jungle-brothers-ft-de-la-soul-how-y_music</guid>
+            <media:title>Jungle brothers ft de la soul - how you want it</media:title>
+            <media:credit>dougpark17</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/152/051/4150251:jpeg_preview_large.jpg?20100722215019" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x2gycr_jungle-brothers-ft-de-la-soul-how-y_music" height="384" width="480"><![CDATA[<iframe frameborder="0" width="480" height="384" src="http://www.dailymotion.com/embed/video/x2gycr"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x2gycr" type="text/html" duration="248" width="480" height="384"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x2gycr" type="application/x-shockwave-flash" duration="248" width="480" height="384"/>
+            </media:group>
+            <itunes:keywords>rap, east, coast, NYC, native, tongue, jungle, brothers, a.t.c.q, maseo, dave, pos, plug, wonder, why, 1996</itunes:keywords>
+            <media:category label="rap">rap</media:category>
+            <media:category label="east">east</media:category>
+            <media:category label="coast">coast</media:category>
+            <media:category label="NYC">NYC</media:category>
+            <media:category label="native">native</media:category>
+            <media:category label="tongue">tongue</media:category>
+            <media:category label="jungle">jungle</media:category>
+            <media:category label="brothers">brothers</media:category>
+            <media:category label="a.t.c.q">a.t.c.q</media:category>
+            <media:category label="maseo">maseo</media:category>
+            <media:category label="dave">dave</media:category>
+            <media:category label="pos">pos</media:category>
+            <media:category label="plug">plug</media:category>
+            <media:category label="wonder">wonder</media:category>
+            <media:category label="why">why</media:category>
+            <media:category label="1996">1996</media:category>
+        </item>
+        <item>
+            <title>Gainsbourg_5.L'hotel particulier</title>
+            <link>http://www.dailymotion.com/video/x1dbo7_gainsbourg-5-l-hotel-particulier_creation</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x1dbo7_gainsbourg-5-l-hotel-particulier_creation"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/172/103/2301271:jpeg_preview_medium.jpg?20100721201110" style="border: 2px solid #B9D3FE;"></a><p>5è titre de l'album "Histoire de Melody Nelson" (1971), clip réalisé par Jean-Christophe Averty</p><p>Author: <a href="http://www.dailymotion.com/occiMORT"><img src="http://static2.dmcdn.net/static/user/530/774/4477035:avatar_medium.jpg?20080915185816" width="80" height="80" alt="avatar"/>occiMORT</a><br />Tags: <a href="http://www.dailymotion.com/tag/Serge">Serge</a> <a href="http://www.dailymotion.com/tag/Gainsbourg">Gainsbourg</a> <a href="http://www.dailymotion.com/tag/Melody">Melody</a> <a href="http://www.dailymotion.com/tag/Nelson">Nelson</a> <a href="http://www.dailymotion.com/tag/Jane">Jane</a> <a href="http://www.dailymotion.com/tag/Birkin">Birkin</a> <a href="http://www.dailymotion.com/tag/Clip">Clip</a> <a href="http://www.dailymotion.com/tag/video">video</a> <a href="http://www.dailymotion.com/tag/Jean">Jean</a> <a href="http://www.dailymotion.com/tag/Christophe">Christophe</a> <a href="http://www.dailymotion.com/tag/Averty">Averty</a> <a href="http://www.dailymotion.com/tag/chanson">chanson</a> <a href="http://www.dailymotion.com/tag/song">song</a> <a href="http://www.dailymotion.com/tag/pop">pop</a> <a href="http://www.dailymotion.com/tag/rock">rock</a> <a href="http://www.dailymotion.com/tag/guitare">guitare</a> <a href="http://www.dailymotion.com/tag/guitar">guitar</a> <a href="http://www.dailymotion.com/tag/violon">violon</a> <a href="http://www.dailymotion.com/tag/violons">violons</a> <a href="http://www.dailymotion.com/tag/violins">violins</a> <a href="http://www.dailymotion.com/tag/+2007">2007</a> <a href="http://www.dailymotion.com/tag/music">music</a> <br />Posted: 05 March 2007<br />Rating: 4.9<br />Votes: 22<br /></p>]]></description>
+            <author>rss@dailymotion.com (occiMORT)</author>
+            <itunes:author>occiMORT</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>5è titre de l'album &quot;Histoire de Melody Nelson&quot; (1971), clip réalisé par Jean-Christophe Averty</itunes:summary>
+            <itunes:subtitle>5è titre de l'album &quot;Histoire de Melody Nelson&quot; (1971), clip réalisé par Jean-Christophe Averty</itunes:subtitle>
+            <dm:videorating>4.9</dm:videorating>
+            <dm:videovotes>22</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x1dbo7_gainsbourg-5-l-hotel-particulier_creation" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/occiMORT" type="application/rss+xml"/>
+            <dm:views>16960</dm:views>
+            <dm:comments>10</dm:comments>
+            <dm:favorites>48</dm:favorites>
+            <dm:id>x1dbo7</dm:id>
+            <dm:author>occiMORT</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x1dbo7?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=109lzaye6e0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=43d2168b185773beeaf8d53637a56b1b</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/530/774/4477035:avatar_medium.jpg?20080915185816</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>creation</dm:channels>
+            <pubDate>Mon, 05 Mar 2007 17:27:47 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/x1dbo7_gainsbourg-5-l-hotel-particulier_creation</guid>
+            <media:title>Gainsbourg_5.L'hotel particulier</media:title>
+            <media:credit>occiMORT</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/172/103/2301271:jpeg_preview_large.jpg?20100721201110" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x1dbo7_gainsbourg-5-l-hotel-particulier_creation" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x1dbo7"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x1dbo7" type="text/html" duration="243" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x1dbo7" type="application/x-shockwave-flash" duration="243" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>Serge, Gainsbourg, Melody, Nelson, Jane, Birkin, Clip, video, Jean, Christophe, Averty, chanson, song, pop, rock, guitare, guitar, violon, violons, violins, 2007, music</itunes:keywords>
+            <media:category label="Serge">Serge</media:category>
+            <media:category label="Gainsbourg">Gainsbourg</media:category>
+            <media:category label="Melody">Melody</media:category>
+            <media:category label="Nelson">Nelson</media:category>
+            <media:category label="Jane">Jane</media:category>
+            <media:category label="Birkin">Birkin</media:category>
+            <media:category label="Clip">Clip</media:category>
+            <media:category label="video">video</media:category>
+            <media:category label="Jean">Jean</media:category>
+            <media:category label="Christophe">Christophe</media:category>
+            <media:category label="Averty">Averty</media:category>
+            <media:category label="chanson">chanson</media:category>
+            <media:category label="song">song</media:category>
+            <media:category label="pop">pop</media:category>
+            <media:category label="rock">rock</media:category>
+            <media:category label="guitare">guitare</media:category>
+            <media:category label="guitar">guitar</media:category>
+            <media:category label="violon">violon</media:category>
+            <media:category label="violons">violons</media:category>
+            <media:category label="violins">violins</media:category>
+            <media:category label="2007">2007</media:category>
+            <media:category label="music">music</media:category>
+        </item>
+        <item>
+            <title>Nina Simone - Sinner Man</title>
+            <link>http://www.dailymotion.com/video/x1v0v3_nina-simone-sinner-man_music</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x1v0v3_nina-simone-sinner-man_music"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/170/721/3127071:jpeg_preview_medium.jpg?20100722080523" style="border: 2px solid #B9D3FE;"></a><p>Nina Simone "Pastel Blues" - Verve Records (1966)</p><p>Author: <a href="http://www.dailymotion.com/biglu323"><img src="http://static2.dmcdn.net/static/user/935/372/6273539:avatar_medium.jpg?20080915221643" width="80" height="80" alt="avatar"/>biglu323</a><br />Tags: <a href="http://www.dailymotion.com/tag/Nina">Nina</a> <a href="http://www.dailymotion.com/tag/Simone">Simone</a> <a href="http://www.dailymotion.com/tag/Sinner">Sinner</a> <a href="http://www.dailymotion.com/tag/Man">Man</a> <a href="http://www.dailymotion.com/tag/Soul">Soul</a> <a href="http://www.dailymotion.com/tag/Blues">Blues</a> <a href="http://www.dailymotion.com/tag/Jazz">Jazz</a> <br />Posted: 01 May 2007<br />Rating: 5.0<br />Votes: 27<br /></p>]]></description>
+            <author>rss@dailymotion.com (biglu323)</author>
+            <itunes:author>biglu323</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Nina Simone &quot;Pastel Blues&quot; - Verve Records (1966)</itunes:summary>
+            <itunes:subtitle>Nina Simone &quot;Pastel Blues&quot; - Verve Records (1966)</itunes:subtitle>
+            <dm:videorating>5.0</dm:videorating>
+            <dm:videovotes>27</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x1v0v3_nina-simone-sinner-man_music" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/biglu323" type="application/rss+xml"/>
+            <dm:views>45475</dm:views>
+            <dm:comments>8</dm:comments>
+            <dm:favorites>79</dm:favorites>
+            <dm:id>x1v0v3</dm:id>
+            <dm:author>biglu323</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x1v0v3?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=bgh358hfvs0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=87238c6cf1b96e82f4133b16b74476bd</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/935/372/6273539:avatar_medium.jpg?20080915221643</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>music</dm:channels>
+            <pubDate>Tue, 01 May 2007 07:34:03 +0200</pubDate>
+            <guid>http://www.dailymotion.com/video/x1v0v3_nina-simone-sinner-man_music</guid>
+            <media:title>Nina Simone - Sinner Man</media:title>
+            <media:credit>biglu323</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/170/721/3127071:jpeg_preview_large.jpg?20100722080523" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x1v0v3_nina-simone-sinner-man_music" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x1v0v3"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x1v0v3" type="text/html" duration="606" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x1v0v3" type="application/x-shockwave-flash" duration="606" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>Nina, Simone, Sinner, Man, Soul, Blues, Jazz</itunes:keywords>
+            <media:category label="Nina">Nina</media:category>
+            <media:category label="Simone">Simone</media:category>
+            <media:category label="Sinner">Sinner</media:category>
+            <media:category label="Man">Man</media:category>
+            <media:category label="Soul">Soul</media:category>
+            <media:category label="Blues">Blues</media:category>
+            <media:category label="Jazz">Jazz</media:category>
+        </item>
+        <item>
+            <title>Même pas mal !</title>
+            <link>http://www.dailymotion.com/video/xcmsli_meme-pas-mal_fun</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/xcmsli_meme-pas-mal_fun"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/688/812/21218886:jpeg_preview_medium.jpg?20110814034248" style="border: 2px solid #B9D3FE;"></a><p>Retrouvez l'humeur de François Morel (le vendredi à 7h55), de Stéphane Guillon (lundi, mardi et mercredi à 7h55) et de Didier Porte (le jeudi à 7h55) sur France Inter.<br /><br />Toutes les vidéos de L'humeur de... sur www.franceinter.com</p><p>Author: <a href="http://www.dailymotion.com/franceinter"><img src="http://static2.dmcdn.net/static/user/914/575/4575419:avatar_medium.jpg?20110830095532" width="80" height="80" alt="avatar"/>franceinter</a><br />Tags: <a href="http://www.dailymotion.com/tag/François">François</a> <a href="http://www.dailymotion.com/tag/Morel">Morel</a> <a href="http://www.dailymotion.com/tag/franceinter">franceinter</a> <a href="http://www.dailymotion.com/tag/france">france</a> <a href="http://www.dailymotion.com/tag/inter">inter</a> <a href="http://www.dailymotion.com/tag/humour">humour</a> <a href="http://www.dailymotion.com/tag/humeur">humeur</a> <a href="http://www.dailymotion.com/tag/6h3010h">6h3010h</a> <a href="http://www.dailymotion.com/tag/politique">politique</a> <a href="http://www.dailymotion.com/tag/Georges">Georges</a> <a href="http://www.dailymotion.com/tag/Frêche">Frêche</a> <a href="http://www.dailymotion.com/tag/Bayrou">Bayrou</a> <a href="http://www.dailymotion.com/tag/Jean">Jean</a> <a href="http://www.dailymotion.com/tag/Ferrat">Ferrat</a> <a href="http://www.dailymotion.com/tag/élections">élections</a> <a href="http://www.dailymotion.com/tag/régionales">régionales</a> <br />Posted: 19 March 2010<br />Rating: 4.6<br />Votes: 18<br /></p>]]></description>
+            <author>rss@dailymotion.com (franceinter)</author>
+            <itunes:author>franceinter</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>Retrouvez l'humeur de François Morel (le vendredi à 7h55), de Stéphane Guillon (lundi, mardi et mercredi à 7h55) et de Didier Porte (le jeudi à 7h55) sur France Inter.Toutes les vidéos de L'humeur de... sur www.franceinter.com</itunes:summary>
+            <itunes:subtitle>Retrouvez l'humeur de François Morel (le vendredi à 7h55), de Stéphane Guillon (lundi, mardi et mercredi à 7h55) et de Didier Porte (le jeudi à 7h55) sur France Inter.Toutes les vidéos de L'humeur de... sur www.franceinter.com</itunes:subtitle>
+            <dm:videorating>4.6</dm:videorating>
+            <dm:videovotes>18</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/xcmsli_meme-pas-mal_fun" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/franceinter" type="application/rss+xml"/>
+            <dm:views>40781</dm:views>
+            <dm:comments>1</dm:comments>
+            <dm:favorites>3</dm:favorites>
+            <dm:id>xcmsli</dm:id>
+            <dm:author>franceinter</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/xcmsli?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=1ort7gka500j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=b53486e942543e72c49b8bef9a43cd00</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/914/575/4575419:avatar_medium.jpg?20110830095532</dm:authorAvatar>
+            <dm:relativeDate>posted 1 year ago</dm:relativeDate>
+            <dm:channels>fun</dm:channels>
+            <pubDate>Fri, 19 Mar 2010 08:22:09 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/xcmsli_meme-pas-mal_fun</guid>
+            <media:title>Même pas mal !</media:title>
+            <media:credit>franceinter</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/688/812/21218886:jpeg_preview_large.jpg?20110814034248" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/xcmsli_meme-pas-mal_fun" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/xcmsli"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/xcmsli" type="text/html" duration="301" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/xcmsli" type="application/x-shockwave-flash" duration="301" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>François, Morel, franceinter, france, inter, humour, humeur, 6h3010h, politique, Georges, Frêche, Bayrou, Jean, Ferrat, élections, régionales</itunes:keywords>
+            <media:category label="François">François</media:category>
+            <media:category label="Morel">Morel</media:category>
+            <media:category label="franceinter">franceinter</media:category>
+            <media:category label="france">france</media:category>
+            <media:category label="inter">inter</media:category>
+            <media:category label="humour">humour</media:category>
+            <media:category label="humeur">humeur</media:category>
+            <media:category label="6h3010h">6h3010h</media:category>
+            <media:category label="politique">politique</media:category>
+            <media:category label="Georges">Georges</media:category>
+            <media:category label="Frêche">Frêche</media:category>
+            <media:category label="Bayrou">Bayrou</media:category>
+            <media:category label="Jean">Jean</media:category>
+            <media:category label="Ferrat">Ferrat</media:category>
+            <media:category label="élections">élections</media:category>
+            <media:category label="régionales">régionales</media:category>
+        </item>
+        <item>
+            <title>The Specials - Ghost Town</title>
+            <link>http://www.dailymotion.com/video/xxr1j_the-specials-ghost-town_fun</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/xxr1j_the-specials-ghost-town_fun"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/596/475/1574695:jpeg_preview_medium.jpg?20100721094047" style="border: 2px solid #B9D3FE;"></a><p>The spécials - Ghost Town</p><p>Author: <a href="http://www.dailymotion.com/loudz99"><img src="http://static2.dmcdn.net/static/user/690/093/2390096:avatar_medium.jpg?20101024074738" width="80" height="80" alt="avatar"/>loudz99</a><br />Tags: <a href="http://www.dailymotion.com/tag/The">The</a> <a href="http://www.dailymotion.com/tag/Specials">Specials</a> <a href="http://www.dailymotion.com/tag/Ghost">Ghost</a> <a href="http://www.dailymotion.com/tag/Town">Town</a> <a href="http://www.dailymotion.com/tag/gangsta">gangsta</a> <a href="http://www.dailymotion.com/tag/gangster">gangster</a> <a href="http://www.dailymotion.com/tag/skagangster">skagangster</a> <a href="http://www.dailymotion.com/tag/skacore">skacore</a> <a href="http://www.dailymotion.com/tag/ska">ska</a> <a href="http://www.dailymotion.com/tag/music">music</a> <a href="http://www.dailymotion.com/tag/punk">punk</a> <a href="http://www.dailymotion.com/tag/rock">rock</a> <a href="http://www.dailymotion.com/tag/car">car</a> <a href="http://www.dailymotion.com/tag/accident">accident</a> <a href="http://www.dailymotion.com/tag/avion">avion</a> <a href="http://www.dailymotion.com/tag/core">core</a> <a href="http://www.dailymotion.com/tag/vieux">vieux</a> <a href="http://www.dailymotion.com/tag/elvis">elvis</a> <a href="http://www.dailymotion.com/tag/desmond">desmond</a> <a href="http://www.dailymotion.com/tag/dekker">dekker</a> <a href="http://www.dailymotion.com/tag/celine">celine</a> <a href="http://www.dailymotion.com/tag/dion">dion</a> <a href="http://www.dailymotion.com/tag/rap">rap</a> <a href="http://www.dailymotion.com/tag/hip">hip</a> <a href="http://www.dailymotion.com/tag/hop">hop</a> <a href="http://www.dailymotion.com/tag/eminem">eminem</a> <a href="http://www.dailymotion.com/tag/kelly">kelly</a> <a href="http://www.dailymotion.com/tag/cents">cents</a> <a href="http://www.dailymotion.com/tag/fight">fight</a> <a href="http://www.dailymotion.com/tag/nigger">nigger</a> <a href="http://www.dailymotion.com/tag/humour">humour</a> <br />Posted: 07 January 2007<br />Rating: 4.7<br />Votes: 22<br /></p>]]></description>
+            <author>rss@dailymotion.com (loudz99)</author>
+            <itunes:author>loudz99</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>The spécials - Ghost Town</itunes:summary>
+            <itunes:subtitle>The spécials - Ghost Town</itunes:subtitle>
+            <dm:videorating>4.7</dm:videorating>
+            <dm:videovotes>22</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/xxr1j_the-specials-ghost-town_fun" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/loudz99" type="application/rss+xml"/>
+            <dm:views>15848</dm:views>
+            <dm:comments>5</dm:comments>
+            <dm:favorites>49</dm:favorites>
+            <dm:id>xxr1j</dm:id>
+            <dm:author>loudz99</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/xxr1j?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=29tthtryxy0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=817e7005e63eb4d0cf1ac9706d0978c0</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/690/093/2390096:avatar_medium.jpg?20101024074738</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>fun</dm:channels>
+            <pubDate>Sun, 07 Jan 2007 08:05:09 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/xxr1j_the-specials-ghost-town_fun</guid>
+            <media:title>The Specials - Ghost Town</media:title>
+            <media:credit>loudz99</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/596/475/1574695:jpeg_preview_large.jpg?20100721094047" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/xxr1j_the-specials-ghost-town_fun" height="327" width="480"><![CDATA[<iframe frameborder="0" width="480" height="327" src="http://www.dailymotion.com/embed/video/xxr1j"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/xxr1j" type="text/html" duration="217" width="480" height="327"/>
+                <media:content url="http://www.dailymotion.com/swf/video/xxr1j" type="application/x-shockwave-flash" duration="217" width="480" height="327"/>
+            </media:group>
+            <itunes:keywords>The, Specials, Ghost, Town, gangsta, gangster, skagangster, skacore, ska, music, punk, rock, car, accident, avion, core, vieux, elvis, desmond, dekker, celine, dion, rap, hip, hop, eminem, kelly, cents, fight, nigger, humour</itunes:keywords>
+            <media:category label="The">The</media:category>
+            <media:category label="Specials">Specials</media:category>
+            <media:category label="Ghost">Ghost</media:category>
+            <media:category label="Town">Town</media:category>
+            <media:category label="gangsta">gangsta</media:category>
+            <media:category label="gangster">gangster</media:category>
+            <media:category label="skagangster">skagangster</media:category>
+            <media:category label="skacore">skacore</media:category>
+            <media:category label="ska">ska</media:category>
+            <media:category label="music">music</media:category>
+            <media:category label="punk">punk</media:category>
+            <media:category label="rock">rock</media:category>
+            <media:category label="car">car</media:category>
+            <media:category label="accident">accident</media:category>
+            <media:category label="avion">avion</media:category>
+            <media:category label="core">core</media:category>
+            <media:category label="vieux">vieux</media:category>
+            <media:category label="elvis">elvis</media:category>
+            <media:category label="desmond">desmond</media:category>
+            <media:category label="dekker">dekker</media:category>
+            <media:category label="celine">celine</media:category>
+            <media:category label="dion">dion</media:category>
+            <media:category label="rap">rap</media:category>
+            <media:category label="hip">hip</media:category>
+            <media:category label="hop">hop</media:category>
+            <media:category label="eminem">eminem</media:category>
+            <media:category label="kelly">kelly</media:category>
+            <media:category label="cents">cents</media:category>
+            <media:category label="fight">fight</media:category>
+            <media:category label="nigger">nigger</media:category>
+            <media:category label="humour">humour</media:category>
+        </item>
+        <item>
+            <title>Gainsbourg 1.Melody</title>
+            <link>http://www.dailymotion.com/video/x1db5m_gainsbourg-1-melody_creation</link>
+            <description><![CDATA[<a href="http://www.dailymotion.com/video/x1db5m_gainsbourg-1-melody_creation"><img align="right" width="120" height="90" src="http://static2.dmcdn.net/static/video/206/003/2300602:jpeg_preview_medium.jpg?20100721201041" style="border: 2px solid #B9D3FE;"></a><p>1er titre de l'album "Histoire de Melody Nelson" (1971), clip réalisé par Jean-Christophe Averty <br />Le MEILLEUR de SERGE !!</p><p>Author: <a href="http://www.dailymotion.com/occiMORT"><img src="http://static2.dmcdn.net/static/user/530/774/4477035:avatar_medium.jpg?20080915185816" width="80" height="80" alt="avatar"/>occiMORT</a><br />Tags: <a href="http://www.dailymotion.com/tag/Serge">Serge</a> <a href="http://www.dailymotion.com/tag/Gainsbourg">Gainsbourg</a> <a href="http://www.dailymotion.com/tag/Melody">Melody</a> <a href="http://www.dailymotion.com/tag/Nelson">Nelson</a> <a href="http://www.dailymotion.com/tag/Jane">Jane</a> <a href="http://www.dailymotion.com/tag/Birkin">Birkin</a> <a href="http://www.dailymotion.com/tag/Clip">Clip</a> <a href="http://www.dailymotion.com/tag/video">video</a> <a href="http://www.dailymotion.com/tag/Jean">Jean</a> <a href="http://www.dailymotion.com/tag/Christophe">Christophe</a> <a href="http://www.dailymotion.com/tag/Averty">Averty</a> <a href="http://www.dailymotion.com/tag/chanson">chanson</a> <a href="http://www.dailymotion.com/tag/song">song</a> <a href="http://www.dailymotion.com/tag/pop">pop</a> <a href="http://www.dailymotion.com/tag/rock">rock</a> <a href="http://www.dailymotion.com/tag/guitare">guitare</a> <a href="http://www.dailymotion.com/tag/guitar">guitar</a> <a href="http://www.dailymotion.com/tag/violon">violon</a> <a href="http://www.dailymotion.com/tag/violons">violons</a> <a href="http://www.dailymotion.com/tag/violins">violins</a> <a href="http://www.dailymotion.com/tag/+2007">2007</a> <a href="http://www.dailymotion.com/tag/music">music</a> <br />Posted: 05 March 2007<br />Rating: 4.9<br />Votes: 35<br /></p>]]></description>
+            <author>rss@dailymotion.com (occiMORT)</author>
+            <itunes:author>occiMORT</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:summary>1er titre de l'album &quot;Histoire de Melody Nelson&quot; (1971), clip réalisé par Jean-Christophe Averty Le MEILLEUR de SERGE !!</itunes:summary>
+            <itunes:subtitle>1er titre de l'album &quot;Histoire de Melody Nelson&quot; (1971), clip réalisé par Jean-Christophe Averty Le MEILLEUR de SERGE !!</itunes:subtitle>
+            <dm:videorating>4.9</dm:videorating>
+            <dm:videovotes>35</dm:videovotes>
+            <dm:link rel="uql" href="http://www.dailymotion.com/rss/video/x1db5m_gainsbourg-1-melody_creation" type="application/rss+xml"/>
+            <dm:link rel="userProfile" href="http://www.dailymotion.com/rss/occiMORT" type="application/rss+xml"/>
+            <dm:views>22775</dm:views>
+            <dm:comments>16</dm:comments>
+            <dm:favorites>82</dm:favorites>
+            <dm:id>x1db5m</dm:id>
+            <dm:author>occiMORT</dm:author>
+            <dm:loggerURL>http://www.dailymotion.com/logger/video/access/x1db5m?session_id=&amp;referer=&amp;country=US&amp;lon=-73.9862000000000&amp;lat=40.7662000000000&amp;key=9ey2idushw0j22mt0ls5jw0&amp;v=4e8103f0&amp;i=44af4df4&amp;h=75749f9367c6134101fdab53c74d10db</dm:loggerURL>
+            <dm:authorAvatar>http://static2.dmcdn.net/static/user/530/774/4477035:avatar_medium.jpg?20080915185816</dm:authorAvatar>
+            <dm:relativeDate>posted 4 years ago</dm:relativeDate>
+            <dm:channels>creation</dm:channels>
+            <pubDate>Mon, 05 Mar 2007 16:37:08 +0100</pubDate>
+            <guid>http://www.dailymotion.com/video/x1db5m_gainsbourg-1-melody_creation</guid>
+            <media:title>Gainsbourg 1.Melody</media:title>
+            <media:credit>occiMORT</media:credit>
+            <media:thumbnail url="http://static2.dmcdn.net/static/video/206/003/2300602:jpeg_preview_large.jpg?20100721201041" height="240" width="320" />
+            <media:player url="http://www.dailymotion.com/video/x1db5m_gainsbourg-1-melody_creation" height="360" width="480"><![CDATA[<iframe frameborder="0" width="480" height="360" src="http://www.dailymotion.com/embed/video/x1db5m"></iframe>]]></media:player>
+            <media:group>
+                <media:content url="http://www.dailymotion.com/embed/video/x1db5m" type="text/html" duration="451" width="480" height="360"/>
+                <media:content url="http://www.dailymotion.com/swf/video/x1db5m" type="application/x-shockwave-flash" duration="451" width="480" height="360"/>
+            </media:group>
+            <itunes:keywords>Serge, Gainsbourg, Melody, Nelson, Jane, Birkin, Clip, video, Jean, Christophe, Averty, chanson, song, pop, rock, guitare, guitar, violon, violons, violins, 2007, music</itunes:keywords>
+            <media:category label="Serge">Serge</media:category>
+            <media:category label="Gainsbourg">Gainsbourg</media:category>
+            <media:category label="Melody">Melody</media:category>
+            <media:category label="Nelson">Nelson</media:category>
+            <media:category label="Jane">Jane</media:category>
+            <media:category label="Birkin">Birkin</media:category>
+            <media:category label="Clip">Clip</media:category>
+            <media:category label="video">video</media:category>
+            <media:category label="Jean">Jean</media:category>
+            <media:category label="Christophe">Christophe</media:category>
+            <media:category label="Averty">Averty</media:category>
+            <media:category label="chanson">chanson</media:category>
+            <media:category label="song">song</media:category>
+            <media:category label="pop">pop</media:category>
+            <media:category label="rock">rock</media:category>
+            <media:category label="guitare">guitare</media:category>
+            <media:category label="guitar">guitar</media:category>
+            <media:category label="violon">violon</media:category>
+            <media:category label="violons">violons</media:category>
+            <media:category label="violins">violins</media:category>
+            <media:category label="2007">2007</media:category>
+            <media:category label="music">music</media:category>
+        </item>
+    </channel>
+</rss>

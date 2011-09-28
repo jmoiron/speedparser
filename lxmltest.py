@@ -8,6 +8,7 @@ import time
 import feedparser
 from pprint import pformat
 from lxml import etree
+from lxml import html
 from multiprocessing import Pool
 
 files = ['feeds/%s' % p for p in os.listdir('feeds/')]
@@ -20,10 +21,15 @@ def parse(file):
         return True
     except:
         try:
-            feedparser.parse(data)
-            return False
+            html.fromstring(data)
+            return True
         except:
-            return None
+            try:
+                feedparser.parse(data)
+                return False
+            except:
+                print "--- error in file %s ---" % file
+                return None
 
 t0 = time.time()
 pool = Pool(4)

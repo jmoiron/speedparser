@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="de-de" xmlns="http://www.w3.org/2005/Atom"><title type="text">Oliver Roick | Weblog</title>
+<subtitle type="text">Technologie. Internet. Geo.</subtitle>
+<link rel="self" href="http://oliverroick.de/weblog/index.php?atom=1" />
+<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/" />
+<id>tag:oliverroick.de,2005:7021b53a6cb606c2bd377c79c8640970</id>
+<generator uri="http://textpattern.com/" version="4.2.0">Textpattern</generator>
+<updated>2011-09-02T20:30:01Z</updated>
+<author>
+		<name>Oliver Roick</name>
+		<email>&#111;&#108;&#105;&#118;&#101;&#114;&#46;&#114;&#111;&#105;&#99;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</email>
+		<uri>http://oliverroick.de/weblog/</uri>
+</author>
+
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-08-24T09:53:56Z</published>
+		<updated>2011-08-24T09:53:56Z</updated>
+		<title type="html">Introducing WebAPI</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=182" />
+		<id>tag:oliverroick.de,2011-08-24:7021b53a6cb606c2bd377c79c8640970/e4c381f469d1ac3a960a5a0e12f0310a</id>
+		
+		
+		<content type="html">
+<![CDATA[<blockquote>
+		<p>WebAPI is an effort by Mozilla to bridge together the gap, and have consistent <span class="caps">API</span>s that will work in all web browsers, no matter the operating system. Specification drafts and implementation prototypes will be available, and it will be submitted to W3C for standardization.</p>
+	</blockquote>
+
+
+
+
+
+     
+          <p>Link: <a href="http://hacks.mozilla.org/2011/08/introducing-webapi/">Introducing&#160;WebAPI</a></p>]]>
+</content>
+
+<category term="standards" />
+<category term="html5" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-08-02T18:24:28Z</published>
+		<updated>2011-08-02T18:24:28Z</updated>
+		<title type="html">Foursquare poised to charge merchants in revenue bid</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=181" />
+		<id>tag:oliverroick.de,2011-08-02:7021b53a6cb606c2bd377c79c8640970/6c9e6be8efd7564407b95459fe313e52</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Keine Frage, dass sich auch Startups irgendwann selbst tragen müssen. Warum sollte etwas wie Twitters <em>Promoted Tweets</em> nicht auch bei <em>Location Based Social Networks</em> funktionieren? Etwas wie <em>Promoted Venues</em> halte ich für wesentlich effektiver, als mit einem Glücksrad und billiger Musik vor dem eigenen Laden Stimmung zu machen. </p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://gigaom.com/2011/08/01/foursquare-poised-to-charge-merchants-in-revenue-bid/">Foursquare poised to charge merchants in revenue&#160;bid</a></p>]]>
+</content>
+
+<category term="social networks" />
+<category term="foursquare" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-07-29T09:12:59Z</published>
+		<updated>2011-07-29T09:12:59Z</updated>
+		<title type="html">MapQuery 0.1</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=180" />
+		<id>tag:oliverroick.de,2011-07-29:7021b53a6cb606c2bd377c79c8640970/0cc50d3978f24792f6e94f4e77679aa0</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Ich bin ja kein Fan von jQuery, aber ich erinnere mich, dass die Präsentation von MapQuery auf der <a href="http://fossgis.de/konferenz/2011"><span class="caps">FOSSGIS</span></a>" ziemlich beeindruckend war. Deshalb sei hier darauf hingewiesen, dass MapQuery 0.1 released wurde. </p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://mapquery.org/">MapQuery 0.1</a></p>]]>
+</content>
+
+<category term="javascript" />
+<category term="jquery" />
+<category term="mapquery" />
+<category term="openlayers" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-07-28T08:00:03Z</published>
+		<updated>2011-07-28T08:00:03Z</updated>
+		<title type="html">Twitter location tags: wrong, lazy or just plain stupid?</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=179" />
+		<id>tag:oliverroick.de,2011-07-28:7021b53a6cb606c2bd377c79c8640970/01acb6556300242423c6eb5ac4ef7d46</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Twitters <em>Reverse Geocoding</em> funktioniert oft, aber nicht immer. </p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://georeferenced.wordpress.com/2011/07/27/twitter-location-tags/">Twitter location tags: wrong, lazy or just plain&#160;stupid?</a></p>]]>
+</content>
+
+<category term="twitter" />
+<category term="social networks" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-06-09T18:56:25Z</published>
+		<updated>2011-06-09T18:56:25Z</updated>
+		<title type="html">JavaScript spread to the edges and became permanent in the process</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=178" />
+		<id>tag:oliverroick.de,2011-06-09:7021b53a6cb606c2bd377c79c8640970/3e7d0a1cf78ba6144fbfeaeb01e052f1</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Interview mit <a href="http://nodejs.org/-Experte">node.js</a> James Duncan über die aktuelle Wahrnehmung von JavaScript. </p>
+
+	<p>Garniert mit klugen Anmerkungen bezüglich Objektorientierung:</p>
+
+	<blockquote>
+		<p>[I]t would be great to see some sort of concrete class system. That&#8217;s not to say I dislike the prototype-based object orientation within JavaScript, but I think a lot of people get confused by its capabilities. Rather than understanding it as sort of a liberating thing, they see it as a limiting thing. Putting some syntactic sugar around classes would go a long way toward easing people into the language from other sources.</p>
+	</blockquote>
+
+
+
+
+
+     
+          <p>Link: <a href="http://radar.oreilly.com/2011/06/javascript-edges-permanent-james-duncan.html">JavaScript spread to the edges and became permanent in the&#160;process</a></p>]]>
+</content>
+
+<category term="javascript" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-06-07T19:42:54Z</published>
+		<updated>2011-06-07T19:42:54Z</updated>
+		<title type="html">Why a JavaScript hater thinks everyone needs to learn JavaScript in the next year</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=177" />
+		<id>tag:oliverroick.de,2011-06-07:7021b53a6cb606c2bd377c79c8640970/2e7c0c2a0f64538bc933354de60c1389</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Node.js, HTML5, Dokument-basierte Datenbanken und Compiler. JavaScript wird aus verschiedenen Gründen endlich ernst genommen. </p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://radar.oreilly.com/2011/06/time-to-learn-javascript.html">Why a JavaScript hater thinks everyone needs to learn JavaScript in the next&#160;year</a></p>]]>
+</content>
+
+<category term="javascript" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-06-03T08:30:58Z</published>
+		<updated>2011-06-03T08:30:58Z</updated>
+		<title type="html">JSTS - JavaScript Topology Suite</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=176" />
+		<id>tag:oliverroick.de,2011-06-03:7021b53a6cb606c2bd377c79c8640970/6383c8a55114ec0a0aa4b9ee8d0ab93e</id>
+		
+		
+		<content type="html">
+<![CDATA[<blockquote>
+		<p>The <span class="caps">JSTS</span> Topology Suite is a JavaScript library of spatial predicates and functions for processing geometry conforming to the Simple Features Specification for <span class="caps">SQL</span> published by the Open Geospatial Consortium. <span class="caps">JSTS</span> Topology Suite is also a JavaScript port of the well established Java library <span class="caps">JTS</span> Topology Suite with OpenLayers compatibility. The core geometry classes are inherited from OpenLayers.Geometry and extended with <span class="caps">API</span> as close as possible to the corresponding <span class="caps">JTS</span> Topology Suite geometry classes.</p>
+	</blockquote>
+
+
+
+
+
+     
+          <p>Link: <a href="https://github.com/bjornharrtell/jsts">JSTS - JavaScript Topology&#160;Suite</a></p>]]>
+</content>
+
+<category term="javascript" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-05-30T08:00:00Z</published>
+		<updated>2011-05-30T08:00:00Z</updated>
+		<title type="html">Perceived Flaws of OpenLayers</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=175" />
+		<id>tag:oliverroick.de,2011-05-29:7021b53a6cb606c2bd377c79c8640970/1ce4e0fc5e2c1206fb43d02b1b8120e8</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Auf dem WhereCamp in Berlin gab es <a href="http://vmx.cx/cgi-bin/blog/index.cgi/wherecampeu-2011:2011-05-29:en,GeoCouch,OpenLayers,MapQuery,conference,geo">eine Session, in der Mängel an OpenLayers diskutiert wurden</a>. Christopher Schmidt hat dazu eine Antwort geschrieben, in der er den Zustand von OpenLayers zumeist verteidigt und dabei Vergleiche zu anderen Mapping-<span class="caps">API</span>s zieht. </p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://crschmidt.net/blog/archives/472/perceived-flaws-ofopenlayers/">Perceived Flaws of&#160;OpenLayers</a></p>]]>
+</content>
+
+<category term="openlayers" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-05-27T14:04:12Z</published>
+		<updated>2011-05-27T14:04:12Z</updated>
+		<title type="html">A Week on Foursquare</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=174" />
+		<id>tag:oliverroick.de,2011-05-27:7021b53a6cb606c2bd377c79c8640970/7bf69b317536c6e2b9de1e016af87aff</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Das Wall Street Journal hat sich alle Check-ins auf Foursquare in einer Woche im Januar vorgenommen und diese bezüglich verschiedener Parameter seziert. Heraus gekommen sind dabei sehr interessante Informationen und ein paar nette Infographiken.</p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://graphicsweb.wsj.com/documents/FOURSQUAREWEEK1104/index.php">A Week on&#160;Foursquare</a></p>]]>
+</content>
+
+<category term="location based services" />
+<category term="social networks" />
+</entry>
+<entry>
+		<author>
+			<name>Oliver Roick</name>
+		</author>
+		<published>2011-05-10T14:04:25Z</published>
+		<updated>2011-05-10T14:04:25Z</updated>
+		<title type="html">LocalResponse Targets Consumers Based on Tweets, Check-ins</title>
+		<link rel="alternate" type="text/html" href="http://oliverroick.de/weblog/index.php?id=173" />
+		<id>tag:oliverroick.de,2011-05-10:7021b53a6cb606c2bd377c79c8640970/e15142130a5c05b0af61957fe18b7fa4</id>
+		
+		
+		<content type="html">
+<![CDATA[<p>Darauf haben letzten Endes doch alle gewartet: <a href="http://localresponse.com/">LocalResponse</a> versucht durch Auswertung von Informationen aus verschiedenen Check-in-Services und der Anreicherung dieser Informationen durch Extraktion von ortsbezogenen Informationen aus Textfragmenten auf Twitter und Facebook genaue Nutzerprofile inklusive Aufenthaltsort zu erstellen und diese dann für gezieltes zielgruppen- und ortsbezogenes Marketing zu verwenden. </p>
+
+	<p>Technisch ist das höchst interessant, Ethisch jedoch höchst bedenktlich.</p>
+
+
+
+
+
+     
+          <p>Link: <a href="http://gigaom.com/2011/05/09/localresponse-targets-consumers-based-on-tweets-check-ins/">LocalResponse Targets Consumers Based on Tweets, Check-ins</a></p>]]>
+</content>
+
+<category term="social networks" />
+<category term="location based services" />
+</entry></feed>

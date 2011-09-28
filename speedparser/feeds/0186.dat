@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Erg druk .nl</title>
+	<atom:link href="http://ergdruk.nl/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ergdruk.nl</link>
+	<description>Hulp bij textieldruk</description>
+	<lastBuildDate>Wed, 10 Feb 2010 14:23:37 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.6</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>Ban de bom? Tote bags!</title>
+		<link>http://ergdruk.nl/ban-de-bom-tote-bags/</link>
+		<comments>http://ergdruk.nl/ban-de-bom-tote-bags/#comments</comments>
+		<pubDate>Wed, 10 Feb 2010 14:10:39 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[Shirt]]></category>
+		<category><![CDATA[t-shirts]]></category>
+		<category><![CDATA[tassen]]></category>
+		<category><![CDATA[katoen]]></category>
+		<category><![CDATA[tote bag]]></category>
+
+		<guid isPermaLink="false">http://ergdruk.nl/?p=299</guid>
+		<description><![CDATA[Het straatbeeld zal tijdens de lente en zomer van 2010 worden bepaald door de tote bags. In de jaren 80 liep iedereen met een ecru katoenen tas, vaak bedrukt met een politieke boodschap of het logo van het lokale radio station.
+Sinds kort is het al mogelijk om online goed ontworpen tassen te bestellen. Binnen enkele [...]]]></description>
+			<content:encoded><![CDATA[<p>Het straatbeeld zal tijdens de lente en zomer van 2010 worden bepaald door de <em>tote bags</em>. In de jaren 80 liep iedereen met een ecru katoenen tas, vaak bedrukt met een politieke boodschap of het logo van het lokale radio station.</p>
+<div id="attachment_304" class="wp-caption aligncenter" style="width: 647px"><img class="size-full wp-image-304" title="Tote bags, alles kleuren en maten" src="http://ergdruk.nl/wp-content/uploads/2010/02/totebag.jpg" alt="De katoenen tas van vroeger, tegenwoordig in alle kleuren van de regenboog" width="637" height="270" /><p class="wp-caption-text">De katoenen tas van vroeger, tegenwoordig in alle kleuren van de regenboog</p></div>
+<p>Sinds kort is het al mogelijk om online goed ontworpen tassen te bestellen. Binnen enkele weken / maanden hangen ook de H&amp;M-achtige winkels vol met de katoenen tas. Een mooi moment om als bedrijf of instelling een voorloper te zijn bij de inzet van dit product. Per stuk kosten de tassen ongeveer, heftig bedrukt en wel, tussen de 2 en 4 euro per stuk!</p>
+<p>Mail even als je meer informatie zou willen ontvangen.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ergdruk.nl/ban-de-bom-tote-bags/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

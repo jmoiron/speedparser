@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+ <channel>
+	<title>celticsnba</title>
+	<link></link>
+	<description></description>
+	<language></language>
+	
+	<pubDate>Thu, 23 Jun 2011 11:14:05 EST</pubDate>
+	
+	<lastBuildDate>Thu, 23 Jun 2011 11:14:06 EST</lastBuildDate>
+	<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+	<generator>NBA.com Content Management System</generator>
+	<managingEditor>webmaster@nba.com</managingEditor> 
+	<webMaster>webmaster@nba.com</webMaster>
+ </channel>
+</rss>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://rss.itech7.com/~d/styles/itemcontent.css"?><rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0" xml:base="http://www.itech7.com/rss.xml">
+  <channel>
+    <title>iTech7.com - Explore the world of Computing and Technology</title>
+    <link>http://www.itech7.com/rss.xml</link>
+    <description />
+    <language>en</language>
+          <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://rss.itech7.com/iTech7" /><feedburner:info uri="itech7" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license><feedburner:emailServiceId>iTech7</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname></channel>
+</rss>

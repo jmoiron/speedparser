@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Alex Nichols</title>
+	<atom:link href="http://alexnichols.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>http://alexnichols.com/blog</link>
+	<description></description>
+	<lastBuildDate>Sun, 25 Oct 2009 21:33:40 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.4</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>Welcome to the Apple Microsoft store.</title>
+		<link>http://alexnichols.com/blog/microsoft-store/</link>
+		<comments>http://alexnichols.com/blog/microsoft-store/#comments</comments>
+		<pubDate>Sun, 25 Oct 2009 21:33:10 +0000</pubDate>
+		<dc:creator>Alex Nichols</dc:creator>
+				<category><![CDATA[Rants]]></category>
+
+		<guid isPermaLink="false">http://alexnichols.com/blog/?p=50</guid>
+		<description><![CDATA[
+Microsoft opened their first &#8220;Microsoft store&#8221; on October 22nd. As you can see in the embedded video above, it is a blatant ripoff of Apple stores. The tables used to display the computers are identical to those used in Apple Stores. The layout of the store is the exact same as well. Microsoft even set [...]]]></description>
+			<content:encoded><![CDATA[<p><object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/g9Hk0ZCqRxg&#038;hl=en&#038;fs=1&#038;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/g9Hk0ZCqRxg&#038;hl=en&#038;fs=1&#038;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></p>
+<p>Microsoft opened their first &#8220;Microsoft store&#8221; on October 22nd. As you can see in the embedded video above, it is a blatant ripoff of Apple stores. The tables used to display the computers are identical to those used in Apple Stores. The layout of the store is the exact same as well. Microsoft even set up an accessories section next to the <strike>Genius</strike> Guru bar.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexnichols.com/blog/microsoft-store/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Exposé on the iPhone with Orbit.app</title>
+		<link>http://alexnichols.com/blog/orbit-review/</link>
+		<comments>http://alexnichols.com/blog/orbit-review/#comments</comments>
+		<pubDate>Fri, 16 Oct 2009 23:52:14 +0000</pubDate>
+		<dc:creator>Alex Nichols</dc:creator>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://alexnichols.com/blog/?p=39</guid>
+		<description><![CDATA[My good friend Steven Troughton-Smith has been working on an extremely cool project for the last few days. He has written an application named Orbit,that brings an Exposé like feature to the iPhone. It makes it super easy to move to a certain page of applications very quickly! It is especially helpful if you have [...]]]></description>
+			<content:encoded><![CDATA[<p>My good friend <a href="http://steventroughtonsmith.com">Steven Troughton-Smith</a> has been working on an extremely cool project for the last few days. He has written an application named <a href="http://steventroughtonsmith.com/orbit">Orbit</a>,that brings an Exposé like feature to the iPhone. It makes it super easy to move to a certain page of applications very quickly! It is especially helpful if you have quite a few pages of apps! When launched, little previews of your pages come up almost instantly. To go to a certain page, just tap the preview of that page!</p>
+<div id="attachment_41" class="wp-caption aligncenter" style="width: 330px"><img class="size-full wp-image-41" title="photo 2" src="http://alexnichols.com/blog/wp-content/uploads/2009/10/photo-2.jpg" alt="Tapping one of the previews takes you to the page that is shown in the selected preview" width="320" height="480" /><p class="wp-caption-text">Tapping one of the previews takes you to the page that is shown in the selected preview</p></div>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">The whole application is extremely well made. It&#8217;s super easy to use and really helpful. Orbit also features some sexy graphics from <a href="http://mantia.me">Louie Mantia</a>!</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">
+<div class="wp-caption aligncenter" style="width: 330px"><img title="The icon" src="http://alexn.me/65qw" alt="The Orbit.app icon!" width="320" height="480" /><p class="wp-caption-text">The Orbit.app icon!</p></div>
+<p>Orbit has been submitted to the Cydia store and should be up for sale soon! Once it is accepted, you can download it from Cydia for $1.99!</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">★★★★☆ – User Interface</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">★★★★☆ – Features</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">★★★★★ – Usability</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica;">★★★★★ – Overall</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexnichols.com/blog/orbit-review/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Early Espresso</title>
+		<link>http://alexnichols.com/blog/early-espresso/</link>
+		<comments>http://alexnichols.com/blog/early-espresso/#comments</comments>
+		<pubDate>Tue, 13 Oct 2009 03:40:46 +0000</pubDate>
+		<dc:creator>Alex Nichols</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://alexnichols.com/blog/?p=28</guid>
+		<description><![CDATA[The first episode of the new podcast I am working on with Daniel Brusilovsky, Mark Bao, and Christian Owens was released today. The podcast is called &#8220;Early Espresso&#8221; and is about technology and entrepreneurship. You can learn more about the episode on the Early Espresso Website! Sadly, I could not be on this episode because [...]]]></description>
+			<content:encoded><![CDATA[<p>The first episode of the new podcast I am working on with <a href="http://danielbru.com">Daniel Brusilovsky</a>, <a href="http://markbao.com">Mark Bao</a>, and <a href="http://christianowens.com">Christian Owens</a> was released today. The podcast is called &#8220;Early Espresso&#8221; and is about technology and entrepreneurship. You can learn more about the episode on the <a href="http://earlyespresso.com/2009/10/early-espresso-episode-1-the-roast/">Early Espresso Website</a>! Sadly, I could not be on this episode because AT&#038;T and the Skype iPhone app both suck! You can listen to the episode through the player below:</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexnichols.com/blog/early-espresso/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+<enclosure url="http://earlyespresso.com/wp-content/cast/episode_1.mp3" length="31519892" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>The worst twitter client ever? I think so.</title>
+		<link>http://alexnichols.com/blog/worst-twitter-client-ever/</link>
+		<comments>http://alexnichols.com/blog/worst-twitter-client-ever/#comments</comments>
+		<pubDate>Fri, 09 Oct 2009 05:53:52 +0000</pubDate>
+		<dc:creator>Alex Nichols</dc:creator>
+				<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://alexnichols.com/blog/?p=17</guid>
+		<description><![CDATA[Say hello to ChillTwit (iTunes link), the ugliest and most useless twitter client on the app store! 
+
+I have used a lot of iPhone apps since the App Store was launched in July of 2008, and this is by far the worst application I have ever tried. The interface is atrocious, there are missing features, [...]]]></description>
+			<content:encoded><![CDATA[<p>Say hello to <a href="http://cli.gs/32vBvV">ChillTwit</a> (iTunes link), the ugliest and most useless twitter client on the app store! </p>
+<p><img src="http://dznr.org/hv73"></p>
+<p>I have used a lot of iPhone apps since the App Store was launched in July of 2008, and this is by far the worst application I have ever tried. The interface is atrocious, there are missing features, and it just plain sucks. It allows the user to choose a background image either from their selection of horrible, distracting wallpapers, or it lets the user pick a background. The tweet bubbles are just plain hideous. </p>
+<p><img src="http://smokingapples.com/wp-content/uploads/2009/09/kissthebaby.jpg" alt="" /></p>
+<p>Although it isn&#8217;t lacking any of twitter&#8217;s basic features, it doesn&#8217;t have any enticing features to draw in new users. Oh, and did I mention that the interface is horrible? My roundup is below:</p>
+<p>★☆☆☆☆ &#8211; User Interface<br />
+★★☆☆☆ &#8211; Features<br />
+★☆☆☆☆ &#8211; Usability<br />
+★☆☆☆☆ &#8211; Overall</p>
+<p>Basically, stay the hell away from this lousy excuse for a twitter app.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexnichols.com/blog/worst-twitter-client-ever/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Why I hate Microsoft.</title>
+		<link>http://alexnichols.com/blog/why-i-hate-microsoft/</link>
+		<comments>http://alexnichols.com/blog/why-i-hate-microsoft/#comments</comments>
+		<pubDate>Thu, 08 Oct 2009 04:31:17 +0000</pubDate>
+		<dc:creator>Alex Nichols</dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Stories]]></category>
+
+		<guid isPermaLink="false">http://alexnichols.com/blog/?p=3</guid>
+		<description><![CDATA[Today at work, I was setting up a few Windows machines. One of the windows product keys didn’t work. After checking thoroughly to make sure there were no typos, I decided to call Microsoft Support.
+After a few minutes of waiting, I was greeted by an Indian man with such a heavy accent that I could [...]]]></description>
+			<content:encoded><![CDATA[<p style="margin-top: 14px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; outline-width: 0px; outline-style: initial; outline-color: initial; font-size: 14px; vertical-align: baseline; background-image: initial; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: transparent; background-position: initial initial; padding: 0px; border: 0px initial initial;">Today at work, I was setting up a few Windows machines. One of the windows product keys didn’t work. After checking thoroughly to make sure there were no typos, I decided to call Microsoft Support.</p>
+<p style="margin-top: 14px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; outline-width: 0px; outline-style: initial; outline-color: initial; font-size: 14px; vertical-align: baseline; background-image: initial; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: transparent; background-position: initial initial; padding: 0px; border: 0px initial initial;">After a few minutes of waiting, I was greeted by an Indian man with such a heavy accent that I could barely understand him over the phone. He introduced himself as “Philliam” (pronounced Phil-Yum). I assumed that he had came up with the name by mixing “Phil” with “William”. I got a good chuckle out of it. After all, Microsoft support people in India always choose funky names. For example, I have been on the phone with people who have named themselves Elvis and St. John. After about 5 minutes of explaining my problem to Philliam, he decided to transfer me to Activation support. Once I explained the problem again to activation support, they told me that they could not help me and transferred me back to the main support line. When a new representative answered the phone, I explained my problem yet again. She decided to transfer me to activation support, even though the problem I was having had absolutely nothing to do with activation. This time, instead of going along with the transfer, I asked to speak to her supervisor. She told me that I shouldn’t talk to the supervisor. When I asked again, she refused to transfer me. After a few more tries, she finally transferred me. After 15 minutes on hold waiting for the supervisor, she finally picks up the phone. She introduced herself as April, and asked what my problem is. I told her that my genuine windows XP license key is not working. She informed me that I have to pay $60 to talk to a technical support rep about my problem. I pointed out that that is ridiculous for them to charge me $60 because their licensing system is screwed up. She then restated that I needed to pay $60 to talk to a rep about my licensing problem. I told her that there was no way I would pay $60 because they didn’t correctly activate the license key on my software. She then asked me for my license id. After I gave her that, she asked for my CD id. This continued for 20 minutes. She asked for every single code on both the CD and the packaging. When I asked why she wanted them, she refused to answer.  After 20 minutes on hold while she was “verifying” my license key, she picked up the phone. She said that I needed to pay the $60 for a tech support person. I told her that that was ridiculous. I bought the software online from Microsoft. She then insisted that Microsoft does not sell software online. After I told her that I definitely bought it from microsoft.com, she accused me of lying and that she is sure that Microsoft doesn’t sell software online. I started looking around in my desk for the receipt that I printed out. I found it and gave her my order number. She then said “Oh”, and restated that I had to pay $60 for tech support. I asked to speak to her supervisor. She transferred me to her supervisor. After 20 minutes of waiting, a man picked up and introduced himself as James. James asked what my problem was. I told him about my problem with the product key. He told me that I need to pay the $60 for help. I asked him to generate me a new license key. He refused to help me until I paid the $60. I threatened to complain to Microsoft corporate unless he helped. After 20 more minutes of giving product id’s and CD keys, he finally generated me a new license key.</p>
+<p style="margin-top: 14px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; outline-width: 0px; outline-style: initial; outline-color: initial; font-size: 14px; vertical-align: baseline; background-image: initial; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: transparent; background-position: initial initial; padding: 0px; border: 0px initial initial;">Microsoft has one worst support teams I have ever had the misfortune of dealing with. What would have taken 5 minutes with applecare or another decent support line took over 1 hour and 45 minutes. I hope I never have to deal with the inept customer support agents at Microsoft again.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexnichols.com/blog/why-i-hate-microsoft/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>Launch Giveaway</title>
+		<link>http://alexnichols.com/blog/launch-giveaway/</link>
+		<comments>http://alexnichols.com/blog/launch-giveaway/#comments</comments>
+		<pubDate>Thu, 08 Oct 2009 04:27:01 +0000</pubDate>
+		<dc:creator>Alex Nichols</dc:creator>
+				<category><![CDATA[Giveaway]]></category>
+
+		<guid isPermaLink="false">http://alexnichols.com/blog/?p=6</guid>
+		<description><![CDATA[I see you have found your way onto my new blog! I will be giving away 1 &#8220;It&#8217;s Cloudy&#8221; shirt from Take A Tee to a random person that comments on this post! I will pick a winner on October 15th! Make sure to leave a comment for your chance to win!
+UPDATE: The winner of [...]]]></description>
+			<content:encoded><![CDATA[<p>I see you have found your way onto my new blog! I will be giving away 1 &#8220;It&#8217;s Cloudy&#8221; shirt from <a href="http://takeatee.com">Take A Tee</a> to a random person that comments on this post! I will pick a winner on October 15th! Make sure to leave a comment for your chance to win!</p>
+<p><strong>UPDATE:</strong> The winner of our contest is Christopher Downer! To those who didn&#8217;t win, I&#8217;m offering an 15% discount on our It&#8217;s Cloudy shirts until Friday October 22nd to all of you! Go <a href="http://takeatee.com/alexn/">here</a> to get your discount!</p>
+<p><a href="http://takeatee.com/alexn/">What are you waiting for!</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexnichols.com/blog/launch-giveaway/feed/</wfw:commentRss>
+		<slash:comments>53</slash:comments>
+		</item>
+	</channel>
+</rss>

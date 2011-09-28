@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<?xml-stylesheet href="http://d.hatena.ne.jp/nuba/rssxsl" type="text/xsl" media="screen"?>
+
+
+<rdf:RDF
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xml:lang="ja">
+<channel rdf:about="http://d.hatena.ne.jp/nuba/rss">
+	<title>nuba</title>
+	<link>http://d.hatena.ne.jp/nuba/</link>
+	<description>nuba</description>
+	
+	<dc:creator>nuba</dc:creator>
+	<dc:date>2011-09-13T09:30:43+09:00</dc:date>
+	<items>
+	<rdf:Seq>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/nuba/20110913/1315873803"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/nuba/20110824/1314153819"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/nuba/20110818/1313677164"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/nuba/20110812/1313123815"/>
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/nuba/20110715/1310719413"/>
+	</rdf:Seq>
+	</items>
+</channel>
+
+
+
+<item rdf:about="http://d.hatena.ne.jp/nuba/20110913/1315873803">
+	<title>[日記]害虫駆除のこと</title>
+	<link>http://d.hatena.ne.jp/nuba/20110913/1315873803</link>
+	<description>  　先週末、団地のアンケートに答えたんですよ。最後にご意見ご要望…とあったのでそこに「昆虫類が苦手でとりわけ蝉が階段踊り場に侵入してくるのが怖く、生活に支障をきたすことがある。なんとかしてほしい」と書きました。まあ、ダメもとですね。とりあえず団地の一住民がこういうことをのたまっておいでだよ、と。そのくらい軽い感じで読み流して頂いて、管理事務所の方の心の片隅に留めておいていただければそれでよかったんです。だってまさかそんなアンケートの備考欄にサラっと書いただけですよ、富士見台団地だけで何千世帯入居している ...</description>
+	<dc:creator>nuba</dc:creator>
+	<dc:date>2011-09-13T09:30:03+09:00</dc:date>
+	<dc:subject>日記</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/nuba/20110824/1314153819">
+	<title>[日記]寒い八月の午前に</title>
+	<link>http://d.hatena.ne.jp/nuba/20110824/1314153819</link>
+	<description>  　雨上がりの街路を歩いた。桜木の木漏れる陽光が降り注ぐ街路はどこまでも、八月らしからぬ清爽の心地を運んでいる。団地の庭先に咲いた百合の花弁に雨雫の楕円が文様をなしており、滑らかなおもてに陽光の柔らかな白色をきらりきらりと射しては返した。そういう朝であった。  　旬とはひと月を十日にわけた単位である。最初の十日を上旬、十一日から二十日までを中旬、最後を下旬という。そうしてみると、今日はすでに八月の下旬ということになる。夏のおわりとは言い難い。暦にかかわらず、八月の下旬が酷暑の盛りであることはいうまでもな ...</description>
+	<dc:creator>nuba</dc:creator>
+	<dc:date>2011-08-24T11:43:39+09:00</dc:date>
+	<dc:subject>日記</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/nuba/20110818/1313677164">
+	<title>[日記]ゆく夏の残影</title>
+	<link>http://d.hatena.ne.jp/nuba/20110818/1313677164</link>
+	<description>  　得点が入るとアルプススタンドのカメラにスイッチングされる。メガホンを振り上げて先輩の活躍を喜ぶ後輩の坊主頭が映り、OBや父兄もまた同様に歓喜している。アナウンサーがドラマを盛り立て、汗を、そこに流れる蒼き血潮を昇華する。夏の熱気はそれだけで眩しく、たとえばよく冷えた部屋でソファに足を投げ出しながらそれを観戦するでもなく眺めている僕のような人間の、怠惰ゆえの罪深さのようなものを反面に映しだすように眩暈する。陽炎のごとく、憧憬が、いくつかの思いが揺れる。夏とはそういう、後悔と執着の季節である。 　得点は ...</description>
+	<dc:creator>nuba</dc:creator>
+	<dc:date>2011-08-18T23:19:24+09:00</dc:date>
+	<dc:subject>日記</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/nuba/20110812/1313123815">
+	<title>[日記]白井山羊太郎うんこを漏らす、のこと</title>
+	<link>http://d.hatena.ne.jp/nuba/20110812/1313123815</link>
+	<description>  　昨日、うんこを漏らしました。とても静かな夜のことでした。僕はこの日のことを（たぶん）忘れはしないでしょう。忘れてはならない。そのためにも、この悲しい事件についてここに記さないわけにはゆかないのです。  事件の経緯 　屁を放とうと腰を浮かしてひとつ、そしてふたつめの屁をしぼり出そうとしたらうんこが漏れました。僕はトイレに駆け込む。後ろでＹが「うわ、くっさ！」と叫ぶのを確かに聞きながら。僕をトイレへと押し遣るＹの手は、これまで僕が知る彼女の腕力の上限をはるかに上回るほど強く、僕はそれを背中でしっかりと受 ...</description>
+	<dc:creator>nuba</dc:creator>
+	<dc:date>2011-08-12T13:36:55+09:00</dc:date>
+	<dc:subject>日記</dc:subject>
+</item>
+<item rdf:about="http://d.hatena.ne.jp/nuba/20110715/1310719413">
+	<title>[日記]血尿日記</title>
+	<link>http://d.hatena.ne.jp/nuba/20110715/1310719413</link>
+	<description>  　血尿といって僕が思い出すのは、高校三年時分、同窓のＨ君（男山出身のサッカー部）が水泳授業前の着替えの最中、トイレから教室に駆け戻ってきて「ちょー！　ちんこから血ィ出たわァ！」と勢い叫んで取り乱していたことを思い出す。結局のところ、Ｈ君は「疲れているだけ」というような診察を受けたのみで、大事には至らなかったようだった。その後、今に至るまで血尿とは無縁の生活を送ってきた。ほとんどの人がそうなのではないか、と思う。尿道から始終鮮血が流れるような生活は絶望でしかないし、あらゆる面において、弱くなる。或いは誰 ...</description>
+	<dc:creator>nuba</dc:creator>
+	<dc:date>2011-07-15T17:43:33+09:00</dc:date>
+	<dc:subject>日記</dc:subject>
+</item>
+</rdf:RDF>

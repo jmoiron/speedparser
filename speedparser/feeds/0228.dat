@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Stories about everyday life</title>
+	<atom:link href="http://www.hariscusto.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.hariscusto.com</link>
+	<description>my playground</description>
+	<lastBuildDate>Fri, 16 Sep 2011 14:47:56 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.3</generator>
+		<item>
+		<title>[RESOLVED] Samsung Omnia 7 keeps on restarting</title>
+		<link>http://www.hariscusto.com/uncategorized/resolved-samsung-omnia-7-keeps-on-restarting/</link>
+		<comments>http://www.hariscusto.com/uncategorized/resolved-samsung-omnia-7-keeps-on-restarting/#comments</comments>
+		<pubDate>Wed, 02 Feb 2011 18:33:53 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=300</guid>
+		<description><![CDATA[If  you stack on infinitive loop where your Samsung Omnia 7 (Windows) phone keeps on restarting, this may solve your problems (it solved mine) Make sure your Device is switched off (remove and reinsert the battery) 1. Press and hold the Camera, Volume Down, and Power buttons simultaneously. 2. Release Power when the phone vibrates, [...]]]></description>
+			<content:encoded><![CDATA[<div>
+<div>
+<p>If  you stack on infinitive loop where your Samsung Omnia 7 (Windows) phone keeps on restarting, this may solve your problems (it solved mine)</p>
+<div>
+<div>
+<p>Make sure your Device is switched off (remove and reinsert the battery)</p>
+<p>1. Press and hold the Camera, Volume Down, and Power buttons simultaneously.</p>
+<p>2. Release Power when the phone vibrates, but continue to hold down Camera and Volume Down.</p>
+<p>3. Release Camera and Volume Down when the Format prompt is displayed on screen.</p>
+<p>4. Press Windows key twice to confirm the hard reset.</p>
+<p>Enjoy your phone now  <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+</div>
+</div>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/uncategorized/resolved-samsung-omnia-7-keeps-on-restarting/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Plus conf &#8211; Online conference with most awesome speakers from the world of web apps!</title>
+		<link>http://www.hariscusto.com/marketing/plus-conf-online-conference-with-most-awesome-speakers-from-the-world-of-web-apps/</link>
+		<comments>http://www.hariscusto.com/marketing/plus-conf-online-conference-with-most-awesome-speakers-from-the-world-of-web-apps/#comments</comments>
+		<pubDate>Tue, 07 Dec 2010 18:16:55 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[conf]]></category>
+		<category><![CDATA[plusconf]]></category>
+		<category><![CDATA[startup]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=250</guid>
+		<description><![CDATA[PlusConf is free online Conference founded by Benjamin Alijagic ,  you can watch videos from conference bellow. The first one is by Allan Branch from LessEverything Watch live streaming video from plusconf at livestream.com Twitter comments: @emanuelblagonic: &#8220;I totally agree &#8211; Your logo is not a brand!&#8221;  by @allanbranch @jasonhanley: &#8220;In business, you are weeks [...]]]></description>
+			<content:encoded><![CDATA[<p><a title="PlusConf" href="http://www.plusconf.com/" target="_blank">PlusConf</a> is free online Conference founded by <a title="Benjamin Alijagić" href="http://twitter.com/benpixel" target="_blank">Benjamin Alijagic</a> ,  you can watch videos from conference bellow.</p>
+<p>The first one is by <a title="Allan Branch" href="http://twitter.com/allanbranch" target="_blank">Allan Branch</a> from <a title="Less Everything" href="http://LessEverything.com" target="_blank">LessEverything</a></p>
+<p><object id="lsplayer" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="560" height="340" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="src" value="http://cdn.livestream.com/grid/LSPlayer.swf?channel=plusconf&amp;clip=pla_648e1e27-501e-47f0-baf1-c023e159bfcf&amp;autoPlay=false" /><param name="name" value="lsplayer" /><param name="wmode" value="transparent" /><param name="allowfullscreen" value="true" /><embed id="lsplayer" type="application/x-shockwave-flash" width="560" height="340" src="http://cdn.livestream.com/grid/LSPlayer.swf?channel=plusconf&amp;clip=pla_648e1e27-501e-47f0-baf1-c023e159bfcf&amp;autoPlay=false" wmode="transparent" name="lsplayer" allowfullscreen="true" allowscriptaccess="always"></embed></object></p>
+<div style="font-size: 11px; padding-top: 10px; text-align: center; width: 560px;">Watch <a title="live streaming video" href="http://www.livestream.com/?utm_source=lsplayer&amp;utm_medium=embed&amp;utm_campaign=footerlinks">live streaming video</a> from <a title="Watch plusconf at livestream.com" href="http://www.livestream.com/plusconf?utm_source=lsplayer&amp;utm_medium=embed&amp;utm_campaign=footerlinks">plusconf</a> at livestream.com</div>
+<div style="font-size: 11px; padding-top: 10px; text-align: center; width: 560px;">Twitter comments:</div>
+<p><a title="Emanuel Blagonić" href="http://twitter.com/emanuelblagonic" target="_blank">@emanuelblagonic</a>: &#8220;I totally agree &#8211; Your logo is not a brand!&#8221;  by <a title="Allan Branch" href="http://twitter.com/allanbranch" target="_blank">@allanbranch</a></p>
+<p><a title="@jasonhanley" href="http://twitter.com/jasonhanley" target="_blank">@jasonhanley</a>: &#8220;In business, you are weeks away from losing your house, losing your car, and living with your f-ing mom.&#8221; #plusconf @allanbranch</p>
+<p><a title="@jeff_epstein" href="http://twitter.com/jeff_epstein" target="_blank">@jeff_epstein</a>: &#8220;Money is a great justification for doing something you don&#8217;t really want to do&#8221; the genius of @allanbranch  #livinthedream #plusconf</p>
+<p><a title="@NickRovisa" href="http://twitter.com/NickRovisa" target="_blank">@NickRovisa</a>: &#8220;Spend less, save more&#8221; &#8211; @allanbranch #plusconf &#8211; #plusconf live on http://livestream.com/plusconf</p>
+<p>Other speakers you can watch at <a title="PlusConf" href="http://www.livestream.com/plusconf" target="_blank">http://www.livestream.com/plusconf</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/marketing/plus-conf-online-conference-with-most-awesome-speakers-from-the-world-of-web-apps/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WPF Series #1: Application Architecture</title>
+		<link>http://www.hariscusto.com/ui/wpf-ui/wpf-series-1-application-architecture/</link>
+		<comments>http://www.hariscusto.com/ui/wpf-ui/wpf-series-1-application-architecture/#comments</comments>
+		<pubDate>Tue, 09 Nov 2010 00:34:08 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=173</guid>
+		<description><![CDATA[As I said before, I&#8217;m starting my first Blog post series, and it would be about Windows Presentation Foundation (WPF). WPF, a component of Microsoft .NET Framework, empowers you to build the next-generation of Windows user experiences. WPF supports UI, media, documents, hardware acceleration, vector graphics, scalability to different form factors, integration with Windows, interactive [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.hariscusto.com/programming/my-fist-blog-post-series-are-you-interested-in-it/">As I said before</a>, I&#8217;m starting my first Blog post series, and it would be about <a title="WPF" href="http://windowsclient.net/wpf/" target="_blank">Windows Presentation Foundation (WPF)</a>.</p>
+<p>WPF, a component of Microsoft .NET Framework, empowers you to build  the next-generation of Windows user experiences. WPF supports UI,  media, documents, hardware acceleration, vector graphics, scalability to  different form factors, integration with Windows, interactive data  visualization, and superior content readability.</p>
+<p>I&#8217;ll assume that you have basic information about WPF and that you have played a little with it and try to build something. I&#8217;m using <strong>VS 2010</strong> for programming, and <strong>Expression Blend 4</strong> for designing application.</p>
+<h2>WPF Application Architecture</h2>
+<p>This one is no-brainer, but I need to start with something <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Every time I&#8217;m creating new application I want to have place for Common code and Data access separated from my UI project. Even if you think that your application will be small one and that you don&#8217;t have any need to separate it, I would still suggest you  to take this advice and Separate Common classes and DataAccess from UI. <span id="more-173"></span></p>
+<p>So for a start, I&#8217;ll have structure like this:</p>
+<p><a href="http://www.hariscusto.com/wp-content/uploads/2010/11/Capture1.png"><img class="alignnone size-full wp-image-257" title="Capture" src="http://www.hariscusto.com/wp-content/uploads/2010/11/Capture1.png" alt="" width="284" height="155" /></a></p>
+<p>Tweet is WPF app which will consume data from Tweet.DataAccess (C# class library). Common library (as it&#8217;s name suggest) will contain all common stuff which is used by 2 or more projects. Basically it starts as an empty project and as your app evolve you will start to move methods or classes from other projects to common and reuse them as you need.</p>
+<p>Tweet.DataAccess will be responsible for accessing/updating/saving data to Database. Here I will use Entity framework (EF) as <a href="http://en.wikipedia.org/wiki/Object-relational_mapping" target="_blank">ORM</a> (Object relational mapper) but you can use anything you want (maybe <a href="http://www.mindscape.co.nz/products/LightSpeed/default.aspx" target="_blank">LightSpeed </a>or <a href="http://nhforge.org/Default.aspx" target="_blank">NHibernate</a>). My database will be <a href="http://en.wikipedia.org/wiki/SQL_Server_Compact" target="_blank">SQL CE</a> (to keep examples simple) but thanks to EF and it&#8217;s option Generate database from Model,  I can create SQL Server or SQLite support in couple of minutes.</p>
+<p>This was easy <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  next time, we will go in details how to get data from database with Entity Framework.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/ui/wpf-ui/wpf-series-1-application-architecture/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>In line for an Windows Phone 7?</title>
+		<link>http://www.hariscusto.com/funny/windows-phone-7-wp7/</link>
+		<comments>http://www.hariscusto.com/funny/windows-phone-7-wp7/#comments</comments>
+		<pubDate>Mon, 08 Nov 2010 16:47:58 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Funny]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[parody]]></category>
+		<category><![CDATA[wp7]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=241</guid>
+		<description><![CDATA[A few minutes ago Enis Šahinović posted on twitter .bbpBox1673197112000513 {background:url(http://s.twimg.com/a/1287523226/images/themes/theme15/bg.png) #022330;padding:20px;} p.bbpTweet{background:#fff;padding:10px 12px 10px 12px;margin:0;min-height:48px;color:#000;font-size:18px !important;line-height:22px;-moz-border-radius:5px;-webkit-border-radius:5px} p.bbpTweet span.metadata{display:block;width:100%;clear:both;margin-top:8px;padding-top:12px;height:40px;border-top:1px solid #fff;border-top:1px solid #e6e6e6} p.bbpTweet span.metadata span.author{line-height:19px} p.bbpTweet span.metadata span.author img{float:left;margin:0 7px 0 0px;width:38px;height:38px} p.bbpTweet a:hover{text-decoration:underline}p.bbpTweet span.timestamp{font-size:12px;display:block} So Windows Phone 7 smartphones are on sales in the US. I haven&#8217;t seen anyone waiting for them in [...]]]></description>
+			<content:encoded><![CDATA[<p>A few minutes ago <a href="http://twitter.com/sahinovic">Enis Šahinović</a> posted on twitter<br />
+<!-- http://twitter.com/sahinovic/status/1673197112000513 --><br />
+<style type='text/css'>.bbpBox1673197112000513 {background:url(http://s.twimg.com/a/1287523226/images/themes/theme15/bg.png) #022330;padding:20px;} p.bbpTweet{background:#fff;padding:10px 12px 10px 12px;margin:0;min-height:48px;color:#000;font-size:18px !important;line-height:22px;-moz-border-radius:5px;-webkit-border-radius:5px} p.bbpTweet span.metadata{display:block;width:100%;clear:both;margin-top:8px;padding-top:12px;height:40px;border-top:1px solid #fff;border-top:1px solid #e6e6e6} p.bbpTweet span.metadata span.author{line-height:19px} p.bbpTweet span.metadata span.author img{float:left;margin:0 7px 0 0px;width:38px;height:38px} p.bbpTweet a:hover{text-decoration:underline}p.bbpTweet span.timestamp{font-size:12px;display:block}</style>
+<div class='bbpBox1673197112000513'>
+<p class='bbpTweet'>So Windows Phone 7 smartphones are on sales in the US. I haven&#8217;t seen anyone waiting for them in front of the stores. <a href="http://twitter.com/search?q=%23wp7" title="#wp7" class="tweet-url hashtag" rel="nofollow">#wp7</a> <a href="http://twitter.com/search?q=%23windowsphone7" title="#windowsphone7" class="tweet-url hashtag" rel="nofollow">#windowsphone7</a><span class='timestamp'><a title='Mon Nov 08 16:31:35 +0000 2010' href='http://twitter.com/sahinovic/status/1673197112000513'>less than a minute ago</a> via web</span><span class='metadata'><span class='author'><a href='http://twitter.com/sahinovic'><img src='http://a2.twimg.com/profile_images/1154439854/enistwit_normal.jpg' /></a><strong><a href='http://twitter.com/sahinovic'>Enis Sahinovic</a></strong><br/>sahinovic</span></span></p>
+</div>
+<p> <!-- end of tweet --></p>
+<p>But I disagree with him<span id="more-241"></span>, look below<br />
+<a title="Windows Phone 7" href="http://www.hariscusto.com/wp-content/uploads/2010/11/wp7-phone-waitline.jpg"><img class="alignnone size-full wp-image-242" title="wp7-phone-waitline" src="http://www.hariscusto.com/wp-content/uploads/2010/11/wp7-phone-waitline.jpg" alt="" width="580" /></a></p>
+<p>LOL <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/funny/windows-phone-7-wp7/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>My first blog post series, are you interested in it?</title>
+		<link>http://www.hariscusto.com/programming/my-fist-blog-post-series-are-you-interested-in-it/</link>
+		<comments>http://www.hariscusto.com/programming/my-fist-blog-post-series-are-you-interested-in-it/#comments</comments>
+		<pubDate>Wed, 20 Oct 2010 10:54:35 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Blend]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[MSSQL]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[SQLite]]></category>
+		<category><![CDATA[blog post series]]></category>
+		<category><![CDATA[wpf]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=232</guid>
+		<description><![CDATA[I was thinking to write blog post series about process of developing WPF applications. The series would be about WPF and: Main architecture of Client/Server application (the big picture) Using Entity Framework with SQL Server, SQLite (or SQL CE)  and WPF (+Advanced topic on Error handling on Model level) Authentication and Authorization Navigation through Forms [...]]]></description>
+			<content:encoded><![CDATA[<p>I was thinking to write blog post series about process of developing WPF applications.</p>
+<p>The series would be about WPF and:</p>
+<ol>
+<li>Main architecture of Client/Server application (the big picture)</li>
+<li>Using Entity Framework with SQL Server, SQLite (or SQL CE)  and WPF (+Advanced topic on Error handling on Model level)</li>
+<li>Authentication and Authorization</li>
+<li>Navigation through Forms in WPF app.<span id="more-232"></span></li>
+<li>Implementing MVVM pattern and using Commands (to have clear XAML forms without Code Behind files)</li>
+<li>Localization with RESX files (+Special chapter of localization using Google Translate API)</li>
+<li>Synchronization between multiple clients and Server (with sync framework)</li>
+<li>Implementing design (From image to actual application)</li>
+<li>Creating bindable User Controlls</li>
+<li>Creating Styles, templates and Themes</li>
+<li>Advanced printing in WPF</li>
+<li>Creating Installation</li>
+<li>Creating custom application updater</li>
+<li>Easy way to control Errors in one place</li>
+</ol>
+<p>Let me know in comments if you are interested in these topics or what else do you want to know?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/programming/my-fist-blog-post-series-are-you-interested-in-it/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Sneak peek at ISOR login screen</title>
+		<link>http://www.hariscusto.com/programming/c/sneak-peek-at-isor-login-screen/</link>
+		<comments>http://www.hariscusto.com/programming/c/sneak-peek-at-isor-login-screen/#comments</comments>
+		<pubDate>Wed, 20 Oct 2010 09:10:14 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Blend]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[application]]></category>
+		<category><![CDATA[isor]]></category>
+		<category><![CDATA[outsourcing]]></category>
+		<category><![CDATA[sneak peek]]></category>
+		<category><![CDATA[wpf]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=229</guid>
+		<description><![CDATA[ISOR is our latest WPF application, outsourced for Government of Bosnia and Herzegovina (Federal Ministry of Development, Entrepreneurship and Crafts). Case study will be published in next posts, but for now, how do you like our Login Screen ?]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.hariscusto.com/wp-content/uploads/2010/10/login-app2.jpg"><img class="alignnone size-full wp-image-230" title="ISOR Login screen" src="http://www.hariscusto.com/wp-content/uploads/2010/10/login-app2.jpg" alt="" width="580" height="421" /></a>ISOR is our latest WPF application, outsourced for Government  of Bosnia and Herzegovina (Federal Ministry of Development, Entrepreneurship and Crafts). Case study will be published in next posts, but for now, how do you like our Login Screen <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  ?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/programming/c/sneak-peek-at-isor-login-screen/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Design by Developer VS Designer?</title>
+		<link>http://www.hariscusto.com/ui/design-by-developer-vs-designer/</link>
+		<comments>http://www.hariscusto.com/ui/design-by-developer-vs-designer/#comments</comments>
+		<pubDate>Wed, 06 Oct 2010 15:12:00 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[designer vs developer]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=205</guid>
+		<description><![CDATA[Left side of this image is design not produced, but instructed, by developer (Me). Right side of image is design created by designer (Emanuel Blagonic) Which one is your favorite, and what is your profession? Leave your thoughts in comments]]></description>
+			<content:encoded><![CDATA[<p><a title="Developer Vs Designer" href="http://www.hariscusto.com/wp-content/uploads/2010/10/dugmad-1.jpg" target="_blank"><img class="alignright size-large wp-image-206" title="dugmad-1" src="http://www.hariscusto.com/wp-content/uploads/2010/10/dugmad-1-940x349.jpg" alt="" width="580" height="216" /></a>Left side of this image is design not produced, but instructed, by developer (Me).</p>
+<p>Right side of image is design created by designer (<a href="http://www.blagonic.com/hr/o-nama/">Emanuel Blagonic</a>)</p>
+<p>Which one is your favorite, and what is your profession?</p>
+<p>Leave your thoughts in comments <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/ui/design-by-developer-vs-designer/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Din is dancing on David Guetta&#8217;s music :)</title>
+		<link>http://www.hariscusto.com/music/din-is-dancing-on-david-guettas-music/</link>
+		<comments>http://www.hariscusto.com/music/din-is-dancing-on-david-guettas-music/#comments</comments>
+		<pubDate>Tue, 05 Oct 2010 11:01:14 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Electronic music]]></category>
+		<category><![CDATA[Family]]></category>
+		<category><![CDATA[Funny]]></category>
+		<category><![CDATA[Music]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=201</guid>
+		<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[<p><object width="580" height="435" ><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.facebook.com/v/1630710884769" /><embed src="http://www.facebook.com/v/1630710884769" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="580" height="435"></embed></object></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/music/din-is-dancing-on-david-guettas-music/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>My 2 sweet boys :)</title>
+		<link>http://www.hariscusto.com/family/my-2-sweet-boys/</link>
+		<comments>http://www.hariscusto.com/family/my-2-sweet-boys/#comments</comments>
+		<pubDate>Fri, 24 Sep 2010 12:18:09 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Family]]></category>
+		<category><![CDATA[Funny]]></category>
+		<category><![CDATA[deni]]></category>
+		<category><![CDATA[din]]></category>
+		<category><![CDATA[happy]]></category>
+		<category><![CDATA[smiling]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=197</guid>
+		<description><![CDATA[This are my two boys playing]]></description>
+			<content:encoded><![CDATA[<p>This are my two boys playing <img src='http://www.hariscusto.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="580" height="430" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="data" value="http://www.flickr.com/apps/video/stewart.swf?v=71377" /><param name="flashvars" value="intl_lang=en-us&amp;photo_secret=30001f6cdd&amp;photo_id=4951520773" /><param name="bgcolor" value="#000000" /><param name="allowFullScreen" value="true" /><param name="src" value="http://www.flickr.com/apps/video/stewart.swf?v=71377" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="580" height="430" src="http://www.flickr.com/apps/video/stewart.swf?v=71377" allowfullscreen="true" bgcolor="#000000" flashvars="intl_lang=en-us&amp;photo_secret=30001f6cdd&amp;photo_id=4951520773" data="http://www.flickr.com/apps/video/stewart.swf?v=71377"></embed></object></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/family/my-2-sweet-boys/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to create one click update from bin/debug folder?</title>
+		<link>http://www.hariscusto.com/programming/how-to-create-one-click-update-from-bindebug-folder/</link>
+		<comments>http://www.hariscusto.com/programming/how-to-create-one-click-update-from-bindebug-folder/#comments</comments>
+		<pubDate>Thu, 15 Jul 2010 19:00:28 +0000</pubDate>
+		<dc:creator>Haris Čusto</dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[batch timesaver time]]></category>
+
+		<guid isPermaLink="false">http://www.hariscusto.com/?p=165</guid>
+		<description><![CDATA[Well, it&#8217;s really easy! I don&#8217;t know about you, but I have huge problem with copying files from my debug folders. First of all, it&#8217;s annoying, and second of all it takes time. I&#8217;m using Visual Studio 2010 . I have Solution with 14 projects (yes, it&#8217;s big solution &#8211; actually it&#8217;s POS Sector Solution, [...]]]></description>
+			<content:encoded><![CDATA[<p>Well, it&#8217;s really easy!</p>
+<p>I don&#8217;t know about you, but I have huge problem with copying files from my debug folders. First of all, it&#8217;s annoying, and second of all it takes time. <span id="more-165"></span></p>
+<p>I&#8217;m using Visual Studio 2010 .</p>
+<p>I have Solution with 14 projects (yes, it&#8217;s big solution &#8211; actually it&#8217;s <a href="http://pos-sector.com/en">POS Sector Solution</a>, one of our products for <a title="Software for Clubs" href="http://pos-sector.com/en/pages/view/bars-and-nightclubs">Clubs</a> and <a title="Software for Restaurants" href="http://pos-sector.com/en/pages/view/restaurants">Restaurants</a>), and not all projects are referenced between themselves, so there is no way  to have all of .exe and .dll files in one Debug directory.</p>
+<p>When there is tough day, i need to copy about 20 files from 5 directories for about 10 times in a day, and send them to my teammates for purpose of testing. All that ALT + TAB, CTRL + C, ALT + TAB, CTRL + V x 5 folders * 10 times = 45min / 1h lost every day.</p>
+<p>To solve this, i created Batch file which copy all of files that i need, from Debug  to Update directory.</p>
+<p>Here is example of batch file :</p>
+<p>@echo off</p>
+<p>copy &#8220;D:\projects\POS Sector\bin\Debug\POS.BusinessLogic.dll&#8221; &#8220;C:\UPDATE\POS.BusinessLogic.dll&#8221; /y<br />
+copy &#8220;D:\projects\POS Sector\bin\Debug\POS.DataAccess.dll&#8221; &#8220;C:\UPDATE\POS.DataAccess.dll&#8221; /y</p>
+<p>print</p>
+<p>You can have as many as you need copy statements, but they must be on new line.</p>
+<p>@echo off on first line will prevent any commands in the batch file to be sent to the screen when executed.</p>
+<p>/y param means overwrite existing file.</p>
+<p>Here is <a href="http://www.wikihow.com/Write-a-Batch-File">how you create batch file</a></p>
+<p>The same way you can create batch file which will backup your directory.</p>
+<h2>Do you have some tricks like this one, which are ease to do, but save a lot of time?</h2>
+]]></content:encoded>
+			<wfw:commentRss>http://www.hariscusto.com/programming/how-to-create-one-click-update-from-bindebug-folder/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

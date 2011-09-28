@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+>
+
+<channel rdf:about="http://distrowatch.com/">
+<title>DistroWatch.com: News</title>
+<link>http://distrowatch.com/</link>
+<description>Latest news on Linux distributions and BSD projects</description>
+
+<dc:language>EN</dc:language>
+<dc:rights>Copyright 2001-2011, DistroWatch.com. All Rights Reserved.</dc:rights>
+
+<dc:date>2011-09-26T13:54:01-00:00</dc:date>
+<dc:publisher>DistroWatch.com</dc:publisher>
+<dc:creator>distro@distrowatch.com</dc:creator>
+<dc:subject>Linux/BSD</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+
+<items>
+ <rdf:Seq>
+<rdf:li rdf:resource="http://distrowatch.com/6906"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6905"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6904"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6903"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6902"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6901"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6900"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6899"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6898"></rdf:li>
+<rdf:li rdf:resource="http://distrowatch.com/6897"></rdf:li>
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://distrowatch.com/images/other/dw.png">
+</image>
+<textinput rdf:resource="http://distrowatch.com/table.php">
+</textinput>
+</channel>
+
+<item rdf:about="http://distrowatch.com/6906">
+<title>Distribution Release: Tiny Core Linux 4.0</title>
+<link>http://distrowatch.com/6906</link>
+<description> Robert Shingledecker has announced the release of Tiny Core Linux 4.0, a major new version of the world's smallest graphical desktop Linux distribution: "Team Tiny Core is proud to announce the release of Tiny Core Micro Core 4.0. Change log: updated Linux kernel to 3.0.3, udev to 173,....</description>
+<dc:date>2011-09-26T13:52:07+00:00</dc:date>
+<slash:section>tinycore</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6905">
+<title>DistroWatch Weekly, Issue 424</title>
+<link>http://distrowatch.com/6905</link>
+<description> This week in DistroWatch Weekly: Reviews: Hello again, Chakra News: Debian readies point release, Fedora and openSUSE beta delays, Ubuntu's Wayland progress, the state of Gentoo Security: Beauty and the BEAST - Is TLS 1.0 compromised? Interviews: The new and improved Linux Counter Released last week: IPCop 2.0.0,....</description>
+<dc:date>2011-09-26T09:01:36+00:00</dc:date>
+<slash:section>weekly</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6904">
+<title>Development Release: GhostBSD 2.5 Beta 2</title>
+<link>http://distrowatch.com/6904</link>
+<description> Eric Turgeon has announced the availability of the second beta build of GhostBSD 2.5, a user-friendly, GNOME-based FreeBSD distribution in the form of an installable live CD/DVD: "The beta 2 is out, ready for testing. Take a note that it's based on FreeBSD 9.0 and the system is....</description>
+<dc:date>2011-09-25T23:50:18+00:00</dc:date>
+<slash:section>ghostbsd</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6903">
+<title>Development Release: ClearOS 6.1 Beta 1 "Enterprise"</title>
+<link>http://distrowatch.com/6903</link>
+<description> Peter Baldwin has announced the availability of the first beta release of ClearOS 6.1 "Enterprise" edition, a network and gateway server based on Red Hat Enterprise Linux: "The ClearOS Enterprise 6.1.0 beta 1 release is here! This release will kick-start the process of creating a stable base system:....</description>
+<dc:date>2011-09-24T01:34:21+00:00</dc:date>
+<slash:section>clearos</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6902">
+<title>Distribution Release: IPCop 2.0.0</title>
+<link>http://distrowatch.com/6902</link>
+<description> Olaf Westrik has announced the release of IPCop 2.0.0, a major new release of the Linux firewall distribution geared towards home and SOHO users: "IPCop 2.0.0 is released. IPCop 2.0.0 can be installed using the installation images or as an update from version 1.9.20. For those familiar with....</description>
+<dc:date>2011-09-23T15:27:41+00:00</dc:date>
+<slash:section>ipcop</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6901">
+<title>Distribution Release: Linux Portable Security 1.2.4</title>
+<link>http://distrowatch.com/6901</link>
+<description> A new maintenance release of Linux Portable Security (LPS), a Linux live CD whose goal is to allow users to work on a computer without the risk of exposing their credentials and private data to malware, is ready for download. What's new in this version? "Added more support....</description>
+<dc:date>2011-09-23T04:45:43+00:00</dc:date>
+<slash:section>lps</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6900">
+<title>Development Release: Ubuntu 11.10 Beta 2</title>
+<link>http://distrowatch.com/6900</link>
+<description> Kate Stewart has announced the availability of the second beta release of Ubuntu 11.10, code name "Oneiric Ocelot": "The Ubuntu team is pleased to announce Ubuntu 11.10 Beta 2. Some of the new features now available are: a new set of community-supported ARM architecture images will be available....</description>
+<dc:date>2011-09-22T23:09:58+00:00</dc:date>
+<slash:section>ubuntu</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6899">
+<title>Distribution Release: Incognito Live System 0.8</title>
+<link>http://distrowatch.com/6899</link>
+<description> Incognito Live System, also known as "Tails", is a Debian-based live CD/USB with the goal of providing complete Internet anonymity for the user. A major new release, version 0.8, was announced yesterday: "The Amnesic Incognito Live System, version 0.8, is out. All users must upgrade as soon as....</description>
+<dc:date>2011-09-22T06:42:32+00:00</dc:date>
+<slash:section>incognito</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6898">
+<title>Distribution Release: Kororaa Linux 15</title>
+<link>http://distrowatch.com/6898</link>
+<description> Chris Smart has announced the release of Kororaa Linux 15, a Fedora-based distribution with GNOME or KDE desktops and various beginner-friendly enhancements: "Kororaa 15 has been released and is available for download, in 32-bit and 64-bit variants with KDE 4.6 and GNOME 3. This release includes Ubuntu's Jockey....</description>
+<dc:date>2011-09-20T19:04:19+00:00</dc:date>
+<slash:section>kororaa</slash:section>
+</item>
+
+<item rdf:about="http://distrowatch.com/6897">
+<title>Distribution Release: LliureX 11.09</title>
+<link>http://distrowatch.com/6897</link>
+<description> LliureX, a project of the Council of Culture, Education and Sport at the Municipality of Valencia in Spain, is an Ubuntu-based distribution with support for Valencian (a dialect of Catalan) and Spanish. A new release, version 11.09, was announced earlier today. One of the major new features of....</description>
+<dc:date>2011-09-20T14:38:27+00:00</dc:date>
+<slash:section>lliurex</slash:section>
+</item>
+
+<textinput rdf:about="http://distrowatch.com/table.php">
+<title>Search Distributions</title>
+<description>Search BSD/Linux distributions</description>
+<name>distribution</name>
+<link>http://distrowatch.com/table.php</link>
+</textinput>
+</rdf:RDF>

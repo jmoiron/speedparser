@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:posterous="http://posterous.com/help/rss/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>The Daniel Ooi Stream</title>
+    <link>http://danielooi.com</link>
+    <description>A stream of insight on emerging technology</description>
+    <generator>posterous.com</generator>
+    <link xmlns="http://www.w3.org/2005/Atom" type="application/json" rel="http://api.friendfeed.com/2008/03#sup" href="http://posterous.com/api/sup_update#553534a36" />
+    
+    
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/danielooi" /><feedburner:info uri="danielooi" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://posterous.superfeedr.com/" /><creativeCommons:license>http://creativecommons.org/licenses/by/2.0/</creativeCommons:license><item>
+      <pubDate>Mon, 26 Sep 2011 10:09:00 -0700</pubDate>
+      <title>File Transfer</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/IpWLjrhcTo8/file-transfer</link>
+      <guid isPermaLink="false">http://danielooi.com/file-transfer</guid>
+      <description>&lt;p&gt;
+	&lt;div class="posterous_bookmarklet_entry"&gt;
+      &lt;div class='p_embed p_image_embed'&gt;
+&lt;img alt="Media_httpimgsxkcdcom_erwnn" height="614" src="http://posterous.com/getfile/files.posterous.com/danielooi/bewbdJkADgIHftibjrIquhDiJHlFzuytGkExCAAFowwJAjsDmexCkFxkiJGn/media_httpimgsxkcdcom_Erwnn.png.scaled600.png" width="456" /&gt;
+&lt;/div&gt;
+&lt;div class="posterous_quote_citation"&gt;&lt;a href="http://xkcd.org/949/" rel="nofollow"&gt;via&lt;/a&gt;&lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/file-transfer"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/file-transfer#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=IpWLjrhcTo8:zzD7xoSwJOM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=IpWLjrhcTo8:zzD7xoSwJOM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=IpWLjrhcTo8:zzD7xoSwJOM:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=IpWLjrhcTo8:zzD7xoSwJOM:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=IpWLjrhcTo8:zzD7xoSwJOM:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=IpWLjrhcTo8:zzD7xoSwJOM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=IpWLjrhcTo8:zzD7xoSwJOM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=IpWLjrhcTo8:zzD7xoSwJOM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=IpWLjrhcTo8:zzD7xoSwJOM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/IpWLjrhcTo8" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/file-transfer</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 25 Sep 2011 06:05:32 -0700</pubDate>
+      <title>Seafood soup #rise</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/oOpnRd9XLpA/seafood-soup-rise</link>
+      <guid isPermaLink="false">http://danielooi.com/seafood-soup-rise</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/OJgDx/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/oHEGBEzngpJewApeHDAyBtfGaltCixyJxlEtdvxtmFfrqpiIzBkfDfprAwkn/media_httpimagesinsta_Gjoev.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_gjoev" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/oHEGBEzngpJewApeHDAyBtfGaltCixyJxlEtdvxtmFfrqpiIzBkfDfprAwkn/media_httpimagesinsta_Gjoev.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;br /&gt;Taken at May Garden Restaurant
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/seafood-soup-rise"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/seafood-soup-rise#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=oOpnRd9XLpA:X6UBNB6VKjM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=oOpnRd9XLpA:X6UBNB6VKjM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=oOpnRd9XLpA:X6UBNB6VKjM:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=oOpnRd9XLpA:X6UBNB6VKjM:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=oOpnRd9XLpA:X6UBNB6VKjM:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=oOpnRd9XLpA:X6UBNB6VKjM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=oOpnRd9XLpA:X6UBNB6VKjM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=oOpnRd9XLpA:X6UBNB6VKjM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=oOpnRd9XLpA:X6UBNB6VKjM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/oOpnRd9XLpA" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/seafood-soup-rise</feedburner:origLink></item>
+    <item>
+      <pubDate>Tue, 20 Sep 2011 18:23:06 -0700</pubDate>
+      <title>Apps update - @instagram 2.0</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/_bcfaZNXsfE/apps-update-instagram-20</link>
+      <guid isPermaLink="false">http://danielooi.com/apps-update-instagram-20</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/NrCRc/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/sdddduCCFmqEaBlwbcgnpneGjzDAwcIIdzucuegjyIbFDhgayegEdkBxtBlo/media_httpimagesinsta_Jseqf.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_jseqf" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/sdddduCCFmqEaBlwbcgnpneGjzDAwcIIdzucuegjyIbFDhgayegEdkBxtBlo/media_httpimagesinsta_Jseqf.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/apps-update-instagram-20"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/apps-update-instagram-20#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=_bcfaZNXsfE:X3riH_iAVac:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=_bcfaZNXsfE:X3riH_iAVac:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=_bcfaZNXsfE:X3riH_iAVac:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=_bcfaZNXsfE:X3riH_iAVac:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=_bcfaZNXsfE:X3riH_iAVac:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=_bcfaZNXsfE:X3riH_iAVac:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=_bcfaZNXsfE:X3riH_iAVac:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=_bcfaZNXsfE:X3riH_iAVac:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=_bcfaZNXsfE:X3riH_iAVac:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/_bcfaZNXsfE" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/apps-update-instagram-20</feedburner:origLink></item>
+    <item>
+      <pubDate>Mon, 12 Sep 2011 04:41:16 -0700</pubDate>
+      <title>Mini Heinz Tomato Ketchup</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/Uum7QI-NSKw/mini-heinz-tomato-ketchup</link>
+      <guid isPermaLink="false">http://danielooi.com/mini-heinz-tomato-ketchup</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/M4xUJ/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/pBcCwxqpezDmqndHikftDnEEnqmoFkgHCHvmlkJeABjECJIiaezDpBBivytg/media_httpimagesinsta_JdgBb.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_jdgbb" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/pBcCwxqpezDmqndHikftDnEEnqmoFkgHCHvmlkJeABjECJIiaezDpBBivytg/media_httpimagesinsta_JdgBb.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/mini-heinz-tomato-ketchup"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/mini-heinz-tomato-ketchup#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=Uum7QI-NSKw:B5YQEKvJKAM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=Uum7QI-NSKw:B5YQEKvJKAM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=Uum7QI-NSKw:B5YQEKvJKAM:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=Uum7QI-NSKw:B5YQEKvJKAM:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=Uum7QI-NSKw:B5YQEKvJKAM:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=Uum7QI-NSKw:B5YQEKvJKAM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=Uum7QI-NSKw:B5YQEKvJKAM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=Uum7QI-NSKw:B5YQEKvJKAM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=Uum7QI-NSKw:B5YQEKvJKAM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/Uum7QI-NSKw" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/mini-heinz-tomato-ketchup</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 11 Sep 2011 06:47:00 -0700</pubDate>
+      <title>infographics : What’s the Deal with Daily Deals?</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/TYUut9bBVOE/infographics-whats-the-deal-with-daily-deals</link>
+      <guid isPermaLink="false">http://danielooi.com/infographics-whats-the-deal-with-daily-deals</guid>
+      <description>&lt;p&gt;
+	&lt;div class="posterous_bookmarklet_entry"&gt;
+      &lt;div class='p_embed p_image_embed'&gt;
+&lt;img alt="Media_httpbloglab42co_ybobl" height="1024" src="http://posterous.com/getfile/files.posterous.com/danielooi/HcobIyeerGDtfIyBoDlthdaqtnmGlntFoyrgByAweqttjknDyziBAndJDtAj/media_httpbloglab42co_yBoBl.jpg.scaled600.jpg" width="283" /&gt;
+&lt;/div&gt;
+&lt;div class="posterous_quote_citation"&gt; &lt;a href="http://blog.lab42.com/" rel="nofollow"&gt;via&lt;/a&gt;&lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/infographics-whats-the-deal-with-daily-deals"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/infographics-whats-the-deal-with-daily-deals#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=TYUut9bBVOE:2YleLh_JNM4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=TYUut9bBVOE:2YleLh_JNM4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=TYUut9bBVOE:2YleLh_JNM4:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=TYUut9bBVOE:2YleLh_JNM4:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=TYUut9bBVOE:2YleLh_JNM4:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=TYUut9bBVOE:2YleLh_JNM4:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=TYUut9bBVOE:2YleLh_JNM4:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=TYUut9bBVOE:2YleLh_JNM4:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=TYUut9bBVOE:2YleLh_JNM4:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/TYUut9bBVOE" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/infographics-whats-the-deal-with-daily-deals</feedburner:origLink></item>
+    <item>
+      <pubDate>Sat, 10 Sep 2011 18:12:00 -0700</pubDate>
+      <title>Facts About YouTube</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/wRMgWVA_S_c/facts-about-youtube</link>
+      <guid isPermaLink="false">http://danielooi.com/facts-about-youtube</guid>
+      <description>&lt;p&gt;
+	&lt;div class="posterous_bookmarklet_entry"&gt;
+      &lt;div class='p_embed p_image_embed'&gt;
+&lt;img alt="Media_httpwwwonlinesc_ofvcf" height="2308" src="http://posterous.com/getfile/files.posterous.com/danielooi/CAufgHIufujHdfemGitahJGhhcxxtnxGbCtvoGudrjCIJGomgmarHvhaJafb/media_httpwwwonlinesc_oFvcF.jpg.scaled600.jpg" width="600" /&gt;
+&lt;/div&gt;
+&lt;div class="posterous_quote_citation"&gt; &lt;a href="http://www.onlineschools.org/blog/youtube/" rel="nofollow"&gt;via&lt;/a&gt;&lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/facts-about-youtube"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/facts-about-youtube#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=wRMgWVA_S_c:45Yuc_DMEzA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=wRMgWVA_S_c:45Yuc_DMEzA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=wRMgWVA_S_c:45Yuc_DMEzA:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=wRMgWVA_S_c:45Yuc_DMEzA:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=wRMgWVA_S_c:45Yuc_DMEzA:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=wRMgWVA_S_c:45Yuc_DMEzA:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=wRMgWVA_S_c:45Yuc_DMEzA:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=wRMgWVA_S_c:45Yuc_DMEzA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=wRMgWVA_S_c:45Yuc_DMEzA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/wRMgWVA_S_c" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/facts-about-youtube</feedburner:origLink></item>
+    <item>
+      <pubDate>Sat, 10 Sep 2011 18:02:00 -0700</pubDate>
+      <title>Infographics : The Origins of Programming</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/5u8eaRU8zmQ/infographics-the-origins-of-programming</link>
+      <guid isPermaLink="false">http://danielooi.com/infographics-the-origins-of-programming</guid>
+      <description>&lt;p&gt;
+	&lt;div class="posterous_bookmarklet_entry"&gt;
+      &lt;div class='p_embed p_image_embed'&gt;
+&lt;img alt="Media_httpwwwonlinesc_bblgo" height="4286" src="http://posterous.com/getfile/files.posterous.com/danielooi/bycqcxDgmjDayaGjjxuGksznxGJxfukCBxhfaFBxssEwxxBtwvoemyGhcglt/media_httpwwwonlinesc_BBlgo.jpg.scaled600.jpg" width="600" /&gt;
+&lt;/div&gt;
+&lt;div class="posterous_quote_citation"&gt; &lt;a href="http://www.onlineschools.org/blog/programming/" rel="nofollow"&gt;via&lt;/a&gt;&lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/infographics-the-origins-of-programming"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/infographics-the-origins-of-programming#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5u8eaRU8zmQ:v8pQpFT3e9E:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5u8eaRU8zmQ:v8pQpFT3e9E:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5u8eaRU8zmQ:v8pQpFT3e9E:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=5u8eaRU8zmQ:v8pQpFT3e9E:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5u8eaRU8zmQ:v8pQpFT3e9E:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5u8eaRU8zmQ:v8pQpFT3e9E:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=5u8eaRU8zmQ:v8pQpFT3e9E:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5u8eaRU8zmQ:v8pQpFT3e9E:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=5u8eaRU8zmQ:v8pQpFT3e9E:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/5u8eaRU8zmQ" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/infographics-the-origins-of-programming</feedburner:origLink></item>
+    <item>
+      <pubDate>Sat, 27 Aug 2011 09:03:47 -0700</pubDate>
+      <title>Kik me @danielooi</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/xozY-BQgCGc/kik-me-danielooi</link>
+      <guid isPermaLink="false">http://danielooi.com/kik-me-danielooi</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/LaAgN/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/qDAEwreHnCasxaAkHqvnyFHspspgmhhlbnvtFeaJlpcisIlmJJhmuwoElzAe/media_httpimagesinsta_HlGiq.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_hlgiq" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/qDAEwreHnCasxaAkHqvnyFHspspgmhhlbnvtFeaJlpcisIlmJJhmuwoElzAe/media_httpimagesinsta_HlGiq.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/kik-me-danielooi"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/kik-me-danielooi#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=xozY-BQgCGc:vZ9NU9jxpiI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=xozY-BQgCGc:vZ9NU9jxpiI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=xozY-BQgCGc:vZ9NU9jxpiI:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=xozY-BQgCGc:vZ9NU9jxpiI:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=xozY-BQgCGc:vZ9NU9jxpiI:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=xozY-BQgCGc:vZ9NU9jxpiI:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=xozY-BQgCGc:vZ9NU9jxpiI:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=xozY-BQgCGc:vZ9NU9jxpiI:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=xozY-BQgCGc:vZ9NU9jxpiI:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/xozY-BQgCGc" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/kik-me-danielooi</feedburner:origLink></item>
+    <item>
+      <pubDate>Tue, 19 Jul 2011 10:55:38 -0700</pubDate>
+      <title>Oh hi! #Google+ for #iPhone</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/2XcdBd_35rQ/oh-hi-google-for-iphone</link>
+      <guid isPermaLink="false">http://danielooi.com/oh-hi-google-for-iphone</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/ICOi3/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/hdChIsGnqpmhlJeDkcIujcvghpkFlsrcbjCeuhHaflufrnoCuvccvewzrpxh/media_httpimagesinsta_BGHFi.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_bghfi" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/hdChIsGnqpmhlJeDkcIujcvghpkFlsrcbjCeuhHaflufrnoCuvccvewzrpxh/media_httpimagesinsta_BGHFi.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/oh-hi-google-for-iphone"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/oh-hi-google-for-iphone#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=2XcdBd_35rQ:2bktOeDsa6Q:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=2XcdBd_35rQ:2bktOeDsa6Q:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=2XcdBd_35rQ:2bktOeDsa6Q:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=2XcdBd_35rQ:2bktOeDsa6Q:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=2XcdBd_35rQ:2bktOeDsa6Q:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=2XcdBd_35rQ:2bktOeDsa6Q:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=2XcdBd_35rQ:2bktOeDsa6Q:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=2XcdBd_35rQ:2bktOeDsa6Q:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=2XcdBd_35rQ:2bktOeDsa6Q:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/2XcdBd_35rQ" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/oh-hi-google-for-iphone</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 17 Jul 2011 16:42:07 -0700</pubDate>
+      <title>Going home</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/JQBEtYsKWuM/going-home</link>
+      <guid isPermaLink="false">http://danielooi.com/going-home</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/H6YEc/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/ztsgHusitcFmsxwpmtcACzuxedddAJgkEqvbHDbEkrnJdJDDpzIJuycydoEq/media_httpimagesinsta_eutae.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_eutae" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/ztsgHusitcFmsxwpmtcACzuxedddAJgkEqvbHDbEkrnJdJDDpzIJuycydoEq/media_httpimagesinsta_eutae.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/going-home"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/going-home#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=JQBEtYsKWuM:2w1-F-tcmek:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=JQBEtYsKWuM:2w1-F-tcmek:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=JQBEtYsKWuM:2w1-F-tcmek:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=JQBEtYsKWuM:2w1-F-tcmek:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=JQBEtYsKWuM:2w1-F-tcmek:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=JQBEtYsKWuM:2w1-F-tcmek:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=JQBEtYsKWuM:2w1-F-tcmek:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=JQBEtYsKWuM:2w1-F-tcmek:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=JQBEtYsKWuM:2w1-F-tcmek:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/JQBEtYsKWuM" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/going-home</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 17 Jul 2011 16:37:11 -0700</pubDate>
+      <title>Missing home</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/pKOgnzJBKoc/missing-home</link>
+      <guid isPermaLink="false">http://danielooi.com/missing-home</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/H6WsN/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/bhIjfxqGcdCgfrxccfqbpfHtrGlwxiemvkbjxxIooGzxtCBtjrFbAHAfdmBA/media_httpimagesinsta_FiaFm.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_fiafm" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/bhIjfxqGcdCgfrxccfqbpfHtrGlwxiemvkbjxxIooGzxtCBtjrFbAHAfdmBA/media_httpimagesinsta_FiaFm.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;br /&gt;Taken at Chai Diam Ma
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/missing-home"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/missing-home#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=pKOgnzJBKoc:1SHRWNEhoRw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=pKOgnzJBKoc:1SHRWNEhoRw:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=pKOgnzJBKoc:1SHRWNEhoRw:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=pKOgnzJBKoc:1SHRWNEhoRw:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=pKOgnzJBKoc:1SHRWNEhoRw:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=pKOgnzJBKoc:1SHRWNEhoRw:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=pKOgnzJBKoc:1SHRWNEhoRw:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=pKOgnzJBKoc:1SHRWNEhoRw:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=pKOgnzJBKoc:1SHRWNEhoRw:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/pKOgnzJBKoc" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/missing-home</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 17 Jul 2011 16:33:26 -0700</pubDate>
+      <title>Body is our world, make yours beautiful</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/6KO8fUxzbig/body-is-our-world-make-yours-beautiful</link>
+      <guid isPermaLink="false">http://danielooi.com/body-is-our-world-make-yours-beautiful</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/H6VoT/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/duvndgkdeFtmsyAxuGchHFDuhigJqnGpBJmuhpDtHEkrEHlggJCEIljFqgsk/media_httpimagesinsta_qBgFq.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_qbgfq" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/duvndgkdeFtmsyAxuGchHFDuhigJqnGpBJmuhpDtHEkrEHlggJCEIljFqgsk/media_httpimagesinsta_qBgFq.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;br /&gt;Taken at Chai Diam Ma
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/body-is-our-world-make-yours-beautiful"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/body-is-our-world-make-yours-beautiful#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=6KO8fUxzbig:T5uV0taTHdQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=6KO8fUxzbig:T5uV0taTHdQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=6KO8fUxzbig:T5uV0taTHdQ:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=6KO8fUxzbig:T5uV0taTHdQ:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=6KO8fUxzbig:T5uV0taTHdQ:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=6KO8fUxzbig:T5uV0taTHdQ:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=6KO8fUxzbig:T5uV0taTHdQ:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=6KO8fUxzbig:T5uV0taTHdQ:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=6KO8fUxzbig:T5uV0taTHdQ:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/6KO8fUxzbig" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/body-is-our-world-make-yours-beautiful</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 17 Jul 2011 16:30:36 -0700</pubDate>
+      <title>The moon from foreign country isn't any rounder than home</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/eA42OWOQxLM/the-moon-from-foreign-country-isnt-any-rounde</link>
+      <guid isPermaLink="false">http://danielooi.com/the-moon-from-foreign-country-isnt-any-rounde</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/H6Uij/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/tntfEJzJjozjAwBGxgImACmokwIsgjJmeiieunJljGDcpGdeCDywnFvyiBBj/media_httpimagesinsta_eguox.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_eguox" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/tntfEJzJjozjAwBGxgImACmokwIsgjJmeiieunJljGDcpGdeCDywnFvyiBBj/media_httpimagesinsta_eguox.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;br /&gt;Taken at Chai Diam Ma
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/the-moon-from-foreign-country-isnt-any-rounde"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/the-moon-from-foreign-country-isnt-any-rounde#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=eA42OWOQxLM:BJ0DBcvokSo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=eA42OWOQxLM:BJ0DBcvokSo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=eA42OWOQxLM:BJ0DBcvokSo:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=eA42OWOQxLM:BJ0DBcvokSo:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=eA42OWOQxLM:BJ0DBcvokSo:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=eA42OWOQxLM:BJ0DBcvokSo:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=eA42OWOQxLM:BJ0DBcvokSo:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=eA42OWOQxLM:BJ0DBcvokSo:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=eA42OWOQxLM:BJ0DBcvokSo:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/eA42OWOQxLM" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/the-moon-from-foreign-country-isnt-any-rounde</feedburner:origLink></item>
+    <item>
+      <pubDate>Sun, 17 Jul 2011 16:27:38 -0700</pubDate>
+      <title>Art piece</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/bGb-QbbGSiU/art-piece</link>
+      <guid isPermaLink="false">http://danielooi.com/art-piece</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/H6ULF/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/GswHpnAvCsxyxgluzwdGmBhkAkjkwxbHkABJozrhuuhmlnjheiohCjioAEEi/media_httpimagesinsta_HAkHs.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_hakhs" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/GswHpnAvCsxyxgluzwdGmBhkAkjkwxbHkABJozrhuuhmlnjheiohCjioAEEi/media_httpimagesinsta_HAkHs.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;br /&gt;Taken at Chai Diam Ma
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/art-piece"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/art-piece#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=bGb-QbbGSiU:w2_O9nO7d8g:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=bGb-QbbGSiU:w2_O9nO7d8g:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=bGb-QbbGSiU:w2_O9nO7d8g:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=bGb-QbbGSiU:w2_O9nO7d8g:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=bGb-QbbGSiU:w2_O9nO7d8g:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=bGb-QbbGSiU:w2_O9nO7d8g:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=bGb-QbbGSiU:w2_O9nO7d8g:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=bGb-QbbGSiU:w2_O9nO7d8g:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=bGb-QbbGSiU:w2_O9nO7d8g:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/bGb-QbbGSiU" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/art-piece</feedburner:origLink></item>
+    <item>
+      <pubDate>Wed, 13 Jul 2011 09:00:02 -0700</pubDate>
+      <title>Checking out Google+</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/geZ5xZ61Shc/checking-out-google-5965</link>
+      <guid isPermaLink="false">http://danielooi.com/checking-out-google-5965</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/Hkvll/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/yICmdAdbfGIEJeiEezhgtJjevItpisltzJoghvnrCqIFGxExnHnbztHCpzDG/media_httpimagesinsta_ouGFd.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_ougfd" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/yICmdAdbfGIEJeiEezhgtJjevItpisltzJoghvnrCqIFGxExnHnbztHCpzDG/media_httpimagesinsta_ouGFd.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/checking-out-google-5965"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/checking-out-google-5965#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=geZ5xZ61Shc:lCsn1VSF5Wc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=geZ5xZ61Shc:lCsn1VSF5Wc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=geZ5xZ61Shc:lCsn1VSF5Wc:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=geZ5xZ61Shc:lCsn1VSF5Wc:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=geZ5xZ61Shc:lCsn1VSF5Wc:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=geZ5xZ61Shc:lCsn1VSF5Wc:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=geZ5xZ61Shc:lCsn1VSF5Wc:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=geZ5xZ61Shc:lCsn1VSF5Wc:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=geZ5xZ61Shc:lCsn1VSF5Wc:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/geZ5xZ61Shc" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/checking-out-google-5965</feedburner:origLink></item>
+    <item>
+      <pubDate>Wed, 06 Jul 2011 16:49:08 -0700</pubDate>
+      <title>Absolut Vodka Peach</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/5w4DPny9p20/absolut-vodka-peach</link>
+      <guid isPermaLink="false">http://danielooi.com/absolut-vodka-peach</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/HHATo/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/yIrCHDhBGJtjlazAsemFfqnAtecexHrwpxgymwyzIxyDxlCrBiDvfurCmHGm/media_httpimagesinsta_Jmgsa.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_jmgsa" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/yIrCHDhBGJtjlazAsemFfqnAtecexHrwpxgymwyzIxyDxlCrBiDvfurCmHGm/media_httpimagesinsta_Jmgsa.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/absolut-vodka-peach"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/absolut-vodka-peach#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5w4DPny9p20:6YEFhzPy4CU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5w4DPny9p20:6YEFhzPy4CU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5w4DPny9p20:6YEFhzPy4CU:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=5w4DPny9p20:6YEFhzPy4CU:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5w4DPny9p20:6YEFhzPy4CU:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5w4DPny9p20:6YEFhzPy4CU:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=5w4DPny9p20:6YEFhzPy4CU:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=5w4DPny9p20:6YEFhzPy4CU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=5w4DPny9p20:6YEFhzPy4CU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/5w4DPny9p20" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/absolut-vodka-peach</feedburner:origLink></item>
+    <item>
+      <pubDate>Sat, 25 Jun 2011 20:21:18 -0700</pubDate>
+      <title>Love shape garlic toast</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/euEGW38TB78/love-shape-garlic-toast</link>
+      <guid isPermaLink="false">http://danielooi.com/love-shape-garlic-toast</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/GZtb0/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/hjvdpogwDFooeqEDCiabfhgyrezDyAbsAtlmAHEoikIefwpEnesEABHJrgdi/media_httpimagesinsta_xBAcl.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_xbacl" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/hjvdpogwDFooeqEDCiabfhgyrezDyAbsAtlmAHEoikIefwpEnesEABHJrgdi/media_httpimagesinsta_xBAcl.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/love-shape-garlic-toast"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/love-shape-garlic-toast#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=euEGW38TB78:kLF_laA0-4o:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=euEGW38TB78:kLF_laA0-4o:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=euEGW38TB78:kLF_laA0-4o:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=euEGW38TB78:kLF_laA0-4o:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=euEGW38TB78:kLF_laA0-4o:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=euEGW38TB78:kLF_laA0-4o:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=euEGW38TB78:kLF_laA0-4o:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=euEGW38TB78:kLF_laA0-4o:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=euEGW38TB78:kLF_laA0-4o:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/euEGW38TB78" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/love-shape-garlic-toast</feedburner:origLink></item>
+    <item>
+      <pubDate>Fri, 10 Jun 2011 18:21:39 -0700</pubDate>
+      <title>Good morning! Have a cup of #oldtown white coffee... Preparing for last paper of this semester</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/THVeZiyY3rQ/good-morning-have-a-cup-of-oldtown-white-coff</link>
+      <guid isPermaLink="false">http://danielooi.com/good-morning-have-a-cup-of-oldtown-white-coff</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/FgjTU/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/vueofdoFdnAqaHIthAostADgBepgazexgElruvdpEujueFiuBpvhivBxldqu/media_httpimagesinsta_ubssx.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_ubssx" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/vueofdoFdnAqaHIthAostADgBepgazexgElruvdpEujueFiuBpvhivBxldqu/media_httpimagesinsta_ubssx.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/good-morning-have-a-cup-of-oldtown-white-coff"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/good-morning-have-a-cup-of-oldtown-white-coff#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=THVeZiyY3rQ:Oz6MiMNjGhI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=THVeZiyY3rQ:Oz6MiMNjGhI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=THVeZiyY3rQ:Oz6MiMNjGhI:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=THVeZiyY3rQ:Oz6MiMNjGhI:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=THVeZiyY3rQ:Oz6MiMNjGhI:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=THVeZiyY3rQ:Oz6MiMNjGhI:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=THVeZiyY3rQ:Oz6MiMNjGhI:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=THVeZiyY3rQ:Oz6MiMNjGhI:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=THVeZiyY3rQ:Oz6MiMNjGhI:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/THVeZiyY3rQ" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/good-morning-have-a-cup-of-oldtown-white-coff</feedburner:origLink></item>
+    <item>
+      <pubDate>Tue, 07 Jun 2011 20:51:43 -0700</pubDate>
+      <title>Made my own Sandwich this morning but didn't have the time to eat it because traffic jam! Nearly late for exam #brunch</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/3pVrK08WIZg/made-my-own-sandwich-this-morning-but-didnt-h-50778</link>
+      <guid isPermaLink="false">http://danielooi.com/made-my-own-sandwich-this-morning-but-didnt-h-50778</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/FXhW4/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/kawuBJdrweBEtCwqmDdubbokjmfawGrcGEFiCGFnbIgpACEmywseptDcfDyr/media_httpimagesinsta_sqGHt.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_sqght" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/kawuBJdrweBEtCwqmDdubbokjmfawGrcGEFiCGFnbIgpACEmywseptDcfDyr/media_httpimagesinsta_sqGHt.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;br /&gt;Taken at Wawasan Open University
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/made-my-own-sandwich-this-morning-but-didnt-h-50778"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/made-my-own-sandwich-this-morning-but-didnt-h-50778#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=3pVrK08WIZg:ice2J_fEWNM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=3pVrK08WIZg:ice2J_fEWNM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=3pVrK08WIZg:ice2J_fEWNM:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=3pVrK08WIZg:ice2J_fEWNM:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=3pVrK08WIZg:ice2J_fEWNM:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=3pVrK08WIZg:ice2J_fEWNM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=3pVrK08WIZg:ice2J_fEWNM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=3pVrK08WIZg:ice2J_fEWNM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=3pVrK08WIZg:ice2J_fEWNM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/3pVrK08WIZg" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/made-my-own-sandwich-this-morning-but-didnt-h-50778</feedburner:origLink></item>
+    <item>
+      <pubDate>Sat, 04 Jun 2011 01:15:14 -0700</pubDate>
+      <title>Restoring iOS</title>
+      <link>http://feedproxy.google.com/~r/danielooi/~3/cyMtvn-fNDA/restoring-ios</link>
+      <guid isPermaLink="false">http://danielooi.com/restoring-ios</guid>
+      <description>&lt;p&gt;
+	&lt;a href="http://instagr.am/p/FKSCp/"&gt;&lt;div class='p_embed p_image_embed'&gt;
+&lt;a href="http://posterous.com/getfile/files.posterous.com/danielooi/yDcewuexbvIsHzJEgoormlAbwurvwtauHnltFoJwvggsiiAjrbbDoEaludto/media_httpimagesinsta_EJIHz.jpg.scaled1000.jpg"&gt;&lt;img alt="Media_httpimagesinsta_ejihz" height="600" src="http://posterous.com/getfile/files.posterous.com/danielooi/yDcewuexbvIsHzJEgoormlAbwurvwtauHnltFoJwvggsiiAjrbbDoEaludto/media_httpimagesinsta_EJIHz.jpg.scaled600.jpg" width="600" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+	
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://danielooi.com/restoring-ios"&gt;Permalink&lt;/a&gt; 
+
+	| &lt;a href="http://danielooi.com/restoring-ios#comment"&gt;Leave a comment&amp;nbsp;&amp;nbsp;&amp;raquo;&lt;/a&gt;
+
+&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=cyMtvn-fNDA:z_8f7MiC_6c:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=cyMtvn-fNDA:z_8f7MiC_6c:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=cyMtvn-fNDA:z_8f7MiC_6c:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=cyMtvn-fNDA:z_8f7MiC_6c:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=cyMtvn-fNDA:z_8f7MiC_6c:TzevzKxY174"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?d=TzevzKxY174" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=cyMtvn-fNDA:z_8f7MiC_6c:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=cyMtvn-fNDA:z_8f7MiC_6c:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/danielooi?a=cyMtvn-fNDA:z_8f7MiC_6c:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/danielooi?i=cyMtvn-fNDA:z_8f7MiC_6c:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/danielooi/~4/cyMtvn-fNDA" height="1" width="1"/&gt;</description>
+      <posterous:author>
+        <posterous:userImage>http://files.posterous.com/user_profile_pics/50440/mypictr_90x90.jpg</posterous:userImage>
+        <posterous:profileUrl>http://posterous.com/people/PYUpxjrbNf</posterous:profileUrl>
+        <posterous:firstName>Daniel</posterous:firstName>
+        <posterous:lastName>Ooi</posterous:lastName>
+        <posterous:nickName>@danielooi</posterous:nickName>
+        <posterous:displayName>Daniel Ooi</posterous:displayName>
+      </posterous:author>
+    <feedburner:origLink>http://danielooi.com/restoring-ios</feedburner:origLink></item>
+  </channel>
+</rss>

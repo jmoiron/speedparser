@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Bradley Durham Designs</title>
+	
+	<link>http://bradleydurham.com</link>
+	<description>Hands On Web Solutions</description>
+	<lastBuildDate>Thu, 04 Aug 2011 12:00:34 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/BradleyDurham" /><feedburner:info uri="bradleydurham" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Creating Custom Post Types – Portfolio</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/dtOFsrot_W8/</link>
+		<comments>http://bradleydurham.com/2011/creating-custom-post-types-portfolio/#comments</comments>
+		<pubDate>Thu, 04 Aug 2011 12:00:34 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Education]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[custom post types]]></category>
+		<category><![CDATA[Wordpress Tutorials]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=1182</guid>
+		<description><![CDATA[One of the features that I worked hard to incorporate into my new site were WordPress Custom Post Types. In the past, I had "tricked" WordPress into showing certain posts as portfolio entries. On my new site, the portfolio got its own custom post type. Likewise, the team members on the About page are also custom post types.]]></description>
+			<content:encoded><![CDATA[<p>One of the features that I worked hard to incorporate into my new site were WordPress Custom Post Types. In the past, I had &#8220;tricked&#8221; WordPress into showing certain posts as portfolio entries using categories and other means. On my new site, <a title="Bradley Durham Design Portfolio" href="http://bradleydurham.com/portfolio" target="_blank">my portfolio</a> got its own custom post type. Likewise, the team members on the <a title="Team Members of Bradley Durham Designs" href="http://bradleydurham.com/about" target="_blank">About page</a> are also custom post types.</p>
+<p>There are lots of tutorials online about implementing custom post types. Most of the tutorials I found did not cover some aspects I was hoping to incorporate into my new post types. I wanted to include some custom meta boxes, and make use of them and the other elements in non-traditional ways.  The best <a title="Create Custom Post Types" href="http://thinkvitamin.com/code/create-your-first-wordpress-custom-post-type/" target="_blank">custom post type tutorial</a> I found that came close was on <a title="Think Vitamin" href="http://thinkvitamin.com" target="_blank">ThinkVitamin.com</a>.</p>
+<p>The tutorial was perfect for what I was looking for! It implemented lots of the features I wanted to make use of. I re-purposed the meta boxes, and made them my own. Otherwise, my portfolio creation dashboard looks very similar to what is featured on Think Vitamin.</p>
+<h3>Custom Meta Boxes</h3>
+<p>One thing I wanted to do differently, was to have images of my beautiful websites and graphic creations on each portfolio entry. I needed a way to insert images systematically. I wanted  to have a defined thumbnail image, an enlarged image and title tags on each image. I came up with a workable solution for the time being. I just upload a thumbnail image, an enlarged image, and type in the title tag into the meta boxes. I have made room for up to 5 images per portfolio listing. I would like a way to do this more cleanly. Like an &#8220;add more&#8221; button, and be able to add as many or as few images as I would like. (In the works!) Beside that one issue, I am happy with my results.</p>
+<p><img class="aligncenter size-full wp-image-1199" title="Custom Meta Boxes" src="http://bradleydurham.com/wp-content/uploads/2011/08/custom-meta-boxes.jpg" alt="Custom Meta Boxes" width="550" height="200" /></p>
+<h3>Porting to the Front End</h3>
+<p>The next dilemma was implementing all these neat features on the front end. I mean, now I have all this great content, I want to show it off! I wanted the text content to all be shown in the sidebar of the portfolio pages. I called each meta box in where I wanted, and used the main content in the sidebar as well. The main part of the screen just shows the portfolio images.  To call information from the meta boxes, I made use of the <a title="WordPress Get Post Custom Function" href="http://codex.wordpress.org/Function_Reference/get_post_custom" target="_blank">WordPress function</a> <code>get_post_custom();</code>.</p>
+<p>Like the portfolio custom post type from the Think Vitamin article, I used the custom taxonomy (aka&#8230; Custom Categories) to list the skills used to create each portfolio piece. I wanted to have this listed on my portfolio page. However, I did not want the list items link to a category page, <a href="http://codex.wordpress.org/Function_Reference/get_the_term_list" target="_blank">which is default if you use</a> <code>echo get_the_term_list( $id, $taxonomy, $before, $sep, $after );</code>.  I did use the function to get the listing of custom taxonomy. However, to output the list, I used <code>echo strip_tags();</code> to strip away all the markup except for the &#8220;li&#8221; tags. I know this was a little anal, but when you have something in mind, you try to make it happen. Right?</p>
+<p>I hope that gives a brief insight into how I made my new portfolio come to life. It was hard work, but fun all the same. Next time, I hope to cover how I made the team members come to life on the about page.</p>
+<p>Stay Tuned!</p>
+<p>As always, thanks for reading!</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/dtOFsrot_W8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/creating-custom-post-types-portfolio/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/creating-custom-post-types-portfolio/</feedburner:origLink></item>
+		<item>
+		<title>New Site Up!</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/4XKEjUqOW7k/</link>
+		<comments>http://bradleydurham.com/2011/new-site-up/#comments</comments>
+		<pubDate>Tue, 19 Jul 2011 12:00:10 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Portfolio]]></category>
+		<category><![CDATA[redesign]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=1165</guid>
+		<description><![CDATA[I have been working on this for a couple of months now. I gave out <a title="Sneak Peek" href="http://bradleydurham.com/2011/sneak-peek-2011/">some teasers</a> when I was just in the planning and pre-design phases. Now it is done! Well, mostly done. There a still some things to be worked out, but overall I am very pleased with what has taken place.]]></description>
+			<content:encoded><![CDATA[<p>I have been working on this for a couple of months now. I gave out <a title="Sneak Peek" href="http://bradleydurham.com/2011/sneak-peek-2011/">some teasers</a> when I was just in the planning and pre-design phases. Now it is done! Well, mostly done. There a still some things to be worked out, but overall I am very pleased with what has taken place.</p>
+<p>I learned a lot in the time I spent building the site. Many of the things I learned from reading more and more indepth in the <a title="WordPress Codex" href="http://codex.wordpress.org/" target="_blank">WordPress Codex</a>. Other things were learned from blogs that I regularly read and some I stumbled across. I even happened to learn a good bit, or at least put some things into perspective, from a <a title="WordCamp Raleigh Recap" href="http://bradleydurham.com/2011/wordcamp-raleigh-recap/">recent WordCamp</a> i attended.</p>
+<h2>Lessons Learned:</h2>
+<ul>
+<li>Create new post types in WordPress and incorporate them into the theme</li>
+<li>Add meta boxes to new post pages/custom post pages on the back end</li>
+<li>Port information from the new meta boxes to the theme&#8217;s front end</li>
+</ul>
+<p>And I am sure there are several things I am forgetting!</p>
+<h2>Things Left Todo:</h2>
+<ul>
+<li>Move the functions for the custom post types from the functions file to the plugin directory</li>
+<li>Get the home page nailed down to be 100% the way I have envisioned it</li>
+<li>Work on adding content to the blog sidebar</li>
+<li>Now that I have Google+, add a G+ button to the footer</li>
+<li>Get photos added to the About page (this is priority #1)</li>
+<li>There are a handful of places I have extra mark up. I am planning to comb through the HTML elements as well as the style sheet and minimize as much as possible.</li>
+<li>I tried to incorporate several HTML5 and CSS3 elements. There is fall back for older browsers too. I would like to expand the use of new technology, and maybe even incorporate something like Modernizr for the older browsers.</li>
+<li>On the backend, the way I am handling the meta box input for the portfolio images needs some more work. It works ok, but I would like for it to work better/differently.</li>
+</ul>
+<h2>What makes me most happy?</h2>
+<ul>
+<li>I love the way my new logo turned out. A combination of my old logo, and some new elements. For the most part, I am extremely happy with all the graphic elements. One or two changes, but 97% is right on the money.</li>
+<li>The contact page looks fantastic. I am very happy with it. Maybe more than some of the other pages. Of course, I put a ton of work into it.</li>
+<li>The portfolio custom post type is integrated superbly. I like the way almost all the elements of it turned out, particularly on the front end.</li>
+</ul>
+<p>I am planning a series of posts to explain and delve further into how I developed the new site. Stay tuned!</p>
+<p>As always, thanks for reading.</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/4XKEjUqOW7k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/new-site-up/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/new-site-up/</feedburner:origLink></item>
+		<item>
+		<title>Simplicity in All Design</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/4F1-oTWOpb4/</link>
+		<comments>http://bradleydurham.com/2011/simplicity-in-all-design/#comments</comments>
+		<pubDate>Wed, 15 Jun 2011 12:00:30 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[sc license plate]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=1055</guid>
+		<description><![CDATA[I have been a resident of South Carolina most of my life. Except for a few years 2000-2003, when I lived in Atlanta, GA, I have lived in South Carolina. I love lots of things about this state. One of &#8230;]]></description>
+			<content:encoded><![CDATA[<p><img src="http://bradleydurham.com/wp-content/uploads/2011/06/simplicity-in-design.png" alt="" title="Simplicity in Design" width="550" height="200" class="aligncenter size-full wp-image-1082" /></p>
+<p>I have been a resident of South Carolina most of my life. Except for a few years 2000-2003, when I lived in Atlanta, GA, I have lived in South Carolina. I love lots of things about this state. One of my favorite things is the state flag. It is one of the most destinctive flags in the country, and maybe the world. For those who aren&#8217;t familiar with the flag, it is a simple white palmetto tree and crescent moon on a field of navy.</p>
+<div id="attachment_1056" class="wp-caption aligncenter" style="width: 510px"><img class="size-full wp-image-1056" title="Flag of South Carolina" src="http://bradleydurham.com/wp-content/uploads/2011/06/Flag_of_South_Carolina.png" alt="Flag of South Carolina" width="500" height="333" /><p class="wp-caption-text">Source: http://en.wikipedia.org/wiki/File:Flag_of_South_Carolina.svg</p></div>
+<p>As much as I like the flag, I have been disappointed by the state&#8217;s license plates since birth! The first plate I remember is the bicentennial plate (used from 1976-1980). After that there were several good attempts to incorporate the palmetto tree and crescent moon or other South Carolina imagery into the design. The worst I think was the discolored wren. Styles from over the years can be seen at <a title="SC Plates" href="http://www.scplates.com/license-plates/passenger" target="_blank">SC Plates</a>.</p>
+<p>Our current plate is also disappointing. It does feature the palmetto tree and crescent moon. However the sunset is very distracting, and in my opinion, unnecessary.</p>
+<p><img class="aligncenter size-full wp-image-1057" title="SC License Plate" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-license-plate.jpg" alt="SC License Plate" width="576" height="288" /></p>
+<p>I would love to see the DMV generate a contest between artists and graphic designers for a new plate.  In fact, I am going to throw out a few takes on what I would love to see. If anyone at the DMV is listening and like what I have to offer, <a href="mailto:bradley@bradleydurham.com" target="_blank">shoot me an email</a>. Here they are:</p>
+<p><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-1.png"><img class="alignleft size-full wp-image-1070" title="South Carolina License Plate Mock Up" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-1-thumb.jpg" alt="South Carolina License Plate Mock Up" width="225" height="113" /></a><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-2.png"><img class="alignright size-full wp-image-1071" title="South Carolina License Plate Mock Up" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-2-thumb.jpg" alt="South Carolina License Plate Mock Up" width="225" height="113" /></a></p>
+<p><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-3.png"><img class="alignleft size-full wp-image-1072" title="South Carolina License Plate Mock Up" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-3-thumb.jpg" alt="South Carolina License Plate Mock Up" width="225" height="113" /></a><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-4.png"><img class="alignright size-full wp-image-1073" title="South Carolina License Plate Mock Up" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-4-thumb.jpg" alt="South Carolina License Plate Mock Up" width="225" height="113" /></a></p>
+<p><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-5.png"><img class="alignleft size-full wp-image-1074" title="South Carolina License Plate Mock Up" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-5-thumb.jpg" alt="South Carolina License Plate Mock Up" width="225" height="113" /></a><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-6.png"><img class="alignright size-full wp-image-1075" title="South Carolina License Plate Mock Up" src="http://bradleydurham.com/wp-content/uploads/2011/06/sc-plates-6-thumb.jpg" alt="South Carolina License Plate Mock Up" width="225" height="113" /></a></p>
+<div style="clear:both;">
+<p>I am not sure why we always have to over-think the license plate? Simplicity rules!</p>
+<p>Do you have an idea for an iconic license plate? Share a link to yours in the comments.</p>
+<p>Thanks for reading.</p>
+<p class="signature">Bradley</p>
+</div>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/4F1-oTWOpb4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/simplicity-in-all-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/simplicity-in-all-design/</feedburner:origLink></item>
+		<item>
+		<title>The Power of Twitter</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/J1uHBA4dGLI/</link>
+		<comments>http://bradleydurham.com/2011/the-power-of-twitter/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 12:00:07 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Education]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[facebook likes]]></category>
+		<category><![CDATA[twitter]]></category>
+		<category><![CDATA[vanity url]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=1037</guid>
+		<description><![CDATA[I have a Facebook page for my company, but up until earlier this week, I didn&#8217;t have enough fans (or whatever they are calling it this week!) to get a vanity url for the page. This wasn&#8217;t a huge deal &#8230;]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1053" title="The Power of Twitter" src="http://bradleydurham.com/wp-content/uploads/2011/06/twitter-is-powerful.jpg" alt="" width="550" height="200" /></p>
+<p>I have a <a title="Bradley Durham Designs on Facebook" href="http://facebook.com/BradleyDurhamDesigns" target="_blank">Facebook page for my company</a>, but up until earlier this week, I didn&#8217;t have enough fans (or whatever they are calling it this week!) to get a vanity url for the page. This wasn&#8217;t a huge deal since I haven&#8217;t been doing too much with the Facebook page, but it was something that I wanted.</p>
+<p>When I first setup the page, I sent out a message on Twitter. A somewhat generic message. Asking for people to like my page with a link back to it. At the same time I put up a similar message on my personal Facebook Wall, and sent out a couple of Facebook messages to close family and friends. I got about 20 likes (or fans) then. Which I didn&#8217;t think was too bad considering the nature of the message and the &#8220;hope and a prayer&#8221; type of process that went into it. Plus I didn&#8217;t really offer anything for being a Facebook Fan. So not bad all-in-all.</p>
+<h2>Fast forward to earlier this week&#8230;</h2>
+<p>I had some free time on my hands, and I decided that I wanted to change tactics and try to get the 25 likes necessary for the vanity url. On Monday, I tweeted this message:</p>
+<p><a href="http://twitter.com/#!/bradleydurham/status/77747249932795904"><img class="aligncenter size-full wp-image-1051" title="Tweet for Facebook Likes" src="http://bradleydurham.com/wp-content/uploads/2011/06/tweet-shot.jpg" alt="Tweet for Facebook Likes" width="524" height="215" /></a></p>
+<p>I posted the same message on my personal Facebook Wall as well.</p>
+<p>Within a matter of 30-40 minutes, my Twitter followers and some of their followers had racked me up to over 25 likes. Since then, I am up to over 30. Not sure how much farther the likes will go based off of that one tweet alone, but it got me enough for my vanity url.</p>
+<h2>Lessons Learned</h2>
+<ol>
+<li><strong>Twitter can be a useful tool even with few followers.</strong> I have less than 400 as of this writing. If just over 6% had liked my Facebook page, I would have gotten my 25 likes even if I were starting from zero. Coupling that with the people I am friends with on Facebook, it wasn&#8217;t too hard to get the 25. I just had to put some effort into it.</li>
+<li><strong>Humor works.</strong> The first time I asked for likes, it was just a straight-up ask. No frills, no thrills. This time, I used a little tongue-in-cheek humor. &#8220;Help a guy out!&#8221; And they did.</li>
+<li><strong>Be nice.</strong> That is my philosophy when using social media in general. No body wants a hassle on there. They want to escape from the hassles! The people who liked and/or retweeted my message were personally thanked. They went out of their way to help me out. Plus, the people who I wasn&#8217;t already following that retweeted, I went ahead and followed them as well.</li>
+</ol>
+<p>Have you used Twitter or Facebook (or any other social media service) to get results for your company? Let me know in the comments.</p>
+<p>Thanks for reading!</p>
+<p class="signature">Bradley</p>
+<p>P.S. If you haven&#8217;t already liked <a title="Bradley Durham Designs on Facebook" href="http://facebook.com/BradleyDurhamDesigns" target="_blank">my Facebook page</a>, now would be a great time!</p>
+<p>P.P.S. Thanks to <a title="John M Hoyt on Twitter" href="http://twitter.com/#!/JohnMHoyt" target="_blank">@JohnMHoyt</a>, <a title="Tubblog on Twitter" href="http://twitter.com/#!/tubblog" target="_blank">@tubblog</a>, and <a title="Rates in Motion on Twitter" href="http://twitter.com/#!/RatesInMotion" target="_blank">@RatesInMotion</a> for the retweets and Facebook likes!</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/J1uHBA4dGLI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/the-power-of-twitter/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/the-power-of-twitter/</feedburner:origLink></item>
+		<item>
+		<title>Discoveries of the Week #8</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/EtLoyE-6VvI/</link>
+		<comments>http://bradleydurham.com/2011/discoveries-of-the-week-8/#comments</comments>
+		<pubDate>Fri, 27 May 2011 13:00:35 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Recommends]]></category>
+		<category><![CDATA[internet discoveries]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=1029</guid>
+		<description><![CDATA[Back again with more great links! If you missed the post earlier this week, I did a recap of my trip to WordCamp Raleigh. I had a great time, and met lots of fun people. I can&#8217;t wait until I &#8230;]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter" title="Discoveries of the Week" src="http://bradleydurham.com/wp-content/uploads/2011/04/discoveries-of-the-week.jpg" alt="Discoveries of the Week" width="550" height="200" /></p>
+<p>Back again with more great links!</p>
+<p>If you missed the post earlier this week, I did <a title="WordCamp Raleigh Recap" href="http://bradleydurham.com/2011/wordcamp-raleigh-recap/">a recap of my trip to WordCamp Raleigh</a>. I had a great time, and met lots of fun people. I can&#8217;t wait until I can make it to another camp.</p>
+<p>Now on with the show&#8230;</p>
+<h2><a title="WordPress Custom Post Type Generator" href="http://themergency.com/generators/wordpress-custom-post-types/" target="_blank">WordPress Custom Post Type Generator</a></h2>
+<p>I learned about this at the WordCamp. Creating custom post types can be confusing and a little tedious. This new tool helps you form the code with several steps. I played around with it a bit, and it looks pretty cool.</p>
+<h2><a title="Google Wants to Kill the URL Bar" href="http://www.readwriteweb.com/archives/google_wants_to_kill_the_url_chrome_13_lets_users.php?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb+%28ReadWriteWeb%29" target="_blank">Google Wants to Kill The URL Bar</a></h2>
+<p>Are you ready for a browser with no URL bar? Google thinks you are (or might be). In Chrome version 13, Google will give the user the ability to hide the URL bar.</p>
+<p>It will be interesting to see how it works. I have definitely liked the fact that Chrome doesn&#8217;t clutter up the screen with too much at the top of the browser.</p>
+<h2><a title="WordPress for iPhone" href="http://itunes.apple.com/us/app/wordpress/id335703880?mt=8" target="_blank">WordPress for iPhone</a></h2>
+<p>Found this thing. Not sure where though. Looks like you can add/edit posts via your iPhone now. I am not sure how helpful this will be. It is hard to type anything lengthy on my iPhone. Maybe with an iPad it might be better? Anyone willing to donate an iPad to research, contact me through the contact form!</p>
+<p>That is going to be it this week. I have spent most of my free time this week working on some custom post types for my site redesign. I am planning a series of articles to talk about that once the new site is launched. Hopefully really soon!</p>
+<p>Thanks for reading.</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/EtLoyE-6VvI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/discoveries-of-the-week-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/discoveries-of-the-week-8/</feedburner:origLink></item>
+		<item>
+		<title>WordCamp Raleigh Recap</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/Y63QAbpEKMo/</link>
+		<comments>http://bradleydurham.com/2011/wordcamp-raleigh-recap/#comments</comments>
+		<pubDate>Wed, 25 May 2011 12:00:43 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=1001</guid>
+		<description><![CDATA[It is done! I have now been to my first WordCamp. My wife and I drove up on Friday afternoon. Raleigh, even though it is a neighboring state is a frickin&#8217; long way from Greenville! It took us a little &#8230;]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter" title="WordCamp Raleigh 2011" src="http://bradleydurham.com/wp-content/uploads/2011/05/wordcamp-raleigh-550x200.jpg" alt="WordCamp Raleigh 2011" width="550" height="200" /></p>
+<p>It is done! I have now been to my first WordCamp.</p>
+<p>My wife and I drove up on Friday afternoon. Raleigh, even though it is a neighboring state is a frickin&#8217; long way from Greenville! It took us a little over four hours to make the drive.</p>
+<p>Emily, my wife, grew up near Raleigh, went to high school in Durham, worked at Duke Hospital for a while, and spent a lot of time in the area in general. So we took some time out to drive around Durham on our way into town. I have never seen Durham or Duke University. Duke has some beautiful buildings on campus. I will say that in general, Duke, Chapel Hill, and Raleigh are beautiful towns. Lots of mature trees just about everywhere you look.</p>
+<p>After touring Durham, we made our way to Raleigh to find our hotel. We stayed at a Red Roof Inn. It has to be one of the nicer ones I have seen. The hotel was located near the interstate and within a five minute drive to the Sheraton where the camp was being held. Nice!</p>
+<h2>Saturday</h2>
+<p>Emily dropped me off early on Saturday morning to start the madness! It was pretty packed. I got checked in and scoped out the layout. The organizers gave everyone a nice swag bag. Complete with a custom polo shirt for the event. Between the knowledge I gained, the connections I made, and the swag the $45 ticket price more than paid for itself.</p>
+<p>I sat through presentations from about 9.30 until about 4.30. It was a long day! Here is a listing of the presentations I listened to:</p>
+<ol>
+<li><a title="Doug Cone" href="http://twitter.com/#!/nullvariable" target="_blank">Doug Cone</a> &#8211; <em>Plugin Power: Best Practices for Plugin Development</em></li>
+<li><a title="Ryan Duff" href="http://twitter.com/#!/ryancduff" target="_blank">Ryan Duff</a> &#8211; <em>Extending CPT: Custom Meta Boxes and Admin Dashboard Widgets</em></li>
+<li><a title="John Ford" href="http://twitter.com/#!/iamjohnford" target="_blank">John Ford</a> &#8211; <em>Security: Be A Superhero</em></li>
+<li><a title="Aaron Jorbin" href="http://twitter.com/#!/aaronjorbin" target="_blank">Aaron Jorbin</a> &#8211; <em>All Your Bugs Are Belong To Us: Debugging and Filing Bug Reports for WordPress</em></li>
+<li><a title="Brad Williams" href="http://twitter.com/#!/williamsba" target="_blank">Brad Williams</a> &#8211; <em>Surviving the Zombie Apocalypse using Custom Post Types and Taxonomies</em></li>
+</ol>
+<p>They were all great, but I think I enjoyed John Ford&#8217;s presentation best. It was informative and funny. John talked about keeping your website secure from S.A.C.&#8217;s (Smoking Asthmatic Clowns)! And he presented it as if you would transform into a superhero by keeping your and your client&#8217;s sites safe. In a lot of ways, I think he is right on the money!</p>
+<p>I was most looking forward to Ryan&#8217;s presentation. It was good, but left me wanting more. I have been trying to get some custom post types incorporated into my site redesign. It is coming along, but I was hoping he would shed some more light on things I was missing. Especially in terms of custom meta boxes. Fortunately, I took good notes because he did point out some resources worth checking out for further learning. As of today, I have some custom meta boxes up and working on my development site. One word of advice I would give to Ryan, if he asked, is to slow down a little. I felt like the presentation was a little rushed, and we had plenty of time left at the end.</p>
+<p>I stumbled into Aaron&#8217;s presentation by happenstance. I really wanted to check out Andy Stratton&#8217;s presentation that was happening at the same time. However, it was less than standing room only for it! There were actually people standing out in the hallway trying to hear what he was saying. I can&#8217;t wait for the video to be posted. From what I heard it was fantastic. Aaron talked about submitting bugs and the process for which to do that. Along with some other things to help resolve or get issued resolved.</p>
+<p>Brad Williams gave more of a user&#8217;s perspective on Custom Post Types and pointed out some plugins and similar resources for getting custom post types set up. Great information. He used Zombie types as his example. It helped to inject some humor into the presentation. I really left feeling like Brad&#8217;s presentation should have preceded Ryan&#8217;s presentation though. So that you went from the basics to the more advanced.</p>
+<p>I met several people the first day. Ironically, most of them are from Greenville. At lunch I sat with <a title="Doug Cone" href="http://twitter.com/#!/nullvariable" target="_blank">Doug Cone</a> (who gave the first presentation of day), <a title="Kevin Dees" href="http://twitter.com/#!/kevindees" target="_blank">Kevin Dees</a>, and <a title="Stephen Harvey" href="http://twitter.com/#!/harvester_sol" target="_blank">Stephen Harvey</a>. Everyone I met was super nice. I can&#8217;t wait to see some of the Greenville folks at some local events.</p>
+<h2>Afternoon</h2>
+<p>By the end of Brad William&#8217;s presentation I was about to have brain overload. So my wife swung by to pick me up, and we headed out on our own adventures. Apparently, they were having some kind of tractor and livestock show at the fairgrounds. It was free to get in, a price I always like. So we drove over to check it out. Let me just say that summer has come to the south!</p>
+<p>There were about 1,000 vintage tractors at the event. The people who own them have taken lots of pains to get them restored and in impeccable condition. I took a handful of photos of some of the more interesting ones.</p>
+
+<a href='http://bradleydurham.com/2011/wordcamp-raleigh-recap/teal-and-red-tractor/' title='Teal and Red Tractor'><img width="150" height="150" src="http://bradleydurham.com/wp-content/uploads/2011/05/teal-and-red-tractor-150x150.jpg" class="attachment-thumbnail" alt="Teal and Red Tractor" title="Teal and Red Tractor" /></a>
+<a href='http://bradleydurham.com/2011/wordcamp-raleigh-recap/skull-and-cross-wrench/' title='Skull and Cross Wrench'><img width="150" height="150" src="http://bradleydurham.com/wp-content/uploads/2011/05/skull-and-cross-wrench-150x150.jpg" class="attachment-thumbnail" alt="Skull and Cross Wrench" title="Skull and Cross Wrench" /></a>
+<a href='http://bradleydurham.com/2011/wordcamp-raleigh-recap/spaceship/' title='Spaceship?'><img width="150" height="150" src="http://bradleydurham.com/wp-content/uploads/2011/05/spaceship-150x150.jpg" class="attachment-thumbnail" alt="Spaceship?" title="Spaceship?" /></a>
+
+<p>After walking around in the heat and blaring sun for a while, we decided that we needed some shade. Luckily, they were also having a tractor pull using vintage tractors. The stands were shaded, so we decided to check it out. Neither of us have ever been to a tractor pull. It was pretty entertaining for a while. Gave us some time to cool off at least! The announcer was funny too. All-in-all a fun afternoon.</p>
+<h2>Sunday</h2>
+<p>I got there probably too early Sunday morning. I showed up around 9 expecting it to be crowded since the first presentation started at 9.30. It wasn&#8217;t! It was nice though. I got to spend a little bit of time talking to Kevin before the presentations started. There were really only two followed by the keynote. The two I attended were:</p>
+<ol>
+<li><a title="Chris Jean" href="http://twitter.com/#!/chrisjean" target="_blank">Chris Jean</a> &#8211; <em>Standardized Loop API: The Next Big Thing</em></li>
+<li><a title="Andrew Nacin" href="http://twitter.com/#!/nacin" target="_blank">Andrew Nacin</a> &#8211; <em>How Not to Write a Plugin</em></li>
+</ol>
+<p>Chris had the presentation of the event! He introduced something that was just sitting right there. He proposed coming up with a standardized way to call the WordPress Loop similar to the way you call the Dynamic Sidebar function. I hope he succeeds in getting some attention for it. I think it would make life easier for lots of people. Me included!</p>
+<p>Andrew kind of expanded on Doug&#8217;s talk from Saturday. However, I think he should have extended the title of the presentation to include something about ways to get involved with the WordPress community. He talked about helping contribute in lots of different ways including submitting bug fixes and helping to write documentation.</p>
+<h2>Keynote</h2>
+<p>The Keynote address was given by Andrew Nacin and <a title="Jane Wells" href="http://twitter.com/#!/janeforshort" target="_blank">Jane Wells</a>. Andrew works for the Audrey Capital and is a core committer for WordPress. Jane is a UI designer who works for Automattic. It wasn&#8217;t really an address in the sense that they stood up to give a speech or presentation. It was a town hall type of setup and the answered questions from the audience. Lots of good Q&amp;A.</p>
+<p><a class="lightbox" href="http://bradleydurham.com/wp-content/uploads/2011/05/keynote.jpg"><img src="http://bradleydurham.com/wp-content/uploads/2011/05/keynote-300x300.jpg" alt="keynote" title="keynote" width="300" height="300" class="aligncenter size-medium wp-image-1017" /></a></p>
+<h2>The Long Ride</h2>
+<p>After the Keynote, we started our long trek home. We stopped for a couple of extended periods and pushed the 4 hour drive out to about 6 hours. Luckily for me, Emily loves to drive, but doesn&#8217;t like to ride. So I got a chauffeured ride both ways! It was good to get home though.</p>
+<p>Can&#8217;t wait for the next WordCamp that is close enough to attend. Congrats to the folks who orchestrated the Raleigh event!</p>
+<p>As always, thanks for reading!</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/Y63QAbpEKMo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/wordcamp-raleigh-recap/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/wordcamp-raleigh-recap/</feedburner:origLink></item>
+		<item>
+		<title>Discoveries of the Week #7</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/yua91FiFZUA/</link>
+		<comments>http://bradleydurham.com/2011/discoveries-of-the-week-7/#comments</comments>
+		<pubDate>Fri, 20 May 2011 12:00:43 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Recommends]]></category>
+		<category><![CDATA[internet discoveries]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=981</guid>
+		<description><![CDATA[This week, my wife and I are headed to a WordCamp in Raleigh. In fact, this post is slated to be posted the morning we are leaving. So by the time you read this... we will be gone.
+
+In honor of going to WordCamp, this is going to be WordPress week for discoveries!]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter" title="Discoveries of the Week" src="http://bradleydurham.com/wp-content/uploads/2011/04/discoveries-of-the-week.jpg" alt="Discoveries of the Week" width="550" height="200" /></p>
+<p>This week, my wife and I are headed to a <a title="WordCamp Raleigh" href="http://wordcampraleigh.com/" target="_blank">WordCamp in Raleigh</a>. In fact, this post is slated to be posted the morning we are leaving. So by the time you read this&#8230; we will be gone.</p>
+<p>In honor of going to WordCamp, this is going to be WordPress week for discoveries!</p>
+<h2><a title="New WordPress Power Tips for Template Developers and Consultants" href="http://www.smashingmagazine.com/2011/05/10/new-wordpress-power-tips-for-template-developers-and-consultants/" target="_blank">New WordPress Power Tips for Template Developers and Consultants</a></h2>
+<p>This link comes from Smashing Magazine. They invariably have some of the greatest tips about all kinds of things related to web design/development from around the web.</p>
+<p>This post gets into some techie ways to modify and enhance WordPress for your clients.</p>
+<h2><a title="Creating a Custom Functions Plugin for End Users" href="http://justintadlock.com/archives/2011/02/02/creating-a-custom-functions-plugin-for-end-users" target="_blank">Creating a Custom Functions Plugin for End Users</a></h2>
+<h2><a title="How to Create Your Own WordPress Functionality Plugin" href="http://wpcandy.com/teaches/how-to-create-a-functionality-plugin" target="_blank">How to Create Your Own WordPress Functionality Plugin</a></h2>
+<p>Both these articles touch on the same subject. The first one is by Justin Tadlock and the second was featured on WPCandy.</p>
+<p>Both articles make a strong case for including regularly used functions, that would otherwise be put in your functions.php file, in their own plugin. The argument is that this makes it easier to port the functionality between themes or theme changes.  The Tadlock article gets more indepth with creating the plugin than the WPCandy article does, but both are worth a read.</p>
+<h2><a title="Deploy your WordPress Blog to the Cloud" href="http://net.tutsplus.com/tutorials/wordpress/deploy-your-wordpress-blog-to-the-cloud/" target="_blank">Deploy Your WordPress Blog to the Cloud</a></h2>
+<p>This is a tutorial on Nettuts+. The author describes how to setup a blog using Amazon&#8217;s Web Services. It is pretty much the same as using a VPS. You have to build the services yourself. Which could be rather daunting if you are uninitiated. Not sure I am ready to try it on my own yet!</p>
+<h2><a title="Why Matt Mullenweg Created &amp; Love WordCamps" href="http://www.wpbeginner.com/events/interview-why-matt-mullenweg-created-love-wordcamps/" target="_blank">Interview: Why Matt Mullenweg Created &amp; Love WordCamps</a></h2>
+<p>This link comes from a blog I have mentioned before wpbeginner. As mentioned in my post earlier this week, <a title="WordCamp Raleigh" href="http://bradleydurham.com/2011/wordcamp-raleigh-bound/">I am attending my first WordCamp</a> this weekend. In that post I cover briefly what a WordCamp is. In this super-short interview, Matt tells us how the first WordCamp came about and why he loves them.</p>
+<p>That wraps another week of discoveries up. Hope you found some gems in there.</p>
+<p>Thanks for reading.</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/yua91FiFZUA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/discoveries-of-the-week-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/discoveries-of-the-week-7/</feedburner:origLink></item>
+		<item>
+		<title>WordCamp Raleigh Bound</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/iXWuqjmlcKE/</link>
+		<comments>http://bradleydurham.com/2011/wordcamp-raleigh-bound/#comments</comments>
+		<pubDate>Tue, 17 May 2011 12:00:12 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[learning experiences]]></category>
+		<category><![CDATA[north carolina]]></category>
+		<category><![CDATA[raleigh]]></category>
+		<category><![CDATA[wordcamp]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=972</guid>
+		<description><![CDATA[Keeping updated on the latest news and know-how for the tools that I use is a must. I think it is a must for any web designer/developer who wants to stay relevant in their field. I try to attend as many conferences and workshops as possible.
+]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-993" title="WordCamp Raleigh" src="http://bradleydurham.com/wp-content/uploads/2011/05/wordcamp-raleigh-550x200.jpg" alt="WordCamp Raleigh" width="550" height="200" /></p>
+<p>Keeping updated on the latest news and know-how for the tools that I use is a must. I think it is a must for any web designer/developer who wants to stay relevant in their field. I try to attend as many conferences and workshops as possible.</p>
+<h2><a title="What is WordCamp?" href="http://central.wordcamp.org/about/" target="_blank">What is a WordCamp?</a></h2>
+<p>WordCamp is a great way to learn more about using and developing for WordPress. WordCamps help you to stay in-the-know about things related to WordPress. Typically, some of the best people in the WordPress industry speak about a variety of topics. And hopefully, I will be able to do a little networking with other WordPress Professionals as well.</p>
+<h2>Previous Learning Experiences</h2>
+<p>Regular readers of the blog may recall that I went to a <a title="Drupal Camp Asheville" href="http://bradleydurham.com/2010/drupal-camp-asheville/" target="_blank">Drupal Camp</a> last year in Asheville, NC. I have been trying to find a local WordCamp that fit with my schedule for a while now. Finally, I found the <a title="WordCamp Raleigh" href="http://wordcampraleigh.com/" target="_blank">WordCamp in Raleigh</a>, scheduled for May 21 &amp; 22,  and the time frame worked for me.</p>
+<h2>Speakers</h2>
+<p>One of the speakers at this year&#8217;s event is from Greenville, SC, <a title="Doug Cone WordCamp Raleigh Speaker" href="http://wordcampraleigh.com/announcements/speaker-spotlight-doug-cone-of-nullvariable-web-consulting/" target="_blank">Doug Cone</a>. I am looking forward to attending his session, as well as several others. I didn&#8217;t think I would be interested in attending many of the session in the developer&#8217;s track, but reviewing the the list of speakers and topics, I may be &#8220;camped out&#8221; in that particular track most of the time.</p>
+<p>Some of the other sessions I am most looking forward to are:</p>
+<ul>
+<li><a title="Ryan Duff" href="http://wordcampraleigh.com/announcements/speaker-spotlight-ryan-duff-of-fusionized-technology/" target="_blank">Ryan Duff</a> &#8211; Extending CPT: Custom Meta Boxes and Admin Dashboard Widgets</li>
+<li><a title="John Ford" href="http://wordcampraleigh.com/announcements/speaker-spotlight-john-ford-of-automattic/" target="_blank">John Ford</a> &#8211; Security: Be a Super Hero</li>
+<li><a title="Chris Jean" href="http://wordcampraleigh.com/announcements/speaker-spotlight-chris-jean-of-ithemes/" target="_blank">Chris Jean</a> &#8211; Standardized Loop API: The Next Big Thing</li>
+</ul>
+<p>It is going to be extra nice because my wife went to school near Raleigh. She is looking forward to seeing some old friends and checking out the surrounding areas while I am at the camp.</p>
+<p>Look for a follow-up once I get back. Hopefully, I will have good things to report.</p>
+<p>Thanks for reading,</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/iXWuqjmlcKE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/wordcamp-raleigh-bound/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/wordcamp-raleigh-bound/</feedburner:origLink></item>
+		<item>
+		<title>Discoveries of the Week #6</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/R-IoHhBiOio/</link>
+		<comments>http://bradleydurham.com/2011/discoveries-of-the-week-6/#comments</comments>
+		<pubDate>Fri, 13 May 2011 12:00:20 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Recommends]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=946</guid>
+		<description><![CDATA[The latest installment of my discoveries of the week. Last week was a study in creativity and inspiration. This week is more all over the map. Hope you enjoy!
+
+The Photoshop Manifesto for Web Designers
+]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter" title="Discoveries of the Week #6" src="http://bradleydurham.com/wp-content/uploads/2011/04/discoveries-of-the-week.jpg" alt="Discoveries of the Week #6" width="550" height="200" /></p>
+<p>The latest installment of my discoveries of the week. Last week was a study in <a title="Discoveries of the Week #5" href="http://bradleydurham.com/2011/discoveries-of-the-week-5/">creativity and inspiration</a>. This week is more all over the map. Hope you enjoy!</p>
+<h2><a title="Photoshop Etiquette" href="http://photoshopetiquette.com/" target="_blank">The Photoshop Manifesto for Web Designers</a></h2>
+<p>Useful ways to organize and enhance your Photoshop files so that they are more useful to developers and end users in general. I think this is meant a little tongue-in-cheek, but surely so sage advice can be had.</p>
+<h2><a title="Easy Content Types Plugin" href="http://wpcandy.com/reports/pippin-williamson-releases-easy-content-types-plugin-for-wordpress" target="_blank">Easy Content Types Plugin for WordPress</a></h2>
+<p>I have been creating some content types for my latest layout of this site. This plugin seems useful to people who don&#8217;t want to mess with the code at all. Might be worth checking out for future projects. The link is to a write up about the plugin on a very useful site for WordPress news and information, WP Candy. It is worth adding to your RSS reader.</p>
+<h2><a title="Google Products you probably don't know" href="http://www.1stwebdesigner.com/design/google-products-to-use/" target="_blank">Google Products You Probably Don&#8217;t Know</a></h2>
+<p>This is a post on a blog called 1stWebDesigner.com. I don&#8217;t read this blog often, but once in a while one of my Twitter followers will post a link from there that looks interesting. I am a huge fan of Google and their products. I use lots of them! I found a few in here I had not heard about, and was reminded of a few I did know about. The four most interesting looking ones:</p>
+<ol>
+<li>Related Links</li>
+<li>Browser Size</li>
+<li>Page Speed</li>
+<li>Google Sketch Up</li>
+</ol>
+<h2><a title="Convince the Average Web user to switch to a Non-IE browser" href="http://www.webdesignerdepot.com/2011/05/how-do-you-convince-the-average-web-user-to-switch-to-a-non-ie-browser/" target="_blank">How Do You Convince the Average Web User to Switch to a Non-IE Browser</a></h2>
+<p>This post comes from a site like the one above, I only read it when something interesting shows up on Twitter. It is Web Design Depot. I find good articles on there from time to time.</p>
+<p>As a web professional, this is a question you ask yourself often. Internet Explorer seems to have the most flaws and be the least standards compliant of all the major browsers. This can be a huge stumbling block to user experience and coding so that it isn&#8217;t. Truthfully, I don&#8217;t think there is any convincing to be done, but the article goes into ways the author tried to do it. It also touches on the subject that most people aren&#8217;t 100% sure what a browser is in the first place. I think this has been further muddled by introducing web apps (although I love some of them!).</p>
+<p>That is it for this week. Stay tuned for next week&#8217;s post.</p>
+<p>Thanks for reading.</p>
+<p class="signature">Bradley</p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/R-IoHhBiOio" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/discoveries-of-the-week-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/discoveries-of-the-week-6/</feedburner:origLink></item>
+		<item>
+		<title>Top 9 Mail Chimp Newsletters</title>
+		<link>http://feedproxy.google.com/~r/BradleyDurham/~3/agsmU3EU5lI/</link>
+		<comments>http://bradleydurham.com/2011/top-9-mail-chimp-newsletters/#comments</comments>
+		<pubDate>Wed, 11 May 2011 12:00:04 +0000</pubDate>
+		<dc:creator>Bradley</dc:creator>
+				<category><![CDATA[Design]]></category>
+
+		<guid isPermaLink="false">http://bradleydurham.com/?p=919</guid>
+		<description><![CDATA[It is no secret that I love using Mail Chimp. I have written about Mail Chimp several times on this blog, and I use Mail Chimp for my own newsletter. If you aren&#8217;t already a subscriber, you can subscribe below&#8230; &#8230;]]></description>
+			<content:encoded><![CDATA[<p>It is no secret that I love using <a title="The New Mail Chimp!" href="http://bradleydurham.com/2010/mail-chimp-version-5-3/">Mail Chimp</a>. I have written about <a title="You Should Use Mail Chimp for Your Newsletter!" href="http://bradleydurham.com/2010/mail-chimp/">Mail Chimp</a> several times on this blog, and I use Mail Chimp for my own newsletter. If you aren&#8217;t already a subscriber, you can subscribe below&#8230;</p>
+<div id="mc_embed_signup">
+<form id="mc-embedded-subscribe-form" class="validate" style="font: normal 100% Arial, sans-serif; font-size: 10px;" action="http://bradleydurham.us1.list-manage.com/subscribe/post?u=e313edd0bcb049f3bae6550a3&amp;id=fc9060c229" method="post">
+<fieldset style="border-radius: 4px; border: 1px solid #ccc; padding-top: 1.5em; margin: .5em 0; background-color: #fff; color: #000; text-align: left;">
+<div class="mc-field-group" style="margin: 1.3em 5%; clear: both; overflow: hidden;"><label style="display: block; margin: .3em 0; line-height: 1em; font-weight: bold;" for="mce-EMAIL">Email Address </label></p>
+<input id="mce-EMAIL" class="required email" style="margin-right: 1.5em; padding: .2em .3em; width: 90%; float: left; z-index: 999;" name="EMAIL" type="text" /></div>
+<div id="mce-responses" style="float: left; top: -1.4em; padding: 0em .5em 0em .5em; overflow: hidden; width: 90%; margin: 0 5%; clear: both;"></div>
+<div>
+<input id="mc-embedded-subscribe" class="btn button_sidebar" style="clear: both; width: auto; display: block; margin: 1em 0 1em 5%;" name="subscribe" type="submit" value="Subscribe" /></div>
+</fieldset>
+</form>
+</div>
+<p>&nbsp;</p>
+<p>I send out news and great information a couple of times per month. It is a great way to keep updated on what is going on here.</p>
+<p>From time to time, I stumble across other newsletters that are really fantastic looking. I have compiled several great looking Mail Chimp newsletters. This should give you an idea of what is capable with Mail Chimp.</p>
+<h2><a title="CoWork Greenville" href="http://coworkgreenville.com/" target="_blank">CoWork Greenville</a></h2>
+<p>CoWork is a shared office space near downtown Greenville, SC. The people who make up the office are independent business owners who collaborate on various projects.</p>
+<p>Their newsletter is one of the more graphically impressive ones I found. It is simple in layout, but dramatic at the same time.</p>
+<p><a href="http://us2.campaign-archive2.com/?u=faf8950d348af93ef0627852f&amp;id=014d4724dc&amp;e=81e6e57dd9"><img class="aligncenter size-full wp-image-922" title="CoWork Greenville" src="http://bradleydurham.com/wp-content/uploads/2011/05/cowork.jpg" alt="CoWork Greenville" width="548" height="317" /></a></p>
+<h2><a title="Tech After Five" href="http://www.techafterfive.com/" target="_blank">Tech After Five</a></h2>
+<p>Tech After Five is a networking event for technically inclined people that runs in Greenville, Columbia and Charleston in South Carolina and Charlotte, North Carolina. It is usually hosted in a local watering hole and food is provided. I have been to the Greenville event a couple of times.</p>
+<p>I subscribe to the newsletter, and the graphics are always nice and clean. The list owner definitely spends some time on the layout as well.</p>
+<p><a href="http://us1.campaign-archive1.com/?u=0e59bd679c8d33c11333dac46&amp;id=d6cad2251e&amp;e=f27c64a62f"><img class="aligncenter size-full wp-image-923" title="Tech After Five" src="http://bradleydurham.com/wp-content/uploads/2011/05/tech-after-five.jpg" alt="Tech After Five" width="550" height="357" /></a></p>
+<h2><a title="Think Vitamin" href="http://thinkvitamin.com/" target="_blank">Think Vitamin</a></h2>
+<p><img class="aligncenter size-full wp-image-924" title="Think Vitamin" src="http://bradleydurham.com/wp-content/uploads/2011/05/think-vitamin.jpg" alt="Think Vitamin" width="550" height="286" /></p>
+<h2><a title="Lullabot" href="http://www.lullabot.com/" target="_blank">Lullabot</a></h2>
+<p>I was first introduced to Lullabot at a <a title="Drupal Camp Asheville" href="http://bradleydurham.com/2010/drupal-camp-asheville/">Drupal conference</a> I attended last year. They were one of the sponsors and donated some of their training materials as giveaways. Lullabot does Drupal training and consulting.</p>
+<p>The newsletter is clean, and I love their logo! Nice work all around.</p>
+<p><a href="http://us1.campaign-archive1.com/?u=579cc4bca784b8844042fea50&amp;id=1b2185bde9&amp;e=f90dcdbcb2"><img class="aligncenter size-full wp-image-925" title="Lullabot" src="http://bradleydurham.com/wp-content/uploads/2011/05/lullabot.jpg" alt="Lullabot" width="550" height="323" /></a></p>
+<h2><a title="Invisible Children" href="http://www2.invisiblechildren.com/homepage" target="_blank">Invisible Children</a></h2>
+<blockquote><p>Invisible Children uses film, creativity, and social action to end the use of child soldiers in Joseph Kony&#8217;s rebel war and restore LRA-affected communities in central Africa to peace and prosperity. <em>(from invisiblechildren.com)</em></p></blockquote>
+<p>Whether you agree with the mission statement or not, there is no denying the visuals on the website and in the newsletter. The people at Invisible Children do a wonderful job crafting graphics for both.</p>
+<p><a href="http://us1.campaign-archive2.com/?u=76a84a3bbb0cea4b7bd7d16ef&amp;id=5487b7e8a0&amp;e=1329963cd7"><img class="aligncenter size-full wp-image-926" title="Invisible Children" src="http://bradleydurham.com/wp-content/uploads/2011/05/invisible-children.jpg" alt="Invisible Children" width="550" height="356" /></a></p>
+<h2><a title="Mobify" href="http://mobify.me/" target="_blank">Mobify</a></h2>
+<p>Mobify helps you to create a mobile website based on the look and feel of your existing site. I have used it to work on a mobile site for me and my wife&#8217;s personal site. Very user friendly, and easy to edit for the most part.</p>
+<p>The newsletter does a great job of incorporating the look and feel of their website.</p>
+<p><a href="http://us1.campaign-archive2.com/?u=ce8911876a77b9be12fdd7fe0&amp;id=300ff30917&amp;e=09e704ab59"><img class="size-full wp-image-928 aligncenter" title="mobify" src="http://bradleydurham.com/wp-content/uploads/2011/05/mobify.jpg" alt="mobify" width="550" height="314" /></a></p>
+<h2><a title="Mail Chimp" href="http://mailchimp.com" target="_blank">Mail Chimp</a></h2>
+<p>Mail Chimp has a pretty nice looking newsletter themselves. It should come as no surprise though! It integrates well with their site, and had been updated each time the site is changed.</p>
+<p><a href="http://us1.campaign-archive1.com/?u=67a904de95&amp;id=8d70b7c372&amp;e=568cfce22f"><img class="aligncenter size-full wp-image-953" title="Mail Chimp" src="http://bradleydurham.com/wp-content/uploads/2011/05/mail-chimp.jpg" alt="Mail Chimp" width="550" height="288" /></a></p>
+<h2><a title="Yoast" href="http://yoast.com/" target="_blank">Yoast</a></h2>
+<p>Yoast is Joost de Valk. He is a web developer from the Netherlands. He is best known for creating various WordPress plugins. His blog is also very useful for finding out how to do things with WordPress.</p>
+<p>I love the newsletter. It is the best way for me to keep up with his latest post. Plus he his graphics are great. The header image is just a teaser to the other images in the newsletter. All along the sidebar are other graphics that are stunning.</p>
+<p style="text-align: center;"><a href="http://us1.campaign-archive1.com/?u=ffa93edfe21752c921f860358&amp;id=9a522ca69b&amp;e=2ad49d50de"><img class="aligncenter size-full wp-image-929" title="Yoast" src="http://bradleydurham.com/wp-content/uploads/2011/05/yoast.jpg" alt="Yoast" width="550" height="254" /></a></p>
+<h2><a title="Naked Pizza" href="http://www.nakedpizza.biz/" target="_blank">Naked Pizza</a></h2>
+<p>Naked Pizza is a pizza shop in located in cities across the USA. They claim to be the world&#8217;s healthiest pizza. The pies are made with all natural ingredients and have no preservatives.</p>
+<p>Naked Pizza is my favorite of the list! Their colors are bold, and the graphics are bold and striking in simplicity. Plus it integrates well with the look and feel of their site.</p>
+<p><img class="aligncenter size-full wp-image-930" title="Naked Pizza" src="http://bradleydurham.com/wp-content/uploads/2011/05/naked-pizza.jpg" alt="Naked Pizza" width="550" height="456" /></p>
+<p>Do you know of a great newsletter? (Even better if it is created on Mail Chimp) Tell me what is your number 10 in the comments!</p>
+<p>Thanks for reading!</p>
+<p class="signature">Bradley</p>
+<p><strong>P.S.</strong> Interested in getting a sneak peak of my newsletters? I have two that I send out. One is for this website, and the other is for my <a title="Bradley's 365 iPhone Picture Project" href="http://bradley365.tumblr.com" target="_blank">365 picture project</a>.</p>
+<p><img src="http://bradleydurham.com/wp-content/uploads/2011/05/bradley-durham-designs.jpg" alt="Bradley Durham Designs" title="Bradley Durham Designs" width="550" height="189" class="aligncenter size-full wp-image-956" /></p>
+<p><img src="http://bradleydurham.com/wp-content/uploads/2011/05/iphone-picture-project.jpg" alt="Bradley&#039;s 365 iPhone Picture Project" title="Bradley&#039;s 365 iPhone Picture Project" width="550" height="237" class="aligncenter size-full wp-image-957" /></p>
+<img src="http://feeds.feedburner.com/~r/BradleyDurham/~4/agsmU3EU5lI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://bradleydurham.com/2011/top-9-mail-chimp-newsletters/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://bradleydurham.com/2011/top-9-mail-chimp-newsletters/</feedburner:origLink></item>
+	</channel>
+</rss>

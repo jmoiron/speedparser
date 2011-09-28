@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>ernest.by</title>
+	
+	<link>http://ernest.by</link>
+	<description>скоро стану тысячником :D</description>
+	<lastBuildDate>Sun, 25 Sep 2011 14:24:48 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Ernestby" /><feedburner:info uri="ernestby" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>Ernestby</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>Автошкола</title>
+		<link>http://feedproxy.google.com/~r/Ernestby/~3/jkED0PJUGOo/</link>
+		<comments>http://ernest.by/2011/09/avtoshkola/#comments</comments>
+		<pubDate>Sun, 25 Sep 2011 14:24:48 +0000</pubDate>
+		<dc:creator>Эрнест Рахматулин</dc:creator>
+				<category><![CDATA[Новости]]></category>
+		<category><![CDATA[автошкола]]></category>
+		<category><![CDATA[водитель]]></category>
+		<category><![CDATA[машина]]></category>
+		<category><![CDATA[я]]></category>
+
+		<guid isPermaLink="false">http://ernest.by/?p=584</guid>
+		<description>Я сдал внутренний экзамен в автошколе. Теперь мне нужно сдать вождение и экзамен в ГАИ. О самой школе я могу сказать только то, что она клевая. Учился я кстати в автошколе ДОСААФ Фрунзенского района Минска. Преподавал теорию Радюк Виктор Яковлевич, &amp;#8230; &lt;a href="http://ernest.by/2011/09/avtoshkola/"&gt;Продолжить чтение &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/Ernestby/~4/jkED0PJUGOo" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://ernest.by/2011/09/avtoshkola/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ernest.by/2011/09/avtoshkola/</feedburner:origLink></item>
+		<item>
+		<title>Урок Photoshop 1.1 – обрезаем фотографию в Photoshop (Crop Tool)</title>
+		<link>http://feedproxy.google.com/~r/Ernestby/~3/Ohm89DHQ2b4/</link>
+		<comments>http://ernest.by/2011/09/urok-photoshop-1-obrezaem-fotografiyu-v-photoshop-crop-tool/#comments</comments>
+		<pubDate>Sun, 25 Sep 2011 08:19:14 +0000</pubDate>
+		<dc:creator>Эрнест Рахматулин</dc:creator>
+				<category><![CDATA[Новости]]></category>
+		<category><![CDATA[Уроки фотошопа]]></category>
+		<category><![CDATA[Бесплатное]]></category>
+		<category><![CDATA[изображения]]></category>
+		<category><![CDATA[Урок]]></category>
+		<category><![CDATA[фотошоп]]></category>
+
+		<guid isPermaLink="false">http://ernest.by/?p=583</guid>
+		<description>Так выглядит иконка Crop Tool в Photoshop Первый урок будет очень простым, мы рассмотрим всего один инструмент &amp;#171;Crop Tool&amp;#187;. Crop Tool &amp;#8211; инструмент обрезки изображений. А также научимся сохранять результаты своей работы в фотошопе. Много говорить о пользе Crop Tool я не &amp;#8230; &lt;a href="http://ernest.by/2011/09/urok-photoshop-1-obrezaem-fotografiyu-v-photoshop-crop-tool/"&gt;Продолжить чтение &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/Ernestby/~4/Ohm89DHQ2b4" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://ernest.by/2011/09/urok-photoshop-1-obrezaem-fotografiyu-v-photoshop-crop-tool/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ernest.by/2011/09/urok-photoshop-1-obrezaem-fotografiyu-v-photoshop-crop-tool/</feedburner:origLink></item>
+		<item>
+		<title>Рубрика «Уроки фотошопа»</title>
+		<link>http://feedproxy.google.com/~r/Ernestby/~3/Zozhh3v60dk/</link>
+		<comments>http://ernest.by/2011/09/rubrika-uroki-fotoshopa/#comments</comments>
+		<pubDate>Sat, 24 Sep 2011 09:19:57 +0000</pubDate>
+		<dc:creator>Эрнест Рахматулин</dc:creator>
+				<category><![CDATA[Уроки фотошопа]]></category>
+		<category><![CDATA[photoshop]]></category>
+		<category><![CDATA[Блог]]></category>
+		<category><![CDATA[фотошоп]]></category>
+		<category><![CDATA[я]]></category>
+
+		<guid isPermaLink="false">http://ernest.by/?p=569</guid>
+		<description>Создаю новую рубрику на блоге - Уроки фотошопа. Поделюсь опытом, заодно аватаров себе наделаю красивых! Все кто хочет научиться работать в фотошопе по моим урокам придется установить фотошоп, точно такой как у меня, а именно Adobe Photoshop CS5 extended, чтобы &amp;#8230; &lt;a href="http://ernest.by/2011/09/rubrika-uroki-fotoshopa/"&gt;Продолжить чтение &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/Ernestby/~4/Zozhh3v60dk" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://ernest.by/2011/09/rubrika-uroki-fotoshopa/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ernest.by/2011/09/rubrika-uroki-fotoshopa/</feedburner:origLink></item>
+		<item>
+		<title>Вопрос мотивации или мое лицо на СТВ</title>
+		<link>http://feedproxy.google.com/~r/Ernestby/~3/1Ey76GaRNO0/</link>
+		<comments>http://ernest.by/2011/09/vopros-motivacii-ili-moe-lico-na-stv/#comments</comments>
+		<pubDate>Fri, 23 Sep 2011 07:27:17 +0000</pubDate>
+		<dc:creator>Эрнест Рахматулин</dc:creator>
+				<category><![CDATA[Я Живой]]></category>
+		<category><![CDATA[trololo]]></category>
+		<category><![CDATA[телевидение]]></category>
+		<category><![CDATA[эксперимент]]></category>
+		<category><![CDATA[я]]></category>
+
+		<guid isPermaLink="false">http://ernest.by/?p=559</guid>
+		<description>Предыстория. Сидели с другом на лекции, говорили о том, о другом и о мотивации. Я придерживаюсь мнения что добиться человек может всего. Главное этого сильно хотеть, по-настоящему хотеть. Друг мой, говорил, что &amp;#171;в наших условиях&amp;#187;, нет никаких возможностей. Я у &amp;#8230; &lt;a href="http://ernest.by/2011/09/vopros-motivacii-ili-moe-lico-na-stv/"&gt;Продолжить чтение &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/Ernestby/~4/1Ey76GaRNO0" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://ernest.by/2011/09/vopros-motivacii-ili-moe-lico-na-stv/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ernest.by/2011/09/vopros-motivacii-ili-moe-lico-na-stv/</feedburner:origLink></item>
+		<item>
+		<title>Блог для души.</title>
+		<link>http://feedproxy.google.com/~r/Ernestby/~3/9-fmNCl9ejg/</link>
+		<comments>http://ernest.by/2011/09/blog-dlya-dushi/#comments</comments>
+		<pubDate>Sun, 18 Sep 2011 10:33:22 +0000</pubDate>
+		<dc:creator>Эрнест Рахматулин</dc:creator>
+				<category><![CDATA[Новости]]></category>
+
+		<guid isPermaLink="false">http://ernest.by/?p=549</guid>
+		<description>В общем на этому блоге больше не будет никаких дурацких и идиотских статей про оптимизацию сайтов, и прочую ересь! Зато появятся другие дурацкие статьи, про фильмы которые я смотрел, музыку которая мне понравилась, интересные ссылки которые я случайно или неслучайно &amp;#8230; &lt;a href="http://ernest.by/2011/09/blog-dlya-dushi/"&gt;Продолжить чтение &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/Ernestby/~4/9-fmNCl9ejg" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://ernest.by/2011/09/blog-dlya-dushi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ernest.by/2011/09/blog-dlya-dushi/</feedburner:origLink></item>
+	</channel>
+</rss>

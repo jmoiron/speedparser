@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+		<atom:link href="http://twitpic.com/photos/_iroko/feed.rss" rel="self" type="application/rss+xml" />
+    <title>_iroko's Photo Stream</title>
+    <link>http://twitpic.com/photos/_iroko</link>
+    <description>_iroko's updates</description>
+    <language>en-us</language>
+    <ttl>40</ttl>
+		    <item>
+      <title><![CDATA[_iroko: http://twitpic.com/4taitp 見ろよ…こっちのアカ、0：00：00にpostできたんだぜ…？]]></title>
+      <description><![CDATA[_iroko: 見ろよ…こっちのアカ、0：00：00にpostできたんだぜ…？<br><a href="http://twitpic.com/4taitp"><img src="http://twitpic.com/show/thumb/4taitp.jpg"></a>]]></description>
+      <pubDate>Wed, 04 May 2011 15:04:51 +0000</pubDate>
+      <guid>http://twitpic.com/4taitp</guid>
+      <link>http://twitpic.com/4taitp</link>
+    </item>
+		    <item>
+      <title><![CDATA[_iroko: http://twitpic.com/4rtn9b ]]></title>
+      <description><![CDATA[_iroko: <br><a href="http://twitpic.com/4rtn9b"><img src="http://twitpic.com/show/thumb/4rtn9b.jpg"></a>]]></description>
+      <pubDate>Sun, 01 May 2011 07:35:29 +0000</pubDate>
+      <guid>http://twitpic.com/4rtn9b</guid>
+      <link>http://twitpic.com/4rtn9b</link>
+    </item>
+	  </channel>
+</rss>
