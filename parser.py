@@ -17,7 +17,7 @@ titles = list()
 
 
 def parse_feed(data):
-    doc = tpool.execute(feedparser.parse, data)
+    doc = feedparser.parse(data)
     return doc.feed.get('title', "NO TITLE")
 
 
