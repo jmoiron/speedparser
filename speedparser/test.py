@@ -50,7 +50,7 @@ def feed_equivalence(testcase, fpresult, spresult):
 
 class SingleTest(TestCaseBase):
     def setUp(self):
-        filename = '0011.dat'
+        filename = '0016.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 

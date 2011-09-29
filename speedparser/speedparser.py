@@ -145,6 +145,12 @@ class SpeedParserAtom(SpeedParserFeed):
     def parse_generator(self):
         return first_text(self.xpath('/feed/generator'))
 
+    def parse_lang(self):
+        langkey = [k for k in self.root.keys() if k.endswith('lang')]
+        if langkey:
+            return self.root.attrib[langkey[0]]
+        return super(SpeedParserAtom, self).parse_lang()
+
     def parse_links(self):
         id = first_text(self.xpath('/feed/id'))
         elems = self.xpath('/feed/link')
