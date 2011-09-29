@@ -109,7 +109,7 @@ class SpeedParserFeed(object):
         links = []
         for e in elems:
             if e.tag == 'link':
-                link = e.text
+                link = e.text or ''
             else:
                 links.append(e.attrib)
         return link, links
