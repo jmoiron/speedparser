@@ -29,7 +29,7 @@ xmlns_map = {
     'http://my.netscape.com/rdf/simple/0.9/': 'rss090',
 }
 
-cleaner = clean.Cleaner(style=True, comments=True, javascript=True,
+cleaner = clean.Cleaner(comments=True, javascript=True,
         scripts=True, safe_attrs_only=True, page_structure=True)
 
 simple_cleaner = clean.Cleaner(safe_attrs_only=True, page_structure=True)
@@ -39,7 +39,11 @@ class FakeCleaner(object):
 
 #cleaner = FakeCleaner()
 
-def unicoder(txt, hint=None):
+def unicoder(txt, hint=None, strip=True):
+    if txt is None:
+        return None
+    if strip:
+        txt = txt.strip()
     if hint:
         try: return txt.decode(hint)
         except: return unicoder(txt)
@@ -61,116 +65,114 @@ def strip_namespace(document):
         return match.groups()[0], nsre.sub('', document)
     return None, document
 
-
-class SpeedParserEntries(object):
+class SpeedParserEntriesRss20(object):
     entry_xpath = '/rss/item | /rss/channel/item'
-    def __init__(self, root, version='rss20', namespaces={}, encoding='utf-8'):
-        self.use_content_as_summary = False
-        self.nsmap = namespaces
+    tag_map = {
+        'pubDate' : 'date',
+        'date': 'date',
+        'updated' : 'date',
+        'link' : 'links',
+        'title': 'title',
+        'creator': 'author',
+        'author': 'author',
+        'comments': 'comments',
+        'encoded': 'content',
+        'content': 'content',
+        'summary': 'summary',
+        'description': 'summary',
+    }
+
+    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8'):
         self.encoding = encoding
-        entry_objects = self.xpath(root, self.entry_xpath)
+        self.entry_objects = root.xpath(self.entry_xpath, namespaces=namespaces)
         entries = []
-        for e in entry_objects:
-            ent = self.parse_entry(e)
-            if ent:
-                entries.append(ent)
+        for obj in self.entry_objects:
+            d = self.parse_entry(obj)
+            if d: entries.append(d)
         self.entries = entries
 
-
-    def xpath(self, root, query):
-        try:
-            return root.xpath(query, namespaces=self.nsmap)
-        except:
-            import traceback
-            traceback.print_exc()
-
     def parse_entry(self, entry):
+        """An attempt to parse pieces of an entry out w/o xpath, by looping
+        over the entry root's children and slotting them into the right places.
+        This is going to be way messier than SpeedParserEntries, and maybe
+        less cleanly usable, but it should be faster."""
+
+        def clean_ns(tag):
+            if '}' in tag:
+                split = tag.split('}')
+                return split[0].strip('{'), split[-1]
+            return '', tag
+
         e = feedparser.FeedParserDict()
-        e['title'] = first_text(self.xpath(entry, './title'))
-        e['author'] = self.parse_author(entry)
-        e['comments'] = first_text(self.xpath(entry, './comments'))
-        e['link'], e['links'] = self.parse_links(entry)
-        e['updated'], e['updated_parsed'] = self.parse_updated(entry)
-        e['content'] = self.parse_content(entry)
-        e['summary'] = self.parse_summary(entry)
-        if not e['summary']:
-            e['summary'] = e['content'][0]['value']
+
+        for child in entry.getchildren():
+            ns, tag = clean_ns(child.tag)
+            mapping = self.tag_map.get(tag, None)
+            if mapping:
+                getattr(self, 'parse_%s' % mapping)(child, e, ns)
+
+        if e.get('summary', None) and not e.get('content', None):
+            e.content = [{'value': e.summary}]
+
+        if 'summary' not in e or e['summary'] == None:
+            e.summary = e.content[0]['value']
+
         return e
 
-    def parse_author(self, entry):
-        return first_text(self.xpath(entry, './*[local-name()="creator"] | ./author'))
+    def parse_date(self, node, entry, ns=''):
+        value = unicoder(node.text)
+        entry['updated'] = value
+        entry['updated_parsed'] = feedparser._parse_date(value)
 
-    def parse_links(self, entry):
-        link = ''
-        links = []
-        for l in self.xpath(entry, './link'):
-            if l.text:
-                link = l.text
-            if not link and l.attrib.get('rel', '') == 'alternate':
-                link = l.attrib['href']
-            links.append(l.attrib)
-        return link, links
+    def parse_title(self, node, entry, ns=''):
+        entry['title'] = unicoder(node.text) or ''
 
-    def parse_summary(self, entry):
-        summary = first_text(self.xpath(entry, './description'))
+    def parse_author(self, node, entry, ns=''):
+        entry['author'] = unicoder(node.text)
+
+    def parse_links(self, node, entry, ns=''):
+        if node.text:
+            entry['link'] = unicoder(node.text)
+        if 'link' not in entry and node.attrib.get('rel', '') == 'alternate':
+            entry['link'] = unicoder(node.attrib['href'])
+        entry.setdefault('links', []).append(node.attrib)
+
+    def parse_comments(self, node, entry, ns=''):
+        if 'comments' in entry and ns: return
+        entry['comments'] = unicoder(node.text)
+
+    def parse_content(self, node, entry, ns=''):
+        # media:content is usually nonsense we don't want
+        if ns and node.tag.endswith('content'): return
+        content = unicoder(node.text)
+        if content:
+            content = cleaner.clean_html(content)
+        entry['content'] = [{'value': content}]
+
+    def parse_summary(self, node, entry, ns=''):
+        summary = unicoder(node.text)
         if summary:
-            try:
-                return cleaner.clean_html(summary)
-            except:
-                import ipdb; ipdb.set_trace();
-        return summary
-
-    def parse_updated(self, entry):
-        if 'atom' in self.nsmap:
-            updated = first_text(self.xpath(entry, './atom:updated | ./pubDate'))
-        else:
-            updated = first_text(self.xpath(entry, './pubDate'))
-        updated_parsed = feedparser._parse_date(updated)
-        return updated, updated_parsed
-
-    def parse_content(self, entry):
-        if 'content' in self.nsmap:
-            value = first_text(self.xpath(entry, './content:encoded'))
-            if value:
-                try: value = cleaner.clean_html(value)
-                except:
-                    import ipdb; ipdb.set_trace();
-            return [{'value': value}]
-        return None
+            summary = cleaner.clean_html(summary).strip()
+        entry['summary'] = summary
 
     def entry_list(self):
         return self.entries
 
-class SpeedParserEntriesRdf(SpeedParserEntries):
+class SpeedParserEntriesRdf(SpeedParserEntriesRss20):
     entry_xpath = '/rdf:RDF/item | /rdf:RDF/channel/item'
 
-    def parse_updated(self, entry):
-        updated = first_text(self.xpath(entry, './*[local-name()="date"]'))
-        updated_parsed = feedparser._parse_date(updated)
-        return updated, updated_parsed
-
-class SpeedParserEntriesAtom(SpeedParserEntries):
+class SpeedParserEntriesAtom(SpeedParserEntriesRss20):
     entry_xpath = '/feed/entry'
 
-    def parse_author(self, entry):
-        name = first_text(self.xpath(entry, './author/name'))
-        email = first_text(self.xpath(entry, './author/email'))
-        return '%s (%s)' % (name, email)
-
-    def parse_updated(self, entry):
-        updated = first_text(self.xpath(entry, './updated'))
-        updated_parsed = feedparser._parse_date(updated)
-        return updated, updated_parsed
-
-    def parse_content(self, entry):
-        content = first_text(self.xpath(entry, './content'))
-        if content:
-            try: content = cleaner.clean_html(content)
-            except:
-                import ipdb; ipdb.set_trace();
-            return [{'value': content}]
-        return [{'value': 'UNKNOWN'}]
-
+    def parse_author(self, node, entry, ns=''):
+        name, email = None, None
+        for child in node:
+            if child.tag == 'name': name = unicoder(child.text)
+            if child.tag == 'email': email = unicoder(child.text)
+        if name and not email:
+            entry['author'] = name
+        else:
+            entry['author'] = '%s (%s)' % (name, email)
 
 class SpeedParserFeed(object):
     date_path = '''
@@ -341,7 +343,7 @@ class SpeedParser(object):
 
     def parse_entries(self, version, encoding):
         if version == 'rss20':
-            return SpeedParserEntries(self.root, encoding=encoding, namespaces=self.namespaces).entry_list()
+            return SpeedParserEntriesRss20(self.root, encoding=encoding, namespaces=self.namespaces).entry_list()
         if version == 'rss10':
             return SpeedParserEntriesRdf(self.root, encoding=encoding, namespaces=self.namespaces).entry_list()
         if version == 'atom10':

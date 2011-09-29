@@ -18,12 +18,18 @@ class TestCaseBase(TestCase):
     def assertPrettyClose(self, s1, s2):
         """Assert that two strings are pretty damn near equal.  This gets around
         differences in little tidy nonsense FP does that SP won't do."""
-        threshold = 0.01
+        threshold = 0.10
         if len(s1) > 1024 and len(s2) > 1024:
             threshold = 0.25
-        match = lambda x, y: difflib.SequenceMatcher(None, x, y).ratio()
-        self.assertTrue(match(s1, s2) > threshold,
-            "%s \n ---- \n %s\n are not similar enough (%0.3f < %0.3f)" % (s1, s2, match(s1, s2), threshold))
+        matcher = difflib.SequenceMatcher(None, s1, s2)
+        ratio = matcher.quick_ratio()
+        if ratio < threshold:
+            longest_block = matcher.find_longest_match(0, len(s1), 0, len(s2))
+            if longest_block.size / float(len(s1)) > threshold:
+                return
+            if longest_block.size < 50:
+                raise AssertionError("%s\n ---- \n%s\n are not similar enough (%0.3f < %0.3f, %d)" %\
+                        (s1, s2, ratio, threshold, longest_block.size))
 
 def feed_equivalence(testcase, fpresult, spresult):
     self = testcase
@@ -53,8 +59,11 @@ def entry_equivalence(test_case, fpresult, spresult):
     self = test_case
     self.assertEqual(len(fpresult.entries), len(spresult.entries))
     for fpe,spe in zip(fpresult.entries, spresult.entries):
-        self.assertEqual(fpe.author, spe.author)
         self.assertEqual(fpe.link, spe.link)
+        if 'author' in fpe:
+            if 'author' not in spe:
+                raise AssertionError("spe lacks author: %s\n----\n%s" % (pformat(fpe), pformat(spe)))
+            self.assertEqual(fpe.author, spe.author)
         if 'comments' in fpe:
             self.assertEqual(fpe.comments, spe.comments)
         if 'updated' in fpe:
@@ -62,7 +71,12 @@ def entry_equivalence(test_case, fpresult, spresult):
             # ended up the same
             #self.assertEqual(fpe.updated, spe.updated)
             self.assertEqual(fpe.updated_parsed, spe.updated_parsed)
-        self.assertPrettyClose(fpe.summary, spe.summary)
+        # lxml's cleaner can leave some stray block level elements around when
+        # removing all containing code (like a summary which is just an object
+        if len(fpe.summary) < 5 and len(spe.summary.replace(' ', '')) < 20:
+            pass
+        else:
+            self.assertPrettyClose(fpe.summary, spe.summary)
         self.assertPrettyClose(fpe.title, spe.title)
         if 'content' in fpe:
             self.assertPrettyClose(fpe.content[0]['value'], spe.content[0]['value'])
@@ -88,7 +102,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0006.dat'
+        filename = '0005.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -106,6 +120,40 @@ class SingleTestEntries(TestCaseBase):
         feed_equivalence(self, fpresult, spresult)
         entry_equivalence(self, fpresult, spresult)
 
+class EntriesCoverageTest(TestCaseBase):
+    def setUp(self):
+        self.files = ['feeds/%s' % f for f in os.listdir('feeds/') if not f.startswith('.')]
+        self.files.sort()
+
+    def test_entries_coverage(self):
+        success = 0
+        fperrors = 0
+        sperrors = 0
+        total = 200
+        failedpaths = []
+        failedentries = []
+        for f in self.files[:total]:
+            with open(f) as fo:
+                document = fo.read()
+            try:
+                fpresult = feedparser.parse(document)
+            except:
+                fperrors += 1
+                continue
+            try:
+                spresult = speedparser.parse(document)
+            except:
+                sperrors += 1
+                continue
+            try:
+                entry_equivalence(self, fpresult, spresult)
+                success += 1
+            except:
+                failedentries.append(f)
+        print "Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d)" % (success,
+                total, (100 * success)/float(total-fperrors), fperrors, sperrors)
+        print "Failed entries:\n%s" % pformat(failedentries)
+
 
 class CoverageTest(TestCaseBase):
     def setUp(self):
@@ -116,7 +164,7 @@ class CoverageTest(TestCaseBase):
         success = 0
         fperrors = 0
         sperrors = 0
-        total = 20
+        total = 300
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
@@ -155,7 +203,7 @@ class SpeedTest(TestCaseBase):
         self.files.sort()
 
     def test_speed(self):
-        total = 10
+        total = 200
         def getspeed(parser, files):
             t0 = time.time()
             for f in files:
