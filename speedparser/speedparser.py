@@ -66,7 +66,7 @@ def first_text(xpath_result, default='', encoding='utf-8'):
 
 nsre = re.compile(r'xmlns=[\'"](.+?)[\'"]')
 def strip_namespace(document):
-    if 'xmlns=' not in document[:200]:
+    if 'xmlns=' not in document[:300]:
         return None, document
     match = nsre.search(document)
     if match:
@@ -74,6 +74,8 @@ def strip_namespace(document):
     return None, document
 
 def munge_author(author):
+    """If an author contains an email and a name in it, make sure it is in
+    the format: "name (email)"."""
     # this loveliness is from feedparser but was not usable as a function
     if '@' in author:
         emailmatch = re.search(ur'''(([a-zA-Z0-9\_\-\.\+]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?))(\?subject=\S+)?''', author)
@@ -113,6 +115,7 @@ class SpeedParserEntriesRss20(object):
         'media:thumbnail': 'media_thumbnail',
         'media:group': 'media_group',
         'itunes:summary': 'content',
+        'gr:annotation': 'annotation',
     }
 
     def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', cleaner=default_cleaner):
@@ -187,13 +190,32 @@ class SpeedParserEntriesRss20(object):
 
     def parse_author(self, node, entry, ns=''):
         if ns and ns in ('itunes', 'dm'): return
-        entry['author'] = munge_author(unicoder(node.text))
+        if node.text:
+            entry['author'] = munge_author(unicoder(node.text))
+            return
+        name, email = None, None
+        for child in node:
+            if child.tag == 'name': name = unicoder(child.text or '')
+            if child.tag == 'email': email = unicoder(child.text or '')
+        if name and not email:
+            entry['author'] = munge_author(name)
+        elif not name and not email:
+            entry['author'] = ''
+        else:
+            entry['author'] = '%s (%s)' % (name, email)
+
+    def parse_annotation(self, node, entry, ns='gr'):
+        if entry.get('author', '') and 'unknown' not in entry['author'].lower():
+            return
+        for child in node:
+            if child.tag.endswith('author'):
+                self.parse_author(child, entry, ns='')
 
     def parse_links(self, node, entry, ns=''):
         if node.text:
-            entry['link'] = unicoder(node.text)
+            entry['link'] = unicoder(node.text).strip('#')
         if 'link' not in entry and node.attrib.get('rel', '') == 'alternate':
-            entry['link'] = unicoder(node.attrib['href'])
+            entry['link'] = unicoder(node.attrib['href']).strip('#')
         entry.setdefault('links', []).append(node.attrib)
 
     def parse_comments(self, node, entry, ns=''):
@@ -214,7 +236,7 @@ class SpeedParserEntriesRss20(object):
         summary = unicoder(node.text)
         if summary:
             summary = self.cleaner.clean_html(summary).strip()
-        entry['summary'] = summary
+        entry['summary'] = summary or ''
 
     def parse_media_content(self, node, entry, ns='media'):
         entry.setdefault('media_content', []).append(node.attrib)
@@ -244,10 +266,12 @@ class SpeedParserEntriesAtom(SpeedParserEntriesRss20):
     def parse_author(self, node, entry, ns=''):
         name, email = None, None
         for child in node:
-            if child.tag == 'name': name = unicoder(child.text)
-            if child.tag == 'email': email = unicoder(child.text)
+            if child.tag == 'name': name = unicoder(child.text or '')
+            if child.tag == 'email': email = unicoder(child.text or '')
         if name and not email:
             entry['author'] = munge_author(name)
+        elif not name and not email:
+            entry['author'] = ''
         else:
             entry['author'] = '%s (%s)' % (name, email)
 
@@ -413,23 +437,23 @@ class SpeedParser(object):
         return self.tree.docinfo.encoding.lower()
 
     def parse_feed(self, version, encoding):
-        if version == 'rss20':
+        if version in ('rss20', 'rss092', 'rss091'):
             return SpeedParserFeed(self.root, encoding=encoding).feed_dict()
         if version == 'rss10':
             return SpeedParserFeedRdf(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
         if version == 'atom10':
             return SpeedParserFeedAtom(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
-        return {}
+        raise IncompatibleFeedError("Feed not compatible with speedparser.")
 
     def parse_entries(self, version, encoding):
         kwargs = dict(encoding=encoding, namespaces=self.namespaces, cleaner=self.cleaner)
-        if version == 'rss20':
+        if version in ('rss20', 'rss092', 'rss091'):
             return SpeedParserEntriesRss20(self.root, **kwargs).entry_list()
         if version == 'rss10':
             return SpeedParserEntriesRdf(self.root, **kwargs).entry_list()
         if version == 'atom10':
             return SpeedParserEntriesAtom(self.root, **kwargs).entry_list()
-        return []
+        raise IncompatibleFeedError("Feed not compatible with speedparser.")
 
     def update(self, result):
         if self.version:

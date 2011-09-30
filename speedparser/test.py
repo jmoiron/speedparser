@@ -27,7 +27,7 @@ class TestCaseBase(TestCase):
         ratio = matcher.quick_ratio()
         if ratio < threshold:
             longest_block = matcher.find_longest_match(0, len(s1), 0, len(s2))
-            if longest_block.size / float(len(s1)) > threshold:
+            if len(s1) and longest_block.size / float(len(s1)) > threshold:
                 return
             if longest_block.size < 50:
                 raise AssertionError("%s\n ---- \n%s\n are not similar enough (%0.3f < %0.3f, %d)" %\
@@ -90,7 +90,10 @@ def entry_equivalence(test_case, fpresult, spresult):
             self.assertEqual(len(fpe.media_content), len(spe.media_content))
             for fmc,smc in zip(fpe.media_content, spe.media_content):
                 for key in fmc:
-                    self.assertEqual(fmc[key], smc[key])
+                    if key == 'isdefault':
+                        self.assertEqual(fmc[key], smc['isDefault'])
+                    else:
+                        self.assertEqual(fmc[key], smc[key])
         if 'media_thumbnail' in fpe:
             self.assertEqual(len(fpe.media_thumbnail), len(spe.media_thumbnail))
             for fmt,smt in zip(fpe.media_thumbnail, spe.media_thumbnail):
@@ -118,7 +121,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0018.dat'
+        filename = '0138.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -147,7 +150,7 @@ class EntriesCoverageTest(TestCaseBase):
         success = 0
         fperrors = 0
         sperrors = 0
-        total = 400
+        total = len(self.files)
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
@@ -167,6 +170,9 @@ class EntriesCoverageTest(TestCaseBase):
                 entry_equivalence(self, fpresult, spresult)
                 success += 1
             except:
+                import traceback
+                print "Failure: %s" % f
+                traceback.print_exc()
                 failedentries.append(f)
         print "Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d)" % (success,
                 total, (100 * success)/float(total-fperrors), fperrors, sperrors)
@@ -186,13 +192,14 @@ class CoverageTest(TestCaseBase):
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
+            fperror = False
             with open(f) as fo:
                 document = fo.read()
             try:
                 fpresult = feedparser.parse(document)
             except:
                 fperrors += 1
-                continue
+                fperror = True
             try:
                 spresult = speedparser.parse(document)
             except:
@@ -221,7 +228,7 @@ class SpeedTest(TestCaseBase):
         self.files.sort()
 
     def test_speed(self):
-        total = 200
+        total = len(self.files)
         def getspeed(parser, files):
             t0 = time.time()
             for f in files:
@@ -244,7 +251,7 @@ class SpeedTestNoClean(TestCaseBase):
         self.files.sort()
 
     def test_speed(self):
-        total = 200
+        total = len(self.files)
         def getspeed(parser, files, args=[]):
             t0 = time.time()
             for f in files:
