@@ -22,6 +22,7 @@ from lxml.html import clean
 import feedparser
 
 keymap = feedparser.FeedParserDict.keymap
+fpnamespaces = feedparser._FeedParserMixin.namespaces
 
 xmlns_map = {
     'http://www.w3.org/2005/atom': 'atom10',
@@ -36,6 +37,9 @@ simple_cleaner = clean.Cleaner(safe_attrs_only=True, page_structure=True)
 
 class FakeCleaner(object):
     def clean_html(self, x): return x
+
+class IncompatibleFeedError(Exception):
+    pass
 
 #cleaner = FakeCleaner()
 
@@ -60,6 +64,8 @@ def first_text(xpath_result, default='', encoding='utf-8'):
 
 nsre = re.compile(r'xmlns=[\'"](.+?)[\'"]')
 def strip_namespace(document):
+    if 'xmlns=' not in document[:200]:
+        return None, document
     match = nsre.search(document)
     if match:
         return match.groups()[0], nsre.sub('', document)
@@ -80,16 +86,25 @@ class SpeedParserEntriesRss20(object):
         'content': 'content',
         'summary': 'summary',
         'description': 'summary',
+        'media:content': 'media_content',
+        'media:thumbnail': 'media_thumbnail',
     }
 
     def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8'):
         self.encoding = encoding
+        self.namespaces = namespaces
+        self.nslookup = self.reverse_namespace_map()
         self.entry_objects = root.xpath(self.entry_xpath, namespaces=namespaces)
         entries = []
         for obj in self.entry_objects:
             d = self.parse_entry(obj)
             if d: entries.append(d)
         self.entries = entries
+
+    def reverse_namespace_map(self):
+        d = dict([(v,k) for (k,v) in self.namespaces.iteritems()])
+        d.update(fpnamespaces)
+        return d
 
     def parse_entry(self, entry):
         """An attempt to parse pieces of an entry out w/o xpath, by looping
@@ -104,18 +119,29 @@ class SpeedParserEntriesRss20(object):
             return '', tag
 
         e = feedparser.FeedParserDict()
+        tag_map = self.tag_map
+        nslookup = self.nslookup
 
         for child in entry.getchildren():
             ns, tag = clean_ns(child.tag)
-            mapping = self.tag_map.get(tag, None)
+            mapping = tag_map.get(tag, None)
             if mapping:
                 getattr(self, 'parse_%s' % mapping)(child, e, ns)
+            if not ns:
+                continue
+            fulltag = '%s:%s' % (nslookup.get(ns, ''), tag)
+            mapping = tag_map.get(fulltag, None)
+            if mapping:
+                getattr(self, 'parse_%s' % mapping)(child, e, nslookup[ns])
 
         if e.get('summary', None) and not e.get('content', None):
-            e.content = [{'value': e.summary}]
+            e['content'] = [{'value': e.summary}]
 
-        if 'summary' not in e or e['summary'] == None:
-            e.summary = e.content[0]['value']
+        if 'summary' not in e or e['summary'] == None and e.get('content', None):
+            e['summary'] = e['content'][0]['value']
+
+        if e.get('summary', False) is None:
+            e['summary'] = u''
 
         return e
 
@@ -154,6 +180,15 @@ class SpeedParserEntriesRss20(object):
         if summary:
             summary = cleaner.clean_html(summary).strip()
         entry['summary'] = summary
+
+    def parse_media_content(self, node, entry, ns='media'):
+        entry.setdefault('media_content', []).append(node.attrib)
+        for child in node:
+            if child.tag.endswith('thumbnail'):
+                entry.setdefault('media_thumbnail', []).append(child.attrib)
+
+    def parse_media_thumbnail(self, node, entry, ns='media'):
+        entry.setdefault('media_thumbnail', []).append(node.attrib)
 
     def entry_list(self):
         return self.entries
@@ -300,6 +335,8 @@ class SpeedParser(object):
             self.root = tree
         self.encoding = self.parse_encoding()
         self.version = self.parse_version()
+        if 'unk' in self.version:
+            raise IncompatibleFeedError("Could not determine version of this feed.")
         self.namespaces = self.parse_namespaces()
         self.feed = self.parse_feed(self.version, self.encoding)
         self.entries = self.parse_entries(self.version, self.encoding)

@@ -77,9 +77,20 @@ def entry_equivalence(test_case, fpresult, spresult):
             pass
         else:
             self.assertPrettyClose(fpe.summary, spe.summary)
-        self.assertPrettyClose(fpe.title, spe.title)
+        if 'title' in fpe:
+            self.assertPrettyClose(fpe.title, spe.title)
         if 'content' in fpe:
             self.assertPrettyClose(fpe.content[0]['value'], spe.content[0]['value'])
+        if 'media_content' in fpe:
+            self.assertEqual(len(fpe.media_content), len(spe.media_content))
+            for fmc,smc in zip(fpe.media_content, spe.media_content):
+                for key in fmc:
+                    self.assertEqual(fmc[key], smc[key])
+        if 'media_thumbnail' in fpe:
+            self.assertEqual(len(fpe.media_thumbnail), len(spe.media_thumbnail))
+            for fmt,smt in zip(fpe.media_thumbnail, spe.media_thumbnail):
+                for key in fmt:
+                    self.assertEqual(fmt[key], smt[key])
 
 class SingleTest(TestCaseBase):
     def setUp(self):
@@ -102,7 +113,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0005.dat'
+        filename = '0024.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -129,7 +140,7 @@ class EntriesCoverageTest(TestCaseBase):
         success = 0
         fperrors = 0
         sperrors = 0
-        total = 200
+        total = 50
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
