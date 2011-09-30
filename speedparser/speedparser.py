@@ -30,7 +30,7 @@ xmlns_map = {
     'http://my.netscape.com/rdf/simple/0.9/': 'rss090',
 }
 
-cleaner = clean.Cleaner(comments=True, javascript=True,
+default_cleaner = clean.Cleaner(comments=True, javascript=True,
         scripts=True, safe_attrs_only=True, page_structure=True)
 
 simple_cleaner = clean.Cleaner(safe_attrs_only=True, page_structure=True)
@@ -41,7 +41,9 @@ class FakeCleaner(object):
 class IncompatibleFeedError(Exception):
     pass
 
-#cleaner = FakeCleaner()
+fake_cleaner = FakeCleaner()
+
+# --- text utilities ---
 
 def unicoder(txt, hint=None, strip=True):
     if txt is None:
@@ -71,6 +73,27 @@ def strip_namespace(document):
         return match.groups()[0], nsre.sub('', document)
     return None, document
 
+def munge_author(author):
+    # this loveliness is from feedparser but was not usable as a function
+    if '@' in author:
+        emailmatch = re.search(ur'''(([a-zA-Z0-9\_\-\.\+]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?))(\?subject=\S+)?''', author)
+        if emailmatch:
+            email = emailmatch.group(0)
+            # probably a better way to do the following, but it passes all the tests
+            author = author.replace(email, u'')
+            author = author.replace(u'()', u'')
+            author = author.replace(u'<>', u'')
+            author = author.replace(u'&lt;&gt;', u'')
+            author = author.strip()
+            if author and (author[0] == u'('):
+                author = author[1:]
+            if author and (author[-1] == u')'):
+                author = author[:-1]
+            author = author.strip()
+            return '%s (%s)' % (author, email)
+    return author
+
+
 class SpeedParserEntriesRss20(object):
     entry_xpath = '/rss/item | /rss/channel/item'
     tag_map = {
@@ -88,12 +111,15 @@ class SpeedParserEntriesRss20(object):
         'description': 'summary',
         'media:content': 'media_content',
         'media:thumbnail': 'media_thumbnail',
+        'media:group': 'media_group',
+        'itunes:summary': 'content',
     }
 
-    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8'):
+    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', cleaner=default_cleaner):
         self.encoding = encoding
         self.namespaces = namespaces
         self.nslookup = self.reverse_namespace_map()
+        self.cleaner = cleaner
         self.entry_objects = root.xpath(self.entry_xpath, namespaces=namespaces)
         entries = []
         for obj in self.entry_objects:
@@ -126,7 +152,7 @@ class SpeedParserEntriesRss20(object):
             ns, tag = clean_ns(child.tag)
             mapping = tag_map.get(tag, None)
             if mapping:
-                getattr(self, 'parse_%s' % mapping)(child, e, ns)
+                getattr(self, 'parse_%s' % mapping)(child, e, nslookup.get(ns, ns))
             if not ns:
                 continue
             fulltag = '%s:%s' % (nslookup.get(ns, ''), tag)
@@ -134,10 +160,16 @@ class SpeedParserEntriesRss20(object):
             if mapping:
                 getattr(self, 'parse_%s' % mapping)(child, e, nslookup[ns])
 
-        if e.get('summary', None) and not e.get('content', None):
+        lacks_summary = 'summary' not in e or e['summary'] is None
+        lacks_content = 'content' not in e or not bool(e.get('content', None))
+
+        if not lacks_summary and lacks_content:
             e['content'] = [{'value': e.summary}]
 
-        if 'summary' not in e or e['summary'] == None and e.get('content', None):
+        # feedparser sometimes copies the first content value into the 
+        # summary field when summary was completely missing;  we want
+        # to do that as well, but avoid the case where summary was given as ''
+        if lacks_summary and not lacks_content:
             e['summary'] = e['content'][0]['value']
 
         if e.get('summary', False) is None:
@@ -154,7 +186,8 @@ class SpeedParserEntriesRss20(object):
         entry['title'] = unicoder(node.text) or ''
 
     def parse_author(self, node, entry, ns=''):
-        entry['author'] = unicoder(node.text)
+        if ns and ns in ('itunes', 'dm'): return
+        entry['author'] = munge_author(unicoder(node.text))
 
     def parse_links(self, node, entry, ns=''):
         if node.text:
@@ -169,16 +202,18 @@ class SpeedParserEntriesRss20(object):
 
     def parse_content(self, node, entry, ns=''):
         # media:content is usually nonsense we don't want
-        if ns and node.tag.endswith('content'): return
+        if ns and node.tag.endswith('content') and ns not in ('itunes',):
+            return
         content = unicoder(node.text)
         if content:
-            content = cleaner.clean_html(content)
-        entry['content'] = [{'value': content}]
+            content = self.cleaner.clean_html(content)
+        entry['content'] = [{'value': content or ''}]
 
     def parse_summary(self, node, entry, ns=''):
+        if ns in ('itunes', ): return
         summary = unicoder(node.text)
         if summary:
-            summary = cleaner.clean_html(summary).strip()
+            summary = self.cleaner.clean_html(summary).strip()
         entry['summary'] = summary
 
     def parse_media_content(self, node, entry, ns='media'):
@@ -189,6 +224,13 @@ class SpeedParserEntriesRss20(object):
 
     def parse_media_thumbnail(self, node, entry, ns='media'):
         entry.setdefault('media_thumbnail', []).append(node.attrib)
+
+    def parse_media_group(self, node, entry, ns='media'):
+        for child in node:
+            if child.tag.endswith('content'):
+                self.parse_media_content(child, entry)
+            elif child.tag.endswith('thumbnail'):
+                self.parse_media_thumbnail(child, entry)
 
     def entry_list(self):
         return self.entries
@@ -205,7 +247,7 @@ class SpeedParserEntriesAtom(SpeedParserEntriesRss20):
             if child.tag == 'name': name = unicoder(child.text)
             if child.tag == 'email': email = unicoder(child.text)
         if name and not email:
-            entry['author'] = name
+            entry['author'] = munge_author(name)
         else:
             entry['author'] = '%s (%s)' % (name, email)
 
@@ -324,7 +366,8 @@ class SpeedParserFeedAtom(SpeedParserFeed):
         return link, links
 
 class SpeedParser(object):
-    def __init__(self, content):
+    def __init__(self, content, cleaner=default_cleaner):
+        self.cleaner = cleaner
         self.xmlns, content = strip_namespace(content)
         tree = etree.fromstring(content)
         if isinstance(tree, etree._ElementTree):
@@ -379,12 +422,13 @@ class SpeedParser(object):
         return {}
 
     def parse_entries(self, version, encoding):
+        kwargs = dict(encoding=encoding, namespaces=self.namespaces, cleaner=self.cleaner)
         if version == 'rss20':
-            return SpeedParserEntriesRss20(self.root, encoding=encoding, namespaces=self.namespaces).entry_list()
+            return SpeedParserEntriesRss20(self.root, **kwargs).entry_list()
         if version == 'rss10':
-            return SpeedParserEntriesRdf(self.root, encoding=encoding, namespaces=self.namespaces).entry_list()
+            return SpeedParserEntriesRdf(self.root, **kwargs).entry_list()
         if version == 'atom10':
-            return SpeedParserEntriesAtom(self.root, namespaces=self.namespaces, encoding=encoding).entry_list()
+            return SpeedParserEntriesAtom(self.root, **kwargs).entry_list()
         return []
 
     def update(self, result):
@@ -400,17 +444,20 @@ class SpeedParser(object):
             result['encoding'] = self.encoding
 
 
-def parse(document):
+def parse(document, clean_html=True):
+    cleaner = default_cleaner if clean_html else fake_cleaner
     result = feedparser.FeedParserDict()
     result['feed'] = feedparser.FeedParserDict()
     result['entries'] = []
     result['bozo'] = 0
     try:
-        parser = SpeedParser(document)
+        parser = SpeedParser(document, cleaner)
         parser.update(result)
     except Exception, e:
+        import traceback
         result['bozo'] = 1
         result['bozo_exception'] = e
+        result['bozo_tb'] = traceback.format_exc()
     return result
 
 

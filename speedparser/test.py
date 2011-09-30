@@ -14,6 +14,8 @@ except ImportError:
     import speedparser
 import feedparser
 
+munge_author = speedparser.munge_author
+
 class TestCaseBase(TestCase):
     def assertPrettyClose(self, s1, s2):
         """Assert that two strings are pretty damn near equal.  This gets around
@@ -63,7 +65,7 @@ def entry_equivalence(test_case, fpresult, spresult):
         if 'author' in fpe:
             if 'author' not in spe:
                 raise AssertionError("spe lacks author: %s\n----\n%s" % (pformat(fpe), pformat(spe)))
-            self.assertEqual(fpe.author, spe.author)
+            self.assertEqual(munge_author(fpe.author), munge_author(spe.author))
         if 'comments' in fpe:
             self.assertEqual(fpe.comments, spe.comments)
         if 'updated' in fpe:
@@ -73,10 +75,13 @@ def entry_equivalence(test_case, fpresult, spresult):
             self.assertEqual(fpe.updated_parsed, spe.updated_parsed)
         # lxml's cleaner can leave some stray block level elements around when
         # removing all containing code (like a summary which is just an object
-        if len(fpe.summary) < 5 and len(spe.summary.replace(' ', '')) < 20:
-            pass
-        else:
-            self.assertPrettyClose(fpe.summary, spe.summary)
+        if 'summary' in fpe:
+            if 'summary' not in spe:
+                print "%s\n----\n%s\n" % (pformat(fpe), pformat(spe))
+            if len(fpe.summary) < 5 and len(spe.summary.replace(' ', '')) < 20:
+                pass
+            else:
+                self.assertPrettyClose(fpe.summary, spe.summary)
         if 'title' in fpe:
             self.assertPrettyClose(fpe.title, spe.title)
         if 'content' in fpe:
@@ -113,7 +118,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0024.dat'
+        filename = '0018.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -132,6 +137,8 @@ class SingleTestEntries(TestCaseBase):
         entry_equivalence(self, fpresult, spresult)
 
 class EntriesCoverageTest(TestCaseBase):
+    """A coverage test that does not check to see if the feed level items
+    are the same;  it only tests that entries are similar."""
     def setUp(self):
         self.files = ['feeds/%s' % f for f in os.listdir('feeds/') if not f.startswith('.')]
         self.files.sort()
@@ -140,7 +147,7 @@ class EntriesCoverageTest(TestCaseBase):
         success = 0
         fperrors = 0
         sperrors = 0
-        total = 50
+        total = 400
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
@@ -231,3 +238,25 @@ class SpeedTest(TestCaseBase):
         pct = lambda x: total/x
         print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec" % (pct(fpspeed), pct(spspeed))
 
+class SpeedTestNoClean(TestCaseBase):
+    def setUp(self):
+        self.files = ['feeds/%s' % f for f in os.listdir('feeds/') if not f.startswith('.')]
+        self.files.sort()
+
+    def test_speed(self):
+        total = 200
+        def getspeed(parser, files, args=[]):
+            t0 = time.time()
+            for f in files:
+                with open(f) as fo:
+                    document = fo.read()
+                try:
+                    parser.parse(document, *args)
+                except:
+                    pass
+            td = time.time() - t0
+            return td
+        fpspeed = getspeed(feedparser, self.files[:total])
+        spspeed = getspeed(speedparser, self.files[:total], args=(False,))
+        pct = lambda x: total/x
+        print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
