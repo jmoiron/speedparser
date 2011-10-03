@@ -112,6 +112,8 @@ def base_url(root):
 def full_href(href, base=None):
     if base is None:
         return href
+    if 'http://' in href or 'https://' in href:
+        return href
     return '%s/%s' % (base.rstrip('/'), href.lstrip('/'))
 
 def full_href_attribs(attribs, base=None):
