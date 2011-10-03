@@ -66,7 +66,7 @@ def first_text(xpath_result, default='', encoding='utf-8'):
 
 nsre = re.compile(r'xmlns=[\'"](.+?)[\'"]')
 def strip_namespace(document):
-    if 'xmlns=' not in document[:300]:
+    if 'xmlns=' not in document[:400]:
         return None, document
     match = nsre.search(document)
     if match:
@@ -304,6 +304,12 @@ class SpeedParserEntriesRdf(SpeedParserEntriesRss20):
 class SpeedParserEntriesAtom(SpeedParserEntriesRss20):
     entry_xpath = '/feed/entry'
 
+    def parse_summary(self, node, entry, ns=''):
+        if 'content' in entry:
+            entry['summary'] = entry['content'][0]['value']
+        else:
+            super(SpeedParserEntriesAtom, self).parse_summary(node, entry, ns)
+
 class SpeedParserFeedRss20(object):
     channel_xpath = '/rss/channel'
     tag_map = {
@@ -314,7 +320,9 @@ class SpeedParserFeedRss20(object):
         'link' : 'links',
         'updated' : 'date',
         'modified' : 'date',
+        'date': 'date',
         'generator' : 'generator',
+        'generatorAgent': 'generator',
         'language' : 'lang',
         'id': 'id',
         'lastBuildDate' : 'date',
@@ -392,7 +400,13 @@ class SpeedParserFeedRss20(object):
         feed['language'] = unicoder(node.text)
 
     def parse_generator(self, node, feed, ns=''):
-        feed['generator'] = unicoder(node.text)
+        value = unicoder(node.text)
+        if value:
+            feed['generator'] = value
+        else:
+            for value in node.attrib.itervalues():
+                if 'http://' in value:
+                    feed['generator'] = value
 
     def parse_id(self, node, feed, ns=''):
         feed['id'] = unicoder(node.text)
