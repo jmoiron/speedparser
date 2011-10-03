@@ -92,6 +92,8 @@ def entry_equivalence(test_case, fpresult, spresult):
                 for key in fmc:
                     if key == 'isdefault':
                         self.assertEqual(fmc[key], smc['isDefault'])
+                    elif key == 'filesize':
+                        self.assertEqual(fmc[key], smc['fileSize'])
                     else:
                         self.assertEqual(fmc[key], smc[key])
         if 'media_thumbnail' in fpe:
@@ -121,7 +123,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0017.dat'
+        filename = '0021.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
