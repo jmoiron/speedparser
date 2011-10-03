@@ -23,6 +23,11 @@ class TestCaseBase(TestCase):
         threshold = 0.10
         if len(s1) > 1024 and len(s2) > 1024:
             threshold = 0.25
+        # sometimes the title is just made up of some unicode escapes, and since
+        # fp and sp treat these differently, we don't pay attention to differences
+        # so long as the length is short
+        if '&#' in s1 and '&#' not in s2 and len(s1) < 50:
+            return True
         matcher = difflib.SequenceMatcher(None, s1, s2)
         ratio = matcher.quick_ratio()
         if ratio < threshold:
@@ -123,7 +128,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0021.dat'
+        filename = '0090.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -153,7 +158,7 @@ class EntriesCoverageTest(TestCaseBase):
         fperrors = 0
         sperrors = 0
         total = len(self.files)
-        total = 100
+        total = 300
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
