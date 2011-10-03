@@ -121,7 +121,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0138.dat'
+        filename = '0017.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -151,6 +151,7 @@ class EntriesCoverageTest(TestCaseBase):
         fperrors = 0
         sperrors = 0
         total = len(self.files)
+        total = 100
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
@@ -267,3 +268,4 @@ class SpeedTestNoClean(TestCaseBase):
         spspeed = getspeed(speedparser, self.files[:total], args=(False,))
         pct = lambda x: total/x
         print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
+

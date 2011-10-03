@@ -95,6 +95,32 @@ def munge_author(author):
             return '%s (%s)' % (author, email)
     return author
 
+# --- common xml utilities ---
+
+def reverse_namespace_map(nsmap):
+    d = fpnamespaces.copy()
+    d.update(dict([(v,k) for (k,v) in nsmap.iteritems()]))
+    return d
+
+def base_url(root):
+    """Determine the base url for a root element."""
+    for attr,value in root.attrib.iteritems():
+        if attr.endswith('base') and 'http' in value:
+            return value
+    return None
+
+def full_href(href, base=None):
+    if base is None:
+        return href
+    return '%s/%s' % (base.rstrip('/'), href.lstrip('/'))
+
+def full_href_attribs(attribs, base=None):
+    if base is None: return attribs
+    d = dict(attribs)
+    for key,value in d.iteritems():
+        if key == 'href':
+            d[key] = full_href(value, base)
+    return d
 
 class SpeedParserEntriesRss20(object):
     entry_xpath = '/rss/item | /rss/channel/item'
@@ -102,10 +128,14 @@ class SpeedParserEntriesRss20(object):
         'pubDate' : 'date',
         'date': 'date',
         'updated' : 'date',
+        'modified' : 'date',
         'link' : 'links',
         'title': 'title',
         'creator': 'author',
         'author': 'author',
+        'name': 'author',
+        'guid': 'guid',
+        'id': 'guid',
         'comments': 'comments',
         'encoded': 'content',
         'content': 'content',
@@ -113,6 +143,7 @@ class SpeedParserEntriesRss20(object):
         'description': 'summary',
         'media:content': 'media_content',
         'media:thumbnail': 'media_thumbnail',
+        'media_thumbnail': 'media_thumbnail',
         'media:group': 'media_group',
         'itunes:summary': 'content',
         'gr:annotation': 'annotation',
@@ -121,19 +152,15 @@ class SpeedParserEntriesRss20(object):
     def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', cleaner=default_cleaner):
         self.encoding = encoding
         self.namespaces = namespaces
-        self.nslookup = self.reverse_namespace_map()
+        self.nslookup = reverse_namespace_map(namespaces)
         self.cleaner = cleaner
         self.entry_objects = root.xpath(self.entry_xpath, namespaces=namespaces)
+        self.baseurl = base_url(root)
         entries = []
         for obj in self.entry_objects:
             d = self.parse_entry(obj)
             if d: entries.append(d)
         self.entries = entries
-
-    def reverse_namespace_map(self):
-        d = dict([(v,k) for (k,v) in self.namespaces.iteritems()])
-        d.update(fpnamespaces)
-        return d
 
     def parse_entry(self, entry):
         """An attempt to parse pieces of an entry out w/o xpath, by looping
@@ -152,6 +179,8 @@ class SpeedParserEntriesRss20(object):
         nslookup = self.nslookup
 
         for child in entry.getchildren():
+            if isinstance(child, etree._Comment):
+                continue
             ns, tag = clean_ns(child.tag)
             mapping = tag_map.get(tag, None)
             if mapping:
@@ -178,6 +207,10 @@ class SpeedParserEntriesRss20(object):
         if e.get('summary', False) is None:
             e['summary'] = u''
 
+        # support feed entries that have a guid but no link
+        if 'guid' in e and 'link' not in e:
+            e['link'] = full_href(e['guid'], self.baseurl)
+
         return e
 
     def parse_date(self, node, entry, ns=''):
@@ -189,8 +222,9 @@ class SpeedParserEntriesRss20(object):
         entry['title'] = unicoder(node.text) or ''
 
     def parse_author(self, node, entry, ns=''):
-        if ns and ns in ('itunes', 'dm'): return
-        if node.text:
+        if ns and ns in ('itunes', 'dm') and 'author' in entry:
+            return
+        if node.text and len(list(node)) == 0:
             entry['author'] = munge_author(unicoder(node.text))
             return
         name, email = None, None
@@ -204,6 +238,9 @@ class SpeedParserEntriesRss20(object):
         else:
             entry['author'] = '%s (%s)' % (name, email)
 
+    def parse_guid(self, node, entry, ns=''):
+        entry['guid'] = unicoder(node.text)
+
     def parse_annotation(self, node, entry, ns='gr'):
         if entry.get('author', '') and 'unknown' not in entry['author'].lower():
             return
@@ -213,10 +250,10 @@ class SpeedParserEntriesRss20(object):
 
     def parse_links(self, node, entry, ns=''):
         if node.text:
-            entry['link'] = unicoder(node.text).strip('#')
+            entry['link'] = full_href(unicoder(node.text).strip('#'), self.baseurl)
         if 'link' not in entry and node.attrib.get('rel', '') == 'alternate':
-            entry['link'] = unicoder(node.attrib['href']).strip('#')
-        entry.setdefault('links', []).append(node.attrib)
+            entry['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
+        entry.setdefault('links', []).append(full_href_attribs(node.attrib, self.baseurl))
 
     def parse_comments(self, node, entry, ns=''):
         if 'comments' in entry and ns: return
@@ -229,6 +266,8 @@ class SpeedParserEntriesRss20(object):
         content = unicoder(node.text)
         if content:
             content = self.cleaner.clean_html(content)
+        elif len(list(node)):
+            content = self.cleaner.clean_html(unicoder(etree.tostring(node[0])))
         entry['content'] = [{'value': content or ''}]
 
     def parse_summary(self, node, entry, ns=''):
@@ -263,131 +302,107 @@ class SpeedParserEntriesRdf(SpeedParserEntriesRss20):
 class SpeedParserEntriesAtom(SpeedParserEntriesRss20):
     entry_xpath = '/feed/entry'
 
-    def parse_author(self, node, entry, ns=''):
-        name, email = None, None
-        for child in node:
-            if child.tag == 'name': name = unicoder(child.text or '')
-            if child.tag == 'email': email = unicoder(child.text or '')
-        if name and not email:
-            entry['author'] = munge_author(name)
-        elif not name and not email:
-            entry['author'] = ''
-        else:
-            entry['author'] = '%s (%s)' % (name, email)
+class SpeedParserFeedRss20(object):
+    channel_xpath = '/rss/channel'
+    tag_map = {
+        'title' : 'title',
+        'description' : 'subtitle',
+        'tagline' : 'subtitle',
+        'subtitle' : 'subtitle',
+        'link' : 'links',
+        'updated' : 'date',
+        'modified' : 'date',
+        'generator' : 'generator',
+        'language' : 'lang',
+        'id': 'id',
+        'lastBuildDate' : 'date',
+    }
 
-class SpeedParserFeed(object):
-    date_path = '''
-        /rss/channel/lastBuildDate |
-        /rss/channel/pubDate
-    '''.strip()
-    root_tag = 'rss'
-
-    def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20'):
+    def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20', cleaner=default_cleaner):
+        """A port of SpeedParserFeed that uses far fewer xpath lookups, which
+        ends up simplifying parsing and makes it easier to catch the various
+        names that different tags might come under."""
         self.root = root
-        self.nsmap = namespaces or root.nsmap
-        self.encoding = encoding
-        for k in self.nsmap.keys():
-            if not k:
-                # not allowed in xpath (grumble)
-                del self.nsmap[k]
-        feed = {}
-        feed['title'], feed['subtitle'] = self.parse_title()
-        feed['link'], feed['links'] = self.parse_links()
-        feed['updated'], feed['updated_parsed'] = self.parse_updated()
-        feed['generator'] = self.parse_generator()
-        feed['language'] = self.parse_lang()
-        # filter out crap we don't need
-        for key in feed.keys():
-            if feed[key] is None:
-                del feed[key]
+        nslookup = reverse_namespace_map(namespaces)
+        self.cleaner = cleaner
+        self.baseurl = base_url(root)
+        def clean_ns(tag):
+            if '}' in tag:
+                split = tag.split('}')
+                return split[0].strip('{'), split[-1]
+            return '', tag
+
+        feed = feedparser.FeedParserDict()
+        tag_map = self.tag_map
+
+        channel = root.xpath(self.channel_xpath, namespaces=namespaces)
+        if len(channel) == 1:
+            channel = channel[0]
+
+        for child in channel:
+            if isinstance(child, etree._Comment):
+                continue
+            ns, tag = clean_ns(child.tag)
+            mapping = tag_map.get(tag, None)
+            if mapping:
+                getattr(self, 'parse_%s' % mapping)(child, feed, nslookup.get(ns, ns))
+            if not ns:
+                continue
+            fulltag = '%s:%s' % (nslookup.get(ns, ''), tag)
+            mapping = tag_map.get(fulltag, None)
+            if mapping:
+                getattr(self, 'parse_%s' % mapping)(child, feed, nslookup[ns])
+
+
+        # this copies feedparser behavior if, say, xml:lang is defined in the
+        # root feed element, even though this element tends to have garbage like
+        # "utf-8" in it rather than an actual language
+        if 'language' not in feed:
+            for attr in root.attrib:
+                if attr.endswith('lang'):
+                    feed['language'] = root.attrib[attr]
+
+        if 'id' in feed and 'link' not in feed:
+            feed['link'] = feed['id']
+
+
         self.feed = feed
 
-    def xpath(self, query):
-        try:
-            return self.root.xpath(query, namespaces=self.nsmap)
-        except:
-            import traceback
-            traceback.print_exc()
+    def parse_title(self, node, feed, ns=''):
+        feed['title'] = unicoder(node.text) or ''
 
-    def rq(self, query):
-        return '/%s%s' % (self.root_tag, query)
+    def parse_subtitle(self, node, feed, ns=''):
+        feed['subtitle'] = unicoder(node.text) or ''
 
-    def parse_title(self):
-        title = first_text(self.xpath(self.rq('/channel/title')))
-        subtitle = first_text(self.xpath(self.rq('/channel/description')))
-        return title, subtitle
+    def parse_links(self, node, feed, ns=''):
+        if node.text:
+            feed['link'] = full_href(unicoder(node.text).strip('#'), self.baseurl)
+        if 'link' not in feed and node.attrib.get('rel', '') == 'alternate':
+            feed['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
+        feed.setdefault('links', []).append(full_href_attribs(node.attrib, self.baseurl))
 
-    def parse_generator(self):
-        return first_text(self.xpath('/rss/channel/generator'), None)
+    def parse_date(self, node, feed, ns=''):
+        value = unicoder(node.text)
+        feed['updated'] = value
+        feed['updated_parsed'] = feedparser._parse_date(value)
 
-    def parse_lang(self):
-        return first_text(self.xpath('/rss/channel/language'), None)
+    def parse_lang(self, node, feed, ns=''):
+        feed['language'] = unicoder(node.text)
 
-    def parse_updated(self):
-        updated = first_text(self.xpath(self.date_path), None)
-        updated_parsed = feedparser._parse_date(updated)
-        return updated, updated_parsed
+    def parse_generator(self, node, feed, ns=''):
+        feed['generator'] = unicoder(node.text)
 
-    def parse_links(self):
-        elems = self.xpath(self.rq('/channel/*[local-name()="link"]'))
-        link = ''
-        links = []
-        for e in elems:
-            if e.tag == 'link':
-                link = e.text or ''
-            else:
-                links.append(e.attrib)
-        return link, links
+    def parse_id(self, node, feed, ns=''):
+        feed['id'] = unicoder(node.text)
 
     def feed_dict(self):
         return self.feed
 
-class SpeedParserFeedRdf(SpeedParserFeed):
-    root_tag = '/rdf:RDF'
-    date_path = '''/rdf:RDF/channel/*[local-name()="date"]'''
+class SpeedParserFeedAtom(SpeedParserFeedRss20):
+    channel_xpath = '/feed'
 
-    def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20'):
-        if None in namespaces:
-            namespaces['rdf'] = namespaces[None]
-            del namespaces[None]
-        super(SpeedParserFeedRdf, self).__init__(root, namespaces, type)
-
-    def parse_lang(self):
-        langkey = [k for k in self.root.keys() if k.endswith('lang')]
-        if langkey:
-            return self.root.attrib[langkey[0]]
-        return super(SpeedParserFeedRdf, self).parse_lang()
-
-class SpeedParserFeedAtom(SpeedParserFeed):
-    root_tag = '/feed'
-    date_path = '/feed/updated'
-
-    def parse_title(self):
-        title = first_text(self.xpath('/feed/title'))
-        subtitle = first_text(self.xpath('/feed/subtitle'))
-        return title, subtitle
-
-    def parse_generator(self):
-        return first_text(self.xpath('/feed/generator'))
-
-    def parse_lang(self):
-        langkey = [k for k in self.root.keys() if k.endswith('lang')]
-        if langkey:
-            return self.root.attrib[langkey[0]]
-        return super(SpeedParserFeedAtom, self).parse_lang()
-
-    def parse_links(self):
-        id = first_text(self.xpath('/feed/id'))
-        elems = self.xpath('/feed/link')
-        link = ''
-        links = []
-        for e in elems:
-            links.append(e.attrib)
-            if e.attrib.get('rel', '') == 'alternate':
-                link = e.attrib['href']
-        if id and not link:
-            link = id
-        return link, links
+class SpeedParserFeedRdf(SpeedParserFeedRss20):
+    channel_xpath = '/rdf:RDF/channel'
 
 class SpeedParser(object):
     def __init__(self, content, cleaner=default_cleaner):
@@ -438,7 +453,7 @@ class SpeedParser(object):
 
     def parse_feed(self, version, encoding):
         if version in ('rss20', 'rss092', 'rss091'):
-            return SpeedParserFeed(self.root, encoding=encoding).feed_dict()
+            return SpeedParserFeedRss20(self.root, encoding=encoding).feed_dict()
         if version == 'rss10':
             return SpeedParserFeedRdf(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
         if version == 'atom10':
