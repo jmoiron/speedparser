@@ -444,7 +444,8 @@ class SpeedParser(object):
     def __init__(self, content, cleaner=default_cleaner):
         self.cleaner = cleaner
         self.xmlns, content = strip_namespace(content)
-        self.xmlns = self.xmlns.strip('#')
+        if self.xmlns and '#' in self.xmlns:
+            self.xmlns = self.xmlns.strip('#')
         tree = etree.fromstring(content)
         if isinstance(tree, etree._ElementTree):
             self.tree = tree
