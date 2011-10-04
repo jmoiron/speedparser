@@ -315,7 +315,6 @@ class EntriesCoverageTest(TestCaseBase):
         errcompats = 0
         fperror = False
         total = len(self.files)
-        total = 1000
         failedpaths = []
         failedentries = []
         bozoentries = []
@@ -405,7 +404,7 @@ class CoverageTest(TestCaseBase):
 
 class SpeedTest(TestCaseBase):
     def setUp(self):
-        self.files = ['feeds/%s' % f for f in os.listdir('feeds/') if not f.startswith('.')]
+        self.files = [f for f in glob('feeds/*.dat') if not f.startswith('.')]
         self.files.sort()
 
     def test_speed(self):
@@ -422,14 +421,15 @@ class SpeedTest(TestCaseBase):
                     pass
             td = time.time() - t0
             return td
-        fpspeed = getspeed(feedparser, self.files[:total])
+        #fpspeed = getspeed(feedparser, self.files[:total])
         spspeed = getspeed(speedparser, self.files[:total])
         pct = lambda x: total/x
-        print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec" % (pct(fpspeed), pct(spspeed))
+        print "speedparser: %0.2f/sec" % (pct(spspeed))
+        #print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec" % (pct(fpspeed), pct(spspeed))
 
 class SpeedTestNoClean(TestCaseBase):
     def setUp(self):
-        self.files = ['feeds/%s' % f for f in os.listdir('feeds/') if not f.startswith('.')]
+        self.files = [f for f in glob('feeds/*.dat') if not f.startswith('.')]
         self.files.sort()
 
     def test_speed(self):
@@ -445,10 +445,11 @@ class SpeedTestNoClean(TestCaseBase):
                     pass
             td = time.time() - t0
             return td
-        fpspeed = getspeed(feedparser, self.files[:total])
+        #fpspeed = getspeed(feedparser, self.files[:total])
         spspeed = getspeed(speedparser, self.files[:total], args=(False,))
         pct = lambda x: total/x
-        print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
+        print "speedparser: %0.2f/sec (html cleaning disabled)" % (pct(spspeed))
+        #print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
 
 
 if __name__ == '__main__':
