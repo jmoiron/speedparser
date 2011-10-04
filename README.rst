@@ -13,5 +13,5 @@ On an Intel(R) Core(TM) i5 750, running only on one core, ``feedparser`` managed
 ``tests/feeds.tar.bz2``), while ``speedparser`` manages around ``65 feeds/sec``
 with HTML cleaning on and ``200 feeds/sec`` with cleaning off.
 
-:: `Universal Feed Parser`_: http://www.feedparser.org/
+:: _`Universal Feed Parser`: http://www.feedparser.org/
 
