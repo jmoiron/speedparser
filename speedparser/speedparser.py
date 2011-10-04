@@ -444,6 +444,7 @@ class SpeedParser(object):
     def __init__(self, content, cleaner=default_cleaner):
         self.cleaner = cleaner
         self.xmlns, content = strip_namespace(content)
+        self.xmlns = self.xmlns.strip('#')
         tree = etree.fromstring(content)
         if isinstance(tree, etree._ElementTree):
             self.tree = tree
@@ -476,9 +477,9 @@ class SpeedParser(object):
             vers = r.attrib['version'].replace('.', '')
         if root_tag in ('rss', 'rdf'):
             tag = 'rss'
-        if tag in ('feed'):
+        if root_tag in ('feed'):
             tag = 'atom'
-        if tag == 'rss' and vers == '10' and root_tag == 'rss':
+        if root_tag == 'rss' and vers == '10' and root_tag == 'rss':
             vers = ''
         return '%s%s' % (tag, vers)
 
@@ -499,7 +500,7 @@ class SpeedParser(object):
             return SpeedParserFeedRss20(self.root, encoding=encoding).feed_dict()
         if version == 'rss10':
             return SpeedParserFeedRdf(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
-        if version == 'atom10':
+        if version in ('atom10', 'atom03'):
             return SpeedParserFeedAtom(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
         raise IncompatibleFeedError("Feed not compatible with speedparser.")
 
@@ -509,7 +510,7 @@ class SpeedParser(object):
             return SpeedParserEntriesRss20(self.root, **kwargs).entry_list()
         if version == 'rss10':
             return SpeedParserEntriesRdf(self.root, **kwargs).entry_list()
-        if version == 'atom10':
+        if version in ('atom10', 'atom03'):
             return SpeedParserEntriesAtom(self.root, **kwargs).entry_list()
         raise IncompatibleFeedError("Feed not compatible with speedparser.")
 

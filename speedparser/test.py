@@ -28,6 +28,8 @@ class TestCaseBase(TestCase):
         # so long as the length is short
         if '&#' in s1 and '&#' not in s2 and len(s1) < 50:
             return True
+        if len(s1.strip()) == 0 and len(s2.strip()) < 25:
+            return True
         matcher = difflib.SequenceMatcher(None, s1, s2)
         ratio = matcher.quick_ratio()
         if ratio < threshold:
@@ -48,7 +50,7 @@ def feed_equivalence(testcase, fpresult, spresult):
     if 'generator' in fpf:
         self.assertEqual(fpf.generator, spf.generator)
     if 'link' in fpf:
-        self.assertEqual(fpf.link, spf.link)
+        self.assertEqual(fpf.link.strip('#'), spf.link.strip('#'))
     if 'language' in fpf:
         self.assertEqual(fpf.language, spf.language)
     if 'updated' in fpf:
@@ -68,7 +70,7 @@ def entry_equivalence(test_case, fpresult, spresult):
     self.assertEqual(len(fpresult.entries), len(spresult.entries))
     for fpe,spe in zip(fpresult.entries, spresult.entries):
         if 'link' in fpe:
-            self.assertEqual(fpe.link, spe.link)
+            self.assertEqual(fpe.link.strip('#'), spe.link.strip('#'))
         if 'author' in fpe:
             if 'author' not in spe:
                 raise AssertionError("spe lacks author: %s\n----\n%s" % (pformat(fpe), pformat(spe)))
@@ -130,7 +132,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0178.dat'
+        filename = '0323.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -160,7 +162,7 @@ class EntriesCoverageTest(TestCaseBase):
         fperrors = 0
         sperrors = 0
         total = len(self.files)
-        total = 300
+        total = 1000
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
