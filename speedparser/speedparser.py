@@ -145,7 +145,7 @@ def innertext(node):
     is just node.text.  Otherwise, it's node.text + sub-element-text +
     node.tail."""
     if not len(node): return node.text
-    return node.text + ''.join([etree.tostring(c) for c in node]) + node.tail
+    return (node.text or '') + ''.join([etree.tostring(c) for c in node]) + (node.tail or '')
 
 class SpeedParserEntriesRss20(object):
     entry_xpath = '/rss/item | /rss/channel/item'
@@ -241,7 +241,7 @@ class SpeedParserEntriesRss20(object):
         entry['updated_parsed'] = feedparser._parse_date(value)
 
     def parse_title(self, node, entry, ns=''):
-        if ns in ('media',): return
+        if ns in ('media',) and 'title' in entry: return
         entry['title'] = unicoder(node.text) or ''
 
     def parse_author(self, node, entry, ns=''):
@@ -290,18 +290,17 @@ class SpeedParserEntriesRss20(object):
         entry['comments'] = unicoder(node.text)
 
     def parse_content(self, node, entry, ns=''):
-        # media:content is usually nonsense we don't want
+        # media:content is processed as media_content below
         if ns and node.tag.endswith('content') and ns not in ('itunes',):
             return
-        content = unicoder(node.text)
-        if not content and len(node):
-            content = ''.join([etree.tostring(c) for c in node])
+        content = unicoder(innertext(node))
         if content:
             content = self.cleaner.clean_html(content)
-        entry['content'] = [{'value': content or ''}]
+        entry.setdefault('content', []).append({'value': content or ''})
 
     def parse_summary(self, node, entry, ns=''):
-        if ns in ('itunes', 'media'): return
+        if ns in ('itunes', 'media'):
+            return
         if 'content' in entry:
             entry['summary'] = entry['content'][0]['value']
             return
