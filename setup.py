@@ -38,7 +38,7 @@ setup(
     test_suite="tests",
     install_requires=[
       # -*- Extra requirements: -*-
-      'feedparser',
+      # 'feedparser>=0.5',
       'lxml',
     ],
     entry_points="""

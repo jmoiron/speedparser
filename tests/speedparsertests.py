@@ -22,6 +22,11 @@ try:
 except:
     import json
 
+try:
+    from jinja2.filters import do_filesizeformat as sizeformat
+except:
+    sizeformat = lambda x: "%0.2f b" % x
+
 class TimeEncoder(json.JSONEncoder):
     def default(self, o):
         if isinstance(o, time.struct_time):
@@ -283,7 +288,7 @@ class MultiTestEntries(TestCaseBase):
 
 class SingleTest(TestCaseBase):
     def setUp(self):
-        filename = '0028.dat'
+        filename = '0003.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -317,6 +322,7 @@ class EntriesCoverageTest(TestCaseBase):
         errcompats = 0
         fperror = False
         total = len(self.files)
+        total = 1000
         failedpaths = []
         failedentries = []
         bozoentries = []
@@ -329,6 +335,9 @@ class EntriesCoverageTest(TestCaseBase):
                 if fpresult is None:
                     fpresult = feedparser.parse(document)
             except:
+                fperrors += 1
+                fperror = True
+            if fpresult.get('bozo', 0):
                 fperrors += 1
                 fperror = True
             try:
@@ -413,20 +422,22 @@ class SpeedTest(TestCaseBase):
         total = len(self.files)
         total = 300
         def getspeed(parser, files):
+            fullsize = 0
             t0 = time.time()
             for f in files:
                 with open(f) as fo:
                     document = fo.read()
+                    fullsize += len(document)
                 try:
                     parser.parse(document)
                 except:
                     pass
             td = time.time() - t0
-            return td
+            return td, fullsize
         #fpspeed = getspeed(feedparser, self.files[:total])
-        spspeed = getspeed(speedparser, self.files[:total])
+        spspeed, fullsize = getspeed(speedparser, self.files[:total])
         pct = lambda x: total/x
-        print "speedparser: %0.2f/sec" % (pct(spspeed))
+        print "speedparser: %0.2f/sec, %s/sec" % (pct(spspeed), sizeformat(fullsize/spspeed))
         #print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec" % (pct(fpspeed), pct(spspeed))
 
 class SpeedTestNoClean(TestCaseBase):
@@ -437,20 +448,22 @@ class SpeedTestNoClean(TestCaseBase):
     def test_speed(self):
         total = len(self.files)
         def getspeed(parser, files, args=[]):
+            fullsize = 0
             t0 = time.time()
             for f in files:
                 with open(f) as fo:
                     document = fo.read()
+                    fullsize += len(document)
                 try:
                     parser.parse(document, *args)
                 except:
                     pass
             td = time.time() - t0
-            return td
+            return td, fullsize
         #fpspeed = getspeed(feedparser, self.files[:total])
-        spspeed = getspeed(speedparser, self.files[:total], args=(False,))
+        spspeed, fullsize = getspeed(speedparser, self.files[:total], args=(False,))
         pct = lambda x: total/x
-        print "speedparser: %0.2f/sec (html cleaning disabled)" % (pct(spspeed))
+        print "speedparser (no html cleaning): %0.2f/sec, %s/sec" % (pct(spspeed), sizeformat(fullsize/spspeed))
         #print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
 
 

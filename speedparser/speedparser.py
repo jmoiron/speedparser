@@ -19,7 +19,10 @@ import os
 import sys
 from lxml import etree, html
 from lxml.html import clean
-import feedparser
+try:
+    import feedparser
+except:
+    import feedparsercompat as feedparser
 
 keymap = feedparser.FeedParserDict.keymap
 fpnamespaces = feedparser._FeedParserMixin.namespaces
