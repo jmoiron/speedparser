@@ -31,7 +31,8 @@ xmlns_map = {
 }
 
 default_cleaner = clean.Cleaner(comments=True, javascript=True,
-        scripts=True, safe_attrs_only=True, page_structure=True)
+        scripts=True, safe_attrs_only=True, page_structure=True,
+        style=True)
 
 simple_cleaner = clean.Cleaner(safe_attrs_only=True, page_structure=True)
 
@@ -115,6 +116,8 @@ def base_url(root):
 def full_href(href, base=None):
     if base is None:
         return href
+    if href.startswith('javascript:'):
+        return href
     if 'http://' in href or 'https://' in href:
         return href
     return '%s/%s' % (base.rstrip('/'), href.lstrip('/'))
@@ -151,6 +154,7 @@ class SpeedParserEntriesRss20(object):
     entry_xpath = '/rss/item | /rss/channel/item'
     tag_map = {
         'pubDate' : 'date',
+        'pubdate' : 'date',
         'date': 'date',
         'updated' : 'date',
         'modified' : 'date',
@@ -299,7 +303,8 @@ class SpeedParserEntriesRss20(object):
         entry.setdefault('content', []).append({'value': content or ''})
 
     def parse_summary(self, node, entry, ns=''):
-        if ns in ('itunes', 'media'):
+        if ns in ('media', ): return
+        if ns == 'itunes' and entry.get('summary', None):
             return
         if 'content' in entry:
             entry['summary'] = entry['content'][0]['value']
