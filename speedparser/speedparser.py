@@ -487,6 +487,7 @@ class SpeedParser(object):
                 return value
         elif self.xmlns:
             vers = self.xmlns.split('/')[-2].replace('.', '')
+        tag = root_tag
         if r.attrib.get('version', None):
             vers = r.attrib['version'].replace('.', '')
         if root_tag in ('rss', 'rdf'):

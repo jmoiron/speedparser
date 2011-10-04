@@ -6,6 +6,7 @@
 import os
 import time
 import difflib
+from glob import glob
 from unittest import TestCase
 from pprint import pprint, pformat
 try:
@@ -14,7 +15,87 @@ except ImportError:
     import speedparser
 import feedparser
 
+try:
+    import simplejson as json
+except:
+    import json
+
+class TimeEncoder(json.JSONEncoder):
+    def default(self, o):
+        if isinstance(o, time.struct_time):
+            return time.mktime(o)
+        if isinstance(o, Exception):
+            return repr(o)
+        return json.JSONEncoder.default(self, o)
+
 munge_author = speedparser.munge_author
+
+def load_cache(path):
+    """Load a cached feedparser result."""
+    jsonpath = path.replace('dat', 'json')
+    if not os.path.exists(jsonpath):
+        return None
+    with open(jsonpath) as f:
+        data = json.loads(f.read())
+    ret = feedparser.FeedParserDict()
+    ret.update(data)
+    if 'updated_parsed' in data['feed'] and data['feed']['updated_parsed']:
+        try:
+            data['feed']['updated_parsed'] = time.gmtime(data['feed']['updated_parsed'])
+        except: pass
+
+    ret.feed = feedparser.FeedParserDict(data.get('feed', {}))
+    entries = []
+    for e in data.get('entries', []):
+        if 'updated_parsed' in e and e['updated_parsed']:
+            try:
+                e['updated_parsed'] = time.gmtime(e['updated_parsed'])
+            except: pass
+        entries.append(feedparser.FeedParserDict(e))
+    ret.entries = entries
+    return ret
+
+def update_cache(path, data):
+    """Update the feedparser cache."""
+    jsonpath = path.replace('dat', 'json')
+    if isinstance(data, dict):
+        content = json.dumps(data, cls=TimeEncoder)
+    elif isinstance(data, basestring):
+        content = data
+    else:
+        return None
+    with open(jsonpath, 'w') as f:
+        f.write(content)
+
+def feedparse(path):
+    with open(path) as f:
+        text = f.read()
+    try:
+        result = feedparser.parse(text)
+    except:
+        return None
+    return (path, json.dumps(result, cls=TimeEncoder).encode('base64'))
+
+def build_feedparser_cache(update=False):
+    """Build a feedparser cache."""
+    from multiprocessing import Pool, cpu_count
+
+    paths = []
+    for path in glob('feeds/*.dat'):
+        if not update and os.path.exists(path.replace('dat', 'json')):
+            continue
+        paths.append(path)
+
+    parser_pool = Pool(cpu_count())
+    results = []
+    for path in paths:
+        results.append(parser_pool.apply_async(feedparse, (path,)))
+    for result in results:
+        value = result.get()
+        if value is None: continue
+        path, json = value
+        json = json.decode('base64')
+        update_cache(path, json)
 
 class TestCaseBase(TestCase):
     def assertPrettyClose(self, s1, s2):
@@ -78,6 +159,15 @@ class TestCaseBase(TestCase):
             return self.assertPrettyClose(l1, l2)
         raise AssertionError('link1 and link2 are not similar enough %s != %s' % (l1, l2))
 
+    def assertSameTime(self, t1, t2):
+        if not t1 and not t2: return True
+        if t1 == t2: return True
+        gt1 = time.gmtime(time.mktime(t1))
+        gt2 = time.gmtime(time.mktime(t2))
+        if t1 == gt2: return True
+        if t2 == gt1: return True
+        raise AssertionError("time1 and time2 are not similar enough (%r != %r)" % (t1, t2))
+
 def feed_equivalence(testcase, fpresult, spresult):
     self = testcase
     fpf = fpresult.feed
@@ -93,7 +183,7 @@ def feed_equivalence(testcase, fpresult, spresult):
         self.assertEqual(fpf.language, spf.language)
     if 'updated' in fpf:
         self.assertEqual(fpf.updated, spf.updated)
-        self.assertEqual(fpf.updated_parsed, spf.updated_parsed)
+        self.assertSameTime(fpf.updated_parsed, spf.updated_parsed)
 
     self.assertEqual(fpresult.version, spresult.version)
     self.assertEqual(fpresult.encoding, spresult.encoding)
@@ -117,7 +207,7 @@ def entry_equivalence(test_case, fpresult, spresult):
             # we don't care what date fields we used as long as they
             # ended up the same
             #self.assertEqual(fpe.updated, spe.updated)
-            self.assertEqual(fpe.updated_parsed, spe.updated_parsed)
+            self.assertSameTime(fpe.updated_parsed, spe.updated_parsed)
         # lxml's cleaner can leave some stray block level elements around when
         # removing all containing code (like a summary which is just an object
         if 'summary' in fpe:
@@ -165,25 +255,6 @@ def entry_equivalence(test_case, fpresult, spresult):
                 for key in fmt:
                     self.assertEqual(fmt[key], smt[key])
 
-class SingleTest(TestCaseBase):
-    def setUp(self):
-        filename = '0013.dat'
-        with open('feeds/%s' % filename) as f:
-            self.doc = f.read()
-
-    def tearDown(self):
-        self.doc = None
-
-    def test_single_feed(self):
-        fpresult = feedparser.parse(self.doc)
-        spresult = speedparser.parse(self.doc)
-
-        d = dict(fpresult)
-        d['entries'] = len(fpresult.entries)
-        pprint(d)
-        pprint(spresult)
-        feed_equivalence(self, fpresult, spresult)
-
 class MultiTestEntries(TestCaseBase):
     def setUp(self):
         self.filenames = [
@@ -208,9 +279,9 @@ class MultiTestEntries(TestCaseBase):
                 traceback.print_exc()
 
 
-class SingleTestEntries(TestCaseBase):
+class SingleTest(TestCaseBase):
     def setUp(self):
-        filename = '0001.dat'
+        filename = '0028.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -234,32 +305,46 @@ class EntriesCoverageTest(TestCaseBase):
     """A coverage test that does not check to see if the feed level items
     are the same;  it only tests that entries are similar."""
     def setUp(self):
-        self.files = ['feeds/%s' % f for f in os.listdir('feeds/') if not f.startswith('.')]
+        self.files = [f for f in glob('feeds/*.dat') if not f.startswith('.')]
         self.files.sort()
 
     def test_entries_coverage(self):
         success = 0
         fperrors = 0
         sperrors = 0
+        errcompats = 0
+        fperror = False
         total = len(self.files)
-        total = 2000
+        total = 1000
         failedpaths = []
         failedentries = []
+        bozoentries = []
         for f in self.files[:total]:
+            fperror = False
             with open(f) as fo:
                 document = fo.read()
             try:
-                fpresult = feedparser.parse(document)
+                fpresult = load_cache(f)
+                if fpresult is None:
+                    fpresult = feedparser.parse(document)
             except:
                 fperrors += 1
-                continue
+                fperror = True
             try:
                 spresult = speedparser.parse(document)
             except:
-                sperrors += 1
+                if fperror:
+                    errcompats += 1
+                else:
+                    sperrors += 1
+                    bozoentries.append(f)
                 continue
             if 'bozo_exception' in spresult:
-                sperrors += 1
+                if fperror:
+                    errcompats += 1
+                else:
+                    sperrors += 1
+                    bozoentries.append(f)
                 continue
             try:
                 entry_equivalence(self, fpresult, spresult)
@@ -269,9 +354,10 @@ class EntriesCoverageTest(TestCaseBase):
                 print "Failure: %s" % f
                 traceback.print_exc()
                 failedentries.append(f)
-        print "Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d)" % (success,
-                total, (100 * success)/float(total-fperrors), fperrors, sperrors)
+        print "Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d, both: %d)" % (success,
+                total, (100 * success)/float(total-fperrors), fperrors, sperrors, errcompats)
         print "Failed entries:\n%s" % pformat(failedentries)
+        print "Bozo entries:\n%s" % pformat(bozoentries)
 
 
 class CoverageTest(TestCaseBase):
@@ -363,4 +449,8 @@ class SpeedTestNoClean(TestCaseBase):
         spspeed = getspeed(speedparser, self.files[:total], args=(False,))
         pct = lambda x: total/x
         print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
+
+
+if __name__ == '__main__':
+    build_feedparser_cache()
 
