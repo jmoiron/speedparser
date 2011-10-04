@@ -49,7 +49,7 @@ def feed_equivalence(testcase, fpresult, spresult):
         self.assertPrettyClose(fpf.subtitle, spf.subtitle)
     if 'generator' in fpf:
         self.assertEqual(fpf.generator, spf.generator)
-    if 'link' in fpf:
+    if 'link' in fpf and fpf.link:
         self.assertEqual(fpf.link.strip('#'), spf.link.strip('#'))
     if 'language' in fpf:
         self.assertEqual(fpf.language, spf.language)
@@ -132,7 +132,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0323.dat'
+        filename = '4853.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
@@ -162,7 +162,7 @@ class EntriesCoverageTest(TestCaseBase):
         fperrors = 0
         sperrors = 0
         total = len(self.files)
-        total = 1000
+        #total = 
         failedpaths = []
         failedentries = []
         for f in self.files[:total]:
@@ -241,6 +241,7 @@ class SpeedTest(TestCaseBase):
 
     def test_speed(self):
         total = len(self.files)
+        total = 300
         def getspeed(parser, files):
             t0 = time.time()
             for f in files:

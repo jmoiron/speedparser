@@ -263,9 +263,9 @@ class SpeedParserEntriesRss20(object):
     def parse_links(self, node, entry, ns=''):
         if unicoder(node.text):
             entry['link'] = full_href(unicoder(node.text).strip('#'), self.baseurl)
-        if 'link' not in entry and node.attrib.get('rel', '') == 'alternate':
+        if 'link' not in entry and node.attrib.get('rel', '') == 'alternate' and 'href' in node.attrib:
             entry['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
-        if 'link' not in entry and 'rel' not in node.attrib:
+        if 'link' not in entry and 'rel' not in node.attrib and 'href' in node.attrib:
             entry['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
         entry.setdefault('links', []).append(full_href_attribs(node.attrib, self.baseurl))
         # media can be embedded within links..
@@ -405,9 +405,9 @@ class SpeedParserFeedRss20(object):
     def parse_links(self, node, feed, ns=''):
         if node.text:
             feed['link'] = full_href(unicoder(node.text).strip('#'), self.baseurl)
-        if 'link' not in feed and node.attrib.get('rel', '') == 'alternate':
+        if 'link' not in feed and node.attrib.get('rel', '') == 'alternate' and 'href' in node.attrib:
             feed['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
-        if 'link' not in feed and 'rel' not in node.attrib:
+        if 'link' not in feed and 'rel' not in node.attrib and 'href' in node.attrib:
             feed['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
         feed.setdefault('links', []).append(full_href_attribs(node.attrib, self.baseurl))
 
