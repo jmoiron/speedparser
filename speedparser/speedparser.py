@@ -66,7 +66,10 @@ def first_text(xpath_result, default='', encoding='utf-8'):
 
 nsre = re.compile(r'xmlns=[\'"](.+?)[\'"]')
 def strip_namespace(document):
-    if 'xmlns=' not in document[:400]:
+    if document[:1000].count('xmlns') > 5:
+        if 'xmlns=' not in document[:1000]:
+            return None, document
+    elif 'xmlns=' not in document[:400]:
         return None, document
     match = nsre.search(document)
     if match:
@@ -280,15 +283,20 @@ class SpeedParserEntriesRss20(object):
         if ns and node.tag.endswith('content') and ns not in ('itunes',):
             return
         content = unicoder(node.text)
+        if not content and len(node):
+            content = ''.join([etree.tostring(c) for c in node])
         if content:
             content = self.cleaner.clean_html(content)
-        elif len(list(node)):
-            content = self.cleaner.clean_html(unicoder(etree.tostring(node[0])))
         entry['content'] = [{'value': content or ''}]
 
     def parse_summary(self, node, entry, ns=''):
         if ns in ('itunes', 'media'): return
+        if 'content' in entry:
+            entry['summary'] = entry['content'][0]['value']
+            return
         summary = unicoder(node.text)
+        if not summary and len(node):
+            summary = ''.join([etree.tostring(c) for c in node])
         if summary:
             summary = self.cleaner.clean_html(summary).strip()
         entry['summary'] = summary or ''
@@ -460,7 +468,8 @@ class SpeedParser(object):
             value =  xmlns_map[self.xmlns.lower()]
             if value == 'rss10' and root_tag == 'rss':
                 value = 'rss010'
-            return value
+            if not (value.startswith('atom') and root_tag == 'rss'):
+                return value
         elif self.xmlns:
             vers = self.xmlns.split('/')[-2].replace('.', '')
         if r.attrib.get('version', None):

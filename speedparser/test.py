@@ -47,7 +47,8 @@ def feed_equivalence(testcase, fpresult, spresult):
         self.assertPrettyClose(fpf.subtitle, spf.subtitle)
     if 'generator' in fpf:
         self.assertEqual(fpf.generator, spf.generator)
-    self.assertEqual(fpf.link, spf.link)
+    if 'link' in fpf:
+        self.assertEqual(fpf.link, spf.link)
     if 'language' in fpf:
         self.assertEqual(fpf.language, spf.language)
     if 'updated' in fpf:
@@ -66,7 +67,8 @@ def entry_equivalence(test_case, fpresult, spresult):
     self = test_case
     self.assertEqual(len(fpresult.entries), len(spresult.entries))
     for fpe,spe in zip(fpresult.entries, spresult.entries):
-        self.assertEqual(fpe.link, spe.link)
+        if 'link' in fpe:
+            self.assertEqual(fpe.link, spe.link)
         if 'author' in fpe:
             if 'author' not in spe:
                 raise AssertionError("spe lacks author: %s\n----\n%s" % (pformat(fpe), pformat(spe)))
@@ -128,7 +130,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '0090.dat'
+        filename = '0178.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 
