@@ -40,6 +40,19 @@ class TestCaseBase(TestCase):
                 raise AssertionError("%s\n ---- \n%s\n are not similar enough (%0.3f < %0.3f, %d)" %\
                         (s1, s2, ratio, threshold, longest_block.size))
 
+    def assertSameEmail(self, em1, em2):
+        """Assert two emails are pretty similar.  FP and SP munge emails into
+        one format, but SP is more consistent in providing that format than FP
+        is."""
+        if em1 == em2: return True
+        if em1 == munge_author(em2):
+            return True
+        if em2 == munge_author(em1):
+            return True
+        if munge_author(em1) == munge_author(em2):
+            return True
+        raise AssertionError("em1 and em2 not similar enough %s != %s" % (em1, em2))
+
 def feed_equivalence(testcase, fpresult, spresult):
     self = testcase
     fpf = fpresult.feed
@@ -72,9 +85,7 @@ def entry_equivalence(test_case, fpresult, spresult):
         if 'link' in fpe:
             self.assertEqual(fpe.link.strip('#'), spe.link.strip('#'))
         if 'author' in fpe:
-            if 'author' not in spe:
-                raise AssertionError("spe lacks author: %s\n----\n%s" % (pformat(fpe), pformat(spe)))
-            self.assertEqual(munge_author(fpe.author), munge_author(spe.author))
+            self.assertSameEmail(fpe.author, spe.author)
         if 'comments' in fpe:
             self.assertEqual(fpe.comments, spe.comments)
         if 'updated' in fpe:
@@ -132,7 +143,7 @@ class SingleTest(TestCaseBase):
 
 class SingleTestEntries(TestCaseBase):
     def setUp(self):
-        filename = '4853.dat'
+        filename = '0905.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 

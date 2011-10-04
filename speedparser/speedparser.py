@@ -140,6 +140,13 @@ def xpath(node, query, namespaces={}):
         return node.xpath(query, namespaces=namespaces)
     return node.xpath(query)
 
+def innertext(node):
+    """Return the inner text of a node.  If a node has no sub elements, this
+    is just node.text.  Otherwise, it's node.text + sub-element-text +
+    node.tail."""
+    if not len(node): return node.text
+    return node.text + ''.join([etree.tostring(c) for c in node]) + node.tail
+
 class SpeedParserEntriesRss20(object):
     entry_xpath = '/rss/item | /rss/channel/item'
     tag_map = {
@@ -167,13 +174,16 @@ class SpeedParserEntriesRss20(object):
         'gr:annotation': 'annotation',
     }
 
-    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', cleaner=default_cleaner):
+    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', feed={}, cleaner=default_cleaner):
         self.encoding = encoding
         self.namespaces = namespaces
         self.nslookup = reverse_namespace_map(namespaces)
         self.cleaner = cleaner
         self.entry_objects = xpath(root, self.entry_xpath, namespaces)
+        self.feed = feed
         self.baseurl = base_url(root)
+        if not self.baseurl and 'link' in self.feed:
+            self.baseurl = self.feed.link
         entries = []
         for obj in self.entry_objects:
             d = self.parse_entry(obj)
@@ -231,6 +241,7 @@ class SpeedParserEntriesRss20(object):
         entry['updated_parsed'] = feedparser._parse_date(value)
 
     def parse_title(self, node, entry, ns=''):
+        if ns in ('media',): return
         entry['title'] = unicoder(node.text) or ''
 
     def parse_author(self, node, entry, ns=''):
@@ -294,9 +305,7 @@ class SpeedParserEntriesRss20(object):
         if 'content' in entry:
             entry['summary'] = entry['content'][0]['value']
             return
-        summary = unicoder(node.text)
-        if not summary and len(node):
-            summary = ''.join([etree.tostring(c) for c in node])
+        summary = unicoder(innertext(node))
         if summary:
             summary = self.cleaner.clean_html(summary).strip()
         entry['summary'] = summary or ''
@@ -506,7 +515,8 @@ class SpeedParser(object):
         raise IncompatibleFeedError("Feed not compatible with speedparser.")
 
     def parse_entries(self, version, encoding):
-        kwargs = dict(encoding=encoding, namespaces=self.namespaces, cleaner=self.cleaner)
+        kwargs = dict(encoding=encoding, namespaces=self.namespaces,
+            cleaner=self.cleaner, feed=self.feed)
         if version in ('rss20', 'rss092', 'rss091', 'rss'):
             return SpeedParserEntriesRss20(self.root, **kwargs).entry_list()
         if version == 'rss10':
