@@ -9,10 +9,12 @@ import difflib
 from glob import glob
 from unittest import TestCase
 from pprint import pprint, pformat
+
 try:
     from speedparser import speedparser
 except ImportError:
     import speedparser
+
 import feedparser
 
 try:
