@@ -126,7 +126,7 @@ def full_href(href, base=None):
     return '%s/%s' % (base.rstrip('/'), href.lstrip('/'))
 
 def full_href_attribs(attribs, base=None):
-    if base is None: return attribs
+    if base is None: return dict(attribs)
     d = dict(attribs)
     for key,value in d.iteritems():
         if key == 'href':
@@ -318,13 +318,13 @@ class SpeedParserEntriesRss20(object):
         entry['summary'] = summary or ''
 
     def parse_media_content(self, node, entry, ns='media'):
-        entry.setdefault('media_content', []).append(node.attrib)
+        entry.setdefault('media_content', []).append(dict(node.attrib))
         for child in node:
             if child.tag.endswith('thumbnail'):
-                entry.setdefault('media_thumbnail', []).append(child.attrib)
+                entry.setdefault('media_thumbnail', []).append(dict(child.attrib))
 
     def parse_media_thumbnail(self, node, entry, ns='media'):
-        entry.setdefault('media_thumbnail', []).append(node.attrib)
+        entry.setdefault('media_thumbnail', []).append(dict(node.attrib))
 
     def parse_media_group(self, node, entry, ns='media'):
         for child in node:
