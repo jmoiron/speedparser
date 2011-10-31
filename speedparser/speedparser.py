@@ -17,8 +17,10 @@ LIMITATIONS:
 import re
 import os
 import sys
+import time
 from lxml import etree, html
 from lxml.html import clean
+
 try:
     import feedparser
 except:
@@ -181,9 +183,11 @@ class SpeedParserEntriesRss20(object):
         'gr:annotation': 'annotation',
     }
 
-    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', feed={}, cleaner=default_cleaner):
+    def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', feed={},
+            cleaner=default_cleaner, unix_timestamp=False):
         self.encoding = encoding
         self.namespaces = namespaces
+        self.unix_timestamp = unix_timestamp
         self.nslookup = reverse_namespace_map(namespaces)
         self.cleaner = cleaner
         self.entry_objects = xpath(root, self.entry_xpath, namespaces)
@@ -245,7 +249,10 @@ class SpeedParserEntriesRss20(object):
     def parse_date(self, node, entry, ns=''):
         value = unicoder(node.text)
         entry['updated'] = value
-        entry['updated_parsed'] = feedparser._parse_date(value)
+        date = feedparser._parse_date(value)
+        if self.unix_timestamp:
+            date = time.mktime(date)
+        entry['updated_parsed'] = date
 
     def parse_title(self, node, entry, ns=''):
         if ns in ('media',) and 'title' in entry: return
@@ -367,11 +374,13 @@ class SpeedParserFeedRss20(object):
         'lastBuildDate' : 'date',
     }
 
-    def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20', cleaner=default_cleaner):
+    def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20', cleaner=default_cleaner,
+            unix_timestamp=False):
         """A port of SpeedParserFeed that uses far fewer xpath lookups, which
         ends up simplifying parsing and makes it easier to catch the various
         names that different tags might come under."""
         self.root = root
+        self.unix_timestamp = unix_timestamp
         nslookup = reverse_namespace_map(namespaces)
         self.cleaner = cleaner
         self.baseurl = base_url(root)
@@ -430,7 +439,10 @@ class SpeedParserFeedRss20(object):
     def parse_date(self, node, feed, ns=''):
         value = unicoder(node.text)
         feed['updated'] = value
-        feed['updated_parsed'] = feedparser._parse_date(value)
+        date = feedparser._parse_date(value)
+        if self.unix_timestamp:
+            date = time.mktime(date)
+        feed['updated_parsed'] = date
 
     def parse_lang(self, node, feed, ns=''):
         feed['language'] = unicoder(node.text)
@@ -457,9 +469,10 @@ class SpeedParserFeedRdf(SpeedParserFeedRss20):
     channel_xpath = '/rdf:RDF/channel'
 
 class SpeedParser(object):
-    def __init__(self, content, cleaner=default_cleaner):
+    def __init__(self, content, cleaner=default_cleaner, unix_timestamp=False):
         self.cleaner = cleaner
         self.xmlns, content = strip_namespace(content)
+        self.unix_timestamp = unix_timestamp
         if self.xmlns and '#' in self.xmlns:
             self.xmlns = self.xmlns.strip('#')
         tree = etree.fromstring(content)
@@ -514,17 +527,22 @@ class SpeedParser(object):
         return self.tree.docinfo.encoding.lower()
 
     def parse_feed(self, version, encoding):
+        kwargs = dict(
+            encoding=encoding,
+            unix_timestamp=self.unix_timestamp,
+            namespaces=self.namespaces
+        )
         if version in ('rss20', 'rss092', 'rss091', 'rss'):
-            return SpeedParserFeedRss20(self.root, encoding=encoding).feed_dict()
+            return SpeedParserFeedRss20(self.root, **kwargs).feed_dict()
         if version == 'rss10':
-            return SpeedParserFeedRdf(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
+            return SpeedParserFeedRdf(self.root, **kwargs).feed_dict()
         if version in ('atom10', 'atom03'):
-            return SpeedParserFeedAtom(self.root, namespaces=self.namespaces, encoding=encoding).feed_dict()
+            return SpeedParserFeedAtom(self.root, **kwargs).feed_dict()
         raise IncompatibleFeedError("Feed not compatible with speedparser.")
 
     def parse_entries(self, version, encoding):
         kwargs = dict(encoding=encoding, namespaces=self.namespaces,
-            cleaner=self.cleaner, feed=self.feed)
+            cleaner=self.cleaner, feed=self.feed, unix_timestamp=self.unix_timestamp)
         if version in ('rss20', 'rss092', 'rss091', 'rss'):
             return SpeedParserEntriesRss20(self.root, **kwargs).entry_list()
         if version == 'rss10':
@@ -546,7 +564,11 @@ class SpeedParser(object):
             result['encoding'] = self.encoding
 
 
-def parse(document, clean_html=True):
+def parse(document, clean_html=True, unix_timestamp=False):
+    """Parse a document and return a feedparser dictionary with attr key access.
+    If clean_html is False, the html in the feed will not be cleaned.  If
+    unix_timestamp is True, the date information will be a numerical unix
+    timestamp rather than a struct_time."""
     cleaner = default_cleaner if clean_html else fake_cleaner
     result = feedparser.FeedParserDict()
     result['feed'] = feedparser.FeedParserDict()
@@ -561,6 +583,5 @@ def parse(document, clean_html=True):
         result['bozo_exception'] = e
         result['bozo_tb'] = traceback.format_exc()
     return result
-
 
 
