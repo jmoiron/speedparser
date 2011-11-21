@@ -575,7 +575,7 @@ def parse(document, clean_html=True, unix_timestamp=False):
     result['entries'] = []
     result['bozo'] = 0
     try:
-        parser = SpeedParser(document, cleaner)
+        parser = SpeedParser(document, cleaner, unix_timestamp)
         parser.update(result)
     except Exception, e:
         import traceback
