@@ -569,7 +569,10 @@ def parse(document, clean_html=True, unix_timestamp=False):
     If clean_html is False, the html in the feed will not be cleaned.  If
     unix_timestamp is True, the date information will be a numerical unix
     timestamp rather than a struct_time."""
-    cleaner = default_cleaner if clean_html else fake_cleaner
+    if isinstance(clean_html, bool):
+        cleaner = default_cleaner if clean_html else fake_cleaner
+    else:
+        cleaner = clean_html
     result = feedparser.FeedParserDict()
     result['feed'] = feedparser.FeedParserDict()
     result['entries'] = []
