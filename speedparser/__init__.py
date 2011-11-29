@@ -1,2 +1,3 @@
 from speedparser import parse
-__all__ = ['parse']
+VERSION = (0,1,4)
+__all__ = ['parse', 'VERSION']
