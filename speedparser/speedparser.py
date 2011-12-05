@@ -250,7 +250,7 @@ class SpeedParserEntriesRss20(object):
         value = unicoder(node.text)
         entry['updated'] = value
         date = feedparser._parse_date(value)
-        if self.unix_timestamp:
+        if self.unix_timestamp and date:
             date = time.mktime(date)
         entry['updated_parsed'] = date
 
@@ -440,7 +440,7 @@ class SpeedParserFeedRss20(object):
         value = unicoder(node.text)
         feed['updated'] = value
         date = feedparser._parse_date(value)
-        if self.unix_timestamp:
+        if self.unix_timestamp and date:
             date = time.mktime(date)
         feed['updated_parsed'] = date
 
