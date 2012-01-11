@@ -70,6 +70,16 @@ def first_text(xpath_result, default='', encoding='utf-8'):
         return unicoder(xpath_result[0].text, encoding) or default
     return default
 
+def strip_outer_tag(text):
+    """Strips the outer tag, if text starts with a tag.  Not entity aware;
+    designed to quickly strip outer tags from lxml cleaner output.  Only
+    checks for <p> and <div> outer tags."""
+    stripped = text.strip()
+    if (stripped.startswith('<p>') or stripped.startswith('<div>')) and \
+        (stripped.endswith('</p>') or stripped.endswith('</div>')):
+        return stripped[stripped.index('>')+1:stripped.rindex('<')]
+    return text
+
 nsre = re.compile(r'xmlns=[\'"](.+?)[\'"]')
 def strip_namespace(document):
     if document[:1000].count('xmlns') > 5:
@@ -201,6 +211,11 @@ class SpeedParserEntriesRss20(object):
             if d: entries.append(d)
         self.entries = entries
 
+    def clean(self, text):
+        if text and isinstance(text, basestring):
+            return self.cleaner.clean_html(text)
+        return text
+
     def parse_entry(self, entry):
         """An attempt to parse pieces of an entry out w/o xpath, by looping
         over the entry root's children and slotting them into the right places.
@@ -255,8 +270,11 @@ class SpeedParserEntriesRss20(object):
         entry['updated_parsed'] = date
 
     def parse_title(self, node, entry, ns=''):
-        if ns in ('media',) and 'title' in entry: return
-        entry['title'] = unicoder(node.text) or ''
+        if ns in ('media',) and 'title' in entry:
+            return
+        title = unicoder(node.text) or ''
+        title = strip_outer_tag(self.clean(title))
+        entry['title'] = title or ''
 
     def parse_author(self, node, entry, ns=''):
         if ns and ns in ('itunes', 'dm') and 'author' in entry:
@@ -301,15 +319,14 @@ class SpeedParserEntriesRss20(object):
 
     def parse_comments(self, node, entry, ns=''):
         if 'comments' in entry and ns: return
-        entry['comments'] = unicoder(node.text)
+        entry['comments'] = strip_outer_tag(self.clean(unicoder(node.text)))
 
     def parse_content(self, node, entry, ns=''):
         # media:content is processed as media_content below
         if ns and node.tag.endswith('content') and ns not in ('itunes',):
             return
         content = unicoder(innertext(node))
-        if content:
-            content = self.cleaner.clean_html(content)
+        content = self.clean(content)
         entry.setdefault('content', []).append({'value': content or ''})
 
     def parse_summary(self, node, entry, ns=''):
@@ -320,8 +337,7 @@ class SpeedParserEntriesRss20(object):
             entry['summary'] = entry['content'][0]['value']
             return
         summary = unicoder(innertext(node))
-        if summary:
-            summary = self.cleaner.clean_html(summary).strip()
+        summary = self.clean(summary)
         entry['summary'] = summary or ''
 
     def parse_media_content(self, node, entry, ns='media'):
@@ -418,14 +434,22 @@ class SpeedParserFeedRss20(object):
         if 'id' in feed and 'link' not in feed:
             feed['link'] = feed['id']
 
-
         self.feed = feed
 
+    def clean(self, text, outer_tag=True):
+        if text and isinstance(text, basestring):
+            if not outer_tag:
+                txt = self.cleaner.clean_html(text)
+                frag = lxml.html.fragment_fromstring(txt)
+                import ipdb; ipdb.set_trace();
+            return self.cleaner.clean_html(text)
+        return text
+
     def parse_title(self, node, feed, ns=''):
-        feed['title'] = unicoder(node.text) or ''
+        feed['title'] = strip_outer_tag(self.clean(unicoder(node.text))) or ''
 
     def parse_subtitle(self, node, feed, ns=''):
-        feed['subtitle'] = unicoder(node.text) or ''
+        feed['subtitle'] = strip_outer_tag(self.clean(unicoder(node.text))) or ''
 
     def parse_links(self, node, feed, ns=''):
         if node.text:

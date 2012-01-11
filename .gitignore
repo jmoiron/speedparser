@@ -2,5 +2,7 @@
 *.sw[op]
 feeds/
 build/
+tests/data*
+dist/*
 *.egg-info
 tags
