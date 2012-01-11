@@ -6,7 +6,11 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1.5'
+try:
+    from speedparser import VERSION
+    version = ".".join(map(str, VERSION))
+except:
+    version = '0.1.6'
 
 # some trove classifiers:
 
