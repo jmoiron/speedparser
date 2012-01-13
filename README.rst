@@ -41,8 +41,9 @@ set the ``bozo`` key when an error is encountered, and various aspects of the
 ``speedparser`` uses different (and in some cases less or none; buyer beware)
 data cleaning algorithms than ``feedparser``.  When it is enabled, lxml's
 ``html.cleaner`` library will be used to clean HTML and give similar but not
-identical protection against various attributes and elements.  It will *only*
-clean entry ``content`` and ``summary`` fields.
+identical protection against various attributes and elements.  If you supply
+your own ``Cleaner`` element to the "``clean_html`` kwarg, it will be used
+by ``speedparser`` to clean the various attributes of the feed and entries.
 
 If your application is using ``feedparser`` to consume many feeds at once and
 CPU is becoming a bottleneck, you might want to try out ``speedparser`` as an

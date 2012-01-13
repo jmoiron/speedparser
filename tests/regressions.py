@@ -36,3 +36,4 @@ class NonCleanedTitle(TestCase):
         would be called on None and raise an exception."""
         feed = """<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Instapaper: Starred</title><link>http://www.instapaper.com/starred</link><description></description><item><title>Toronto News: Flipped Junction homes taken on a wild real estate ride ending in fraud allegations - thestar.com</title><link>http://www.thestar.com/news/article/1111810--flipped-junction-homes-taken-on-a-wild-real-estate-ride-ending-in-fraud-allegations</link><description></description><pubDate>Sat, 07 Jan 2012 18:46:18 EST</pubDate></item></channel></rss>"""
         self.assertTrue(parse(feed).feed.title == "Instapaper: Starred")
+
