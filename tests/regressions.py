@@ -30,3 +30,9 @@ class NonCleanedTitle(TestCase):
         for e in result.entries:
             self.assertTrue('alert(1)' not in e.title, e.title)
             self.assertTrue(not e.title.startswith('<p>'), e.title)
+
+    def test_nonetype_no_strip_regression(self):
+        """This tests for a bug in 0.1.6 where the strip_outer_tag function
+        would be called on None and raise an exception."""
+        feed = """<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Instapaper: Starred</title><link>http://www.instapaper.com/starred</link><description></description><item><title>Toronto News: Flipped Junction homes taken on a wild real estate ride ending in fraud allegations - thestar.com</title><link>http://www.thestar.com/news/article/1111810--flipped-junction-homes-taken-on-a-wild-real-estate-ride-ending-in-fraud-allegations</link><description></description><pubDate>Sat, 07 Jan 2012 18:46:18 EST</pubDate></item></channel></rss>"""
+        self.assertTrue(parse(feed).feed.title == "Instapaper: Starred")
