@@ -196,9 +196,10 @@ def feed_equivalence(testcase, fpresult, spresult):
     self.assertEqual(fpresult.encoding, spresult.encoding)
     # make sure the namespaces are set up properly;  feedparser adds some
     # root namespaces based on some processing and some dicts that we do not bother with
-    for nskey in fpresult.namespaces:
-        if nskey and nskey in spresult.namespaces:
-            self.assertEqual(fpresult.namespaces[nskey], spresult.namespaces[nskey])
+    if 'namespaces' in spresult:
+        for nskey in fpresult.namespaces:
+            if nskey and nskey in spresult.namespaces:
+                self.assertEqual(fpresult.namespaces[nskey], spresult.namespaces[nskey])
 
 def entry_equivalence(test_case, fpresult, spresult):
     self = test_case
@@ -288,7 +289,7 @@ class MultiTestEntries(TestCaseBase):
 
 class SingleTest(TestCaseBase):
     def setUp(self):
-        filename = '0003.dat'
+        filename = '0043.dat'
         with open('feeds/%s' % filename) as f:
             self.doc = f.read()
 

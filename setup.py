@@ -10,7 +10,7 @@ try:
     from speedparser import VERSION
     version = ".".join(map(str, VERSION))
 except:
-    version = '0.1.6'
+    version = '0.1.8'
 
 # some trove classifiers:
 

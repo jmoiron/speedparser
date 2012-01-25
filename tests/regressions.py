@@ -31,9 +31,16 @@ class NonCleanedTitle(TestCase):
             self.assertTrue('alert(1)' not in e.title, e.title)
             self.assertTrue(not e.title.startswith('<p>'), e.title)
 
+class NoneTypeNoStrip(TestCase):
     def test_nonetype_no_strip_regression(self):
         """This tests for a bug in 0.1.6 where the strip_outer_tag function
         would be called on None and raise an exception."""
         feed = """<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Instapaper: Starred</title><link>http://www.instapaper.com/starred</link><description></description><item><title>Toronto News: Flipped Junction homes taken on a wild real estate ride ending in fraud allegations - thestar.com</title><link>http://www.thestar.com/news/article/1111810--flipped-junction-homes-taken-on-a-wild-real-estate-ride-ending-in-fraud-allegations</link><description></description><pubDate>Sat, 07 Jan 2012 18:46:18 EST</pubDate></item></channel></rss>"""
         self.assertTrue(parse(feed).feed.title == "Instapaper: Starred")
+
+class InvalidEntityRecovery(TestCase):
+    def test_invalid_entity_recovery(self):
+        feed = """<?xml version="1.0"?><rss xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" version="2.0"><channel><title>Faith Promise Church Podcast</title><description>Weekly message Podcast from Faith Promise Church.  Faith Promise church is an exciting church located in Knoxville, Tennessee. For information about the church, please visit our website at faithpromise.org.  We hope you enjoy and are blessed by our podcast.</description><link>http://faithpromise.org</link><language>en-us</language><item><title>T C & B (Taking Care of Busine</title><link>http://faithpromise.org/media/20111112-13.mp3</link><description>T C & B (Taking Care of Busine - Faith Promise Church Podcasts - Dr. Chris Stephens</description><pubDate>Mon, 14 Nov 2011 11:53:23 -0500</pubDate><enclosure url="http://faithpromise.org/media/20111112-13.mp3" length="36383475" type="audio/mpeg"/></item></channel></rss>"""
+        self.assertTrue(parse(feed).bozo == 0)
+        self.assertTrue(len(parse(feed).entries) == 1)
 
