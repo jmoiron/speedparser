@@ -44,3 +44,9 @@ class InvalidEntityRecovery(TestCase):
         self.assertTrue(parse(feed).bozo == 0)
         self.assertTrue(len(parse(feed).entries) == 1)
 
+class SupportRssVersion2NoZero(TestCase):
+    def test_support_rss_version_2_no_zero(self):
+        feed = """<?xml version="1.0" encoding="UTF-8"?><rss version="2"><channel><title>Australian Canoeing</title><link>http://canoe.org.au</link><description>Latest News</description><language>en</language><ttl>480</ttl><pubDate>Sat, 21 Jan 2012 14:00:02 UTC</pubDate><item><title>Lifestart Kayak for Kids 2012</title><link>http://canoe.org.au/default.asp?Page=23196</link><description>Kayak for Kids is a unique paddling challenge on beautiful Sydney Harbour for everyone from beginner to serious kayaker.</description><enclosure url="http://canoe.org.au/site/canoeing/image/fullsize/35576.jpg" type="image/jpeg" /><pubDate>Thu, 19 Jan 2012 14:00:00 UTC</pubDate><guid>http://canoe.org.au/default.asp?Page=23196</guid></item></channel></rss>"""
+        self.assertTrue(parse(feed).bozo == 0)
+        self.assertTrue(len(parse(feed).entries) == 1)
+

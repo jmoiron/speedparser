@@ -274,7 +274,7 @@ class SpeedParserEntriesRss20(object):
     def parse_title(self, node, entry, ns=''):
         if ns in ('media',) and 'title' in entry:
             return
-        title = unicoder(node.text) or ''
+        title = unicoder(node.text).strip() or ''
         title = strip_outer_tag(self.clean(title))
         entry['title'] = title or ''
 
@@ -443,7 +443,6 @@ class SpeedParserFeedRss20(object):
             if not outer_tag:
                 txt = self.cleaner.clean_html(text)
                 frag = lxml.html.fragment_fromstring(txt)
-                import ipdb; ipdb.set_trace();
             return self.cleaner.clean_html(text)
         return text
 
@@ -495,6 +494,11 @@ class SpeedParserFeedRdf(SpeedParserFeedRss20):
     channel_xpath = '/rdf:RDF/channel'
 
 class SpeedParser(object):
+
+    version_map = {
+        'rss2': 'rss20',
+    }
+
     def __init__(self, content, cleaner=default_cleaner, unix_timestamp=False):
         self.cleaner = cleaner
         self.xmlns, content = strip_namespace(content)
@@ -511,6 +515,8 @@ class SpeedParser(object):
             self.root = tree
         self.encoding = self.parse_encoding()
         self.version = self.parse_version()
+        if self.version in self.version_map:
+            self.version = self.version_map[self.version]
         if 'unk' in self.version:
             raise IncompatibleFeedError("Could not determine version of this feed.")
         self.namespaces = self.parse_namespaces()
@@ -616,4 +622,13 @@ def parse(document, clean_html=True, unix_timestamp=False):
         result['bozo_tb'] = traceback.format_exc()
     return result
 
-
+if __name__ == '__main__':
+    import sys
+    if len(sys.argv) != 2:
+        print "Must provide filename of feed."
+    filename = sys.argv[1]
+    feed = open(filename).read()
+    if '-- END TRACEBACK --' in feed:
+        feed = feed.split('-- END TRACEBACK --')[1].strip()
+    import pprint
+    pprint.pprint(parse(feed))
