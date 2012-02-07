@@ -57,3 +57,14 @@ class DetectCharsets(TestCase):
         self.assertTrue(parse(feed, encoding=True).bozo == 0)
         self.assertTrue(len(parse(feed, encoding=True).entries) == 1)
 
+class TextHeartParserError(TestCase):
+    def test_text_heart_parser_error(self):
+        """This is a placeholder test.  LXML punts because the title trips an
+        unrecoverable parser error, and we have no way of cleaning it.  This
+        would be a big issue, but FeedParser apparently cannot figure this out
+        either as it breaks SAXParser."""
+        import feedparser
+        feed = """<?xml version="1.0" encoding="UTF-8"?><rss version="2"><channel><title>&lt;3</title><link>http://canoe.org.au</link><description>Latest News</description><language>en</language><ttl>480</ttl><pubDate>Sat, 21 Jan 2012 14:00:02 UTC</pubDate><item><title>&lt;3</title><link>http://canoe.org.au/default.asp?Page=23196</link><description>Kayak for Kids is a unique paddling challenge on beautiful Sydney Harbour for everyone from beginner to serious kayaker.</description><enclosure url="http://canoe.org.au/site/canoeing/image/fullsize/35576.jpg" type="image/jpeg" /><pubDate>Thu, 19 Jan 2012 14:00:00 UTC</pubDate><guid>http://canoe.org.au/default.asp?Page=23196</guid></item></channel></rss>"""
+        self.assertTrue(parse(feed).bozo == 1)
+        self.assertTrue(feedparser.parse(feed).bozo == 0)
+
