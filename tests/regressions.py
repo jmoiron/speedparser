@@ -68,3 +68,9 @@ class TextHeartParserError(TestCase):
         self.assertTrue(parse(feed).bozo == 1)
         self.assertTrue(feedparser.parse(feed).bozo == 0)
 
+
+class RdfRss090Support(TestCase):
+    def test_rdf_rss_090_support(self):
+        feed = """<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://my.netscape.com/rdf/simple/0.9/"><channel><title>heise online News</title><link>http://www.heise.de/newsticker/</link><description>Nachrichten nicht nur aus der Welt der Computer</description></channel><item><title>Am 6. Juni ist World IPv6 Launch Day</title><link>http://www.heise.de/newsticker/meldung/Am-6-Juni-ist-World-IPv6-Launch-Day-1415071.html/from/rss09</link><description>Am 6. Juni 2012 veranstaltet die Internet Society den IPv6 World Launch Day, an dem teilnehmende Internet Service Provider, Netzwerkhersteller und Service-Anbieter dauerhaft IPv6 schalten werden.</description></item></rdf:RDF>"""
+        self.assertTrue(parse(feed).bozo == 0)
+        self.assertTrue(len(parse(feed).entries) == 1)

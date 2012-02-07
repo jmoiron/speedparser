@@ -570,7 +570,7 @@ class SpeedParser(object):
         )
         if version in ('rss20', 'rss092', 'rss091', 'rss'):
             return SpeedParserFeedRss20(self.root, **kwargs).feed_dict()
-        if version == 'rss10':
+        if version in ('rss090', 'rss10'):
             return SpeedParserFeedRdf(self.root, **kwargs).feed_dict()
         if version in ('atom10', 'atom03'):
             return SpeedParserFeedAtom(self.root, **kwargs).feed_dict()
@@ -581,7 +581,7 @@ class SpeedParser(object):
             cleaner=self.cleaner, feed=self.feed, unix_timestamp=self.unix_timestamp)
         if version in ('rss20', 'rss092', 'rss091', 'rss'):
             return SpeedParserEntriesRss20(self.root, **kwargs).entry_list()
-        if version == 'rss10':
+        if version in ('rss090', 'rss10'):
             return SpeedParserEntriesRdf(self.root, **kwargs).entry_list()
         if version in ('atom10', 'atom03'):
             return SpeedParserEntriesAtom(self.root, **kwargs).entry_list()
