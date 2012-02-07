@@ -54,6 +54,6 @@ class DetectCharsets(TestCase):
     def test_detect_charsets(self):
         feed = """<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>"ismb2010" - Google Blogs�gning</title><link>http://www.google.com/search?hl=da&amp;lr=&amp;q=%22ismb2010%22&amp;ie=utf-8&amp;tbm=blg</link><description>S�geresultaterne &lt;b&gt;1&lt;/b&gt; - &lt;b&gt;10&lt;/b&gt; ud af ca. &lt;b&gt;59&lt;/b&gt; for &lt;b&gt;&amp;quot;ismb2010&amp;quot;&lt;/b&gt;.</description><opensearch:totalResults>59</opensearch:totalResults><opensearch:startIndex>1</opensearch:startIndex><opensearch:itemsPerPage>10</opensearch:itemsPerPage><item><title>Beyond DNA: &lt;b&gt;ISMB2010&lt;/b&gt; Boston</title><link>http://xiazheng.blogspot.com/2010/07/ismb2010-boston.html</link><description>ISMB of this year was held at Boston on July 10-14. I&amp;#39;m so happy to meet big guys in Bioinformatics whose papers I have ever read, especially Dr. Ratsch from MPI. One information this conference delivered this year is that &lt;b&gt;...&lt;/b&gt;</description><dc:publisher>Beyond DNA</dc:publisher><dc:creator>Zheng Xia</dc:creator><dc:date>Sat, 17 Jul 2010 13:56:00 GMT</dc:date></item></channel></rss>"""
-        self.assertTrue(parse(feed).bozo == 0)
-        self.assertTrue(len(parse(feed).entries) == 1)
+        self.assertTrue(parse(feed, encoding=True).bozo == 0)
+        self.assertTrue(len(parse(feed, encoding=True).entries) == 1)
 

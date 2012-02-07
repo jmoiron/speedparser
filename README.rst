@@ -45,6 +45,13 @@ identical protection against various attributes and elements.  If you supply
 your own ``Cleaner`` element to the "``clean_html`` kwarg, it will be used
 by ``speedparser`` to clean the various attributes of the feed and entries.
 
+``speedparser`` does not attempt to fix character encoding by default because
+this processing can take a long time for large feeds.  If the encoding value of
+the feed is wrong, or if you want this extra level of error tollerance, you
+can either use the ``chardet`` module to detect the encoding based on the
+document or pass ``encoding=True`` to ``speedparser.parse`` and it will fall
+back to encoding detection if it encounters encoding errors.
+
 If your application is using ``feedparser`` to consume many feeds at once and
 CPU is becoming a bottleneck, you might want to try out ``speedparser`` as an
 alternative (using ``feedparser`` as a backup).  If you are writing an
