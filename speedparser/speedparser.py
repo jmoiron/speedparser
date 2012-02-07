@@ -18,6 +18,7 @@ import re
 import os
 import sys
 import time
+import chardet
 from lxml import etree, html
 from lxml.html import clean
 
@@ -63,7 +64,9 @@ def unicoder(txt, hint=None, strip=True):
         return txt.decode('utf-8')
     except:
         try: return txt.decode('latin-1')
-        except: return txt
+        except:
+            try: return txt.decode('iso-8859')
+            except: return txt
 
 def first_text(xpath_result, default='', encoding='utf-8'):
     if xpath_result:
@@ -499,7 +502,7 @@ class SpeedParser(object):
         'rss2': 'rss20',
     }
 
-    def __init__(self, content, cleaner=default_cleaner, unix_timestamp=False):
+    def __init__(self, content, cleaner=default_cleaner, unix_timestamp=False, encoding=None):
         self.cleaner = cleaner
         self.xmlns, content = strip_namespace(content)
         self.unix_timestamp = unix_timestamp
@@ -513,7 +516,7 @@ class SpeedParser(object):
         else:
             self.tree = tree.getroottree()
             self.root = tree
-        self.encoding = self.parse_encoding()
+        self.encoding = encoding if encoding else self.parse_encoding()
         self.version = self.parse_version()
         if self.version in self.version_map:
             self.version = self.version_map[self.version]
@@ -597,7 +600,7 @@ class SpeedParser(object):
             result['encoding'] = self.encoding
 
 
-def parse(document, clean_html=True, unix_timestamp=False):
+def parse(document, clean_html=True, unix_timestamp=False, encoding=None):
     """Parse a document and return a feedparser dictionary with attr key access.
     If clean_html is False, the html in the feed will not be cleaned.  If
     clean_html is True, a sane version of lxml.html.clean.Cleaner will be used.
@@ -613,9 +616,13 @@ def parse(document, clean_html=True, unix_timestamp=False):
     result['entries'] = []
     result['bozo'] = 0
     try:
-        parser = SpeedParser(document, cleaner, unix_timestamp)
+        parser = SpeedParser(document, cleaner, unix_timestamp, encoding)
         parser.update(result)
     except Exception, e:
+        if isinstance(e, UnicodeDecodeError) and encoding is None:
+            encoding = chardet.detect(document)['encoding']
+            document = document.decode(encoding, 'replace').encode('utf-8')
+            return parse(document, clean_html, unix_timestamp, encoding)
         import traceback
         result['bozo'] = 1
         result['bozo_exception'] = e
