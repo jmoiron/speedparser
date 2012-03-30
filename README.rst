@@ -2,10 +2,10 @@ speedparser
 -----------
 
 Speedparser is a black-box "style" reimplementation of the `Universal Feed
-Parser <http://www.feedparser.org/>`_.  It uses some feedparser code for date
-and authors, but mostly re-implements its data normalization algorithms based
-on feedparser output.  It uses ``lxml`` for feed parsing and for optional HTML
-cleaning.  Its compatibility with ``feedparser`` is very good for a strict 
+Parser <http://code.google.com/p/feedparser/>`_.  It uses some feedparser code
+for date and authors, but mostly re-implements its data normalization algorithms
+based on feedparser output.  It uses ``lxml`` for feed parsing and for optional
+HTML cleaning.  Its compatibility with ``feedparser`` is very good for a strict
 subset of fields, but poor for fields outside that subset.  See
 ``tests/speedparsertests.py`` for more information on which fields are more or
 less compatible and which are not.
