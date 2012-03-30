@@ -85,12 +85,12 @@ def strip_outer_tag(text):
         return stripped[stripped.index('>')+1:stripped.rindex('<')]
     return text
 
-nsre = re.compile(r'xmlns=[\'"](.+?)[\'"]')
+nsre = re.compile(r'xmlns\s*=\s*[\'"](.+?)[\'"]')
 def strip_namespace(document):
     if document[:1000].count('xmlns') > 5:
-        if 'xmlns=' not in document[:1000]:
+        if 'xmlns' not in document[:1000]:
             return None, document
-    elif 'xmlns=' not in document[:400]:
+    elif 'xmlns' not in document[:400]:
         return None, document
     match = nsre.search(document)
     if match:
