@@ -251,7 +251,7 @@ class SpeedParserEntriesRss20(object):
         if not lacks_summary and lacks_content:
             e['content'] = [{'value': e.summary}]
 
-        # feedparser sometimes copies the first content value into the 
+        # feedparser sometimes copies the first content value into the
         # summary field when summary was completely missing;  we want
         # to do that as well, but avoid the case where summary was given as ''
         if lacks_summary and not lacks_content:
@@ -299,7 +299,8 @@ class SpeedParserEntriesRss20(object):
             entry['author'] = '%s (%s)' % (name, email)
 
     def parse_guid(self, node, entry, ns=''):
-        entry['guid'] = unicoder(node.text)
+        if node.text:
+            entry['guid'] = unicoder(node.text)
 
     def parse_annotation(self, node, entry, ns='gr'):
         if entry.get('author', '') and 'unknown' not in entry['author'].lower():
