@@ -277,8 +277,9 @@ class SpeedParserEntriesRss20(object):
     def parse_title(self, node, entry, ns=''):
         if ns in ('media',) and 'title' in entry:
             return
-        title = unicoder(node.text).strip() or ''
-        title = strip_outer_tag(self.clean(title))
+        title = unicoder(node.text)
+        if title is not None:
+            title = strip_outer_tag(self.clean(title.strip()))
         entry['title'] = title or ''
 
     def parse_author(self, node, entry, ns=''):
