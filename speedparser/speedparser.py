@@ -18,6 +18,7 @@ import re
 import os
 import sys
 import time
+import urlparse
 import chardet
 from lxml import etree, html
 from lxml.html import clean
@@ -134,13 +135,7 @@ def base_url(root):
     return None
 
 def full_href(href, base=None):
-    if base is None:
-        return href
-    if href.startswith('javascript:'):
-        return href
-    if 'http://' in href or 'https://' in href:
-        return href
-    return '%s/%s' % (base.rstrip('/'), href.lstrip('/'))
+    return urlparse.urljoin(base, href)
 
 def full_href_attribs(attribs, base=None):
     if base is None: return dict(attribs)
