@@ -12,4 +12,3 @@ if not len(sys.argv) == 2:
 
 tree = etree.parse(sys.argv[1])
 print etree.tostring(tree, pretty_print=True)
-
