@@ -218,7 +218,11 @@ class SpeedParserEntriesRss20(object):
         'media_thumbnail': 'media_thumbnail',
         'media:group': 'media_group',
         'itunes:summary': 'content',
+        'itunes:keywords': 'content',
+        'itunes:image': 'media_thumbnail',
+        'itunes:author': 'author',
         'gr:annotation': 'annotation',
+        'enclosure': 'enclosures',
     }
 
     def __init__(self, root, namespaces={}, version='rss20', encoding='utf-8', feed={},
@@ -337,13 +341,32 @@ class SpeedParserEntriesRss20(object):
                 self.parse_author(child, entry, ns='')
 
     def parse_links(self, node, entry, ns=''):
+
         if unicoder(node.text):
-            entry['link'] = full_href(unicoder(node.text).strip('#'), self.baseurl)
+            entry['link'] = full_href(
+                unicoder(node.text).strip('#'),
+                self.baseurl
+            )
+
+        if not node.attrib:
+            return
+
         if 'link' not in entry and node.attrib.get('rel', '') == 'alternate' and 'href' in node.attrib:
-            entry['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
+            entry['link'] = full_href(
+                unicoder(node.attrib['href']).strip('#'),
+                self.baseurl
+            )
         if 'link' not in entry and 'rel' not in node.attrib and 'href' in node.attrib:
-            entry['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
-        entry.setdefault('links', []).append(full_href_attribs(node.attrib, self.baseurl))
+            entry['link'] = full_href(
+                unicoder(node.attrib['href']).strip('#'),
+                self.baseurl
+            )
+
+        entry.setdefault('links', []).append(
+            full_href_attribs(node.attrib, self.baseurl)
+        )
+        if len(full_href_attribs(node.attrib, self.baseurl)) ==0:
+            print node.tag
         # media can be embedded within links..
         for child in node:
             ns, tag = clean_ns(child.tag)
@@ -391,6 +414,11 @@ class SpeedParserEntriesRss20(object):
             elif child.tag.endswith('thumbnail'):
                 self.parse_media_thumbnail(child, entry)
 
+    def parse_enclosures(self, node, entry, ns=''):
+        entry.setdefault('links', []).append(
+            dict(node.attrib, rel='enclosure')
+        )
+
     def entry_list(self):
         return self.entries
 
@@ -413,7 +441,7 @@ class SpeedParserFeedRss20(object):
     channel_xpath = '/rss/channel'
     tag_map = {
         'title': 'title',
-        'description': 'subtitle',
+        'description': 'summary',
         'tagline': 'subtitle',
         'subtitle': 'subtitle',
         'link': 'links',
@@ -426,6 +454,8 @@ class SpeedParserFeedRss20(object):
         'language': 'lang',
         'id': 'id',
         'lastBuildDate': 'date',
+        'itunes:summary': 'summary',
+        'itunes:image': 'image'
     }
 
     def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20', cleaner=default_cleaner,
@@ -486,6 +516,12 @@ class SpeedParserFeedRss20(object):
 
     def parse_subtitle(self, node, feed, ns=''):
         feed['subtitle'] = strip_outer_tag(self.clean(unicoder(node.text))) or ''
+
+    def parse_summary(self, node, feed, ns=''):
+        feed['summary'] = strip_outer_tag(self.clean(unicoder(node.text))) or ''
+
+    def parse_image(self, node, entry, ns='media'):
+        entry['image'] = dict(node.attrib)
 
     def parse_links(self, node, feed, ns=''):
         if node.text:
