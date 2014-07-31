@@ -120,7 +120,7 @@ def munge_author(author):
     the format: "name (email)"."""
     # this loveliness is from feedparser but was not usable as a function
     if '@' in author:
-        emailmatch = re.search(ur'''(([a-zA-Z0-9\_\-\.\+]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?))(\?subject=\S+)?''', author)
+        emailmatch = re.search(r"(([a-zA-Z0-9\_\-\.\+]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?))(\?subject=\S+)?", author, re.UNICODE)
         if emailmatch:
             email = emailmatch.group(0)
             # probably a better way to do the following, but it passes all the tests
@@ -684,7 +684,7 @@ def parse(document, clean_html=True, unix_timestamp=False, encoding=None):
     try:
         parser = SpeedParser(document, cleaner, unix_timestamp, encoding)
         parser.update(result)
-    except Exception, e:
+    except Exception as e:
         if isinstance(e, UnicodeDecodeError) and encoding is True:
             encoding = chardet.detect(document)['encoding']
             document = document.decode(encoding, 'replace').encode('utf-8')
@@ -699,7 +699,7 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) != 2:
-        print "Must provide filename of feed."
+        print("Must provide filename of feed.")
     filename = sys.argv[1]
     feed = open(filename).read()
     if '-- END TRACEBACK --' in feed:

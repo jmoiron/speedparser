@@ -51,7 +51,7 @@ if version is None:
 # The full version, including alpha/beta/rc tags.
 release = version
 
-print ("Building release: %s, version: %s" % (release, version))
+print("Building release: %s, version: %s" % (release, version))
 
 # List of documents that shouldn't be included in the build.
 #unused_docs = []
