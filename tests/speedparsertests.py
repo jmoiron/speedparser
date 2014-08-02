@@ -220,7 +220,7 @@ def entry_equivalence(test_case, fpresult, spresult):
         # removing all containing code (like a summary which is just an object
         if 'summary' in fpe:
             if 'summary' not in spe:
-                print "%s\n----\n%s\n" % (pformat(fpe), pformat(spe))
+                print("%s\n----\n%s\n" % (pformat(fpe), pformat(spe)))
             if len(fpe.summary) < 5 and len(spe.summary.replace(' ', '')) < 20:
                 pass
             else:
@@ -283,7 +283,7 @@ class MultiTestEntries(TestCaseBase):
                 entry_equivalence(self, fpresult, spresult)
             except:
                 import traceback
-                print "Comp Failure: %s" % path
+                print("Comp Failure: %s" % path)
                 traceback.print_exc()
 
 
@@ -362,13 +362,14 @@ class EntriesCoverageTest(TestCaseBase):
                 success += 1
             except:
                 import traceback
-                print "Failure: %s" % f
+                print("Failure: %s" % f)
                 traceback.print_exc()
                 failedentries.append(f)
-        print "Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d, both: %d)" % (success,
-                total, (100 * success)/float(total-fperrors), fperrors, sperrors, errcompats)
-        print "Failed entries:\n%s" % pformat(failedentries)
-        print "Bozo entries:\n%s" % pformat(bozoentries)
+        print("Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d, both: %d)" % (success,
+                total, (100 * success)/float(total-fperrors), fperrors, sperrors, errcompats))
+
+        print("Failed entries:\n%s" % pformat(failedentries))
+        print("Bozo entries:\n%s" % pformat(bozoentries))
 
 
 class CoverageTest(TestCaseBase):
@@ -407,12 +408,12 @@ class CoverageTest(TestCaseBase):
                 entry_equivalence(self, fpresult, spresult)
             except:
                 failedentries.append(f)
-        print "Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d)" % (success,
-                total, (100 * success)/float(total-fperrors), fperrors, sperrors)
-        print "Entry Success: %d out of %d (%0.2f %%)" % (success-len(failedentries),
-                success, (100*(success-len(failedentries)))/float(total-fperrors))
-        print "Failed Paths:\n%s" % pformat(failedpaths)
-        print "Failed entries:\n%s" % pformat(failedentries)
+        print("Success: %d out of %d (%0.2f %%, fpe: %d, spe: %d)" % (success,
+                total, (100 * success)/float(total-fperrors), fperrors, sperrors))
+        print("Entry Success: %d out of %d (%0.2f %%)" % (success-len(failedentries),
+                success, (100*(success-len(failedentries)))/float(total-fperrors)))
+        print("Failed Paths:\n%s" % pformat(failedpaths))
+        print("Failed entries:\n%s" % pformat(failedentries))
 
 class SpeedTest(TestCaseBase):
     def setUp(self):
@@ -438,7 +439,7 @@ class SpeedTest(TestCaseBase):
         #fpspeed = getspeed(feedparser, self.files[:total])
         spspeed, fullsize = getspeed(speedparser, self.files[:total])
         pct = lambda x: total/x
-        print "speedparser: %0.2f/sec, %s/sec" % (pct(spspeed), sizeformat(fullsize/spspeed))
+        print("speedparser: %0.2f/sec, %s/sec" % (pct(spspeed), sizeformat(fullsize/spspeed)))
         #print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec" % (pct(fpspeed), pct(spspeed))
 
 class SpeedTestNoClean(TestCaseBase):
@@ -464,7 +465,7 @@ class SpeedTestNoClean(TestCaseBase):
         #fpspeed = getspeed(feedparser, self.files[:total])
         spspeed, fullsize = getspeed(speedparser, self.files[:total], args=(False,))
         pct = lambda x: total/x
-        print "speedparser (no html cleaning): %0.2f/sec, %s/sec" % (pct(spspeed), sizeformat(fullsize/spspeed))
+        print("speedparser (no html cleaning): %0.2f/sec, %s/sec" % (pct(spspeed), sizeformat(fullsize/spspeed)))
         #print "feedparser: %0.2f/sec,  speedparser: %0.2f/sec (html cleaning disabled)" % (pct(fpspeed), pct(spspeed))
 
 
