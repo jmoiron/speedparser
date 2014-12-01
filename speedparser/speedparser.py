@@ -392,8 +392,8 @@ class SpeedParserEntriesRss20(object):
         if 'content' in entry:
             entry['summary'] = entry['content'][0]['value']
             return
-        summary = unicoder(innertext(node))
-        summary = self.clean(summary)
+
+        summary = strip_outer_tag(self.clean(unicoder(innertext(node))))
         entry['summary'] = summary or ''
 
     def parse_media_content(self, node, entry, ns='media'):
