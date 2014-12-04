@@ -441,6 +441,7 @@ class SpeedParserFeedRss20(object):
         'title': 'title',
         'author': 'author',
         'description': 'subtitle',
+        'category': 'tags',
         'tagline': 'subtitle',
         'subtitle': 'subtitle',
         'link': 'links',
@@ -456,8 +457,6 @@ class SpeedParserFeedRss20(object):
         'itunes:summary': 'subtitle',
         'itunes:image': 'image',
         'itunes:keywords': 'tags',
-        'itunes:category': 'tags',
-        'category': 'tags',
     }
 
     def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20', cleaner=default_cleaner,
@@ -558,7 +557,7 @@ class SpeedParserFeedRss20(object):
     def parse_tag(self, node, feed, ns=''):
         feed.setdefault('tags', [])
 
-        text = (node.text or node.attrib['text']).strip()
+        text = (node.text or node.attrib.get('text', '')).strip()
         if not text:
             return
 
