@@ -44,6 +44,7 @@ setup(
       # -*- Extra requirements: -*-
       # 'feedparser>=0.5',
       'lxml',
+      'chardet',
     ],
     entry_points="""
     # -*- Entry points: -*-
