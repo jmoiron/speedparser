@@ -16,7 +16,10 @@ LIMITATIONS:
 
 import re
 import time
-import urlparse
+try:
+	import urlparse
+except:
+	import urllib.parse as urlparse
 import chardet
 from lxml import etree
 from lxml.html import clean
