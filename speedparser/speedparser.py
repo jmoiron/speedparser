@@ -223,7 +223,6 @@ class SpeedParserEntriesRss20(object):
         'itunes:summary': 'content',
         'itunes:keywords': 'content',
         'itunes:image': 'media_thumbnail',
-        'itunes:author': 'author',
         'gr:annotation': 'annotation',
         'enclosure': 'enclosures',
     }
@@ -269,8 +268,10 @@ class SpeedParserEntriesRss20(object):
             mapping = tag_map.get(tag, None)
             if mapping:
                 getattr(self, 'parse_%s' % mapping)(child, e, nslookup.get(ns, ns))
+
             if not ns:
                 continue
+
             fulltag = '%s:%s' % (nslookup.get(ns, ''), tag)
             mapping = tag_map.get(fulltag, None)
             if mapping:
@@ -314,7 +315,7 @@ class SpeedParserEntriesRss20(object):
         entry['title'] = title or ''
 
     def parse_author(self, node, entry, ns=''):
-        if ns and ns in ('itunes', 'dm') and 'author' in entry:
+        if 'author' in entry or ns in ('dm', ):
             return
         if node.text and len(list(node)) == 0:
             entry['author'] = munge_author(unicoder(node.text))
@@ -394,8 +395,8 @@ class SpeedParserEntriesRss20(object):
         if 'content' in entry:
             entry['summary'] = entry['content'][0]['value']
             return
-        summary = unicoder(innertext(node))
-        summary = self.clean(summary)
+
+        summary = strip_outer_tag(self.clean(unicoder(innertext(node))))
         entry['summary'] = summary or ''
 
     def parse_media_content(self, node, entry, ns='media'):
@@ -441,7 +442,9 @@ class SpeedParserFeedRss20(object):
     channel_xpath = '/rss/channel'
     tag_map = {
         'title': 'title',
+        'author': 'author',
         'description': 'subtitle',
+        'category': 'tags',
         'tagline': 'subtitle',
         'subtitle': 'subtitle',
         'link': 'links',
@@ -455,7 +458,8 @@ class SpeedParserFeedRss20(object):
         'id': 'id',
         'lastBuildDate': 'date',
         'itunes:summary': 'subtitle',
-        'itunes:image': 'image'
+        'itunes:image': 'image',
+        'itunes:keywords': 'tags',
     }
 
     def __init__(self, root, namespaces={}, encoding='utf-8', type='rss20', cleaner=default_cleaner,
@@ -464,6 +468,7 @@ class SpeedParserFeedRss20(object):
         ends up simplifying parsing and makes it easier to catch the various
         names that different tags might come under."""
         self.root = root
+        self.namespaces = namespaces
         self.unix_timestamp = unix_timestamp
         nslookup = reverse_namespace_map(namespaces)
         self.cleaner = cleaner
@@ -514,6 +519,23 @@ class SpeedParserFeedRss20(object):
     def parse_title(self, node, feed, ns=''):
         feed['title'] = strip_outer_tag(self.clean(unicoder(node.text))) or ''
 
+    def parse_author(self, node, feed, ns=''):
+        if node.text and len(list(node)) == 0:
+            feed['author'] = munge_author(unicoder(node.text))
+            return
+        name, email = None, None
+        for child in node:
+            if child.tag == 'name':
+                name = unicoder(child.text or '')
+            if child.tag == 'email':
+                email = unicoder(child.text or '')
+        if name and not email:
+            feed['author'] = munge_author(name)
+        elif not name and not email:
+            feed['author'] = ''
+        else:
+            feed['author'] = '%s (%s)' % (name, email)
+
     def parse_subtitle(self, node, feed, ns=''):
         feed['subtitle'] = strip_outer_tag(self.clean(unicoder(node.text))) or ''
 
@@ -528,6 +550,27 @@ class SpeedParserFeedRss20(object):
         if 'link' not in feed and 'rel' not in node.attrib and 'href' in node.attrib:
             feed['link'] = full_href(unicoder(node.attrib['href']).strip('#'), self.baseurl)
         feed.setdefault('links', []).append(full_href_attribs(node.attrib, self.baseurl))
+
+    def parse_tags(self, node, feed, ns=''):
+        self.parse_tag(node, feed, ns)
+
+        for child in node:
+            self.parse_tag(child, feed, ns)
+
+    def parse_tag(self, node, feed, ns=''):
+        feed.setdefault('tags', [])
+
+        text = (node.text or node.attrib.get('text', '')).strip()
+        if not text:
+            return
+
+        terms = [unicoder(term.strip()) for term in text.split(',')]
+        for term in terms:
+            feed['tags'].append({
+                'term': term,
+                'scheme': self.namespaces.get(ns, None)
+            })
+
 
     def parse_date(self, node, feed, ns=''):
         value = unicoder(node.text)
