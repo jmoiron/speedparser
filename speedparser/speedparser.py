@@ -14,9 +14,10 @@ LIMITATIONS:
 
 """
 
+from __future__ import absolute_import, division, print_function
+from builtins import str
 import re
 import time
-from builtins import str
 try:
 	import urlparse
 except:
@@ -687,7 +688,6 @@ def parse(document, clean_html=True, unix_timestamp=False, encoding=None):
     result = feedparser.FeedParserDict()
     result['feed'] = feedparser.FeedParserDict()
     result['entries'] = []
-    result['doctype'] = type(document)
     result['bozo'] = 0
     try:
         parser = SpeedParser(document, cleaner, unix_timestamp, encoding)
