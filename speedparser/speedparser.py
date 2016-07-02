@@ -16,6 +16,7 @@ LIMITATIONS:
 
 import re
 import time
+from builtins import str
 try:
 	import urlparse
 except:
@@ -95,7 +96,7 @@ def strip_outer_tag(text):
     """Strips the outer tag, if text starts with a tag.  Not entity aware;
     designed to quickly strip outer tags from lxml cleaner output.  Only
     checks for <p> and <div> outer tags."""
-    if not text or not isinstance(text, basestring):
+    if not text or not isinstance(text, str):
         return text
     stripped = text.strip()
     if (stripped.startswith('<p>') or stripped.startswith('<div>')) and \
@@ -107,12 +108,14 @@ nsre = re.compile(r'xmlns\s*=\s*[\'"](.+?)[\'"]')
 
 
 def strip_namespace(document):
-    if document[:1000].count('xmlns') > 5:
-        if 'xmlns' not in document[:1000]:
+    # convert our bytes to a unicode string so we can search and slice.
+    decoded = document.decode('utf8')
+    if decoded[:1000].count('xmlns') > 5:
+        if 'xmlns' not in decoded[:1000]:
             return None, document
-    elif 'xmlns' not in document[:400]:
+    elif 'xmlns' not in decoded[:400]:
         return None, document
-    match = nsre.search(document)
+    match = nsre.search(decoded)
     if match:
         return match.groups()[0], nsre.sub('', document)
     return None, document
@@ -145,7 +148,7 @@ def munge_author(author):
 
 def reverse_namespace_map(nsmap):
     d = fpnamespaces.copy()
-    d.update(dict([(v, k) for (k, v) in nsmap.iteritems()]))
+    d.update(dict([(v, k) for (k, v) in nsmap.items()]))
     return d
 
 
@@ -248,7 +251,7 @@ class SpeedParserEntriesRss20(object):
         self.entries = entries
 
     def clean(self, text):
-        if text and isinstance(text, basestring):
+        if text and isinstance(text, str):
             return self.cleaner.clean_html(text)
         return text
 
@@ -504,10 +507,11 @@ class SpeedParserFeedRss20(object):
         self.feed = feed
 
     def clean(self, text, outer_tag=True):
-        if text and isinstance(text, basestring):
-            if not outer_tag:
-                txt = self.cleaner.clean_html(text)
-                frag = lxml.html.fragment_fromstring(txt)
+        if text and isinstance(text, str):
+            # txt and frag aren't used, this appears to be no-op code.
+            #if not outer_tag:
+            #    txt = self.cleaner.clean_html(text)
+            #    frag = lxml.html.fragment_fromstring(txt)
             return self.cleaner.clean_html(text)
         return text
 
@@ -683,6 +687,7 @@ def parse(document, clean_html=True, unix_timestamp=False, encoding=None):
     result = feedparser.FeedParserDict()
     result['feed'] = feedparser.FeedParserDict()
     result['entries'] = []
+    result['doctype'] = type(document)
     result['bozo'] = 0
     try:
         parser = SpeedParser(document, cleaner, unix_timestamp, encoding)
