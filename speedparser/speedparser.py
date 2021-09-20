@@ -116,7 +116,7 @@ def strip_namespace(document):
             return None, document
     elif 'xmlns' not in decoded[:400]:
         return None, document
-    match = nsre.search(decoded.encode('utf8'))
+    match = nsre.search(decoded)
     if match:
         return match.groups()[0], nsre.sub(b'', document)
     return None, document
