@@ -119,6 +119,7 @@ def strip_namespace(document):
         return None, document
     match = nsre.search(decoded)
     if match:
+        print("mg type: {type(match.groups()[0])}; doc type: {type(document)}")
         return match.groups()[0], nsreb.sub(rb'', document)
     return None, document
 
