@@ -106,6 +106,7 @@ def strip_outer_tag(text):
     return text
 
 nsre = re.compile(r'xmlns\s*=\s*[\'"](.+?)[\'"]')
+nsreb = re.compile(r'xmlns\s*=\s*[\'"](.+?)[\'"]')
 
 
 def strip_namespace(document):
@@ -118,7 +119,7 @@ def strip_namespace(document):
         return None, document
     match = nsre.search(decoded)
     if match:
-        return match.groups()[0], nsre.sub(b'', document)
+        return match.groups()[0], nsreb.sub(b'', document)
     return None, document
 
 
