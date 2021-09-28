@@ -606,6 +606,7 @@ class SpeedParser(object):
         root_ns, root_tag = clean_ns(r.tag)
         root_tag = root_tag.lower()
         vers = 'unk'
+        print(f"xmlns: {self.xmlns}")
         if self.xmlns and self.xmlns.lower() in xmlns_map:
             value = xmlns_map[self.xmlns.lower()]
             if value == 'rss10' and root_tag == 'rss':
