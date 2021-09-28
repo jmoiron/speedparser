@@ -596,7 +596,7 @@ class SpeedParser(object):
         if self.version in self.version_map:
             self.version = self.version_map[self.version]
         if 'unk' in self.version:
-            raise IncompatibleFeedError("Could not determine version of this feed.")
+            raise IncompatibleFeedError(f"Could not determine version ({self.version}) of this feed.")
         self.namespaces = self.parse_namespaces()
         self.feed = self.parse_feed(self.version, self.encoding)
         self.entries = self.parse_entries(self.version, self.encoding)
