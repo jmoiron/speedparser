@@ -606,6 +606,8 @@ class SpeedParser(object):
         root_ns, root_tag = clean_ns(r.tag)
         root_tag = root_tag.lower()
         vers = 'unk'
+xmlns: com-wordpress:feed-additions:1
+
         print(f"xmlns: {self.xmlns}")
         if self.xmlns and self.xmlns.lower() in xmlns_map:
             value = xmlns_map[self.xmlns.lower()]
@@ -613,8 +615,10 @@ class SpeedParser(object):
                 value = 'rss010'
             if not (value.startswith('atom') and root_tag == 'rss'):
                 return value
-        elif self.xmlns:
+        elif self.xmlns and len(self.xmlns.split('/')) > 2:
             vers = self.xmlns.split('/')[-2].replace('.', '')
+        elif self.xmlns and len(self.xmlns.split(':')) > 2:
+            vers = self.xmlns.split(':')[-2].replace('.', '')
         tag = root_tag
         if r.attrib.get('version', None):
             vers = r.attrib['version'].replace('.', '')
