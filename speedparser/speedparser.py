@@ -157,7 +157,7 @@ def reverse_namespace_map(nsmap):
 
 def base_url(root):
     """Determine the base url for a root element."""
-    for attr, value in root.attrib.iteritems():
+    for attr, value in root.attrib.items():
         if attr.endswith('base') and 'http' in value:
             return value
     return None
@@ -171,7 +171,7 @@ def full_href_attribs(attribs, base=None):
     if base is None:
         return dict(attribs)
     d = dict(attribs)
-    for key, value in d.iteritems():
+    for key, value in d.items():
         if key == 'href':
             d[key] = full_href(value, base)
     return d
