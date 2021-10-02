@@ -4,13 +4,12 @@
 """Setup script for speedparser."""
 
 from setuptools import setup, find_packages
-import sys, os
 
 try:
     from speedparser import VERSION
     version = ".".join(map(str, VERSION))
 except:
-    version = '0.2.0'
+    version = '0.2.1'
 
 # some trove classifiers:
 
@@ -45,6 +44,7 @@ setup(
       # 'feedparser>=0.5',
       'lxml',
       'chardet',
+      'future'
     ],
     entry_points="""
     # -*- Entry points: -*-

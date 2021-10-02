@@ -14,6 +14,8 @@ LIMITATIONS:
 
 """
 
+from __future__ import absolute_import, division, print_function
+from builtins import str
 import re
 import time
 try:
@@ -27,7 +29,7 @@ from lxml.html import clean
 try:
     import feedparser
 except:
-    import feedparsercompat as feedparser
+    from . import feedparsercompat as feedparser
 
 keymap = feedparser.FeedParserDict.keymap
 fpnamespaces = feedparser._FeedParserMixin.namespaces
@@ -95,7 +97,7 @@ def strip_outer_tag(text):
     """Strips the outer tag, if text starts with a tag.  Not entity aware;
     designed to quickly strip outer tags from lxml cleaner output.  Only
     checks for <p> and <div> outer tags."""
-    if not text or not isinstance(text, basestring):
+    if not text or not isinstance(text, str):
         return text
     stripped = text.strip()
     if (stripped.startswith('<p>') or stripped.startswith('<div>')) and \
@@ -104,17 +106,21 @@ def strip_outer_tag(text):
     return text
 
 nsre = re.compile(r'xmlns\s*=\s*[\'"](.+?)[\'"]')
+nsreb = re.compile(rb'xmlns\s*=\s*[\'"](.+?)[\'"]')
 
 
 def strip_namespace(document):
-    if document[:1000].count('xmlns') > 5:
-        if 'xmlns' not in document[:1000]:
+    # convert our bytes to a unicode string so we can search and slice.
+    decoded = document.decode('utf8')
+    if decoded[:1000].count('xmlns') > 5:
+        if 'xmlns' not in decoded[:1000]:
             return None, document
-    elif 'xmlns' not in document[:400]:
+    elif 'xmlns' not in decoded[:400]:
         return None, document
-    match = nsre.search(document)
+    match = nsre.search(decoded)
     if match:
-        return match.groups()[0], nsre.sub('', document)
+        print(f"mg type: {type(match.groups()[0])}; doc type: {type(document)}")
+        return match.groups()[0], nsreb.sub(rb'', document)
     return None, document
 
 
@@ -145,13 +151,13 @@ def munge_author(author):
 
 def reverse_namespace_map(nsmap):
     d = fpnamespaces.copy()
-    d.update(dict([(v, k) for (k, v) in nsmap.iteritems()]))
+    d.update(dict([(v, k) for (k, v) in nsmap.items()]))
     return d
 
 
 def base_url(root):
     """Determine the base url for a root element."""
-    for attr, value in root.attrib.iteritems():
+    for attr, value in root.attrib.items():
         if attr.endswith('base') and 'http' in value:
             return value
     return None
@@ -165,7 +171,7 @@ def full_href_attribs(attribs, base=None):
     if base is None:
         return dict(attribs)
     d = dict(attribs)
-    for key, value in d.iteritems():
+    for key, value in d.items():
         if key == 'href':
             d[key] = full_href(value, base)
     return d
@@ -248,7 +254,7 @@ class SpeedParserEntriesRss20(object):
         self.entries = entries
 
     def clean(self, text):
-        if text and isinstance(text, basestring):
+        if text and isinstance(text, str):
             return self.cleaner.clean_html(text)
         return text
 
@@ -504,10 +510,11 @@ class SpeedParserFeedRss20(object):
         self.feed = feed
 
     def clean(self, text, outer_tag=True):
-        if text and isinstance(text, basestring):
-            if not outer_tag:
-                txt = self.cleaner.clean_html(text)
-                frag = lxml.html.fragment_fromstring(txt)
+        if text and isinstance(text, str):
+            # txt and frag aren't used, this appears to be no-op code.
+            #if not outer_tag:
+            #    txt = self.cleaner.clean_html(text)
+            #    frag = lxml.html.fragment_fromstring(txt)
             return self.cleaner.clean_html(text)
         return text
 
@@ -589,7 +596,7 @@ class SpeedParser(object):
         if self.version in self.version_map:
             self.version = self.version_map[self.version]
         if 'unk' in self.version:
-            raise IncompatibleFeedError("Could not determine version of this feed.")
+            raise IncompatibleFeedError(f"Could not determine version ({self.version}) of this feed.")
         self.namespaces = self.parse_namespaces()
         self.feed = self.parse_feed(self.version, self.encoding)
         self.entries = self.parse_entries(self.version, self.encoding)
@@ -599,14 +606,17 @@ class SpeedParser(object):
         root_ns, root_tag = clean_ns(r.tag)
         root_tag = root_tag.lower()
         vers = 'unk'
+        print(f"xmlns: {self.xmlns}")
         if self.xmlns and self.xmlns.lower() in xmlns_map:
             value = xmlns_map[self.xmlns.lower()]
             if value == 'rss10' and root_tag == 'rss':
                 value = 'rss010'
             if not (value.startswith('atom') and root_tag == 'rss'):
                 return value
-        elif self.xmlns:
+        elif self.xmlns and len(self.xmlns.split('/')) > 2:
             vers = self.xmlns.split('/')[-2].replace('.', '')
+        elif self.xmlns and len(self.xmlns.split(':')) > 2:
+            vers = self.xmlns.split(':')[-2].replace('.', '')
         tag = root_tag
         if r.attrib.get('version', None):
             vers = r.attrib['version'].replace('.', '')
